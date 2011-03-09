@@ -1,36 +1,8 @@
-set nocompatible
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
-behave mswin
-
-set diffexpr=MyDiff()
-function MyDiff()
-  let opt = '-a --binary '
-  if &diffopt =~ 'icase' | let opt = opt . '-i ' | endif
-  if &diffopt =~ 'iwhite' | let opt = opt . '-b ' | endif
-  let arg1 = v:fname_in
-  if arg1 =~ ' ' | let arg1 = '"' . arg1 . '"' | endif
-  let arg2 = v:fname_new
-  if arg2 =~ ' ' | let arg2 = '"' . arg2 . '"' | endif
-  let arg3 = v:fname_out
-  if arg3 =~ ' ' | let arg3 = '"' . arg3 . '"' | endif
-  let eq = ''
-  if $VIMRUNTIME =~ ' '
-    if &sh =~ '\<cmd'
-      let cmd = '""' . $VIMRUNTIME . '\diff"'
-      let eq = '"'
-    else
-      let cmd = substitute($VIMRUNTIME, ' ', '" ', '') . '\diff"'
-    endif
-  else
-    let cmd = $VIMRUNTIME . '\diff'
-  endif
-  silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
-endfunction
+syntax on           " syntax highlighing
 
 set nocompatible    " use vim defaults
-set ls=2            " allways show status line
-set tabstop=4       " numbers of spaces of tab character
+set ls=2            " always show status line
+set tabstop=3       " numbers of spaces of tab character
 set shiftwidth=4    " numbers of spaces to (auto)indent
 set scrolloff=3     " keep 3 lines when scrolling
 set showcmd         " display incomplete commands
@@ -42,10 +14,8 @@ set novisualbell    " turn off visual bell
 set nobackup        " do not keep a backup file
 set number          " show line numbers
 set ignorecase      " ignore case when searching
-"set noignorecase   " don't ignore case
 set title           " show title in console title bar
 set ttyfast         " smoother changes
-"set ttyscroll=0        " turn off scrolling, didn't work well with PuTTY
 set modeline        " last lines in document sets vim mode
 set modelines=3     " number lines checked for modelines
 set shortmess=atI   " Abbreviate messages
@@ -56,16 +26,12 @@ set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set autoindent     " always set autoindenting on
 set smartindent        " smart indent
 set cindent            " cindent
-"set noautoindent
-"set nosmartindent
-"set nocindent  
 
 "set autowrite      " auto saves changes when quitting and swiching buffer
 "set expandtab      " tabs are converted to spaces, use only when required
-"set sm             " show matching braces, somewhat annoying...
+set sm             " show matching braces, somewhat annoying...
 "set nowrap         " don't wrap lines
 
-syntax on           " syntax highlighing
 if has("gui_running")
     " See ~/.gvimrc
     set guifont=ProggyClean  " use this font
@@ -76,9 +42,6 @@ if has("gui_running")
     set keymodel=
 	colorscheme Desert 
 	set background=dark
-else
-    colorscheme elflord    " use this color scheme
-    set background=dark        " adapt colors for background
 endif
 
 if has("autocmd")
@@ -92,9 +55,9 @@ if has("autocmd")
     
     " When using mutt, text width=72
     au FileType mail,tex set textwidth=72
-    au FileType cpp,c,java,sh,pl,php,asp  set autoindent
-    au FileType cpp,c,java,sh,pl,php,asp  set smartindent
-    au FileType cpp,c,java,sh,pl,php,asp  set cindent
+    au FileType cpp,c,java,sh,pl,php,asp,rb,py  set autoindent
+    au FileType cpp,c,java,sh,pl,php,asp,rb,py  set smartindent
+    au FileType cpp,c,java,sh,pl,php,asp,rb,py  set cindent
     "au BufRead mutt*[0-9] set tw=72
     
     " Automatically chmod +x Shell and Perl scripts
@@ -104,20 +67,47 @@ if has("autocmd")
     " File formats
     au BufNewFile,BufRead  *.pls    set syntax=dosini
     au BufNewFile,BufRead  modprobe.conf    set syntax=modconf
+
+	 "----- Open Nerd tree on start up
+	 autocmd VimEnter * NERDTree 
+	 au GUIEnter * simalt ~x
 endif
 
-" Keyboard mappings
+" ----------------- Keyboard mappings --------------------------
+
+" Buffers 
 map <F1> :previous<CR>  " map F1 to open previous buffer
 map <F2> :next<CR>      " map F2 to open next buffer
+
+" Greps
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
 map <silent> <C-N> :silent noh<CR> " turn off highlighted search
-map ,v :sp $VIM\_vimrc<cr> " edit my .vimrc file in a split
-map ,e :e $VIM\_vimrc<cr>      " edit my .vimrc file
-map ,u :source $VIM\_vimrc<cr> " update the system settings from my vimrc file
-"----- write out html file
-map ,h :source $VIM\vim72\syntax2html.vim<cr>:w<cr>:clo<cr>
-map ,t :% !c:\dev\bin\xmllint.exe % --format
-map ,nb :NERDTree cruces
 
-autocmd VimEnter * NERDTree c:\dev\cruces\fase3
+" Config
+map ,e :e ~/.vimrc<cr>      " edit my .vimrc file
+map ,u :source ~/.vimrc<cr> " update the system settings from my vimrc file
 
-au GUIEnter * simalt ~x
+" Xml
+map ,t :% !/usr/bin/xmllint % --format
+
+" Nerd Tree
+map ,nb :NERDTree cruces 
+
+" Inserts in normal mode 
+nmap ,O o<Esc>k
+nmap ,o O<Esc>j
+
+" Copying from Vim  
+nmap ,rn :set nonumber<CR>
+nmap ,rrn :set number<CR>
+
+
+" --------------------------------------------------------
+
+command NTH :NERDTree ~/.
+command GREPT :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
+command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
+command -nargs=1 NT :NERDTree <args>
+command -nargs=1 NFTEMP :e /home/user/tmp/<args>.txt
+
+
