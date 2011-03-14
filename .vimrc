@@ -23,25 +23,30 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 "set viminfo='20,<50,s10,h
 
+" should have ~/tmp/.vimswp created
+set backupdir=~/tmp/.vimtmp,/tmp
+set directory=~/tmp/.vimtmp,/tmp
+
 set autoindent     " always set autoindenting on
 set smartindent        " smart indent
 set cindent            " cindent
 
 "set autowrite      " auto saves changes when quitting and swiching buffer
-"set expandtab      " tabs are converted to spaces, use only when required
+set expandtab      " tabs are converted to spaces, use only when required
 set sm             " show matching braces, somewhat annoying...
 "set nowrap         " don't wrap lines
 
 if has("gui_running")
-    " See ~/.gvimrc
-    set guifont=ProggyClean  " use this font
-    set lines=60       " height = 50 lines
-    set columns=100        " width = 100 columns
-    set background=light   " adapt colors for background
- "  set selectmode=mouse,key,cmd
-    set keymodel=
+   " See ~/.gvimrc
+   set guifont=ProggyClean  " use this font
+   set lines=60       " height = 50 lines
+   set columns=100        " width = 100 columns
+   set background=light   " adapt colors for background
+ " set selectmode=mouse,key,cmd
 	colorscheme Desert 
-	set background=dark
+else
+   set background=dark   " adapt colors for background
+	colorscheme ir_black 
 endif
 
 if has("autocmd")
@@ -75,12 +80,15 @@ endif
 
 " ----------------- Keyboard mappings --------------------------
 
+" General
+" map { <CR>
+
 " Buffers 
 map <F1> :previous<CR>  " map F1 to open previous buffer
 map <F2> :next<CR>      " map F2 to open next buffer
 
 " Greps
-map <F4> :execute "vimgrep /" . expand("<cword>") . "/j **" <Bar> cw<CR>
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
 map <silent> <C-N> :silent noh<CR> " turn off highlighted search
 
 " Config
@@ -88,7 +96,7 @@ map ,e :e ~/.vimrc<cr>      " edit my .vimrc file
 map ,u :source ~/.vimrc<cr> " update the system settings from my vimrc file
 
 " Xml
-map ,t :% !/usr/bin/xmllint % --format
+map ,xt :% !/usr/bin/xmllint % --format
 
 " Nerd Tree
 map ,nb :NERDTree cruces 
@@ -101,13 +109,17 @@ nmap ,o O<Esc>j
 nmap ,rn :set nonumber<CR>
 nmap ,rrn :set number<CR>
 
-
 " --------------------------------------------------------
 
+" ------------------Commands------------------------------
+
+" Nerd Tree
 command NTH :NERDTree ~/.
+command -nargs=1 NT :NERDTree <args>
+
+" Greps
 command GREPT :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
 command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
-command -nargs=1 NT :NERDTree <args>
-command -nargs=1 NFTEMP :e /home/user/tmp/<args>.txt
 
-
+" File 
+command -nargs=1 NFT :e ~/tmp/<args>.txt
