@@ -1,3 +1,15 @@
+" ----------------- Varibles -------------------------
+
+if has("win32")
+   let g:xmlLint = "c:\\dev\\bin\\xmllint.exe"
+   let g:tempDir = "c:\\tmp\\"
+else   
+   let g:xmlLint = "/usr/bin/xmllint" 
+   let g:tempDir = "~/tmp/"
+endif
+
+" -------------------------------------------------
+
 syntax on           " syntax highlighing
 
 set nocompatible    " use vim defaults
@@ -6,8 +18,6 @@ set tabstop=3       " numbers of spaces of tab character
 set shiftwidth=4    " numbers of spaces to (auto)indent
 set scrolloff=3     " keep 3 lines when scrolling
 set showcmd         " display incomplete commands
-set hlsearch        " highlight searches
-set incsearch       " do incremental searching
 set ruler           " show the cursor position all the time
 set visualbell t_vb=    " turn off error beep/flash
 set novisualbell    " turn off visual bell
@@ -23,9 +33,14 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 "set viminfo='20,<50,s10,h
 
-" should have ~/tmp/.vimswp created
-set backupdir=~/tmp/.vimtmp,/tmp
-set directory=~/tmp/.vimtmp,/tmp
+" search settings
+set hlsearch        " highlight searches
+set incsearch       " do incremental searching
+
+" should have ~/tmp/.vimtmp  or ~/tmp created
+exec 'set backupdir=' . g:tempDir . '.vimtmp,' . g:tempDir
+exec 'set directory=' . g:tempDir . '.vimtmp,' . g:tempDir
+
 
 set autoindent     " always set autoindenting on
 set smartindent        " smart indent
@@ -37,13 +52,17 @@ set sm             " show matching braces, somewhat annoying...
 "set nowrap         " don't wrap lines
 
 if has("gui_running")
-   " See ~/.gvimrc
+ " See ~/.gvimrc
    set guifont=ProggyClean  " use this font
    set lines=60       " height = 50 lines
    set columns=100        " width = 100 columns
-   set background=light   " adapt colors for background
+
+ " set background=light   " adapt colors for background
+ " colorscheme Desert 
  " set selectmode=mouse,key,cmd
-	colorscheme Desert 
+
+	set background=dark   " adapt colors for background
+	colorscheme ir_black 
 else
    set background=dark   " adapt colors for background
 	colorscheme ir_black 
@@ -82,6 +101,7 @@ endif
 
 " General
 " map { <CR>
+nmap f /
 
 " Buffers 
 map <F1> :previous<CR>  " map F1 to open previous buffer
@@ -92,14 +112,14 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
 map <silent> <C-N> :silent noh<CR> " turn off highlighted search
 
 " Config
-map ,e :e ~/.vimrc<cr>      " edit my .vimrc file
-map ,u :source ~/.vimrc<cr> " update the system settings from my vimrc file
+nmap ,e :e $MYVIMRC<cr>      " edit my vimrc file
+nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
 
 " Xml
-map ,xt :% !/usr/bin/xmllint % --format
+nmap ,xt :exec '% !' . g:xmlLint . ' % --format'
 
 " Nerd Tree
-map ,nb :NERDTree cruces 
+nmap ,nb :NERDTree cruces 
 
 " Inserts in normal mode 
 nmap ,O o<Esc>k
@@ -122,4 +142,4 @@ command GREPT :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
 command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
 
 " File 
-command -nargs=1 NFT :e ~/tmp/<args>.txt
+command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
