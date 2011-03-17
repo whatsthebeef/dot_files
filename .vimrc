@@ -152,6 +152,10 @@ command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
 " File 
 command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
 
+" Wrapped VCSCommand function commands 
+command -nargs=1 NTVCSCommit :execute 'call NewVCSCommit("<args>")'
+
+
 " --------------------------------------------------------
 
 " ------------------ Functions ------------------------------
