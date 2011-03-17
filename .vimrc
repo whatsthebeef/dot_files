@@ -156,6 +156,7 @@ command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
 
 " ------------------ Functions ------------------------------
 
+" Wrapper function for VCSAdd to enable it to work with Nerd tree
 fun! NewVCSAdd()
    call DisableNERDTree()
    edit . "start netrw
@@ -164,6 +165,7 @@ fun! NewVCSAdd()
    edit . "start NERDTree
 endfunction
 
+" Wrapper function for VCSCommit to enable it to work with Nerd tree
 fun! NewVCSCommit(comment)
    call DisableNERDTree()
    edit . "start netrw
