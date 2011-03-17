@@ -175,5 +175,7 @@ fun! NewVCSCommit(comment)
    edit . "start netrw
    execute 'VCSCommit ' . a:comment
    call HijackNERTW()
-   quit " quit commit window
-endfunction
+   quit " quit commit windows 
+   quit " quit out of netrw-NerdTree window (we want it pure)
+   NERDTree .
+  endfunction
