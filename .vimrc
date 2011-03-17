@@ -162,7 +162,6 @@ fun! NewVCSAdd()
    edit . "start netrw
    VCSAdd<CR>
    call HijackNERTW()
-   edit . "start NERDTree
 endfunction
 
 " Wrapper function for VCSCommit to enable it to work with Nerd tree
