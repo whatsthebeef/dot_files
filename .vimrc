@@ -126,7 +126,8 @@ nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
 nmap ,xt :exec '% !' . g:xmlLint . ' % --format'
 
 " Nerd Tree
-nmap ,nb :NERDTree cruces 
+nmap ,nb :NERDTree cruces<CR>
+nmap ,nh :NERDTree ~/.<CR>
 
 " Inserts in normal mode 
 nmap ,O o<Esc>k
@@ -159,6 +160,14 @@ fun! NewVCSAdd()
    call DisableNERDTree()
    :e . "start netrw
    :VCSAdd<CR>
+   call HijackNERTW()
+   :e . "start NERDTree
+endfunction
+
+fun! NewVCSCommit(comment)
+   call DisableNERDTree()
+   :e . "start netrw
+   :VCSCommit a:comment<CR>
    call HijackNERTW()
    :e . "start NERDTree
 endfunction
