@@ -158,10 +158,10 @@ command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
 
 fun! NewVCSAdd()
    call DisableNERDTree()
-   :e . "start netrw
-   :VCSAdd<CR>
+   edit . "start netrw
+   VCSAdd<CR>
    call HijackNERTW()
-   :e . "start NERDTree
+   edit . "start NERDTree
 endfunction
 
 fun! NewVCSCommit(comment)
