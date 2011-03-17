@@ -107,7 +107,8 @@ imap jj <ESC>
 
 " General Normal mappings
 " map { <CR>
-nmap f /
+map f /
+map ,f /
 
 " Buffers 
 map <F1> :previous<CR>  " map F1 to open previous buffer
@@ -179,4 +180,4 @@ fun! NewVCSCommit(comment)
    quit " quit commit windows 
    quit " quit out of netrw-NerdTree window (we want it pure)
    NERDTree .
- endfunction
+endfunction
