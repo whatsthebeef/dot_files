@@ -1,3 +1,4 @@
+
 " ----------------- Varibles -------------------------
 
 if has("win32")
@@ -32,6 +33,8 @@ set shortmess=atI   " Abbreviate messages
 set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 "set viminfo='20,<50,s10,h
+
+set wildmenu      " nice command auto completion
 
 " search settings
 set hlsearch        " highlight searches
@@ -99,7 +102,10 @@ endif
 
 " ----------------- Keyboard mappings --------------------------
 
-" General
+" General insert mappings EVERY ONE BECAREFUL 
+imap jj <ESC>
+
+" General Normal mappings
 " map { <CR>
 nmap f /
 
@@ -113,6 +119,7 @@ map <silent> <C-N> :silent noh<CR> " turn off highlighted search
 
 " Config
 nmap ,e :e $MYVIMRC<cr>      " edit my vimrc file
+nmap ,E :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
 
 " Xml
@@ -123,7 +130,7 @@ nmap ,nb :NERDTree cruces
 
 " Inserts in normal mode 
 nmap ,O o<Esc>k
-nmap ,o O<Esc>j
+nmap ,o o<Esc>
 
 " Copying from Vim  
 nmap ,rn :set nonumber<CR>
@@ -143,3 +150,15 @@ command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
 
 " File 
 command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
+
+" --------------------------------------------------------
+
+" ------------------ Functions ------------------------------
+
+fun! NewVCSAdd()
+   call DisableNERDTree()
+   :e . "start netrw
+   :VCSAdd<CR>
+   call HijackNERTW()
+   :e . "start NERDTree
+endfunction
