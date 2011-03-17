@@ -166,8 +166,8 @@ endfunction
 
 fun! NewVCSCommit(comment)
    call DisableNERDTree()
-   :e . "start netrw
+   edit . "start netrw
    execute 'VCSCommit ' . a:comment
    call HijackNERTW()
-   :NERDTree . "start NERDTree
+   NERDTree . "start NERDTree
 endfunction
