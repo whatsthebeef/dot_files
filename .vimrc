@@ -162,6 +162,7 @@ fun! NewVCSAdd()
    edit . "start netrw
    VCSAdd<CR>
    call HijackNERTW()
+   quit " quit add window
 endfunction
 
 " Wrapper function for VCSCommit to enable it to work with Nerd tree
