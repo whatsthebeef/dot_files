@@ -167,6 +167,7 @@ fun! NewVCSAdd()
    VCSAdd<CR>
    call HijackNERTW()
    quit " quit add window
+   quit " quit out of netrw-NerdTree window (we want it pure)
 endfunction
 
 " Wrapper function for VCSCommit to enable it to work with Nerd tree
@@ -178,4 +179,4 @@ fun! NewVCSCommit(comment)
    quit " quit commit windows 
    quit " quit out of netrw-NerdTree window (we want it pure)
    NERDTree .
-  endfunction
+ endfunction
