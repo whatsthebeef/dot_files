@@ -1,5 +1,5 @@
 
-" ----------------- Varibles -------------------------
+" ----------------- varibles -------------------------
 
 if has("win32")
    let g:xmlLint = "c:\\dev\\bin\\xmllint.exe"
@@ -32,7 +32,13 @@ set modelines=3     " number lines checked for modelines
 set shortmess=atI   " Abbreviate messages
 set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
+set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
+
+" Eclim stuff
+filetype plugin on 
+filetype indent off 
+set cot-=preview
 
 set wildmenu      " nice command auto completion
 
@@ -102,13 +108,17 @@ endif
 
 " ----------------- Keyboard mappings --------------------------
 
-" General insert mappings EVERY ONE BECAREFUL 
+" General insert mappings EVERY ONE BE CAREFUL 
 imap jj <ESC>
+
+imap hh <BS>
 
 " General Normal mappings
 " map { <CR>
-map f /
-map ,f /
+nmap c /
+nmap ,w :w!<CR>
+nmap ,q :q!<CR>
+nmap mm a<BS><ESC>
 
 " Buffers 
 map <F1> :previous<CR>  " map F1 to open previous buffer
@@ -129,6 +139,9 @@ nmap ,xt :exec '% !' . g:xmlLint . ' % --format'
 " Nerd Tree
 nmap ,nb :NERDTree cruces<CR>
 nmap ,nh :NERDTree ~/.<CR>
+nmap ,nv :NERDTree vim_setup<CR>
+nmap ,nr :NERDTree rabin<CR>
+nmap ,nn :NERDTree reglas<CR>
 
 " Inserts in normal mode 
 nmap ,O o<Esc>k
@@ -137,6 +150,14 @@ nmap ,o o<Esc>
 " Copying from Vim  
 nmap ,rn :set nonumber<CR>
 nmap ,rrn :set number<CR>
+
+" ------------------ Eclim stuff ------------------------------
+
+nmap ,mt :Mvn test<CR>
+nmap ,ei :JavaImport<CR>
+nmap ,ec :JavaCorrect<CR>
+
+" --------------------------------------------------------
 
 " --------------------------------------------------------
 
@@ -156,7 +177,6 @@ command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
 " Wrapped VCSCommand function commands 
 command -nargs=1 NTVCSCommit :execute 'call NewVCSCommit("<args>")'
 
-
 " --------------------------------------------------------
 
 " ------------------ Functions ------------------------------
@@ -165,10 +185,11 @@ command -nargs=1 NTVCSCommit :execute 'call NewVCSCommit("<args>")'
 fun! NewVCSAdd()
    call DisableNERDTree()
    edit . "start netrw
-   VCSAdd<CR>
+   execute 'VCSAdd'
    call HijackNERTW()
-   quit " quit add window
+   quit " quit add windows 
    quit " quit out of netrw-NerdTree window (we want it pure)
+   NERDTree . 
 endfunction
 
 " Wrapper function for VCSCommit to enable it to work with Nerd tree
@@ -179,5 +200,5 @@ fun! NewVCSCommit(comment)
    call HijackNERTW()
    quit " quit commit windows 
    quit " quit out of netrw-NerdTree window (we want it pure)
-   NERDTree .
+   NERDTree . 
 endfunction
