@@ -15,7 +15,7 @@ syntax on           " syntax highlighing
 
 set nocompatible    " use vim defaults
 set ls=2            " always show status line
-set tabstop=3       " numbers of spaces of tab character
+set tabstop=4       " numbers of spaces of tab character
 set shiftwidth=4    " numbers of spaces to (auto)indent
 set scrolloff=3     " keep 3 lines when scrolling
 set showcmd         " display incomplete commands
@@ -34,6 +34,9 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
+
+" clipboard unamed 
+set clipboard=unnamed
 
 " Eclim stuff
 filetype plugin on 
@@ -106,6 +109,10 @@ if has("autocmd")
 	 au GUIEnter * simalt ~x
 endif
 
+" clipboard magic
+noremap p "+p
+noremap y "+y
+
 " ----------------- Keyboard mappings --------------------------
 
 " General insert mappings EVERY ONE BE CAREFUL 
@@ -121,16 +128,17 @@ nmap ,q :q!<CR>
 nmap mm a<BS><ESC>
 
 " Buffers 
-map <F1> :previous<CR>  " map F1 to open previous buffer
-map <F2> :next<CR>      " map F2 to open next buffer
+map ,bp :bp<CR> 
+map ,bn :bn<CR>   
+map ,bq :bd<CR>   
 
 " Greps
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
 map <silent> <C-N> :silent noh<CR> " turn off highlighted search
 
 " Config
-nmap ,e :e $MYVIMRC<cr>      " edit my vimrc file
-nmap ,E :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
+nmap ,r :e $MYVIMRC<cr>      " edit my vimrc file
+nmap ,R :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
 
 " Xml
@@ -140,8 +148,8 @@ nmap ,xt :exec '% !' . g:xmlLint . ' % --format'
 nmap ,nb :NERDTree cruces<CR>
 nmap ,nh :NERDTree ~/.<CR>
 nmap ,nv :NERDTree vim_setup<CR>
-nmap ,nr :NERDTree rabin<CR>
-nmap ,nn :NERDTree reglas<CR>
+nmap ,na :NERDTree rabin<CR>
+nmap ,nr :NERDTree reglas<CR>
 
 " Inserts in normal mode 
 nmap ,O o<Esc>k
@@ -151,15 +159,20 @@ nmap ,o o<Esc>
 nmap ,rn :set nonumber<CR>
 nmap ,rrn :set number<CR>
 
+" ------------------ mvn stuff ------------------------------
+
+nmap ,mt :CLOutputToWindow mvn test<CR>
+nmap ,mp :Mvn package<CR>
+nmap ,me :Mvn eclipse<CR>
+
 " ------------------ Eclim stuff ------------------------------
 
-nmap ,mt :Mvn test<CR>
 nmap ,ei :JavaImport<CR>
 nmap ,ec :JavaCorrect<CR>
+nmap ,ef :%JavaFormat<CR>
 
 " --------------------------------------------------------
 
-" --------------------------------------------------------
 
 " ------------------Commands------------------------------
 
@@ -176,6 +189,11 @@ command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
 
 " Wrapped VCSCommand function commands 
 command -nargs=1 NTVCSCommit :execute 'call NewVCSCommit("<args>")'
+
+" Command line stuff
+" command -nargs=1 CLOutputToWindow :execute 'call CLOutputToWindow("<args>")'
+
+command -nargs=1 CLOutputToWindow :let res = system(expand('<args>')) | new | put=res
 
 " --------------------------------------------------------
 
@@ -201,4 +219,11 @@ fun! NewVCSCommit(comment)
    quit " quit commit windows 
    quit " quit out of netrw-NerdTree window (we want it pure)
    NERDTree . 
+endfunction
+
+" Wrapper for the command line to window output
+fun! CLOutputToWindow(commandLine)
+    let res = system(expand('<args>')) 
+    new 
+    put=res
 endfunction
