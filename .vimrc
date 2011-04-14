@@ -36,7 +36,7 @@ set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
 
 " clipboard unamed 
-set clipboard=unnamed
+" set clipboard=unnamed
 
 " Eclim stuff
 filetype plugin on 
@@ -110,8 +110,8 @@ if has("autocmd")
 endif
 
 " clipboard magic
-noremap p "+p
-noremap y "+y
+noremap ,p "+p
+noremap ,y "+y
 
 " ----------------- Keyboard mappings --------------------------
 
@@ -140,6 +140,7 @@ map <silent> <C-N> :silent noh<CR> " turn off highlighted search
 nmap ,r :e $MYVIMRC<cr>      " edit my vimrc file
 nmap ,R :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
+nmap ,U :!source $MYVIMRC<cr> " update the system settings from my vimrc file
 
 " Xml
 nmap ,xt :exec '% !' . g:xmlLint . ' % --format'
@@ -149,7 +150,7 @@ nmap ,nb :NERDTree cruces<CR>
 nmap ,nh :NERDTree ~/.<CR>
 nmap ,nv :NERDTree vim_setup<CR>
 nmap ,na :NERDTree rabin<CR>
-nmap ,nr :NERDTree reglas<CR>
+nmap ,nr :NERDTree republico<CR>
 
 " Inserts in normal mode 
 nmap ,O o<Esc>k
@@ -162,8 +163,9 @@ nmap ,rrn :set number<CR>
 " ------------------ mvn stuff ------------------------------
 
 nmap ,mt :CLOutputToWindow mvn test<CR>
-nmap ,mp :Mvn package<CR>
-nmap ,me :Mvn eclipse<CR>
+nmap ,mp :CLOutputToWindow mvn package<CR>
+nmap ,me :CLOutputToWindow mvn eclipse:eclipse<CR>
+nmap ,mi :CLOutputToWindow mvn clean install<CR>
 
 " ------------------ Eclim stuff ------------------------------
 
@@ -180,9 +182,10 @@ nmap ,ef :%JavaFormat<CR>
 command NTH :NERDTree ~/.
 command -nargs=1 NT :NERDTree <args>
 
-" Greps
+" Search and replace 
 command GREPT :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
 command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
+command -nargs=* Sub call FunSub(<f-args>)
 
 " File 
 command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
@@ -191,9 +194,10 @@ command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
 command -nargs=1 NTVCSCommit :execute 'call NewVCSCommit("<args>")'
 
 " Command line stuff
-" command -nargs=1 CLOutputToWindow :execute 'call CLOutputToWindow("<args>")'
-
 command -nargs=1 CLOutputToWindow :let res = system(expand('<args>')) | new | put=res
+
+" mvn
+command -nargs=* MvnAddToRepositoy call FunMvnAddToRepository(<f-args>)
 
 " --------------------------------------------------------
 
@@ -221,9 +225,13 @@ fun! NewVCSCommit(comment)
    NERDTree . 
 endfunction
 
-" Wrapper for the command line to window output
-fun! CLOutputToWindow(commandLine)
-    let res = system(expand('<args>')) 
-    new 
-    put=res
+" Adds dependencies to local m2 repo
+fun! FunMvnAddToRepository(artifactid, pathtojar)
+    execute "!sudo mvn install:install-file -DgroupId=mx.com.root -DartifactId=" . 
+       \   a:artifactid . " -Dversion=1.0 -Dpackaging=jar -Dfile=" . a:pathtojar
+endfunction
+
+" Adds dependencies to local m2 repo
+fun! FunSub(original, new)
+    execute "%s/" . a:original . "/" . a:new "/g"
 endfunction
