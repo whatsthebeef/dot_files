@@ -1,12 +1,11 @@
-
-" ----------------- varibles -------------------------
+" -------------------------
 
 if has("win32")
    let g:xmlLint = "c:\\dev\\bin\\xmllint.exe"
    let g:tempDir = "c:\\tmp\\"
 else   
    let g:xmlLint = "/usr/bin/xmllint" 
-   let g:tempDir = "~/tmp/"
+   let g:tempDir = "~/dev/.swptmp/"
 endif
 
 " -------------------------------------------------
@@ -15,8 +14,8 @@ syntax on           " syntax highlighing
 
 set nocompatible    " use vim defaults
 set ls=2            " always show status line
-set tabstop=4       " numbers of spaces of tab character
-set shiftwidth=4    " numbers of spaces to (auto)indent
+set tabstop=3       " numbers of spaces of tab character
+set shiftwidth=3    " numbers of spaces to (auto)indent
 set scrolloff=3     " keep 3 lines when scrolling
 set showcmd         " display incomplete commands
 set ruler           " show the cursor position all the time
@@ -34,13 +33,14 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
-
-" clipboard unamed 
-" set clipboard=unnamed
+"
+if $TMUX == ''
+   set clipboard+=unnamed
+endif
 
 " Eclim stuff
 filetype plugin on 
-filetype indent off 
+filetype indent on
 set cot-=preview
 
 set wildmenu      " nice command auto completion
@@ -49,9 +49,9 @@ set wildmenu      " nice command auto completion
 set hlsearch        " highlight searches
 set incsearch       " do incremental searching
 
-" should have ~/tmp/.vimtmp  or ~/tmp created
-exec 'set backupdir=' . g:tempDir . '.vimtmp,' . g:tempDir
-exec 'set directory=' . g:tempDir . '.vimtmp,' . g:tempDir
+" should have ~/dev/swptmp/
+exec 'set backupdir=' . g:tempDir 
+exec 'set directory=' . g:tempDir 
 
 
 set autoindent     " always set autoindenting on
@@ -96,10 +96,6 @@ if has("autocmd")
     au FileType cpp,c,java,sh,pl,php,asp,rb,py  set cindent
     "au BufRead mutt*[0-9] set tw=72
     
-    " Automatically chmod +x Shell and Perl scripts
-    "au BufWritePost   *.sh             !chmod +x %
-    "au BufWritePost   *.pl             !chmod +x %
-
     " File formats
     au BufNewFile,BufRead  *.pls    set syntax=dosini
     au BufNewFile,BufRead  modprobe.conf    set syntax=modconf
@@ -109,9 +105,11 @@ if has("autocmd")
 	 au GUIEnter * simalt ~x
 endif
 
+map <Esc>[B <Down>
+
 " clipboard magic
-noremap ,p "+p
-noremap ,y "+y
+noremap <Leader>p "+p
+noremap <Leader>y "+y
 
 " ----------------- Keyboard mappings --------------------------
 
@@ -123,14 +121,14 @@ imap hh <BS>
 " General Normal mappings
 " map { <CR>
 nmap c /
-nmap ,w :w!<CR>
-nmap ,q :q!<CR>
+nmap <Leader>w :w!<CR>
+nmap <Leader>q :q!<CR>
 nmap mm a<BS><ESC>
 
 " Buffers 
-map ,bp :bp<CR> 
-map ,bn :bn<CR>   
-map ,bq :bd<CR>   
+map <Leader>bp :bp<CR> 
+map <Leader>bn :bn<CR>   
+map <Leader>bq :bd<CR>   
 
 " Greps
 map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
@@ -235,3 +233,7 @@ endfunction
 fun! FunSub(original, new)
     execute "%s/" . a:original . "/" . a:new "/g"
 endfunction
+
+let mapleader=',' 
+nnoremap <silent> <Leader>m :CommandT<CR>
+nnoremap <silent> <Leader>t :CommandTBuffer<CR>
