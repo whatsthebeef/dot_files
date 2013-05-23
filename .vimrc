@@ -93,7 +93,7 @@ if has("autocmd")
     au FileType mail,tex set textwidth=72
     au FileType cpp,c,java,sh,pl,php,asp,rb,py  set autoindent
     au FileType cpp,c,java,sh,pl,php,asp,rb,py  set smartindent
-    au FileType cpp,c,java,sh,pl,php,asp,rb,py  set cindent
+    au FileType cpp,c,java,h,pl,php,asp,rb,py  set cindent
     "au BufRead mutt*[0-9] set tw=72
     
     " File formats
@@ -121,8 +121,8 @@ imap hh <BS>
 " General Normal mappings
 " map { <CR>
 nmap c /
-nmap <Leader>w :w!<CR>
-nmap <Leader>q :q!<CR>
+nmap ,w :w!<CR>
+nmap ,q :q!<CR>
 nmap mm a<BS><ESC>
 
 " Buffers 
@@ -135,41 +135,41 @@ map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
 map <silent> <C-N> :silent noh<CR> " turn off highlighted search
 
 " Config
-nmap ,r :e $MYVIMRC<cr>      " edit my vimrc file
-nmap ,R :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
+nmap <Leader>r :e $MYVIMRC<cr>      " edit my vimrc file
+nmap <Leader>R :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
 nmap ,U :!source $MYVIMRC<cr> " update the system settings from my vimrc file
 
 " Xml
-nmap ,xt :exec '% !' . g:xmlLint . ' % --format'
+nmap <Leader>xt :exec '% !' . g:xmlLint . ' % --format'
 
 " Nerd Tree
-nmap ,nb :NERDTree cruces<CR>
-nmap ,nh :NERDTree ~/.<CR>
-nmap ,nv :NERDTree vim_setup<CR>
-nmap ,na :NERDTree rabin<CR>
-nmap ,nr :NERDTree republico<CR>
+nmap <Leader>nb :NERDTree cruces<CR>
+nmap <Leader>nh :NERDTree ~/.<CR>
+nmap <Leader>nv :NERDTree vim_setup<CR>
+nmap <Leader>na :NERDTree rabin<CR>
+nmap <Leader>nr :NERDTree republico<CR>
 
 " Inserts in normal mode 
-nmap ,O o<Esc>k
-nmap ,o o<Esc>
+nmap <Leader>O o<Esc>k
+nmap <Leader>o o<Esc>
 
 " Copying from Vim  
-nmap ,rn :set nonumber<CR>
-nmap ,rrn :set number<CR>
+nmap <Leader>rn :set nonumber<CR>
+nmap <Leader>rrn :set number<CR>
 
 " ------------------ mvn stuff ------------------------------
 
-nmap ,mt :CLOutputToWindow mvn test<CR>
-nmap ,mp :CLOutputToWindow mvn package<CR>
-nmap ,me :CLOutputToWindow mvn eclipse:eclipse<CR>
-nmap ,mi :CLOutputToWindow mvn clean install<CR>
+" nmap ,mt :CLOutputToWindow mvn test<CR>
+" nmap ,mp :CLOutputToWindow mvn package<CR>
+" nmap ,me :CLOutputToWindow mvn eclipse:eclipse<CR>
+" nmap ,mi :CLOutputToWindow mvn clean install<CR>
 
 " ------------------ Eclim stuff ------------------------------
 
-nmap ,ei :JavaImport<CR>
-nmap ,ec :JavaCorrect<CR>
-nmap ,ef :%JavaFormat<CR>
+" nmap ,ei :JavaImport<CR>
+" nmap ,ec :JavaCorrect<CR>
+" nmap ,ef :%JavaFormat<CR>
 
 " --------------------------------------------------------
 
