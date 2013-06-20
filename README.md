@@ -1,4 +1,10 @@
-My vim set up 
+## My vim set up 
+
+##### Summary
+
+Project includes my .vimrc configuration file and plugins used
+
+##### Instructions
 
 Add ~/dev/.tmpswp directory for .swp files 
 
