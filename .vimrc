@@ -10,6 +10,8 @@ endif
 
 " -------------------------------------------------
 
+let mapleader=',' 
+
 syntax on           " syntax highlighing
 
 set nocompatible    " use vim defaults
@@ -33,10 +35,12 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
-"
-if $TMUX == ''
-   set clipboard+=unnamed
-endif
+
+" Tmux and vim creates problem copying to the system keyboard
+" To resolve install reattach-to-user-namespace
+" if $TMUX == ''
+set clipboard+=unnamed
+" endif
 
 " Eclim stuff
 filetype plugin on 
@@ -58,8 +62,9 @@ set autoindent     " always set autoindenting on
 set smartindent        " smart indent
 set cindent            " cindent
 
-"set autowrite      " auto saves changes when quitting and swiching buffer
+" set autowrite      " auto saves changes when quitting and swiching buffer
 set expandtab      " tabs are converted to spaces, use only when required
+set invlist         " tabs are converted to spaces, use only when required
 set sm             " show matching braces, somewhat annoying...
 "set nowrap         " don't wrap lines
 
@@ -121,8 +126,8 @@ imap hh <BS>
 " General Normal mappings
 " map { <CR>
 nmap c /
-nmap ,w :w!<CR>
-nmap ,q :q!<CR>
+nmap <Leader>w :w!<CR>
+nmap <Leader>q :q!<CR>
 nmap mm a<BS><ESC>
 
 " Buffers 
@@ -234,6 +239,5 @@ fun! FunSub(original, new)
     execute "%s/" . a:original . "/" . a:new "/g"
 endfunction
 
-let mapleader=',' 
 nnoremap <silent> <Leader>m :CommandT<CR>
 nnoremap <silent> <Leader>t :CommandTBuffer<CR>
