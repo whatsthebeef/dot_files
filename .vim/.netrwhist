@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/john/dev/gemas/gemas_z/gemas/.git'
+let g:netrw_dirhist_2='/Users/john/dev/neo4j'
+let g:netrw_dirhist_3='/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home'
+let g:netrw_dirhist_4='/Users/john/dev/visiens'
+let g:netrw_dirhist_5='/Users/john/dev/neography'

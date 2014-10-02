@@ -1,2 +1,6 @@
 *.o
 **/*.o
+.vim/bundle/
+.vim/ruby
+tag
+

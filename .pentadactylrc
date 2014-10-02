@@ -1,0 +1,132 @@
+" Treat file as vim config
+" vim: set ft=vim:
+
+" Reload config
+map <C-r> :source /Users/john/.pentadactylrc<CR>
+" map <C-r> :source /Users/john/.vimperatorrc<CR>
+
+" More vim like movement
+nmap l <CR>
+nmap L :forward<CR>
+nmap i gi<C-t>i
+tmap <CR> i<Cr>
+
+" Map quick marks to normal marks
+nmap \' go
+nmap m M
+
+" q for quit
+nmap q :tabclose<CR>
+
+""" CSS
+style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
+
+""" Javascript
+js <<EOM
+
+var bWindow = window.content.window;
+var ddg = "3g2upl4pq6kufc4m.onion/lite";
+var spResults = "startpage.com/do/search";
+var spSearch = "startpage.com/$";
+
+var init = function(filter, initFunction, args) {
+   if(matchesHref(filter)) {
+      initFunction(args);
+   }
+}
+
+var mapper = function(key, mapTo, exceptions) {
+   group.mappings.add(
+      [modes.NORMAL],
+      [key], "",
+      function(){
+         if(exceptions) {
+            for(var i = 0; i < exceptions.length; i++) {
+               if(matchesHref(exceptions[i]["filter"])) {
+                  feedKeys(exceptions[i]["mapTo"]);
+                  return;
+               }
+            }
+         }
+         else {
+            feedKeys(mapTo);
+         }
+      }, {}
+   );
+};
+
+var functionMapper = function(key, mapToFunction) {
+   group.mappings.add(
+      [modes.NORMAL],
+      [key], "",
+      mapToFunction, {}
+   );
+};
+
+var linkMapper = function(key, link) {
+   group.mappings.add(
+      [modes.NORMAL],
+      [key], "",
+      function(arg) {
+         bWindow.location.href = "http://"+link;
+      }, {}
+   );
+};
+
+var isFunction = function(obj) {
+  return !!(obj && obj.constructor && obj.call && obj.apply);
+};
+
+var matchesHref = function(string) {
+   var re = new RegExp(string);
+   return re.test(bWindow.location.href);
+}
+
+var jumpTo = function(element) {
+   element.focus();
+}
+
+var feedKeys = function(keys) {
+   events.feedkeys(keys);
+}
+
+var backFromResult = function(keys) {
+   events.feedkeys("h");
+}
+
+mapper("j", "10<Down>", [{filter:ddg, mapTo:"<Tab>"},
+                         {filter:spResults, mapTo:"<Tab><Tab><Tab>"}]);
+
+mapper("k", "10<Up>", [{filter:ddg, mapTo:"<S-Tab>"},
+                       {filter:spResults, mapTo:"<S-Tab><S-Tab><S-Tab>"}]);
+
+functionMapper("h", function(){ 
+   shouldInit = false;
+   liberator.execute("back");
+});
+
+linkMapper("s", spSearch);
+linkMapper("d", ddg);
+
+var shouldInit = true;
+
+initPages = function() {
+   bWindow.onload = function(){
+      if(shouldInit) {
+         init(ddg+"/", jumpTo, bWindow.document.getElementsByClassName("result-link")[0]);
+         init(ddg+"$", feedKeys, "i");
+      }
+      else {
+         shouldInit = true; 
+      }
+      init(spResults, jumpTo, bWindow.document.getElementById("title_1"));
+      init(spSearch, feedKeys, "i");
+   }
+};
+
+EOM
+
+""" Init
+autocmd LocationChange * :js initPages()
+
+

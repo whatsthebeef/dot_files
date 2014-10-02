@@ -1,20 +1,48 @@
-" -------------------------
+"--------------------Vundle---------------------------
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+filetype plugin indent on     " required
+
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle "garbas/vim-snipmate"
+Bundle "scrooloose/syntastic"
+Bundle "Shougo/unite.vim"
+Bundle "Shougo/vimproc"
+Bundle "tsukkee/unite-tag"
+Bundle "xolox/vim-misc"
+Bundle "xolox/vim-notes"
+Bundle "tpope/vim-fugitive"
+Bundle "tpope/vim-surround"
+Bundle "tpope/vim-rails"
+Bundle "tomtom/tcomment_vim"
+
+" Optional
+Bundle "honza/vim-snippets"
+
+"" To install packets run :PluginInstall
+
+"--------------------- Variables ----------------------
 
 if has("win32")
-   let g:xmlLint = "c:\\dev\\bin\\xmllint.exe"
    let g:tempDir = "c:\\tmp\\"
-else   
-   let g:xmlLint = "/usr/bin/xmllint" 
+else
    let g:tempDir = "~/dev/.swptmp/"
 endif
 
-" -------------------------------------------------
+" ------------------ Configuration --------------------
 
-let mapleader=',' 
+""" General
+let mapleader=','
 
 syntax on           " syntax highlighing
 
-set nocompatible    " use vim defaults
 set ls=2            " always show status line
 set tabstop=3       " numbers of spaces of tab character
 set shiftwidth=3    " numbers of spaces to (auto)indent
@@ -35,17 +63,9 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
-
-" Tmux and vim creates problem copying to the system keyboard
-" To resolve install reattach-to-user-namespace
-" if $TMUX == ''
-set clipboard+=unnamed
-" endif
-
-" Eclim stuff
-filetype plugin on 
-filetype indent on
-set cot-=preview
+"
+set foldmethod=syntax
+set foldlevel=10
 
 set wildmenu      " nice command auto completion
 
@@ -54,9 +74,8 @@ set hlsearch        " highlight searches
 set incsearch       " do incremental searching
 
 " should have ~/dev/swptmp/
-exec 'set backupdir=' . g:tempDir 
-exec 'set directory=' . g:tempDir 
-
+exec 'set backupdir=' . g:tempDir
+exec 'set directory=' . g:tempDir
 
 set autoindent     " always set autoindenting on
 set smartindent        " smart indent
@@ -64,178 +83,338 @@ set cindent            " cindent
 
 " set autowrite      " auto saves changes when quitting and swiching buffer
 set expandtab      " tabs are converted to spaces, use only when required
-set invlist         " tabs are converted to spaces, use only when required
-set sm             " show matching braces, somewhat annoying...
+" set invlist         " Shows white space as characters
+set sm             " show matching braces
 "set nowrap         " don't wrap lines
 
+""" Tags
+set tags=./tags,tags
+set tagstack
+
+""" Font and colours
 if has("gui_running")
- " See ~/.gvimrc
+   " See ~/.gvimrc
    set guifont=ProggyClean  " use this font
    set lines=60       " height = 50 lines
    set columns=100        " width = 100 columns
 
- " set background=light   " adapt colors for background
- " colorscheme Desert 
- " set selectmode=mouse,key,cmd
+   " set background=light   " adapt colors for background
+   " colorscheme Desert
+   " set selectmode=mouse,key,cmd
 
-	set background=dark   " adapt colors for background
-	colorscheme ir_black 
+   set background=dark   " adapt colors for background
+   colorscheme ir_black
 else
    set background=dark   " adapt colors for background
-	colorscheme ir_black 
+   colorscheme ir_black
 endif
+
+""" Tmux
+" Tmux and vim creates problem copying to the system keyboard
+" To resolve install reattach-to-user-namespace
+" Not using as it is very disruptive
+" if TMUX == ''
+"   set clipboard+=unnamed
+" endif
+
+""" Syntastic
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_check_on_open = 0
+"" Jump only if it is an error
+let g:syntastic_auto_jump = 2
+"" Show error window automatically
+" let g:syntastic_auto_loc_list = 1
+"" Java checkers - checkstyle is faster but doesn't check syntax
+let g:syntastic_java_checkers = ['checkstyle']
+"
+""" Unite
+" Doesn't seem to work DEPRECATED 
+"let g:unite_source_grep_max_candidates = 1000
+" Doesn't seem to work either DEPRECATED 
+" let g:unite_source_grep_default_opts = '--exclude-dir={target,.git}'
+" let g:unite_source_rec_async_command='ag --nocolor --nogroup --ignore ".hg" 
+" --ignore ".svn" --ignore ".git" --ignore ".bzr" --ignore "target" --hidden -g ""'
+let g:unite_source_file_rec_max_cache_files = 0
+let g:unite_winheight=10
+
+call unite#custom#source('file_rec,file_rec/async', 'max_candidates', 0)
+call unite#custom#source('file_rec,file_rec/async', 'ignore_pattern',
+         \ '\.git/\|target/\|tmp/\|rails_docs/\|vendor\|bin\|build\|.settings\|.classpath\|.project')
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+call unite#filters#sorter_default#use(['sorter_rank'])
+
+""" Notes
+let g:notes_directories = ['~/Documents/Notes']
+
+" --------------------------- Autocommand ------------------------------------
 
 if has("autocmd")
-    " Restore cursor position
-    au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
+   " Restore cursor position
+   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 
-    " Filetypes (au = autocmd)
-    au FileType helpfile set nonumber      " no line numbers when viewing help
-    au FileType helpfile nnoremap <buffer><cr> <c-]>   " Enter selects subject
-    au FileType helpfile nnoremap <buffer><bs> <c-T>   " Backspace to go back
-    
-    " When using mutt, text width=72
-    au FileType mail,tex set textwidth=72
-    au FileType cpp,c,java,sh,pl,php,asp,rb,py  set autoindent
-    au FileType cpp,c,java,sh,pl,php,asp,rb,py  set smartindent
-    au FileType cpp,c,java,h,pl,php,asp,rb,py  set cindent
-    "au BufRead mutt*[0-9] set tw=72
-    
-    " File formats
-    au BufNewFile,BufRead  *.pls    set syntax=dosini
-    au BufNewFile,BufRead  modprobe.conf    set syntax=modconf
+   "" Filetypes (au = autocmd)
+   au FileType helpfile set nonumber      " no line numbers when viewing help
+   au FileType helpfile nnoremap <buffer><cr> <c-]>   " Enter selects subject
+   au FileType helpfile nnoremap <buffer><bs> <c-T>   " Backspace to go back
 
-	 "----- Open Nerd tree on start up
-	 autocmd VimEnter * NERDTree 
-	 au GUIEnter * simalt ~x
+   au FileType java set tabstop=4
+   au FileType java set shiftwidth=4
+   au FileType java set shiftwidth=4
+   au Syntax java setlocal foldlevel=1
+
+   " File formats
+   au BufNewFile,BufRead  *.pls    set syntax=dosini
+   au BufNewFile,BufRead  modprobe.conf    set syntax=modconf
+
+   au Syntax html setlocal foldmethod=indent
+   au Syntax html setlocal foldlevel=2
+
+   au FileType mail set textwidth=72" 
+   au FileType mail set wrap
+   au FileType mail set nocp
+   au FileType mail set syntax=mail
+   au FileType mail set spell
+   au FileType mail set spelllang=en,es
+   au FileType mail 0
+
+   au FileType notes set spell
+   au FileType notes set spelllang=en,es
+   au FileType notes set textwidth=72" 
+
+   au FileType websearch nmap <CR> :call FunSearchWebWithLine()<CR>
+   "----- Open Nerd tree on start up
+   " autocmd VimEnter * NERDTree
+   " au GUIEnter * simalt ~x
 endif
 
-map <Esc>[B <Down>
 
-" clipboard magic
-noremap <Leader>p "+p
-noremap <Leader>y "+y
 
-" ----------------- Keyboard mappings --------------------------
+" ------------------- Mappings and commands --------------------------------
 
-" General insert mappings EVERY ONE BE CAREFUL 
-imap jj <ESC>
-
-imap hh <BS>
-
-" General Normal mappings
-" map { <CR>
-nmap c /
-nmap <Leader>w :w!<CR>
-nmap <Leader>q :q!<CR>
-nmap mm a<BS><ESC>
-
-" Buffers 
-map <Leader>bp :bp<CR> 
-map <Leader>bn :bn<CR>   
-map <Leader>bq :bd<CR>   
-
-" Greps
-map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
-map <silent> <C-N> :silent noh<CR> " turn off highlighted search
-
-" Config
-nmap <Leader>r :e $MYVIMRC<cr>      " edit my vimrc file
-nmap <Leader>R :!e $MYVIMRC<cr>      " edit my vimrc file !EVERYONE BE CAREFUL"
-nmap ,u :source $MYVIMRC<cr> " update the system settings from my vimrc file
-nmap ,U :!source $MYVIMRC<cr> " update the system settings from my vimrc file
-
-" Xml
-nmap <Leader>xt :exec '% !' . g:xmlLint . ' % --format'
-
-" Nerd Tree
-nmap <Leader>nb :NERDTree cruces<CR>
-nmap <Leader>nh :NERDTree ~/.<CR>
-nmap <Leader>nv :NERDTree vim_setup<CR>
-nmap <Leader>na :NERDTree rabin<CR>
-nmap <Leader>nr :NERDTree republico<CR>
-
-" Inserts in normal mode 
+""" Fundamentals
+"" Inserts in normal mode
 nmap <Leader>O o<Esc>k
 nmap <Leader>o o<Esc>
+"" Buffers
+" Using Unite buffers
+" map <Leader>bp :bp<CR>
+" map <Leader>bn :bn<CR>
+" map <Leader>bq :bd<CR>
+"" Movements
+" map { <CR>
+" nmap c /
+"" Need the double for creating markers
+" nmap mm a<BS><ESC>
+"" Saving
+nmap <Leader>w :w!<CR>
+nmap <Leader>q :q!<CR>
+nmap q :q!<CR>
+"" General insert mappings EVERY ONE BE CAREFUL
+" imap jj <ESC>
+imap <BS> <Nop>
+inoremap <BS> <Nop>
+"" Nasty delete
+" imap hh <BS>
+"" Clipboard
+" NOT TRUE - Unnecessary as we are copying everything into the system buffer unless
+" specified
+noremap <Leader>p "+p
+noremap <Leader>y "+y
+"" Ex Commands
+" By default enter ex-command for seacrh and command
+nmap : :<C-F>i
+nmap / :<C-F>/
+"" Deleting into an oblivion
+nmap <leader>d "_d
+nmap x "_dl
+"" Don't record
+nmap q <Nop>
+"" Delete swap file of current file
+" TODO doesn't work
+function FunDeleteSwapFile()
+   let l:swpFile = g:tempDir.expand('%:t').".swp"
+   echo l:swpFile
+   let l:delSuccess = delete(l:swpFile)
+   if l:delSuccess == 0 
+      echo l:swpFile." deleted"
+   else
+      echo l:swpFile." delete failed"
+   endif
+endfunction
 
-" Copying from Vim  
+""" Clear spaces at end of lines, also removes all the other $
+" map <leader>W :%s/\s\+\$$//<CR>:let @/=''<CR>
+
+""" Change to cwd 
+nmap <Leader>wd :cd $CWD<CR>
+
+""" File
+"" Not necessary as I am using the notes.vim plugin which manages such commands 
+" command -nargs=1 CreateTemporaryFile :exec g:tempDir . "<args>.txt"
+
+""" Execute commands
+command -nargs=1 CLOutputToWindow :let res = system(expand('<args>')) | new | put=res
+
+""" Config
+nmap <Leader>u :e $MYVIMRC<CR>      " edit my vimrc file
+nmap <Leader>U :!e $MYVIMRC<CR>      " edit my vimrc file !EVERYONE BE CAREFUL"
+nmap <Leader>r :source $MYVIMRC<CR> " update the system settings from my vimrc file
+nmap <Leader>R :!source $MYVIMRC<CR> " update the system settings from my vimrc file
+
+""" Copying
 nmap <Leader>rn :set nonumber<CR>
 nmap <Leader>rrn :set number<CR>
 
-" ------------------ mvn stuff ------------------------------
-
-" nmap ,mt :CLOutputToWindow mvn test<CR>
-" nmap ,mp :CLOutputToWindow mvn package<CR>
-" nmap ,me :CLOutputToWindow mvn eclipse:eclipse<CR>
-" nmap ,mi :CLOutputToWindow mvn clean install<CR>
-
-" ------------------ Eclim stuff ------------------------------
-
-" nmap ,ei :JavaImport<CR>
-" nmap ,ec :JavaCorrect<CR>
-" nmap ,ef :%JavaFormat<CR>
-
-" --------------------------------------------------------
-
-
-" ------------------Commands------------------------------
-
-" Nerd Tree
-command NTH :NERDTree ~/.
-command -nargs=1 NT :NERDTree <args>
-
-" Search and replace 
+""" Grep
+"" Vimgrep - slow
 command GREPT :execute 'vimgrep /'.expand('<cword>').'/gj '.expand('%') | copen
 command -nargs=1 GREPQ :execute 'vimgrep /<args>/gj **' | copen
-command -nargs=* Sub call FunSub(<f-args>)
-
-" File 
-command -nargs=1 NFT :exec g:tempDir . "<args>.txt"
-
-" Command line stuff
-command -nargs=1 CLOutputToWindow :let res = system(expand('<args>')) | new | put=res
-
-" mvn
-command -nargs=* MvnAddToRepositoy call FunMvnAddToRepository(<f-args>)
-command Mvn :execute :CLOutputToWindow("!mvn clean install -Dmaven.test.skip=true")
-
-" --------------------------------------------------------
-
-" ------------------ Functions ------------------------------
-
-" Wrapper function for VCSAdd to enable it to work with Nerd tree
-fun! NewVCSAdd()
-   call DisableNERDTree()
-   edit . "start netrw
-   execute 'VCSAdd'
-   call HijackNERTW()
-   quit " quit add windows 
-   quit " quit out of netrw-NerdTree window (we want it pure)
-   NERDTree . 
+map <F4> :execute "vimgrep /" . expand("<cword>") . "/gj **" <Bar> cw<CR>
+" turn off highlighted search
+map <silent> <C-N> :silent noh<CR>
+"" External Grep
+function FunGrep(text, dir)
+   execute 'silent grep! -ir '.a:text.' '.a:dir.' --exclude-dir={target,bin,.settings}' | copen
 endfunction
 
-" Wrapper function for VCSCommit to enable it to work with Nerd tree
-fun! NewVCSCommit(comment)
-   call DisableNERDTree()
-   edit . "start netrw
-   execute 'VCSCommit ' . a:comment
-   call HijackNERTW()
-   quit " quit commit windows 
-   quit " quit out of netrw-NerdTree window (we want it pure)
-   NERDTree . 
+""" Maven
+function FunAddJarToRepository(artifactid, pathtojar)
+   execute "!sudo mvn install:install-file -DgroupId=mx.com.root -DartifactId=" .
+            \   a:artifactid . " -Dversion=1.0 -Dpackaging=jar -Dfile=" . a:pathtojar
 endfunction
 
-" Adds dependencies to local m2 repo
-fun! FunMvnAddToRepository(artifactid, pathtojar)
-    execute "!sudo mvn install:install-file -DgroupId=mx.com.root -DartifactId=" . 
-       \   a:artifactid . " -Dversion=1.0 -Dpackaging=jar -Dfile=" . a:pathtojar
+""" CommandT
+"" Using Unite instead of CommandT as it doesn't need the ruby calls and it is
+"" more async
+" nnoremap <silent> <Leader>m :CommandTJump<CR>
+" Current directory file search not so useful while using vifm
+" nnoremap <silent> <Leader>m :CommandT<CR>
+" nnoremap <silent> <Leader>t :CommandTBuffer<CR>
+
+""" Unite
+"" Open files in split
+" Like most unite configs - doesn't work
+" General
+nnoremap <silent><leader>ll :<C-u>UniteResume<CR>
+
+au FileType unite call s:unite_settings()
+" TODO make open in split window on command
+function s:unite_settings()
+   " inoremap <silent><buffer><expr><C-v> :call unite#mappings#do_action('vsplit')
+   nmap <C-x> :call unite#mappings#do_action('vsplit')<CR>
+   " imap <C-v> <Esc>j:call unite#mappings#do_action('vsplit')<CR>
 endfunction
 
-" Adds dependencies to local m2 repo
-fun! FunSub(original, new)
-    execute "%s/" . a:original . "/" . a:new "/g"
+"" Tag search
+" Not sure on default vsplit
+" command -nargs=1 FindTag :Unite -keep-focus -no-quit -default-action=vsplit -input=<args> tag
+command -nargs=1 FindTag :Unite -keep-focus -input=<args> -silent tag
+nmap <Leader>tf :FindTag<Space>
+command AllTags :Unite -keep-focus -no-quit tag
+nmap <Leader>ta :AllTags<CR>
+nmap <Leader>t :execute 'FindTag ' . expand("<cword>")<CR>
+
+" Extracts class name from value in clipboard and does tag search - called at start up in tmux script
+" Also if it can find a line number it will add it to the 'l' register
+function FunSearchTagFromClipboard()
+   set noignorecase
+   let l:clipboard = getreg("*")
+   let l:classWithLineNum = matchstr(l:clipboard, '[(]\zs[A-Za-z0-9:.]\+\ze[)]')
+   if l:classWithLineNum != ""
+      let l:class = matchstr(getreg("*"), '[A-Z][a-zA-Z]\+')
+      let l:lineNum = matchstr(getreg("*"), '[:]\zs[0-9]\+')
+      echo l:lineNum
+      call setreg("0", l:lineNum)
+   else
+      let l:class = matchstr(getreg("*"), '\([A-Z][a-zA-Z]\+\)')
+   endif
+   execute 'FindTag '.l:class
+   set ignorecase
 endfunction
 
-nnoremap <silent> <Leader>m :CommandT<CR>
-nnoremap <silent> <Leader>t :CommandTBuffer<CR>
+"" File search
+" Not sure on using vsplit
+" command -nargs=1 FindFileCurrentDir :Unite -default-action=vsplit -input=<args> file_rec
+command -nargs=1 FindFileCurrentDir :Unite -input=<args> file_rec
+nmap <Leader>fc :FindFileCurrentDir<Space>
+
+function FunFileSearch(name, dir, ...)
+   let l:cwd = getcwd()
+   let l:absDir = a:0 > 0 ? a:1 : ""
+   if stridx(a:dir, "/") == 0
+      let l:absDir .= a:dir
+   else
+      let l:absDir .= "/".a:dir
+   endif
+   execute "cd" l:absDir
+   execute "FindFileCurrentDir" a:name
+   execute "cd" l:cwd
+endfunction
+command -nargs=* FindFileDir call FunFileSearch(<f-args>, "/")
+nmap <Leader>fd :FindFileDir<Space>
+
+command AllFilesCurrentDir :Unite file
+nmap <Leader>f :AllFilesCurrentDir<CR>
+command AllFilesCurrentDirRec :Unite -start-insert -silent file_rec 
+nmap <Leader>m :AllFilesCurrentDirRec<CR>
+
+"" Jump search
+command -nargs=1 FindJump :Unite -input=<args> jump
+command AllJumps :Unite jump
+nmap <Leader>js :FindJump<Space>
+nmap <Leader>ja :AllJumps<CR>
+
+"" Buffer search
+command AllBuffers :Unite buffer
+nmap <Leader>ba :AllBuffers<CR>
+
+""" Vifm
+nmap <Leader>sp :VsplitVifm<CR>
+
+""" Helptags
+nmap <Leader>ht :helptags $VIMRUNTIME/doc<CR>
+
+""" Tags
+nmap g[ :tag<CR>
+"" TODO
+function FunCreateTagsAtDir(dir)
+endfunction
+"" Very stange behaviour
+command -nargs=* CreateTagsAtDir :!ctags -f "/Users/john/dev/gemas/gemas_z/gemas-osgi/tags" -R "/Users/john/dev/gemas/gemas_z/gemas-osgi"<CR>
+
+""" Web
+command -nargs=* SearchWeb :!ws <args><CR>
+nmap <Leader>ws :execute 'SearchWeb '.expand("<cword>")<CR>
+function FunSearchWebWithLine()
+   execute "yank w"
+   let l:query = shellescape(getreg("w"), 1)
+   echo l:query
+   execute 'SearchWeb '.l:query
+endfunction
+
+""" Notes
+command -nargs=* FindNote :SearchNotes /<args>/<CR>
+nmap <Leader>fn :FindNote<Space>
+
+"----------------- Project specific ------------------------"
+
+""" GeMaS
+"" Unite
+command -nargs=* FindFileGemas call FunFileSearch(<f-args>, $G)
+nmap <Leader>fg :FindFileGemas<Space>
+command -nargs=1 FindFileVerificacion call FunFileSearch(<f-args>, "verificacion-app", $G)
+nmap <Leader>fv :FindFileVerificacion<Space>
+command -nargs=1 FindFileControl call FunFileSearch(<f-args>, "control-app", $G)
+nmap <Leader>fc :FindFileControl<Space>
+command -nargs=1 FindFileFlujo call FunFileSearch(<f-args>, "flujo-app", $G)
+nmap <Leader>ff :FindFileFlujo<Space>
+
+"" Grep
+command -nargs=1 GrepGemas call FunGrep(<f-args>, $G)
+
+""" Zuma
+"" Grep
+command -nargs=1 GrepZuma call FunGrep(<f-args>, $ZUMA)
+nmap <Leader>gz :call FunGrep(expand("<cword>"), $ZUMA)<CR>
+
