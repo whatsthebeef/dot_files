@@ -1,6 +1,8 @@
 *.o
 **/*.o
 .vim/bundle/
-.vim/ruby
+.vim/ruby/
 tag
+.mutt/cache/
+.vifm/
 

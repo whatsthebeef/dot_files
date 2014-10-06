@@ -26,7 +26,7 @@ export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 
-export CWD=${GOV}
+# There si a CWD environment variable but it needs to be set in initProject
 
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 
@@ -118,28 +118,55 @@ alias mysqld="${MYSQL_HOME}/bin/mysqld --basedir=${MYSQL_HOME} &"
 #----------------------------------- Helper functions ----------------------------------#
 
 # kill mysql process
-function killMySql() {
+killMySql() {
    kill -9 `ps ax | awk '$5~/.*mysql.*/ { print $1 }'`
 }
 
 # kill diff process
-function killDiff() {
+killDiff() {
    kill -9 `ps ax | awk '$6~/.*difftool.*/ { print $1 }'`
 }
 
 # kill ServiceMix process
-function killSMX() {
+killSMX() {
    kill -9 `ps ax | awk '$12~/.*servicemix*/ { print $1 }'`
 }
 
 # kill gradle process
-function killGradle() {
+killGradle() {
    kill -9 `ps ax | awk '$6~/.*Gradle*/ { print $1 }'`
 }
 
 # kill gradle process
-function killSolr() {
+killSolr() {
    kill -9 `ps ax | awk '$12~/.*runSolr*/ { print $1 }'`
+}
+
+# first argument is init directory and second is command run in bottom window
+initProject() {
+   # Don't close pane if one of the programs is closed (I think this needs to be set at   
+   # the start of a session
+   # tmux set -u set-remain-on-exit on
+   # Editor pane
+   tmux new-window -c $1 -n $1 "vim"
+   tmux setenv CWD $1
+   # Process pane
+   tmux split-window -c "#{pane_current_path}" -v -p 25 "$2"
+   # Spare pain 
+   tmux split-window -c "#{pane_current_path}" -h -p 50  
+   # Select editor pane
+   tmux select-pane -U
+   # for future windows, revert r-o-e to global value
+   # tmux set -u set-remain-on-exit
+}
+
+initConfigs() {
+   tmux new-window -c ~ -n "configurations" "vim ~/.bash_profile"
+   tmux split-window -c ~ -v -p 50 "vim ~/.tmux.conf"
+   tmux split-window -c ~ -h -p 50 "vim ~/.pentadactylrc"
+   # Select upper pane and split that as well
+   tmux select-pane -U
+   tmux split-window -c ~ -h -p 50 "vim ~/.vimrc" 
 }
 
 #------------------------------------- Project specific -----------------------------------#
@@ -158,10 +185,18 @@ alias cdsv="cd ${SVIMS}"
 alias mysqls="mysql -Dsvims -usvims -psvims"
 alias grf="gradle flow"
 
+svims() {
+   initProject $SVIMS/$1 "gradle bootRun"
+}
+
 ## Zuma 
 export ZUMA=${DEV}/zuma_cms
 export ZUMA_S3_BUCKET_NAME=zuma-webapp
 export ZUMA_AWS_ACCESS_KEY_ID=AKIAJJ4BGGRL5UYGXHRA
 export ZUMA_AWS_SECRET_ACCESS_KEY=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
 alias cdz="cd ${ZUMA}"
+
+zuma() {
+   initProject $ZUMA "rails s"
+}
 

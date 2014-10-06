@@ -43,6 +43,7 @@ let mapleader=','
 
 syntax on           " syntax highlighing
 
+set statusline=%{fugitive#statusline()} " This means the git file is only useful when working in git repo
 set ls=2            " always show status line
 set tabstop=3       " numbers of spaces of tab character
 set shiftwidth=3    " numbers of spaces to (auto)indent
@@ -63,7 +64,7 @@ set nostartofline   " don't jump to first character when paging
 set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
-"
+
 set foldmethod=syntax
 set foldlevel=10
 
@@ -126,12 +127,13 @@ let g:syntastic_auto_jump = 2
 "" Show error window automatically
 " let g:syntastic_auto_loc_list = 1
 "" Java checkers - checkstyle is faster but doesn't check syntax
-let g:syntastic_java_checkers = ['checkstyle']
+let g:syntastic_java_checkers = ['javac', 'checkstyle']
 "
 """ Unite
 " Doesn't seem to work DEPRECATED 
 "let g:unite_source_grep_max_candidates = 1000
 " Doesn't seem to work either DEPRECATED 
+let g:unite_source_grep_command = 'Ggrep'
 " let g:unite_source_grep_default_opts = '--exclude-dir={target,.git}'
 " let g:unite_source_rec_async_command='ag --nocolor --nogroup --ignore ".hg" 
 " --ignore ".svn" --ignore ".git" --ignore ".bzr" --ignore "target" --hidden -g ""'
@@ -143,6 +145,27 @@ call unite#custom#source('file_rec,file_rec/async', 'ignore_pattern',
          \ '\.git/\|target/\|tmp/\|rails_docs/\|vendor\|bin\|build\|.settings\|.classpath\|.project')
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
+
+""" Fugitive works by opening up new file in .git so this does nothing  
+"" WASTE OF TIME
+let my_gedit = {}
+function! my_gedit.func(candidate)
+   call unite#take_action("open", a:candidate)
+   " exec 'Gedit '.split(a:candidate['action__path'], getcwd())[0]
+   exec "Gedit"
+endfunction
+call unite#custom#action("file,buffer", "gedit", my_gedit)
+unlet my_gedit
+
+"  let my_gedit_vsplit = {}
+"  function! my_gedit_vsplit.func(candidate)
+"     vsplit
+"     exec 'Gedit '.split(a:candidate['action__path'], getcwd())[0]
+"  endfunction
+"  call unite#custom#action('file,buffer', 'gedit_vsplit', my_gedit_vsplit)
+"  unlet my_gedit_vsplit
+"
+"  call unite#custom#default_action('file,buffer', 'gedit')
 
 """ Notes
 let g:notes_directories = ['~/Documents/Notes']
@@ -186,9 +209,10 @@ if has("autocmd")
    "----- Open Nerd tree on start up
    " autocmd VimEnter * NERDTree
    " au GUIEnter * simalt ~x
+   
+   " Opens quickfix window when grepping in fugitive 
+   autocmd QuickFixCmdPost *grep* cwindow
 endif
-
-
 
 " ------------------- Mappings and commands --------------------------------
 
@@ -230,17 +254,20 @@ nmap <leader>d "_d
 nmap x "_dl
 "" Don't record
 nmap q <Nop>
+
 "" Delete swap file of current file
-" TODO doesn't work
-function FunDeleteSwapFile()
+function! FunDeleteSwapFile()
    let l:swpFile = g:tempDir.expand('%:t').".swp"
    echo l:swpFile
-   let l:delSuccess = delete(l:swpFile)
-   if l:delSuccess == 0 
-      echo l:swpFile." deleted"
-   else
-      echo l:swpFile." delete failed"
-   endif
+   execute "!rm ".l:swpFile
+   " Delete doesn't seem to want to work. We don't get 
+   " return value with rm but at least it works
+   " let l:delSuccess = delete(l:swpFile)
+   " if l:delSuccess == 0 
+   "    echo l:swpFile." deleted"
+   " else
+   "    echo l:swpFile." delete failed"
+   " endif
 endfunction
 
 """ Clear spaces at end of lines, also removes all the other $
@@ -250,6 +277,29 @@ endfunction
 nmap <Leader>wd :cd $CWD<CR>
 
 """ File
+"" Open a new file in the same directory as the file in the current buffer
+"" using the name provided in the prompt
+nmap ,nf :call NewFileInDirOfCurrentBuffer()<CR>
+function NewFileInDirOfCurrentBuffer()
+   call inputsave()
+   let name = input("Enter file name: ")
+   call inputrestore()
+   execute "e %:p:h/".l:name
+endfunction
+
+"" Copies the file in the current buffer using the name provided in the prompt
+nmap ,cf :call CopyCurrentBufferIntoFileInSameDir()<CR>
+function! CopyCurrentBufferIntoFileInSameDir()
+   call inputsave()
+   let name = input("Enter file name: ")
+   call inputrestore()
+   execute "!cp %:p %:p:h/".l:name
+endfunction
+
+function DeleteFileInCurrentBuffer()
+   call delete(expand('%')) | bdelete!
+endfunction
+
 "" Not necessary as I am using the notes.vim plugin which manages such commands 
 " command -nargs=1 CreateTemporaryFile :exec g:tempDir . "<args>.txt"
 
@@ -261,6 +311,7 @@ nmap <Leader>u :e $MYVIMRC<CR>      " edit my vimrc file
 nmap <Leader>U :!e $MYVIMRC<CR>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap <Leader>r :source $MYVIMRC<CR> " update the system settings from my vimrc file
 nmap <Leader>R :!source $MYVIMRC<CR> " update the system settings from my vimrc file
+
 
 """ Copying
 nmap <Leader>rn :set nonumber<CR>
