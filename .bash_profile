@@ -192,7 +192,6 @@ svims() {
 ## Zuma 
 export ZUMA=${DEV}/zuma_cms
 alias cdz="cd ${ZUMA}"
-
 zuma() {
    initProject $ZUMA "rails s"
 }
