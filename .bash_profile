@@ -191,9 +191,6 @@ svims() {
 
 ## Zuma 
 export ZUMA=${DEV}/zuma_cms
-export ZUMA_S3_BUCKET_NAME=zuma-webapp
-export ZUMA_AWS_ACCESS_KEY_ID=AKIAJJ4BGGRL5UYGXHRA
-export ZUMA_AWS_SECRET_ACCESS_KEY=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
 alias cdz="cd ${ZUMA}"
 
 zuma() {
