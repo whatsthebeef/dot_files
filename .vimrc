@@ -43,7 +43,7 @@ let mapleader=','
 
 syntax on           " syntax highlighing
 
-set statusline=%{fugitive#statusline()} " This means the git file is only useful when working in git repo
+set statusline=%{fugitive#statusline()} " This means the status is only useful when working in git repo
 set ls=2            " always show status line
 set tabstop=3       " numbers of spaces of tab character
 set shiftwidth=3    " numbers of spaces to (auto)indent
@@ -54,7 +54,8 @@ set visualbell t_vb=    " turn off error beep/flash
 set novisualbell    " turn off visual bell
 set nobackup        " do not keep a backup file
 set number          " show line numbers
-set ignorecase      " ignore case when searching
+" set ignorecase      " ignore case when searching
+set smartcase       " If capitals are included in the search then take note
 set title           " show title in console title bar
 set ttyfast         " smoother changes
 set modeline        " last lines in document sets vim mode
@@ -78,9 +79,9 @@ set incsearch       " do incremental searching
 exec 'set backupdir=' . g:tempDir
 exec 'set directory=' . g:tempDir
 
-set autoindent     " always set autoindenting on
-set smartindent        " smart indent
-set cindent            " cindent
+"  set autoindent     " always set autoindenting on
+"  set smartindent        " smart indent
+"  set cindent            " cindent
 
 " set autowrite      " auto saves changes when quitting and swiching buffer
 set expandtab      " tabs are converted to spaces, use only when required
@@ -106,9 +107,18 @@ if has("gui_running")
    set background=dark   " adapt colors for background
    colorscheme ir_black
 else
-   set background=dark   " adapt colors for background
-   colorscheme ir_black
-endif
+   " Color scheme is linked with change-scheme bash script so terminal
+   " and vim colors can be changed at the same time
+   "
+   " set background=dark   " adapt colors for background
+   " colorscheme ir_black
+   " set background=dark " adapt colors for background
+   " colorscheme solarized
+   colorscheme $SCHEME
+   " colorscheme grb256
+   hi StatusLine   ctermfg=15  guifg=#ffffff ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
+   hi StatusLineNC ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+end
 
 """ Tmux
 " Tmux and vim creates problem copying to the system keyboard
@@ -146,27 +156,26 @@ call unite#custom#source('file_rec,file_rec/async', 'ignore_pattern',
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
 
-""" Fugitive works by opening up new file in .git so this does nothing  
-"" WASTE OF TIME
+""" Fugitive works by opening up new file in the index so we need to open 
+" the file first then run Gedit
 let my_gedit = {}
 function! my_gedit.func(candidate)
    call unite#take_action("open", a:candidate)
-   " exec 'Gedit '.split(a:candidate['action__path'], getcwd())[0]
    exec "Gedit"
 endfunction
 call unite#custom#action("file,buffer", "gedit", my_gedit)
 unlet my_gedit
 
-"  let my_gedit_vsplit = {}
-"  function! my_gedit_vsplit.func(candidate)
-"     vsplit
-"     exec 'Gedit '.split(a:candidate['action__path'], getcwd())[0]
-"  endfunction
-"  call unite#custom#action('file,buffer', 'gedit_vsplit', my_gedit_vsplit)
-"  unlet my_gedit_vsplit
-"
-"  call unite#custom#default_action('file,buffer', 'gedit')
+let my_gedit_vsplit = {}
+function! my_gedit_vsplit.func(candidate)
+   vsplit
+   call unite#take_action("open", a:candidate)
+   exec "Gedit"
+endfunction
+call unite#custom#action("file,buffer", "gedit_vsplit", my_gedit_vsplit)
+unlet my_gedit_vsplit
 
+call unite#custom#default_action("file,buffer", "gedit") 
 """ Notes
 let g:notes_directories = ['~/Documents/Notes']
 
@@ -193,6 +202,10 @@ if has("autocmd")
    au Syntax html setlocal foldmethod=indent
    au Syntax html setlocal foldlevel=2
 
+   au FileType vim set noswapfile
+   au FileType conf set noswapfile
+   au FileType sh  set noswapfile
+
    au FileType mail set textwidth=72" 
    au FileType mail set wrap
    au FileType mail set nocp
@@ -204,6 +217,8 @@ if has("autocmd")
    au FileType notes set spell
    au FileType notes set spelllang=en,es
    au FileType notes set textwidth=72" 
+   au FileType notes set noautoindent
+   au FileType notes set nosmartindent
 
    au FileType websearch nmap <CR> :call FunSearchWebWithLine()<CR>
    "----- Open Nerd tree on start up
@@ -240,13 +255,19 @@ imap <BS> <Nop>
 inoremap <BS> <Nop>
 "" Nasty delete
 " imap hh <BS>
+
 "" Clipboard
-" NOT TRUE - Unnecessary as we are copying everything into the system buffer unless
-" specified
-noremap <Leader>p "+p
+" Copy/paste with the system buffer 
+noremap <Leader>p :call PasteFromSystemBuffer()<CR>
 noremap <Leader>y "+y
+function! PasteFromSystemBuffer()
+   exec "set paste"
+   call feedkeys('"+p')
+   exec "set nopaste"
+endfunction
+
 "" Ex Commands
-" By default enter ex-command for seacrh and command
+" By default enter ex-command for search and command
 nmap : :<C-F>i
 nmap / :<C-F>/
 "" Deleting into an oblivion
@@ -255,6 +276,10 @@ nmap x "_dl
 "" Don't record
 nmap q <Nop>
 
+nmap <C-w><Down> <C-w>-
+nmap <C-w><Up> CTRL-W_<Up>
+
+nmap <Leader>ds :call FunDeleteSwapFile()<CR>
 "" Delete swap file of current file
 function! FunDeleteSwapFile()
    let l:swpFile = g:tempDir.expand('%:t').".swp"
@@ -307,8 +332,8 @@ endfunction
 command -nargs=1 CLOutputToWindow :let res = system(expand('<args>')) | new | put=res
 
 """ Config
-nmap <Leader>u :e $MYVIMRC<CR>      " edit my vimrc file
-nmap <Leader>U :!e $MYVIMRC<CR>      " edit my vimrc file !EVERYONE BE CAREFUL"
+nmap <Leader>u :sp $MYVIMRC<CR>      " edit my vimrc file
+nmap <Leader>U :!sp $MYVIMRC<CR>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap <Leader>r :source $MYVIMRC<CR> " update the system settings from my vimrc file
 nmap <Leader>R :!source $MYVIMRC<CR> " update the system settings from my vimrc file
 
@@ -353,7 +378,7 @@ au FileType unite call s:unite_settings()
 " TODO make open in split window on command
 function s:unite_settings()
    " inoremap <silent><buffer><expr><C-v> :call unite#mappings#do_action('vsplit')
-   nmap <C-x> :call unite#mappings#do_action('vsplit')<CR>
+   nmap <C-x> :call unite#mappings#do_action("gedit_vsplit")<CR>
    " imap <C-v> <Esc>j:call unite#mappings#do_action('vsplit')<CR>
 endfunction
 
@@ -428,6 +453,7 @@ nmap <Leader>ht :helptags $VIMRUNTIME/doc<CR>
 
 """ Tags
 nmap g[ :tag<CR>
+
 "" TODO
 function FunCreateTagsAtDir(dir)
 endfunction

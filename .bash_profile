@@ -26,7 +26,9 @@ export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 
-# There si a CWD environment variable but it needs to be set in initProject
+# There is a CWD environment set in initProject to avoid being reset
+
+export SCHEME=$(head -n 1 ~/bin/current_scheme.txt) 
 
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 
@@ -93,7 +95,7 @@ alias cm="vim ${HOME}/.muttrc"
 alias ca="vim ${HOME}/.mutt/aliases"
 # alias cvp="vim ${HOME}/.vimperatorrc"
 alias cvp="vim ${HOME}/.pentadactylrc"
-alias cvf="vim ${HOME}/.vifm"
+alias cvf="vim ${HOME}/.vifmrc"
 alias cws="vim ${HOME}/bin/ws"
 
 alias cvf="vim ${HOME}/.vifmrc"
@@ -115,8 +117,16 @@ function vimn() {
 ### Databases 
 alias mysqld="${MYSQL_HOME}/bin/mysqld --basedir=${MYSQL_HOME} &"
 
-#----------------------------------- Helper functions ----------------------------------#
+### Scheme
+alias schhb='eval `change-scheme grb256`'
+alias schgh='eval `change-scheme github`'
 
+#----------------------------------- Helper functions ----------------------------------#
+# To configure a kill function split the ps ax output by spaces and count the 
+# in from the left until a string containing the identifier is found
+# In the example below 'mysql' is in the path 5 from the left so we set the 
+# number in the awk expression to $5
+# 1809   ??  S      4:11.12 /Users/john/dev/apps/mysql/bin/mysqld --basedir=/Users/john/dev/apps/mysql
 # kill mysql process
 killMySql() {
    kill -9 `ps ax | awk '$5~/.*mysql.*/ { print $1 }'`
@@ -142,6 +152,13 @@ killSolr() {
    kill -9 `ps ax | awk '$12~/.*runSolr*/ { print $1 }'`
 }
 
+# kill gradle process
+killRails() {
+   kill -9 `ps ax | awk '$6~/.*rails*/ { print $1 }'`
+}
+
+# first argument is init directory and second is command run in bottom window
+
 # first argument is init directory and second is command run in bottom window
 initProject() {
    # Don't close pane if one of the programs is closed (I think this needs to be set at   
@@ -158,6 +175,18 @@ initProject() {
    tmux select-pane -U
    # for future windows, revert r-o-e to global value
    # tmux set -u set-remain-on-exit
+}
+
+# first argument is init directory, no second argument because no 
+# process
+initIDEProject() {
+   # Editor pane
+   tmux new-window -c $1 -n $1 "vim"
+   tmux setenv CWD $1
+   # Spare pane
+   tmux split-window -c "#{pane_current_path}" -v -p 50 
+   # Select editor pane
+   tmux select-pane -L
 }
 
 initConfigs() {
@@ -184,7 +213,6 @@ export SVIMS=${HOME}/dev/svims
 alias cdsv="cd ${SVIMS}"
 alias mysqls="mysql -Dsvims -usvims -psvims"
 alias grf="gradle flow"
-
 svims() {
    initProject $SVIMS/$1 "gradle bootRun"
 }
@@ -192,7 +220,13 @@ svims() {
 ## Zuma 
 export ZUMA=${DEV}/zuma_cms
 alias cdz="cd ${ZUMA}"
+alias psqlz="psql -d zuma"
 zuma() {
    initProject $ZUMA "rails s"
 }
 
+# PocketLab
+export POCKETLAB=${DEV}/pocketlab-android
+pocketlab() {
+   initIDEProject $POCKETLAB 
+}

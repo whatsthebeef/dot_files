@@ -58,8 +58,8 @@ color status  white      blue      # status lines in the folder index sed for th
 color tree   red       default     # the "tree" display of threads within the folder index  
 color search  white      blue      # search matches found with search within the internal pager  
 color markers  red       default     # The markers indicate a wrapped line  
-color index   yellow default '~O'  
-color index   yellow default '~N'  
+color index   red default '~O'  
+color index   red default '~N'  
 color index   brightred    default '~F'  # Flagged Messages are important!  
 color index   blue default  '~D'      # Deleted Mails - use dark color as these are already "dealt with"  
 # identifies email addresses  

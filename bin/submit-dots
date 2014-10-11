@@ -1,0 +1,11 @@
+#!/usr/local/bin/bash
+
+dot_repo=~/dev/dot_files
+
+rsync -av --exclude=.DS_Store --exclude=Trash --exclude=.git --exclude=cache ~/.muttrc ~/.vimrc ~/.vifmrc ~/.tmux.conf ~/.lynxrc ~/.pentadactylrc ~/.bash_profile ~/.mutt ~/bin ~/.vim ~/.vifm $dot_repo
+cd $dot_repo
+git add --all .
+git commit -m "Auto commit"
+git push origin master
+cd -
+

@@ -1,0 +1,57 @@
+#!/usr/local/bin/bash
+# Check out the bash version it's weird
+# It'd from brew, it has been updated to handle associative arrays
+
+# search engines
+engineD="https://next.duckduckgo.com?q="
+engineG="https://www.google.com/search?q="
+engineDT="http://3g2upl4pq6kufc4m.onion/lite?q="
+engineS="https://startpage.com/do/search?q="
+engine=$engineS
+
+# favourites (must be string without space)
+declare -A favourites
+favourites["g"]="http://guardian.co.uk"
+favourites["i"]="https://firstlook.org/theintercept"
+favourites["b"]="https://bbc.co.uk/news"
+favourites["s"]="https://startpage.com"
+
+if [ $# -ne 0 ]
+then
+   for f in "${!favourites[@]}"
+   do
+      if [ $f = $1 ]
+      then 
+         open "${favourites["$f"]}"
+         exit
+      fi
+   done
+   urlPattern=".+\..+"
+   if [[ $1 =~ $urlPattern ]]
+   then
+      protocolPattern="http.+"
+      if [[ $1 =~ $protocolPattern ]]
+      then 
+         open $1
+      else
+         open "http://$1"
+      fi
+   else
+      url=$engine
+      for i in $@
+      do
+         url=$url$i+
+      done
+      open $url
+   fi
+else
+   read in
+   if [ -z "$in" ] 
+   then 
+      echo "Usage : ws <query string | stdin>"
+      exit
+   fi
+   x=$(echo $in | sed 's/[ ;]/\+/g')
+   open $engine$x
+fi
+

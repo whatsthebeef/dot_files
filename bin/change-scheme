@@ -1,0 +1,11 @@
+#!/usr/local/bin/bash
+
+# Change terminal theme
+osascript ~/bin/change-scheme.scpt $1
+
+# Persist to file so it can be read across terminal windows
+echo $1 > ~/bin/current_scheme.txt
+
+# Export scheme name to set as environment variable by eval
+# perhaps in an alias
+echo "export SCHEME=$1"

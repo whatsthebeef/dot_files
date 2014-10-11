@@ -1,9 +1,13 @@
 " Treat file as vim config
 " vim: set ft=vim:
 
+set defsearch=startpage  
+
 " Reload config
 map <C-r> :source /Users/john/.pentadactylrc<CR>
 " map <C-r> :source /Users/john/.vimperatorrc<CR>
+
+" nmap <Leader>ds :set defsearch=startpage  
 
 " More vim like movement
 nmap l <CR>
@@ -11,32 +15,46 @@ nmap L :forward<CR>
 nmap i gi<C-t>
 tmap <CR> i<Cr>
 
+nmap J 10<Down>
+nmap K 10<Up>
+
 " Map quick marks to normal marks
 nmap \' go
 nmap m M
+map , <Leader>
 
 " q for quit
 nmap q :tabclose<CR>
+nmap cc <M-A-k>
+nmap ce <M-A-i>
 
+" Language
+nmap <Leader>e :o http://www.wordreference.com/esen/
+nmap <Leader>s :o http://www.wordreference.com/enes/
+nmap <Leader>o :o http://stackoverflow.com/search?q=
+
+" Qmarks
 qmark a http://bitbucket.org
 qmark b http://bbc.co.uk/news
-qmark g http://guardian.co.uk
+qmark g http://www.theguardian.com/uk
 qmark i https://firstlook.org/theintercept
 qmark h https://github.com/whatsthebeef
 qmark n http://www.thenation.com/blogs/ali-gharib
 qmark t http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1
 qmark y http://www.youtube.com
 qmark m http://www.mutt.org/doc/manual/
+qmark e http://eztv.it
 
 """ CSS
 " style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
-style * :focus {background:yellow;} 
+style * :focus {background:yellow !important; color:black !important} 
 
 """ Javascript
 js <<EOM
 
 var ddg = "3g2upl4pq6kufc4m.onion/lite";
-var spResults = "startpage.com/do/search";
+// var spResults = "startpage.com/do/search";
+var spResults = "startpage.com";
 var spSearch = "startpage.com/$";
 var bbc = "bbc";
 
@@ -103,8 +121,14 @@ var isFunction = function(obj) {
 };
 
 var matchesHref = function(string) {
-   var re = new RegExp(string);
-   return re.test(bWindow.location.href);
+   if(isFunction(string)) {
+      return string()
+   }
+   else {
+      var re = new RegExp(string);
+      return re.test(bWindow.location.href);
+   }
+
 }
 
 var feedKeys = function(keys) {
@@ -127,6 +151,7 @@ var backInNewTab = function() {
 }
 
 var resultList = function(selector) {
+   var _url = bWindow.location.href;
    var results = bWindow.document.querySelectorAll(selector);
    var position = 0;
    return {
@@ -140,6 +165,12 @@ var resultList = function(selector) {
       },
       focus : function(i) {
          results[i].focus();
+      },
+      empty : function() {
+         return !(results && results.length > 0);
+      },
+      url : function() {
+         return _url;
       }
    };
 }
@@ -161,12 +192,17 @@ var focusResult = function(i) {
    currentResultList.focus(i);
 }
 
+var resultListExists = function() {
+   return (currentResultList && bWindow.location.href == currentResultList.url() 
+      && !currentResultList.empty());
+}
+
 var yankFocus = function() {
    var href = bWindow.document.activeElement.getAttribute("href");
 }
 
-mapper("j", "10<Down>", [{filter:"("+ddg+"|"+spResults+"|"+bbc+")", mapTo:nextResult}]);
-mapper("k", "10<Up>",   [{filter:"("+ddg+"|"+spResults+"|"+bbc+")", mapTo:previousResult}]);
+mapper("j", "10<Down>", [{filter:resultListExists, mapTo:nextResult}]);
+mapper("k", "10<Up>",   [{filter:resultListExists, mapTo:previousResult}]);
 
 mapper("h", function(){ 
    shouldInit = false;
@@ -176,8 +212,8 @@ mapper("h", function(){
 mapper("<C-l>", openInNewTab );
 mapper("<C-h>", backInNewTab );
 
-linkMapper("t", spSearch);
-linkMapper("T", spSearch, true);
+linkMapper("s", spSearch);
+linkMapper("S", spSearch, true);
 linkMapper("d", ddg);
 linkMapper("D", ddg, true);
 
@@ -187,6 +223,9 @@ initPages = function() {
    bWindow.onload = function(){
       init(ddg+"/", initResultList, "a.result-link");
       init(spResults, initResultList, ".result h3 a");
+      init("bbc", initResultList, "h2 > a, h3 > a");
+      init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");
+      init("theintercept/$", initResultList, "h1 > a");
       if(shouldInit) {
          init(ddg+"/", focusResult, 0);
          init(spResults, focusResult, 0);
