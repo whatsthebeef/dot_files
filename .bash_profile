@@ -28,7 +28,9 @@ export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 
 # There is a CWD environment set in initProject to avoid being reset
 
-export SCHEME=$(head -n 1 ~/bin/current_scheme.txt) 
+# Sets SCHEME environment variable and terminal color scheme
+# using whats in the current_scheme.txt
+change-scheme $(head -n 1 ~/bin/current_scheme.txt) > /dev/null 
 
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 
