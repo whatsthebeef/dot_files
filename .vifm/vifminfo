@@ -1,0 +1,457 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'M
+	/Users/john/dev/gemas/trunk/common-app/common-cargador-catalogos/src/main/resources
+	catalogosCargaApplicationContext.xml
+1400601033
+'a
+	/Users/john/dev/zuma_cms/app/models
+	concerns/
+1411016190
+'b
+	/Users/john/bin/
+	../
+1399483948
+'c
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/sae-app/sae-camel-rest/src/main/java/mx/gob/inm/gemas/camel/sae/beans
+	RestABeanRouter.java
+1399675410
+'d
+	/Users/john/dev/zuma_cms/public/images/voucher
+	../
+1410218735
+'g
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/common-web/common-resources-impl/src/main/java/mx/gob/inm/gemas/web/rest/resources
+	seguridad/
+1399659958
+'h
+	/Users/john/
+	../
+1400601929
+'j
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/control-app/control-modelo/src/main/resources/META-INF
+	control-persistence.xml
+1399330287
+'k
+	/Users/john/dev/zuma_cms/public/images/voucher
+	pic1/
+1410218816
+'l
+	/Users/john/dev/gemas/gemas_z/gemas-osgi
+	legal-app/
+1399564875
+'m
+	/Users/john/dev/govcountability/app/views/static_pages
+	home.html.erb
+1402720853
+'n
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/gemas-persistence/src/main/java/mx/gob/inm/gemas/core/persona/impl
+	FachadaPersonaFactoryImpl.java
+1399992762
+'p
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app
+	gemas-persistence/
+1399481636
+'q
+	/Users/john/dev/zuma_cms/db/migrate
+	20140918052735_add_pic1_upload_pic2_upload_pic3_upload_to_vouchers.rb
+1411018649
+'r
+	/Users/john/dev/govcountability
+	app/
+1402522076
+'s
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/control-app/control-web/control-web-client/src/main/webapp/WEB-INF
+	web.xml
+1399680842
+'u
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/common-web/common-resources-impl/src/main/java/mx/gob/inm/gemas/web/rest/resources/seguridad/impl
+	UsuarioResourceImpl.java
+1399590321
+'v
+	/Users/john/bin
+	search
+1399232769
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/Users/john/dev/zuma_cms
+	public/
+9
+d/Users/john/dev/zuma_cms/public
+	../
+0
+d/Users/john/dev/zuma_cms
+	test/
+10
+d/Users/john/dev/zuma_cms/test
+	../
+0
+d/Users/john/dev/zuma_cms
+	tmp/
+11
+d/Users/john/dev/zuma_cms/tmp
+	../
+0
+d/Users/john/dev/zuma_cms
+	vendor/
+12
+d/Users/john/dev/zuma_cms/vendor
+	../
+0
+d/Users/john/dev/zuma_cms
+	etl/
+6
+d/Users/john/dev/zuma_cms/etl
+	CPdescarga.txt
+1
+d/Users/john/dev/zuma_cms
+	lib/
+7
+d/Users/john/dev/zuma_cms/lib
+	tasks/
+4
+d/Users/john/dev/zuma_cms/lib/tasks
+	etl.rake
+2
+d/Users/john/dev/zuma_cms
+	lib/
+7
+d/Users/john
+	Applications/
+40
+d/Users/john/Applications
+	../
+0
+d/Users/john
+	Library/
+4
+d/Users
+	john/
+3
+d/Users/john
+	.itmstransporter/
+17
+d/Users/john/bin
+	../
+0
+d/Users/john
+	dev/
+19
+d/Users/john/dev
+	vim_setup/
+13
+d/Users/john/dev/vim_setup
+	.mutt/
+2
+d/Users/john/dev/vim_setup/.mutt
+	../
+0
+d/Users/john/dev/vim_setup
+	.mutt/
+2
+d/Users/john/dev
+	vim_setup/
+13
+d/Users/john/dev/vim_setup
+	.mutt/
+2
+d/Users/john/dev
+	useful_commands/
+10
+d/Users/john/dev/useful_commands
+	../
+0
+d/Users/john/dev
+	vim_setup/
+13
+d/Users/john/dev/vim_setup
+	.mutt/
+2
+d/Users/john/dev
+	unite.vim/
+9
+d/Users/john
+	.vim/
+37
+d/Users/john/.vim
+	autoload/
+1
+d/Users/john/.vim/autoload
+	conque_term/
+1
+d/Users/john/.vim/autoload/conque_term
+	../
+0
+d/Users/john/.vim/autoload
+	conque_term/
+1
+d/Users/john/.vim
+	autoload/
+1
+d/Users/john/.vim/autoload
+	camelcasemotion.vim
+1
+d/Users/john/.vim
+	bundle/
+2
+d/Users/john/.vim/bundle
+	../
+0
+d/Users/john/.vim
+	colors/
+3
+d/Users/john/.vim/colors
+	../
+0
+d/Users/john/.vim
+	compiler/
+4
+d/Users/john/.vim/compiler
+	../
+0
+d/Users/john/.vim
+	doc/
+5
+d/Users/john/.vim/doc
+	tags
+5
+d/Users/john/.vim
+	ftdetect/
+6
+d/Users/john/.vim/ftdetect
+	../
+0
+d/Users/john/.vim
+	indent/
+7
+d/Users/john/.vim/indent
+	../
+0
+d/Users/john/.vim
+	plugin/
+8
+d/Users/john/.vim/plugin
+	vifm.vim
+4
+d/Users/john/.vim
+	ruby/
+9
+d/Users/john/.vim/ruby
+	../
+0
+d/Users/john/.vim
+	plugin/
+8
+d/Users/john/.vim/plugin
+	vifm.vim
+4
+d/Users/john/.vim
+	ruby/
+9
+d/Users/john/.vim/ruby
+	../
+0
+d/Users/john/.vim
+	syntax/
+10
+d/Users/john/.vim/syntax
+	../
+0
+d/Users/john/.vim
+	ruby/
+9
+d/Users/john/.vim/ruby
+	command-t/
+1
+d/Users/john/.vim/ruby/command-t
+	../
+0
+d/Users/john/.vim/ruby
+	command-t/
+1
+d/Users/john/.vim
+	plugin/
+8
+d/Users/john/.vim/plugin
+	vifm.vim
+3
+d/Users/john/.vim
+	indent/
+7
+d/Users/john/.vim/indent
+	../
+0
+d/Users/john/.vim
+	ftdetect/
+6
+d/Users/john/.vim/ftdetect
+	../
+0
+d/Users/john/.vim
+	doc/
+5
+d/Users/john/.vim/doc
+	tags
+4
+d/Users/john/.vim
+	compiler/
+4
+d/Users/john/.vim/compiler
+	../
+0
+d/Users/john/.vim
+	colors/
+3
+d/Users/john/.vim/colors
+	../
+0
+d/Users/john/.vim
+	bundle/
+2
+d/Users/john/.vim/bundle
+	tcomment_vim/
+2
+d/Users/john/.vim/bundle/tcomment_vim
+	../
+0
+d/Users/john/.vim/bundle
+	../
+0
+d/Users/john/.vim
+	colors/
+3
+d/Users/john/.vim/colors
+	../
+0
+d/Users/john/.vim
+	compiler/
+4
+d/Users/john/.vim/compiler
+	../
+0
+d/Users/john/.vim
+	doc/
+5
+d/Users/john/.vim/doc
+	tags
+5
+d/Users/john/.vim
+	bundle/
+2
+d/Users/john/.vim/bundle
+	../
+0
+d/Users/john/.vim
+	colors/
+3
+d/Users/john/.vim/colors
+	../
+0
+d/Users/john/.vim
+	compiler/
+4
+d/Users/john/.vim/compiler
+	../
+0
+d/Users/john/.vim
+	doc/
+5
+d/Users/john/.vim/doc
+	bundler.txt
+2
+d/Users/john/.vim
+	bundle/
+2
+d/Users/john/.vim/bundle
+	tcomment_vim/
+2
+d/Users/john/.vim
+	autoload/
+1
+d/Users/john/.vim/autoload
+	../
+0
+d/Users/john/.vim
+	autoload/
+1
+d
+
+# Right window history (oldest to newest):
+D/Users/john
+	Desktop/
+2
+D/Users
+	john/
+3
+D/Users/john
+	Downloads/
+4
+D/Users/john/Downloads
+	../
+0
+D/Users/john
+	dev/
+18
+D/Users/john/dev
+	zuma_cms/
+63
+D/Users/john/dev/zuma_cms
+	test/
+9
+D
+
+# Command line history (oldest to newest):
+:mkdir voucher
+:mkdir pic1
+:mkdir pic2
+:mkdir pic3
+:q
+
+# Search history (oldest to newest):
+/pock
+/vim
+/dev
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/Users/john/.vifm/Trash/000_tcomment.vim
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/Users/john/.vifm/Trash/000_conque_term
+	/Users/john/.vim/autoload/conque_term
+t/Users/john/.vifm/Trash/000_conque_term.txt
+	/Users/john/.vim/doc/conque_term.txt
+t/Users/john/.vifm/Trash/000_conque_term.vim
+	/Users/john/.vim/plugin/conque_term.vim
+t/Users/john/.vifm/Trash/000_command-t.txt
+	/Users/john/.vim/doc/command-t.txt
+t/Users/john/.vifm/Trash/001_conque_term.vim
+	/Users/john/.vim/autoload/conque_term.vim
+t/Users/john/.vifm/Trash/000_tcomment.vim
+	/Users/john/.vim/autoload/tcomment.vim
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].1
+]F
+s0
