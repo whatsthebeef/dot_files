@@ -30,7 +30,7 @@ export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 
 # Sets SCHEME environment variable and terminal color scheme
 # using whats in the current_scheme.txt
-change-scheme $(head -n 1 ~/bin/current_scheme.txt) > /dev/null 
+eval `change-scheme $(head -n 1 ~/bin/current_scheme.txt)` 
 
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 
