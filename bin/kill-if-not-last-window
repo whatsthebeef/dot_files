@@ -1,0 +1,11 @@
+#!/usr/local/bin/bash
+
+# Current window and pane
+output=`tmux display-message -p #I`
+
+# last window
+if [[ ! $output =~ .*\ 0:.* ]]; then 
+   tmux kill-window
+else
+   echo $output
+fi   

@@ -84,192 +84,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/zuma_cms
-	public/
-9
-d/Users/john/dev/zuma_cms/public
-	../
-0
-d/Users/john/dev/zuma_cms
-	test/
-10
-d/Users/john/dev/zuma_cms/test
-	../
-0
-d/Users/john/dev/zuma_cms
-	tmp/
-11
-d/Users/john/dev/zuma_cms/tmp
-	../
-0
-d/Users/john/dev/zuma_cms
-	vendor/
-12
-d/Users/john/dev/zuma_cms/vendor
-	../
-0
-d/Users/john/dev/zuma_cms
-	etl/
-6
-d/Users/john/dev/zuma_cms/etl
-	CPdescarga.txt
-1
-d/Users/john/dev/zuma_cms
-	lib/
-7
-d/Users/john/dev/zuma_cms/lib
-	tasks/
-4
-d/Users/john/dev/zuma_cms/lib/tasks
-	etl.rake
-2
-d/Users/john/dev/zuma_cms
-	lib/
-7
-d/Users/john
-	Applications/
-40
-d/Users/john/Applications
-	../
-0
-d/Users/john
-	Library/
-4
-d/Users
-	john/
-3
-d/Users/john
-	.itmstransporter/
-17
-d/Users/john/bin
-	../
-0
-d/Users/john
-	dev/
-19
-d/Users/john/dev
-	vim_setup/
-13
-d/Users/john/dev/vim_setup
-	.mutt/
-2
-d/Users/john/dev/vim_setup/.mutt
-	../
-0
-d/Users/john/dev/vim_setup
-	.mutt/
-2
-d/Users/john/dev
-	vim_setup/
-13
-d/Users/john/dev/vim_setup
-	.mutt/
-2
-d/Users/john/dev
-	useful_commands/
-10
-d/Users/john/dev/useful_commands
-	../
-0
-d/Users/john/dev
-	vim_setup/
-13
-d/Users/john/dev/vim_setup
-	.mutt/
-2
-d/Users/john/dev
-	unite.vim/
-9
-d/Users/john
-	.vim/
-37
-d/Users/john/.vim
-	autoload/
-1
-d/Users/john/.vim/autoload
-	conque_term/
-1
-d/Users/john/.vim/autoload/conque_term
-	../
-0
-d/Users/john/.vim/autoload
-	conque_term/
-1
-d/Users/john/.vim
-	autoload/
-1
-d/Users/john/.vim/autoload
-	camelcasemotion.vim
-1
-d/Users/john/.vim
-	bundle/
-2
-d/Users/john/.vim/bundle
-	../
-0
-d/Users/john/.vim
-	colors/
-3
-d/Users/john/.vim/colors
-	../
-0
-d/Users/john/.vim
-	compiler/
-4
-d/Users/john/.vim/compiler
-	../
-0
-d/Users/john/.vim
-	doc/
-5
-d/Users/john/.vim/doc
-	tags
-5
-d/Users/john/.vim
-	ftdetect/
-6
-d/Users/john/.vim/ftdetect
-	../
-0
-d/Users/john/.vim
-	indent/
-7
-d/Users/john/.vim/indent
-	../
-0
-d/Users/john/.vim
-	plugin/
-8
-d/Users/john/.vim/plugin
-	vifm.vim
-4
-d/Users/john/.vim
-	ruby/
-9
-d/Users/john/.vim/ruby
-	../
-0
-d/Users/john/.vim
-	plugin/
-8
-d/Users/john/.vim/plugin
-	vifm.vim
-4
-d/Users/john/.vim
-	ruby/
-9
-d/Users/john/.vim/ruby
-	../
-0
-d/Users/john/.vim
-	syntax/
-10
-d/Users/john/.vim/syntax
-	../
-0
-d/Users/john/.vim
-	ruby/
-9
 d/Users/john/.vim/ruby
 	command-t/
 1
@@ -384,6 +198,192 @@ d/Users/john/.vim/autoload
 d/Users/john/.vim
 	autoload/
 1
+d/Users/john/dev/dot_files
+	../
+0
+d/Users/john/dev
+	dot_files/
+4
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	../
+0
+d/Users/john/dev/dot_files
+	.vifm/
+3
+d/Users/john/dev/dot_files/.vifm
+	colors/
+1
+d/Users/john/dev/dot_files/.vifm/colors
+	../
+0
+d/Users/john/dev/dot_files/.vifm
+	colors/
+1
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	../
+0
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	../
+0
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	autoload/
+1
+d/Users/john/dev/dot_files/.vim/autoload
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	plugin/
+9
+d/Users/john/dev/dot_files/.vim/plugin
+	../
+0
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	nerdtree_plugin/
+8
+d/Users/john/dev/dot_files/.vim/nerdtree_plugin
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	ruby/
+10
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim/ruby/command-t
+	../
+0
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim
+	ruby/
+10
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	ruby/
+9
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim/ruby/command-t
+	../
+0
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim
+	ruby/
+9
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	ruby/
+9
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	autoload/
+1
+d/Users/john/dev/dot_files/.vim/autoload
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	bundle/
+2
+d/Users/john/dev/dot_files/.vim/bundle
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	colors/
+3
+d/Users/john/dev/dot_files/.vim/colors
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	compiler/
+4
+d/Users/john/dev/dot_files/.vim/compiler
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	doc/
+5
+d/Users/john/dev/dot_files/.vim/doc
+	git-vim.txt
+3
+d/Users/john/dev/dot_files/.vim
+	ftdetect/
+6
+d/Users/john/dev/dot_files/.vim/ftdetect
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	indent/
+7
+d/Users/john/dev/dot_files/.vim/indent
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	plugin/
+8
+d/Users/john/dev/dot_files/.vim/plugin
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	syntax/
+9
+d/Users/john/dev/dot_files/.vim/syntax
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	syntax/
+9
+d/Users/john/dev/dot_files/.vim/syntax
+	git-diff.vim
+1
+d/Users/john/dev/dot_files/.vim
+	.VimballRecord
+10
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	.VimballRecord
+10
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	plugin/
+8
+d/Users/john/dev/dot_files/.vim/plugin
+	../
+0
 d
 
 # Right window history (oldest to newest):
@@ -427,7 +427,7 @@ D
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/.vifm/Trash/000_tcomment.vim
+""/Users/john/dev/dot_files/.vim/.VimballRecord
 
 # Directory stack (oldest to newest):
 
@@ -444,6 +444,26 @@ t/Users/john/.vifm/Trash/001_conque_term.vim
 	/Users/john/.vim/autoload/conque_term.vim
 t/Users/john/.vifm/Trash/000_tcomment.vim
 	/Users/john/.vim/autoload/tcomment.vim
+t/Users/john/.vifm/Trash/000_camelcasemotion.vim
+	/Users/john/.vim/autoload/camelcasemotion.vim
+t/Users/john/.vifm/Trash/000_rails.vim
+	/Users/john/.vim/autoload/rails.vim
+t/Users/john/.vifm/Trash/000_camelcasemotion.txt
+	/Users/john/.vim/doc/camelcasemotion.txt
+t/Users/john/.vifm/Trash/001_camelcasemotion.vim
+	/Users/john/.vim/plugin/camelcasemotion.vim
+t/Users/john/.vifm/Trash/000_command-t.vim
+	/Users/john/.vim/plugin/command-t.vim
+t/Users/john/.vifm/Trash/000_ruby
+	/Users/john/.vim/ruby
+t/Users/john/.vifm/Trash/000_git-diff.vim
+	/Users/john/.vim/syntax/git-diff.vim
+t/Users/john/.vifm/Trash/000_git-log.vim
+	/Users/john/.vim/syntax/git-log.vim
+t/Users/john/.vifm/Trash/000_git-status.vim
+	/Users/john/.vim/syntax/git-status.vim
+t/Users/john/.vifm/Trash/000_test.html
+	/Users/john/.vim/test.html
 
 # State:
 f

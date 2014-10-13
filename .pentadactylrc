@@ -24,7 +24,7 @@ nmap m M
 map , <Leader>
 
 " q for quit
-nmap q :tabclose<CR>
+" nmap q :tabclose<CR>
 nmap cc <M-A-k>
 nmap ce <M-A-i>
 
@@ -201,6 +201,13 @@ var yankFocus = function() {
    var href = bWindow.document.activeElement.getAttribute("href");
 }
 
+var removeIfNotFirstTab = function() {
+   var tabIndex = getBrowser().selectedTab._tPos;
+   if(tabIndex != 0) {
+      getBrowser().removeTab(getBrowser().selectedTab);
+   }
+}
+
 mapper("j", "10<Down>", [{filter:resultListExists, mapTo:nextResult}]);
 mapper("k", "10<Up>",   [{filter:resultListExists, mapTo:previousResult}]);
 
@@ -211,6 +218,7 @@ mapper("h", function(){
 
 mapper("<C-l>", openInNewTab );
 mapper("<C-h>", backInNewTab );
+mapper("q", removeIfNotFirstTab );
 
 linkMapper("s", spSearch);
 linkMapper("S", spSearch, true);

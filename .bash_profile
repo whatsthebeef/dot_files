@@ -40,16 +40,16 @@ export EDITOR=/usr/bin/vim
 
 #--------------------------------------- Config -------------------------------------------#
 
+### Tmux
+if [[ ! $TERM =~ screen ]]; then
+    exec tmux
+fi
+
 ### Vim in bash
 set -o vi
 
 ### RVM
 [[ -s "${HOME}/.rvm/scripts/rvm" ]] && source "${HOME}/.rvm/scripts/rvm" 
-
-### Tmux
-if [[ ! $TERM =~ screen ]]; then
-    exec tmux
-fi
 
 ### Source control
 ## Git
@@ -154,9 +154,14 @@ killSolr() {
    kill -9 `ps ax | awk '$12~/.*runSolr*/ { print $1 }'`
 }
 
-# kill gradle process
+# kill rails process
 killRails() {
    kill -9 `ps ax | awk '$6~/.*rails*/ { print $1 }'`
+}
+
+# kill rails process
+killJava() {
+   kill -9 `ps ax | awk '$5~/.*java*/ { print $1 }'`
 }
 
 # first argument is init directory and second is command run in bottom window
@@ -167,7 +172,7 @@ initProject() {
    # the start of a session
    # tmux set -u set-remain-on-exit on
    # Editor pane
-   tmux new-window -c $1 -n $1 "vim"
+   tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
    tmux setenv CWD $1
    # Process pane
    tmux split-window -c "#{pane_current_path}" -v -p 25 "$2"
@@ -232,3 +237,4 @@ export POCKETLAB=${DEV}/pocketlab-android
 pocketlab() {
    initIDEProject $POCKETLAB 
 }
+
