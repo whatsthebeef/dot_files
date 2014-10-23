@@ -61,7 +61,7 @@ set noiec
 
 " Selected color scheme
 
-colorscheme Default
+colorscheme juef-zenburn
 
 " The FUSE_HOME directory will be used as a root dir for all FUSE mounts.
 " Unless it exists with write/exec permissions set, vifm will attempt to
@@ -291,10 +291,10 @@ nmap O :!gvim %f<cr>
 nmap gb :file &<cr>l
 
 " Yank current directory path into the clipboard
-nmap yd :!echo %d | xclip %i<cr>
+nmap yd :!echo %d | pbcopy %i<cr>
 
 " Yank current file path into the clipboard
-nmap yf :!echo %c:p | xclip %i<cr>
+nmap yf :!echo %c:p | pbcopy %i<cr>
 
 " Mappings for faster renaming
 nmap I cw<c-a>
@@ -302,10 +302,10 @@ nmap cc cw<c-u>
 nmap A cw<c-w>
 
 " Opening console in current directory
-nmap ,t :!xterm &<cr>
+nmap ,t :!tmux split-window -c %d<CR>
 
 " Opening vim to edit .vifmrc
-nmap ,u :execute ':!vim $MYVIFMRC' | restart<cr>
+nmap ,u :execute ':!vim $MYVIFMRC' | restart<CR>
 nmap ,r :source $MYVIFMRC<CR> 
 " Opening gvim to edit .vifmrc
 " nmap ,C :!gvim --remote-tab-silent $MYVIFMRC &<cr>

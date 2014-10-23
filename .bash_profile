@@ -61,6 +61,18 @@ git config --global difftool.prompt false
 
 #--------------------------------------- Aliases ------------------------------------------#
 
+### Vim
+alias vim=/usr/bin/vim
+
+## open in note search
+function vimn() {
+   vim -c "SearchNotes /$@/";
+}
+
+### Vifm
+## hack to make vifm close into current vifm location
+alias vifm='source ~/bin/vf'
+
 ### Navigation
 alias ..="cd .."
 alias ...="cd ../../../"
@@ -105,16 +117,6 @@ alias cbr="source ${HOME}/.bash_profile"
 alias ctr="tmux source-file ${HOME}/.tmux.conf"
 alias cmr="source ${HOME}/.muttrc"
 alias cvfr="source ${HOME}/.vifmrc"
-
-### Vifm
-## hack to make vifm close into current vifm location
-alias vifm='source ~/bin/vf'
-
-### Vim
-## open in note search
-function vimn() {
-   vim -c "SearchNotes /$@/";
-}
 
 ### Databases 
 alias mysqld="${MYSQL_HOME}/bin/mysqld --basedir=${MYSQL_HOME} &"
@@ -175,7 +177,7 @@ initProject() {
    tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
    tmux setenv CWD $1
    # Process pane
-   tmux split-window -c "#{pane_current_path}" -v -p 25 "$2"
+   tmux split-window -c "#{pane_current_path}" -v -p 25 "source ~/.bash_profile ; $2"
    # Spare pain 
    tmux split-window -c "#{pane_current_path}" -h -p 50  
    # Select editor pane
@@ -188,7 +190,7 @@ initProject() {
 # process
 initIDEProject() {
    # Editor pane
-   tmux new-window -c $1 -n $1 "vim"
+   tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
    tmux setenv CWD $1
    # Spare pane
    tmux split-window -c "#{pane_current_path}" -v -p 50 
@@ -238,3 +240,8 @@ pocketlab() {
    initIDEProject $POCKETLAB 
 }
 
+# PocketLab
+export WEDSTIVAL=${DEV}/wedstival
+wedstival() {
+   initProject $WEDSTIVAL "rails s"
+}

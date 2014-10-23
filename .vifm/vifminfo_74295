@@ -1,0 +1,229 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'M
+	/Users/john/dev/gemas/trunk/common-app/common-cargador-catalogos/src/main/resources
+	catalogosCargaApplicationContext.xml
+1400601033
+'a
+	/Users/john/dev/zuma_cms/app/models
+	concerns/
+1411016190
+'b
+	/Users/john/bin/
+	../
+1399483948
+'c
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/sae-app/sae-camel-rest/src/main/java/mx/gob/inm/gemas/camel/sae/beans
+	RestABeanRouter.java
+1399675410
+'d
+	/Users/john/dev/zuma_cms/public/images/voucher
+	../
+1410218735
+'g
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/common-web/common-resources-impl/src/main/java/mx/gob/inm/gemas/web/rest/resources
+	seguridad/
+1399659958
+'h
+	/Users/john/
+	../
+1400601929
+'j
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/control-app/control-modelo/src/main/resources/META-INF
+	control-persistence.xml
+1399330287
+'k
+	/Users/john/dev/zuma_cms/public/images/voucher
+	pic1/
+1410218816
+'l
+	/Users/john/dev/gemas/gemas_z/gemas-osgi
+	legal-app/
+1399564875
+'m
+	/Users/john/dev/govcountability/app/views/static_pages
+	home.html.erb
+1402720853
+'n
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/gemas-persistence/src/main/java/mx/gob/inm/gemas/core/persona/impl
+	FachadaPersonaFactoryImpl.java
+1399992762
+'p
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app
+	gemas-persistence/
+1399481636
+'q
+	/Users/john/dev/zuma_cms/db/migrate
+	20140918052735_add_pic1_upload_pic2_upload_pic3_upload_to_vouchers.rb
+1411018649
+'r
+	/Users/john/dev/govcountability
+	app/
+1402522076
+'s
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/control-app/control-web/control-web-client/src/main/webapp/WEB-INF
+	web.xml
+1399680842
+'u
+	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/common-web/common-resources-impl/src/main/java/mx/gob/inm/gemas/web/rest/resources/seguridad/impl
+	UsuarioResourceImpl.java
+1399590321
+'v
+	/Users/john/bin
+	search
+1399232769
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/Users/john/dev/dot_files/.vifm/colors
+	../
+0
+d/Users/john/dev/dot_files/.vifm
+	colors/
+1
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	../
+0
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	../
+0
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	autoload/
+1
+d/Users/john/dev/dot_files/.vim/autoload
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	plugin/
+9
+d/Users/john/dev/dot_files/.vim/plugin
+	../
+0
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	nerdtree_plugin/
+8
+d/Users/john/dev/dot_files/.vim/nerdtree_plugin
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	ruby/
+10
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim/ruby/command-t
+	../
+0
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim
+	ruby/
+10
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	ruby/
+9
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim/ruby/command-t
+	../
+0
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files/.vim
+	ruby/
+9
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	ruby/
+9
+d/Users/john/dev/dot_files/.vim/ruby
+	command-t/
+1
+d/Users/john/dev/dot_files
+	.vim/
+4
+d/Users/john/dev/dot_files/.vim
+	autoload/
+1
+d/Users/john/dev/dot_files/.vim/autoload
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	bundle/
+2
+d/Users/john/dev/dot_files/.vim/bundle
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	colors/
+3
+d/Users/john/dev/dot_files/.vim/colors
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	compiler/
+4
+d/Users/john/dev/dot_files/.vim/compiler
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	doc/
+5
+d/Users/john/dev/dot_files/.vim/doc
+	git-vim.txt
+3
+d/Users/john/dev/dot_files/.vim
+	ftdetect/
+6
+d/Users/john/dev/dot_files/.vim/ftdetect
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	indent/
+7
+d/Users/john/dev/dot_files/.vim/indent
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	plugin/
+8
+d/Users/john/dev/dot_files/.vim/plugin
+	../
+0
+d/Users/john/dev/dot_files/.vim
+	syntax/
+9
+d/Users/john/dev/dot_files/.vim/syntax
+	../

@@ -43,7 +43,7 @@ let mapleader=','
 
 syntax on           " syntax highlighing
 
-set statusline=%{fugitive#statusline()} " This means the status is only useful when working in git repo
+" set statusline=%{fugitive#statusline()} " This means the status is only useful when working in git repo
 set ls=2            " always show status line
 set tabstop=3       " numbers of spaces of tab character
 set shiftwidth=3    " numbers of spaces to (auto)indent
@@ -175,7 +175,7 @@ endfunction
 call unite#custom#action("file,buffer", "gedit_vsplit", my_gedit_vsplit)
 unlet my_gedit_vsplit
 
-call unite#custom#default_action("file,buffer", "gedit") 
+"" call unite#custom#default_action("file,buffer", "gedit") 
 """ Notes
 let g:notes_directories = ['~/Documents/Notes']
 
@@ -294,6 +294,9 @@ function! FunDeleteSwapFile()
    "    echo l:swpFile." delete failed"
    " endif
 endfunction
+
+""" Html
+imap ,/ </<C-X><C-O>
 
 """ Clear spaces at end of lines, also removes all the other $
 " map <leader>W :%s/\s\+\$$//<CR>:let @/=''<CR>
