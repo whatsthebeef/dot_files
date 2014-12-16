@@ -25,6 +25,7 @@ export DEV=${HOME}/dev
 export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
+export NEO4J=${DEV}/apps/neo4j-community-2.1.5
 
 # There is a CWD environment set in initProject to avoid being reset
 
@@ -75,16 +76,15 @@ alias vifm='source ~/bin/vf'
 
 ### Navigation
 alias ..="cd .."
-alias ...="cd ../../../"
-alias ....="cd ../../../../"
-alias .....="cd ../../../../"
-alias .4="cd ../../../../"
-alias .5="cd ../../../../.."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
 alias cddl="cd ${DL}"
 alias cdsmx="cd ${SMX}"
 alias cddev="cd ${DEV}"
 alias cdvim="cd ${VIMHOME}"
 alias cdmutt="cd ${MUTTHOME}"
+alias cdn4="cd ${NEO4J}"
 
 ### Standard bash
 alias la="ls -alG"
@@ -99,6 +99,27 @@ alias grb="gradle build"
 
 ## Pretty colours
 PS1="\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033[01;34m\]\w \[\033[00;34m\]}\[\033[01;32m\]-> \[\033[00m\]"
+
+# http://linuxgazette.net/137/anonymous.html
+cursor_style_default=0 # hardware cursor (blinking)
+cursor_style_invisible=1 # hardware cursor (blinking)
+cursor_style_underscore=2 # hardware cursor (blinking)
+cursor_style_lower_third=3 # hardware cursor (blinking)
+cursor_style_lower_half=4 # hardware cursor (blinking)
+cursor_style_two_thirds=5 # hardware cursor (blinking)
+cursor_style_full_block_blinking=6 # hardware cursor (blinking)
+cursor_style_full_block=16 # software cursor (non-blinking)
+
+cursor_background_black=0 # same color 0-15 and 128-infinity
+cursor_background_blue=16 # same color 16-31
+cursor_background_green=32 # same color 32-47
+cursor_background_cyan=48 # same color 48-63
+cursor_background_red=64 # same color 64-79
+cursor_background_magenta=80 # same color 80-95
+cursor_background_yellow=96 # same color 96-111
+cursor_background_white=112 # same color 112-127
+
+cursor_styles="\e[?${cursor_style_full_block};${cursor_foreground_black};${cursor_background_green};c" # only seems to work in tty
 
 ### Config files
 alias cb="vim ${HOME}/.bash_profile"
@@ -132,6 +153,11 @@ alias schgh='eval `change-scheme github`'
 # number in the awk expression to $5
 # 1809   ??  S      4:11.12 /Users/john/dev/apps/mysql/bin/mysqld --basedir=/Users/john/dev/apps/mysql
 # kill mysql process
+
+killVifm() {
+   kill -9 `ps ax | awk '$5~/.*vifm.*/ { print $1 }'`
+}
+
 killMySql() {
    kill -9 `ps ax | awk '$5~/.*mysql.*/ { print $1 }'`
 }
@@ -167,8 +193,6 @@ killJava() {
 }
 
 # first argument is init directory and second is command run in bottom window
-
-# first argument is init directory and second is command run in bottom window
 initProject() {
    # Don't close pane if one of the programs is closed (I think this needs to be set at   
    # the start of a session
@@ -177,9 +201,11 @@ initProject() {
    tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
    tmux setenv CWD $1
    # Process pane
-   tmux split-window -c "#{pane_current_path}" -v -p 25 "source ~/.bash_profile ; $2"
+   tmux split-window -c "#{pane_current_path}" -v -p 25 
    # Spare pain 
-   tmux split-window -c "#{pane_current_path}" -h -p 50  
+   if [ ! -z "$2" ]; then
+      tmux split-window -c "#{pane_current_path}" -h -p 50 "source ~/.bash_profile ; $2" 
+   fi
    # Select editor pane
    tmux select-pane -U
    # for future windows, revert r-o-e to global value
@@ -240,8 +266,32 @@ pocketlab() {
    initIDEProject $POCKETLAB 
 }
 
-# PocketLab
+# Wedstival
 export WEDSTIVAL=${DEV}/wedstival
 wedstival() {
    initProject $WEDSTIVAL "rails s"
+}
+
+# Visiens
+export VISIENS=${DEV}/govcountability
+visiens() {
+   initProject $VISIENS "rails s"
+}
+
+# Visiens server
+export VISIENS_SERVER=${DEV}/visiens
+visiensServer() {
+   initProject $VISIENS_SERVER "cd $NEO4J"
+}
+
+# IICS wordpress server
+export IICS=${DEV}/iics_wordpress
+iics() {
+   initProject $IICS 
+}
+
+# IICS main server
+export IICS_MAIN=${DEV}/iics_main_site
+iics_main() {
+   initProject $IICS_MAIN 
 }

@@ -12,7 +12,7 @@ map <C-r> :source /Users/john/.pentadactylrc<CR>
 " More vim like movement
 nmap l <CR>
 nmap L :forward<CR>
-nmap i gi<C-t>
+nmap i gi<C-t>i
 tmap <CR> i<Cr>
 
 nmap J 10<Down>

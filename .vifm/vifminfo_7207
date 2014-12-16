@@ -1,0 +1,549 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'b
+	/Users/john/bin/
+	../
+1414711952
+'h
+	/Users/john/
+	../
+1414711952
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/s5flex_menu
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	s5flex_menu/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/s5flex_menu
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	responsive/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/responsive
+	responsive_mobile_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/responsive/responsive_mobile_menu
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/responsive
+	responsive_mobile_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	includes/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/includes
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	iewarning/
+3
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning
+	images/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning/images
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning
+	images/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning/images
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning
+	images/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning/images
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/iewarning
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	compression/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/compression
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	admin/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex/admin
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/vertex
+	3Gdropdown2.png
+7
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	social/
+8
+d/Users/john/dev/iics_main_site/templates/sports_nation/social
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	language/
+7
+d/Users/john/dev/iics_main_site/templates/sports_nation/language
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	cache/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/cache
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	css/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	css/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	xml/
+10
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	img/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/img
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	img/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/img
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	language/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/language
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	language/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/language
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	img/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/img
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	img/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	xml/
+10
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	language/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/language
+	en-GB/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/language/en-GB
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/language
+	en-GB/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	img/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml/img
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/xml
+	Vertex.xml
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+3
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_s5_box/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_s5_box
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_s5_box/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_s5_box
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_s5_box/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+3
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site
+	modules/
+29
+d/Users/john/dev/iics_main_site/modules
+	mod_s5_box/
+28
+d/Users/john/dev/iics_main_site/modules/mod_s5_box
+	images/
+2
+d/Users/john/dev/iics_main_site/modules/mod_s5_box/images
+	internet_explorer/
+1
+d/Users/john/dev/iics_main_site/modules/mod_s5_box
+	tmpl/
+4
+d/Users/john/dev/iics_main_site/modules/mod_s5_box/tmpl
+	index.html
+2
+d/
+	Users/
+5
+d/Users
+	john/
+3
+d/Users/john
+	dev/
+18
+d/Users/john/dev
+	iics_main_site/
+22
+d/Users/john/dev/iics_main_site
+	modules/
+29
+d/Users/john/dev/iics_main_site/modules
+	mod_s5_box/
+28
+d/Users/john/dev/iics_main_site/modules/mod_s5_box
+	tmpl/
+4
+d/Users/john/dev/iics_main_site/modules/mod_s5_box/tmpl
+	index.html
+2
+d/Users/john/dev/iics_main_site/modules/mod_s5_box
+	js/
+3
+d/Users/john/dev/iics_main_site/modules/mod_s5_box/js
+	s5box.js
+5
+d/Users/john/dev/iics_main_site
+	modules/
+29
+d/Users/john/dev
+	iics_main_site/
+22
+d/Users/john
+	dev/
+18
+d/Users/john/dev
+	iics_main_site/
+22
+d/Users/john/dev/iics_main_site
+	images/
+16
+d/Users/john/dev/iics_main_site/images
+	nea.png
+45
+d/Users/john/dev/wedstival
+	db/
+4
+d/Users/john/dev/wedstival/db
+	migrate/
+1
+d/Users/john/dev/wedstival/db/migrate
+	20141204192557_add_received_invite.rb
+5
+d/Users/john/dev/wedstival
+	db/
+4
+d/Users/john/dev/wedstival/db
+	migrate/
+1
+d/Users/john/dev/wedstival/db/migrate
+	20141204192557_add_received_invite.rb
+5
+d/Users/john/dev/wedstival
+	app/
+1
+d/Users/john/dev/wedstival/app
+	assets/
+1
+d/Users/john/dev/wedstival/app/assets
+	images/
+1
+d/Users/john/dev/wedstival/app/assets/images
+	pecking_chicken_pecking.png
+18
+d/Users/john/dev/wedstival
+	config/
+3
+d/Users/john/dev/wedstival/config
+	initializers/
+2
+d/Users/john/dev/wedstival/config/initializers
+	../
+0
+d/Users/john/dev/wedstival/config
+	initializers/
+2
+d/Users/john/dev/wedstival
+	config/
+3
+d/Users/john/dev/wedstival/config
+	initializers/
+2
+d/Users/john/dev/wedstival/config/initializers
+	session_store.rb
+7
+d/Users/john/dev/wedstival/config
+	initializers/
+2
+d
+
+# Right window history (oldest to newest):
+D/Users/john/dev/visiens/src
+	main/
+1
+D/Users/john/dev/visiens/src/main
+	java/
+1
+D/Users/john/dev/visiens/src/main/java
+	visiens/
+1
+D/Users/john/dev/visiens/src/main
+	resources/
+2
+D/Users/john/dev/visiens/src/main/resources
+	spring/
+1
+D/Users/john/dev/visiens/src/main/resources/spring
+	server-context.xml
+1
+D/Users/john/dev/visiens/src/main/resources
+	spring/
+1
+D/Users/john/dev/visiens/src/main
+	java/
+1
+D/Users/john/dev/visiens/src/main/java
+	visiens/
+1
+D/Users/john/dev/visiens/src/main/java/visiens
+	server/
+1
+D/Users/john/dev/visiens/src/main/java/visiens/server
+	api/
+1
+D/Users/john/dev/visiens/src/main/java/visiens/server/api
+	resource/
+5
+D/Users/john/dev/visiens/src/main/java/visiens/server/api/resource
+	EntityResource.java
+4
+D/Users/john/dev/visiens
+	target/
+2
+D/Users/john/dev/visiens/target
+	classes/
+2
+D/
+	Users/
+5
+D/Users
+	john/
+3
+D/Users/john
+	Dropbox/
+5
+D/Users/john/Dropbox
+	../
+0
+D/Users/john
+	Downloads/
+4
+D/Users/john/Downloads
+	wordpress/
+3
+D/Users/john/Downloads/wordpress
+	wp-admin/
+1
+D/Users/john/Downloads
+	../
+0
+D
+
+# Command line history (oldest to newest):
+:e send_invite.text.erb
+:e rsvp.html.erb
+:e sl-prototypes.js
+:e visualizations.css.scss
+:e property_value.rb
+:e new_model.html.erb
+:e mixed_model.rb
+:e graph.rb
+:cd $NEO4j
+:cd $NEO4J
+:cd $VISIENS_SERVERV
+:cd $VISIENS_SERVER
+:e entity_helper.rb
+:w!
+:e loadable.rb
+:e _model_speciof
+:e
+:e _model_specific_fields
+:e _model_specific_fields.html.erb
+:mkdir labelled_property_holders
+:cd $VISIENS
+:mkdir entity_drafts
+:e draft.r
+:mkdir concerns
+:e actionable.rb
+:e smlable.rb
+:mkdir iics_wordpress_new
+:mkdir gallery
+:tyar 
+:tar -xzf gallery.tar.gz
+:tar -xzf ./gallery.tar.gz
+:h tar
+:Vimuntar
+:e _search_bar.html
+:e 
+:mkdir drafts
+:drafts_
+:grep iics-k12.net/tempate
+:grep iics-k12.net/templates
+:hk
+:grep "iics-k12.net"
+:grep iics-k12.net
+:grep dark
+:grep dark.css
+:e setup.mail
+:e setup_mail.rb
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+pmasterfrontbox1.jpg
+pstatement.html.erb
+p_entity.html.erb
+p_entities.html.erb
+psearch.js.erb
+pgrapsh.js
+pvisualizations.js
+pdrafts.html.erb
+pentity_drafts_controller.rb
+pentity_drafts.rb
+pentity_draft.rb
+pEntityDraftBuilder.java
+pEntityDraftLoader.java
+pentity_drafts
+pentity_helper.rb
+pgraphs_controller.rb
+pgraphs
+previseable.rb
+pmodel.rb
+paccion_drafts_controller.rb
+paccion_draft.rb
+plabelled_property_holders
+pdraft.rb
+paccionable.rb
+pmatch.html.erb
+pvisualization.html.erb
+pr
+pdrafts_controller.rb
+pmasterfrontbox1.jpg.bak
+p20141204192557_add_received_invite.rb
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/Users/john/.vifm/Trash/000_setup_mail.rb
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/Users/john/.vifm/Trash/000_entity_helper.rb
+	/Users/john/dev/govcountability/app/helpers/entity_helper.rb
+t/Users/john/.vifm/Trash/000_entity_drafts.rb
+	/Users/john/dev/govcountability/app/models/entity_drafts.rb
+t/Users/john/.vifm/Trash/000_EntityDraftLoader.java
+	/Users/john/dev/visiens/src/main/java/visiens/server/api/query/result/loader/EntityDraftLoader.java
+t/Users/john/.vifm/Trash/000__form.html.erb.bak
+	/Users/john/dev/govcountability/app/views/entity_drafts/_form.html.erb.bak
+t/Users/john/.vifm/Trash/000_index.html.erb
+	/Users/john/dev/govcountability/app/views/entity_drafts/index.html.erb
+t/Users/john/.vifm/Trash/000_index.json.jbuilder
+	/Users/john/dev/govcountability/app/views/entity_drafts/index.json.jbuilder
+t/Users/john/.vifm/Trash/010_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/000_entity_drafts
+	/Users/john/dev/govcountability/app/views/entity_drafts
+t/Users/john/.vifm/Trash/011_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/012_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/001__form.html.erb.bak
+	/Users/john/dev/govcountability/app/views/entities/_form.html.erb.bak
+t/Users/john/.vifm/Trash/000_CatalogResource.java
+	/Users/john/dev/visiens/src/main/java/visiens/server/api/resource/CatalogResource.java
+t/Users/john/.vifm/Trash/000__form.html.erb
+	/Users/john/dev/govcountability/app/views/entities/_form.html.erb
+t/Users/john/.vifm/Trash/001__form.html.erb
+	/Users/john/dev/govcountability/app/views/accions/_form.html.erb
+t/Users/john/.vifm/Trash/013_1
+	/Users/john/dev/govcountability/app/views/accions/1
+t/Users/john/.vifm/Trash/014_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/001_index.html.erb
+	/Users/john/dev/govcountability/app/views/graphs/index.html.erb
+t/Users/john/.vifm/Trash/015_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/000_pages
+	/Users/john/dev/govcountability/app/views/pages
+t/Users/john/.vifm/Trash/000_reviseable.rb
+	/Users/john/dev/govcountability/app/models/concerns/reviseable.rb
+t/Users/john/.vifm/Trash/000_concerns
+	/Users/john/dev/govcountability/app/models/concerns
+t/Users/john/.vifm/Trash/000_actionable.rb
+	/Users/john/dev/govcountability/app/models/concerns/actionable.rb
+t/Users/john/.vifm/Trash/000_\
+	/Users/john/\
+t/Users/john/.vifm/Trash/000_20141204192557_add_sent_invite.rb
+	/Users/john/dev/wedstival/db/migrate/20141204192557_add_sent_invite.rb
+t/Users/john/.vifm/Trash/000_email.yml
+	/Users/john/dev/wedstival/config/email.yml
+t/Users/john/.vifm/Trash/000_setup_mail.rb
+	/Users/john/dev/wedstival/config/setup_mail.rb
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

@@ -1,4 +1,7 @@
 # Sets up mail box in your home folder  
+
+set smtp_authenticators = 'gssapi:login'
+
 set mbox_type=maildir  
 set mbox="~/mail/inbox/"  
 set spoolfile="~/mail/inbox/"  

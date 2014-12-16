@@ -1,82 +1,18 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Bookmarks:
-'M
-	/Users/john/dev/gemas/trunk/common-app/common-cargador-catalogos/src/main/resources
-	catalogosCargaApplicationContext.xml
-1400601033
-'a
-	/Users/john/dev/zuma_cms/app/models
-	concerns/
-1411016190
 'b
 	/Users/john/bin/
 	../
-1399483948
-'c
-	/Users/john/dev/wedstival/app/views/static_pages
-	contacts.html.erb
-1413580164
-'d
-	/Users/john/dev/zuma_cms/public/images/voucher
-	../
-1410218735
-'g
-	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/common-web/common-resources-impl/src/main/java/mx/gob/inm/gemas/web/rest/resources
-	seguridad/
-1399659958
+1414711952
 'h
 	/Users/john/
 	../
-1400601929
-'j
-	/Users/john/dev/gemas/gemas_z/gemas-osgi/control-app/control-modelo/src/main/resources/META-INF
-	control-persistence.xml
-1399330287
-'k
-	/Users/john/dev/zuma_cms/public/images/voucher
-	pic1/
-1410218816
-'l
-	/Users/john/dev/gemas/gemas_z/gemas-osgi
-	legal-app/
-1399564875
-'m
-	/Users/john/dev/govcountability/app/views/static_pages
-	home.html.erb
-1402720853
-'n
-	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/gemas-persistence/src/main/java/mx/gob/inm/gemas/core/persona/impl
-	FachadaPersonaFactoryImpl.java
-1399992762
-'p
-	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app
-	gemas-persistence/
-1399481636
-'q
-	/Users/john/dev/zuma_cms/db/migrate
-	20140918052735_add_pic1_upload_pic2_upload_pic3_upload_to_vouchers.rb
-1411018649
-'r
-	/Users/john/dev/govcountability
-	app/
-1402522076
-'s
-	/Users/john/dev/gemas/gemas_z/gemas-osgi/control-app/control-web/control-web-client/src/main/webapp/WEB-INF
-	web.xml
-1399680842
-'u
-	/Users/john/dev/gemas/gemas_z/gemas-osgi/common-app/common-web/common-resources-impl/src/main/java/mx/gob/inm/gemas/web/rest/resources/seguridad/impl
-	UsuarioResourceImpl.java
-1399590321
-'v
-	/Users/john/bin
-	search
-1399232769
+1414711952
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -84,341 +20,568 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/wedstival/app/views/guests
-	new.html.erb
-2
-d/Users/john/dev/wedstival/app/views/layouts
-	application.html.erb
+d/Users/john/dev/wedstival/app/views
+	admin/
 1
-d/Users/john/dev/wedstival/app/models
-	group.rb
-2
-d/Users/john/dev/wedstival/app/helpers
+d/Users/john/dev/wedstival/app/views/admin
+	shared/
+6
+d/Users/john/dev/wedstival/app/views/admin/shared
 	../
 0
-d/Users/john/dev/wedstival/app/controllers
-	groups_controller.rb
-3
-d/Users/john/dev/wedstival/app/views/requests
-	new.html.erb
+d/Users/john/dev/wedstival/app/views/admin
+	admin/
 1
+d/Users/john/dev/wedstival/app/views/admin/admin
+	../
+0
+d/Users/john/dev/wedstival/app/views/admin
+	admin/
+1
+d/Users/john/dev/wedstival/app/views
+	admin/
+1
+d/Users/john/dev/wedstival/app/views/admin
+	group_mailer/
+1
+d/Users/john/dev/wedstival/app/views
+	groups/
+3
 d/Users/john/dev/wedstival/app/views/groups
 	../
 0
-d/Users/john
-	Desktop/
-2
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	views/
-6
 d/Users/john/dev/wedstival/app/views
-	shared/
-3
-d/Users/john/dev/wedstival/app/views/shared
-	_title.html.erb
+	group_mailer/
 2
-d/Users/john/dev/wedstival
-	config/
-3
-d/Users/john/dev/wedstival/config
-	environments/
-1
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	views/
-6
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	assets/
-1
-d/Users/john/dev/wedstival/app/assets
-	javascripts/
-2
-d/Users/john/dev/wedstival/app/assets/javascripts
-	world.js
-4
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	views/
-6
-d/Users/john/dev/wedstival/app/views
-	static_pages/
-4
-d/Users/john/dev/wedstival/app/views/static_pages
+d/Users/john/dev/wedstival/app/views/group_mailer
 	../
 0
+d/Users/john/dev/wedstival/app/views
+	admin/
+1
+d/Users/john/dev/wedstival/app/views/admin
+	groups/
+1
+d/Users/john/dev/wedstival/app/views/admin/groups
+	index.html.erb
+3
+d/Users/john/dev/wedstival/app/views/admin
+	groups/
+1
+d/Users/john/dev/wedstival/app/views
+	groups/
+3
+d/Users/john/dev/wedstival/app/views/groups
+	../
+0
+d/Users/john/dev/wedstival/app/views
+	groups/
+3
+d/Users/john/dev/wedstival/app
+	views/
+6
+d/Users/john/dev/wedstival/app/views
+	admin/
+1
+d/Users/john/dev/wedstival/app/views/admin
+	guests/
+1
+d/Users/john/dev/wedstival/app/views/admin/guests
+	../
+0
+d/Users/john/dev/wedstival/app/views/admin
+	main_page.html.erb
+1
 d/Users/john/dev/wedstival/app/views
 	requests/
-2
-d/Users/john/dev/wedstival/app
-	views/
 6
-d/Users/john/dev/wedstival
-	app/
+d/Users/john/dev/wedstival/app/views/requests
+	index.html.erb
 1
-d/Users/john/dev/wedstival/app
-	assets/
-1
-d/Users/john/dev/wedstival/app/assets
-	stylesheets/
-3
-d/Users/john/dev/wedstival/app/assets/stylesheets
-	application.css
-1
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	assets/
-1
-d/Users/john/dev/wedstival/app/assets
-	stylesheets/
-3
-d/Users/john/dev/wedstival/app/assets/stylesheets
-	application.css
-1
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	assets/
-1
-d/Users/john/dev/wedstival/app/assets
-	stylesheets/
-3
-d/Users/john/dev/wedstival/app
-	views/
-6
 d/Users/john/dev/wedstival/app/views
 	shared/
+7
+d/Users/john/dev/wedstival/app
+	models/
+5
+d/Users/john/dev/wedstival/app/models
+	concerns/
+1
+d/Users/john/dev/wedstival/app
+	helpers/
 3
-d/Users/john/dev/wedstival/app/views/shared
-	_title.html.erb
-3
+d/Users/john/dev/wedstival/app/helpers
+	../
+0
+d/Users/john/dev/wedstival/app
+	assets/
+1
+d/Users/john/dev/wedstival/app/assets
+	images/
+1
+d/Users/john/dev/wedstival/app
+	controllers/
+2
+d/Users/john/dev/wedstival
+	lib/
+5
+d/Users/john/dev/wedstival/lib
+	../
+0
 d/Users/john/dev/wedstival
 	app/
 1
 d/Users/john/dev/wedstival/app
-	views/
-6
-d/Users/john/dev/wedstival/app/views
-	static_pages/
-4
-d/Users/john/dev/wedstival/app/views/static_pages
-	all.html.erb
-1
-d/Users/john/dev/zuma_cms
-	db/
-4
-d/Users/john/dev/zuma_cms/db
-	migrate/
-1
-d/Users/john/dev/zuma_cms/db/migrate
-	20140918204940_add_pic1_pic2_and_pic3_to_vouchers.rb
-1
-d/Users/john/dev/zuma_cms/db
-	migrate/
-1
-d/Users/john/dev/zuma_cms
-	app/
-1
-d/Users/john/dev/zuma_cms/app
 	controllers/
 2
-d/Users/john/dev/zuma_cms/app/controllers
+d/Users/john/dev/wedstival/app/controllers
+	admin_controller.rb
+2
+d/Users/john/dev/svims/visa-web
 	../
 0
-d/Users/john/dev/zuma_cms/app
+d/Users/john/dev/svims
+	inspection-web/
+15
+d/Users/john/dev/svims/inspection-web
+	build/
+2
+d/Users/john/dev/svims/inspection-web/build
+	../
+0
+d/Users/john/dev/svims/inspection-web
+	src/
+4
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	java/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java
+	com/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com
+	svims/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
+	inspection/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
+	web/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection/web
+	editors/
+3
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
+	web/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
+	inspection/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
+	web/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
+	inspection/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com
+	svims/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java
+	com/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	java/
+1
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	java/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java
+	com/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com
+	svims/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
+	inspection/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
+	web/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection/web
+	editors/
+3
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
+	web/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
+	inspection/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java/com
+	svims/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java
+	com/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	java/
+1
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	java/
+1
+d/Users/john/dev/svims/inspection-web/src/main/java
+	com/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	java/
+1
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web
+	src/
+4
+d/Users/john/dev/svims
+	inspection-web/
+15
+d/Users/john/dev/svims/inspection-web
+	src/
+4
+d/Users/john/dev/svims
+	inspection-web/
+15
+d/Users/john/dev/svims/inspection-web
+	src/
+4
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	resources/
+2
+d/Users/john/dev/svims/inspection-web/src/main/resources
+	../
+0
+d/Users/john/dev/svims/inspection-web/src/main
+	resources/
+2
+d/Users/john/dev/svims/inspection-web/src/main/resources
 	views/
-6
-d/Users/john/dev/zuma_cms/app/views
-	layouts/
 2
-d/Users/john/dev/zuma_cms/app
-	models/
-5
-d/Users/john/dev/zuma_cms/app/models
+d/Users/john/dev/svims/inspection-web/src/main/resources/views
 	../
 0
-d/Users/john/dev/zuma_cms/app
-	mailers/
-4
-d/Users/john/dev/zuma_cms/app/mailers
-	../
-0
-d/Users/john/dev/zuma_cms/app
-	mailers/
-4
-d/Users/john/dev/zuma_cms/app/mailers
-	../
-0
-d/Users/john/dev/zuma_cms/app
-	assets/
-1
-d/Users/john/dev/zuma_cms
-	db/
-4
-d/Users/john/dev/zuma_cms/db
-	migrate/
-1
-d/Users/john/dev/zuma_cms/db/migrate
-	20141021233637_add_category_to_retailers.rb
-4
-d/Users/john/dev/zuma_cms
-	config/
-3
-d/Users/john/dev/zuma_cms/config
-	initializers/
-3
-d/Users/john/dev/zuma_cms/config/initializers
-	../
-0
-d/Users/john/dev/zuma_cms/config
-	locales/
-4
-d/Users/john/dev/zuma_cms/config/locales
-	es/
-1
-d/Users/john/dev/zuma_cms/config/locales/es
-	admin.yml
+d/Users/john/dev/svims/inspection-web/src/main/resources
+	views/
 2
+d/Users/john/dev/svims/inspection-web/src/main
+	resources/
+2
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web
+	src/
+4
+d/Users/john/dev/svims/inspection-web/src
+	main/
+1
+d/Users/john/dev/svims/inspection-web/src/main
+	resources/
+2
+d/Users/john/dev/svims/inspection-web/src/main/resources
+	com/
+1
+d/Users/john/dev/svims/inspection-web/src/main/resources/com
+	svims/
+1
+d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims
+	inspection/
+1
+d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection
+	messages/
+1
+d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection/messages
+	messages_en.properties
+1
+d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection
+	statics/
+2
+d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection/statics
+	js/
+2
+d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection/statics/js
+	svims-inspection-1.0.0.js
+1
 d
 
 # Right window history (oldest to newest):
+D/Users/john/dev/visiens/src
+	main/
+1
+D/Users/john/dev/visiens/src/main
+	java/
+1
+D/Users/john/dev/visiens/src/main/java
+	visiens/
+1
+D/Users/john/dev/visiens/src/main
+	resources/
+2
+D/Users/john/dev/visiens/src/main/resources
+	spring/
+1
+D/Users/john/dev/visiens/src/main/resources/spring
+	server-context.xml
+1
+D/Users/john/dev/visiens/src/main/resources
+	spring/
+1
+D/Users/john/dev/visiens/src/main
+	java/
+1
+D/Users/john/dev/visiens/src/main/java
+	visiens/
+1
+D/Users/john/dev/visiens/src/main/java/visiens
+	server/
+1
+D/Users/john/dev/visiens/src/main/java/visiens/server
+	api/
+1
+D/Users/john/dev/visiens/src/main/java/visiens/server/api
+	resource/
+5
+D/Users/john/dev/visiens/src/main/java/visiens/server/api/resource
+	EntityResource.java
+4
+D/Users/john/dev/visiens
+	target/
+2
+D/Users/john/dev/visiens/target
+	classes/
+2
+D/
+	Users/
+5
+D/Users
+	john/
+3
 D/Users/john
+	Dropbox/
+5
+D/Users/john/Dropbox
+	../
+0
+D/Users/john
+	Downloads/
+4
+D/Users/john/Downloads
+	wordpress/
+3
+D/Users/john/Downloads/wordpress
+	wp-admin/
+1
+D/Users/john/Downloads
 	../
 0
 D
 
 # Command line history (oldest to newest):
-:mkdir groups
-:mkdir guests
-:h vifm-:fileviewer
-:h vifm-:file
-:e maps.js
-:h window
-:h lk
-:e hotel_maps.html.erb
+:mkdir errors
+:error404.html.erb
+:e error404.html.erb
+:mkdir images
+:e _send_invite_button.html.erb
+:w 
+:e main.js
+:e send_invite.text.erb
+:e rsvp.html.erb
+:e sl-prototypes.js
+:e visualizations.css.scss
+:e property_value.rb
+:e new_model.html.erb
+:e mixed_model.rb
+:e graph.rb
+:cd $NEO4j
+:cd $NEO4J
+:cd $VISIENS_SERVERV
+:cd $VISIENS_SERVER
+:e entity_helper.rb
+:e loadable.rb
+:e _model_speciof
+:e
+:e _model_specific_fields
+:e _model_specific_fields.html.erb
+:mkdir labelled_property_holders
+:cd $VISIENS
+:mkdir entity_drafts
+:e draft.r
+:mkdir concerns
+:e actionable.rb
+:e smlable.rb
+:mkdir iics_wordpress_new
+:mkdir gallery
+:tyar 
+:tar -xzf gallery.tar.gz
+:tar -xzf ./gallery.tar.gz
+:h tar
+:Vimuntar
+:e _search_bar.html
+:e 
+:mkdir drafts
+:drafts_
+:grep iics-k12.net/tempate
+:grep iics-k12.net/templates
+:hk
+:grep "iics-k12.net"
+:grep iics-k12.net
+:grep dark
+:grep dark.css
+:e setup.mail
+:e setup_mail.rb
+:e email.yml
+:w
+:q
+:mkdir shared
+:e groups_helper.rb
+:w!
+:mkdir admin
+:mkdir 
+:e custom_public_exceptions.rb
+:e errors_controller.rb
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
-photel_mapshtml.erb
-photel_map.html.erb
-papplication_without_footer.html.erb
-pbase_layout.html.erb
-pgroup.rb
-pguest.rb
-pgroups_controller.rb
-pguests_controller.rb
-pindex.html.erb
-pmixins.css.scss
-pmain.css.scss
+po
+p_group.html.erb
+padmin_controller.rb
+pmain_page.html.erb
+pmasterfrontbox1.jpg
+pstatement.html.erb
+p_entity.html.erb
+p_entities.html.erb
+psearch.js.erb
+pgrapsh.js
+pvisualizations.js
+pdrafts.html.erb
+pentity_drafts_controller.rb
+pentity_drafts.rb
+pentity_draft.rb
+pEntityDraftBuilder.java
+pEntityDraftLoader.java
+pentity_drafts
+pentity_helper.rb
+pgraphs_controller.rb
+pgraphs
+previseable.rb
+pmodel.rb
+paccion_drafts_controller.rb
+paccion_draft.rb
+plabelled_property_holders
+pdraft.rb
+paccionable.rb
+pmatch.html.erb
+pvisualization.html.erb
+pdrafts_controller.rb
+pmasterfrontbox1.jpg.bak
+p20141204192557_add_received_invite.rb
 pr
-p_footer.html.erb
-p20141021233637_add_category_to_retailers.rb
+pedit.html.erb
+ps
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/.vifm/Trash/007_1
+""/Users/john/.vifm/Trash/000_requests
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/Users/john/.vifm/Trash/000_conque_term
-	/Users/john/.vim/autoload/conque_term
-t/Users/john/.vifm/Trash/000_conque_term.txt
-	/Users/john/.vim/doc/conque_term.txt
-t/Users/john/.vifm/Trash/000_conque_term.vim
-	/Users/john/.vim/plugin/conque_term.vim
-t/Users/john/.vifm/Trash/000_command-t.txt
-	/Users/john/.vim/doc/command-t.txt
-t/Users/john/.vifm/Trash/001_conque_term.vim
-	/Users/john/.vim/autoload/conque_term.vim
-t/Users/john/.vifm/Trash/000_tcomment.vim
-	/Users/john/.vim/autoload/tcomment.vim
-t/Users/john/.vifm/Trash/000_camelcasemotion.vim
-	/Users/john/.vim/autoload/camelcasemotion.vim
-t/Users/john/.vifm/Trash/000_rails.vim
-	/Users/john/.vim/autoload/rails.vim
-t/Users/john/.vifm/Trash/000_camelcasemotion.txt
-	/Users/john/.vim/doc/camelcasemotion.txt
-t/Users/john/.vifm/Trash/001_camelcasemotion.vim
-	/Users/john/.vim/plugin/camelcasemotion.vim
-t/Users/john/.vifm/Trash/000_command-t.vim
-	/Users/john/.vim/plugin/command-t.vim
-t/Users/john/.vifm/Trash/000_ruby
-	/Users/john/.vim/ruby
-t/Users/john/.vifm/Trash/000_git-diff.vim
-	/Users/john/.vim/syntax/git-diff.vim
-t/Users/john/.vifm/Trash/000_git-log.vim
-	/Users/john/.vim/syntax/git-log.vim
-t/Users/john/.vifm/Trash/000_git-status.vim
-	/Users/john/.vim/syntax/git-status.vim
-t/Users/john/.vifm/Trash/000_test.html
-	/Users/john/.vim/test.html
-t/Users/john/.vifm/Trash/000_1
-	/Users/john/dev/wedstival/app/views/static_pages/1
-t/Users/john/.vifm/Trash/000_@
-	/Users/john/dev/wedstival/app/views/static_pages/@
-t/Users/john/.vifm/Trash/000_@!
-	/Users/john/dev/wedstival/app/views/static_pages/@!
-t/Users/john/.vifm/Trash/000_zuma_android.zip
-	/Users/john/dev/zuma_android.zip
-t/Users/john/.vifm/Trash/000_zuma_cms.zip
-	/Users/john/dev/zuma_cms.zip
-t/Users/john/.vifm/Trash/000_reicheltd-light
-	/Users/john/dev/reicheltd-light
-t/Users/john/.vifm/Trash/000_github.vim
-	/Users/john/.vifm/colors/github.vim
-t/Users/john/.vifm/Trash/000_grb256.vim
-	/Users/john/.vifm/colors/grb256.vim
-t/Users/john/.vifm/Trash/000_ir_black.vim
-	/Users/john/.vifm/colors/ir_black.vim
-t/Users/john/.vifm/Trash/000_solarized.vim
-	/Users/john/.vifm/colors/solarized.vim
-t/Users/john/.vifm/Trash/000_summerfruit256.vim
-	/Users/john/.vifm/colors/summerfruit256.vim
-t/Users/john/.vifm/Trash/000_home.html.erb
-	/Users/john/dev/wedstival/app/views/static_pages/home.html.erb
-t/Users/john/.vifm/Trash/001_home.html.erb
-	/Users/john/dev/wedstival/app/assets/images/home.html.erb
-t/Users/john/.vifm/Trash/001_@!
-	/Users/john/dev/wedstival/@!
-t/Users/john/.vifm/Trash/001_1
+t/Users/john/.vifm/Trash/000_entity_helper.rb
+	/Users/john/dev/govcountability/app/helpers/entity_helper.rb
+t/Users/john/.vifm/Trash/000_entity_drafts.rb
+	/Users/john/dev/govcountability/app/models/entity_drafts.rb
+t/Users/john/.vifm/Trash/000_EntityDraftLoader.java
+	/Users/john/dev/visiens/src/main/java/visiens/server/api/query/result/loader/EntityDraftLoader.java
+t/Users/john/.vifm/Trash/000__form.html.erb.bak
+	/Users/john/dev/govcountability/app/views/entity_drafts/_form.html.erb.bak
+t/Users/john/.vifm/Trash/000_index.html.erb
+	/Users/john/dev/govcountability/app/views/entity_drafts/index.html.erb
+t/Users/john/.vifm/Trash/000_index.json.jbuilder
+	/Users/john/dev/govcountability/app/views/entity_drafts/index.json.jbuilder
+t/Users/john/.vifm/Trash/010_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/000_entity_drafts
+	/Users/john/dev/govcountability/app/views/entity_drafts
+t/Users/john/.vifm/Trash/011_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/012_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/001__form.html.erb.bak
+	/Users/john/dev/govcountability/app/views/entities/_form.html.erb.bak
+t/Users/john/.vifm/Trash/000_CatalogResource.java
+	/Users/john/dev/visiens/src/main/java/visiens/server/api/resource/CatalogResource.java
+t/Users/john/.vifm/Trash/000__form.html.erb
+	/Users/john/dev/govcountability/app/views/entities/_form.html.erb
+t/Users/john/.vifm/Trash/001__form.html.erb
+	/Users/john/dev/govcountability/app/views/accions/_form.html.erb
+t/Users/john/.vifm/Trash/013_1
+	/Users/john/dev/govcountability/app/views/accions/1
+t/Users/john/.vifm/Trash/014_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/001_index.html.erb
+	/Users/john/dev/govcountability/app/views/graphs/index.html.erb
+t/Users/john/.vifm/Trash/015_1
+	/Users/john/dev/govcountability/1
+t/Users/john/.vifm/Trash/000_pages
+	/Users/john/dev/govcountability/app/views/pages
+t/Users/john/.vifm/Trash/000_reviseable.rb
+	/Users/john/dev/govcountability/app/models/concerns/reviseable.rb
+t/Users/john/.vifm/Trash/000_concerns
+	/Users/john/dev/govcountability/app/models/concerns
+t/Users/john/.vifm/Trash/000_actionable.rb
+	/Users/john/dev/govcountability/app/models/concerns/actionable.rb
+t/Users/john/.vifm/Trash/000_\
+	/Users/john/\
+t/Users/john/.vifm/Trash/000_20141204192557_add_sent_invite.rb
+	/Users/john/dev/wedstival/db/migrate/20141204192557_add_sent_invite.rb
+t/Users/john/.vifm/Trash/000_email.yml
+	/Users/john/dev/wedstival/config/email.yml
+t/Users/john/.vifm/Trash/000_setup_mail.rb
+	/Users/john/dev/wedstival/config/setup_mail.rb
+t/Users/john/.vifm/Trash/016_1
 	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/000_cache
-	/Users/john/dev/wedstival/tmp/cache
-t/Users/john/.vifm/Trash/000_requests.html.erb
-	/Users/john/dev/wedstival/app/views/static_pages/requests.html.erb
-t/Users/john/.vifm/Trash/000_rsvp.html.erb
-	/Users/john/dev/wedstival/app/views/static_pages/rsvp.html.erb
-t/Users/john/.vifm/Trash/002_1
-	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/003_1
-	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/004_1
-	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/000__footer.html.erb
-	/Users/john/dev/wedstival/app/views/shared/_footer.html.erb
-t/Users/john/.vifm/Trash/005_1
-	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/006_1
-	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/000_20141015161425_add_active_to_retailers.rb
-	/Users/john/dev/zuma_cms/db/migrate/20141015161425_add_active_to_retailers.rb
-t/Users/john/.vifm/Trash/007_1
-	/Users/john/dev/zuma_cms/1
+t/Users/john/.vifm/Trash/000_admin_controller.rb
+	/Users/john/dev/wedstival/app/controllers/admin_controller.rb
+t/Users/john/.vifm/Trash/000_groups_helper.rb
+	/Users/john/dev/wedstival/app/helpers/groups_helper.rb
+t/Users/john/.vifm/Trash/000_admin
+	/Users/john/dev/wedstival/app/controllers/admin
+t/Users/john/.vifm/Trash/001_admin
+	/Users/john/dev/wedstival/app/models/admin
+t/Users/john/.vifm/Trash/000_shared
+	/Users/john/dev/wedstival/app/views/admin/shared
+t/Users/john/.vifm/Trash/002_admin
+	/Users/john/dev/wedstival/app/views/admin/admin
+t/Users/john/.vifm/Trash/000_group_mailer
+	/Users/john/dev/wedstival/app/views/admin/group_mailer
+t/Users/john/.vifm/Trash/000_groups
+	/Users/john/dev/wedstival/app/views/admin/groups
+t/Users/john/.vifm/Trash/000_guests
+	/Users/john/dev/wedstival/app/views/admin/guests
+t/Users/john/.vifm/Trash/000_requests
+	/Users/john/dev/wedstival/app/views/admin/requests
+t/Users/john/.vifm/Trash/000_404.html
+	/Users/john/dev/wedstival/public/404.html
 
 # State:
 f

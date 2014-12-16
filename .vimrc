@@ -54,7 +54,7 @@ set visualbell t_vb=    " turn off error beep/flash
 set novisualbell    " turn off visual bell
 set nobackup        " do not keep a backup file
 set number          " show line numbers
-" set ignorecase      " ignore case when searching
+set ignorecase      " ignore case when searching
 set smartcase       " If capitals are included in the search then take note
 set title           " show title in console title bar
 set ttyfast         " smoother changes
@@ -393,6 +393,8 @@ nmap <Leader>tf :FindTag<Space>
 command AllTags :Unite -keep-focus -no-quit tag
 nmap <Leader>ta :AllTags<CR>
 nmap <Leader>t :execute 'FindTag ' . expand("<cword>")<CR>
+
+nmap <Leader>g :execute 'Ggrep ' . expand("<cword>")<CR>
 
 " Extracts class name from value in clipboard and does tag search - called at start up in tmux script
 " Also if it can find a line number it will add it to the 'l' register
