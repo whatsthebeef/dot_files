@@ -1,0 +1,261 @@
+" Treat file as vim config
+" vim: set ft=vim:
+
+set defsearch=startpage  
+" ignorekeys add https://docs.google.com
+
+" Reload config
+" map <C-r> :source /Users/john/.pentadactylrc<CR>
+map <C-r> :source /Users/john/.vimperatorrc<CR>
+
+" nmap <Leader>ds :set defsearch=startpage  
+
+" More vim like movement
+nmap l <CR>
+nmap L :forward<CR>
+nmap i gi<C-t>i
+" nmap i <Insert>
+tmap <CR> i<Cr>
+
+nmap J 10<Down>
+nmap K 10<Up>
+
+" Map quick marks to normal marks
+nmap \' go
+nmap m M
+map , <Leader>
+
+" q for quit
+" nmap q :tabclose<CR>
+nmap cc <M-A-k>
+nmap ce <M-A-i>
+
+" Language
+nmap <Leader>e :o http://www.wordreference.com/esen/
+nmap <Leader>s :o http://www.wordreference.com/enes/
+nmap <Leader>o :o http://stackoverflow.com/search?q=
+
+" Qmarks
+qmark a http://bitbucket.org
+qmark b http://bbc.co.uk/news
+qmark g http://www.theguardian.com/uk
+qmark k https://dashboard.heroku.com
+qmark i https://firstlook.org/theintercept
+qmark h https://github.com/whatsthebeef
+qmark n http://www.thenation.com/blogs/ali-gharib
+qmark t http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1
+qmark y http://www.youtube.com
+qmark m http://www.mutt.org/doc/manual/
+qmark e http://eztv.it
+
+""" CSS
+" style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
+style * :focus {background:yellow !important; color:black !important} 
+
+""" Javascript
+js <<EOM
+
+var ddg = "3g2upl4pq6kufc4m.onion/lite";
+// var spResults = "startpage.com/do/search";
+var spResults = "startpage.com";
+var duckduckgo = "duckduckgo.com";
+var spSearch = "startpage.com/$";
+var bbc = "bbc";
+
+var init = function(filter, initFunction, args) {
+   if(matchesHref(filter)) {
+      initFunction(args);
+   }
+}
+
+var mapper = function(key, mapTo, exceptions) {
+   mappings.addUserMap(
+      [modes.NORMAL],
+      [key], "",
+      function(){
+         if(exceptions) {
+            for(var i = 0; i < exceptions.length; i++) {
+               if(matchesHref(exceptions[i]["filter"])) {
+                  var m = exceptions[i]["mapTo"];
+                  if(isFunction(m)) {
+                     m();
+                  }
+                  else {
+                     feedKeys(m);
+                  }
+                  return;
+               }
+            }
+         }
+         if(isFunction(mapTo)) {
+            mapTo();
+         }
+         else {
+            feedKeys(mapTo);
+         }
+      }, {}
+   );
+};
+
+var functionMapper = function(key, mapToFunction) {
+   mappings.addUserMap(
+      [modes.NORMAL],
+      [key], "",
+      mapToFunction, {}
+   );
+};
+
+var linkMapper = function(key, link, newTab) {
+   mappings.addUserMap(
+      [modes.NORMAL],
+      [key], "",
+      function(arg) {
+         if(newTab) {
+            liberator.execute("tabopen "+link);
+         }
+         else {
+            liberator.execute("open "+link);
+         }
+      }, {}
+   );
+};
+
+var isFunction = function(obj) {
+  return !!(obj && obj.constructor && obj.call && obj.apply);
+};
+
+var matchesHref = function(string) {
+   if(isFunction(string)) {
+      return string()
+   }
+   else {
+      var re = new RegExp(string);
+      return re.test(bWindow.location.href);
+   }
+
+}
+
+var feedKeys = function(keys) {
+   events.feedkeys(keys);
+}
+
+var backFromResult = function(keys) {
+   events.feedkeys("h");
+}
+
+var openInNewTab  = function() {
+   var href = bWindow.document.activeElement.getAttribute("href");
+   liberator.execute("background tabopen "+href);
+}
+
+var backInNewTab = function() {
+   var href = bWindow.location.href;
+   liberator.execute("background tabopen "+href);
+   liberator.execute("back");
+}
+
+var resultList = function(selector) {
+   var _url = bWindow.location.href;
+   var results = bWindow.document.querySelectorAll(selector);
+   var position = 0;
+   return {
+      next : function() {
+         position = (position < results.length-1) ? position+1 : 0;
+         results[position].focus();
+      },
+      previous : function() {
+         position = (position > 0) ? position-1 : results.length-1;
+         results[position].focus();
+      },
+      focus : function(i) {
+         results[i].focus();
+      },
+      empty : function() {
+         return !(results && results.length > 0);
+      },
+      url : function() {
+         return _url;
+      }
+   };
+}
+
+var currentResultList = null;
+var initResultList = function(selector) {
+   currentResultList = resultList(selector);
+}
+
+var nextResult = function() {
+   currentResultList.next();
+}
+
+var previousResult = function() {
+   currentResultList.previous();
+}
+
+var focusResult = function(i) {
+   currentResultList.focus(i);
+}
+
+var resultListExists = function() {
+   return (currentResultList && bWindow.location.href == currentResultList.url() 
+      && !currentResultList.empty());
+}
+
+var yankFocus = function() {
+   var href = bWindow.document.activeElement.getAttribute("href");
+}
+
+var removeIfNotFirstTab = function() {
+   var tabIndex = getBrowser().selectedTab._tPos;
+   if(tabIndex != 0) {
+      getBrowser().removeTab(getBrowser().selectedTab);
+   }
+}
+
+mapper("j", "10<Down>", [{filter:resultListExists, mapTo:nextResult}]);
+mapper("k", "10<Up>",   [{filter:resultListExists, mapTo:previousResult}]);
+
+mapper("h", function(){ 
+   shouldInit = false;
+   liberator.execute("back");
+});
+
+mapper("<C-l>", openInNewTab );
+mapper("<C-h>", backInNewTab );
+mapper("q", removeIfNotFirstTab );
+
+linkMapper("s", spSearch);
+linkMapper("S", spSearch, true);
+linkMapper("d", duckduckgo);
+linkMapper("D", duckduckgo, true);
+
+var shouldInit = true;
+initPages = function() {
+   bWindow = window.content.window;
+   bWindow.onload = function(){
+      init(ddg+"/", initResultList, "a.result-link");
+      init(duckduckgo+"/", initResultList, "a.result__a");
+      init(spResults, initResultList, ".result h3 a");
+      init("bbc", initResultList, "h2 > a, h3 > a");
+      init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");
+      init("theintercept/$", initResultList, "h1 > a");
+      if(shouldInit) {
+         init(duckduckgo, focusResult, 0);
+         init(ddg+"/", focusResult, 0);
+         init(spResults, focusResult, 0);
+      }
+      else {
+         shouldInit = true; 
+      }
+      init(spSearch, feedKeys, "i");
+      init(ddg+"$", feedKeys, "i");
+   }
+};
+
+EOM
+
+""" Init
+autocmd PageLoad .* :js initPages()
+autocmd LocationChange .* :js initPages()
+
+
