@@ -124,6 +124,7 @@ mark h ~/
 command df df -h %m 2> /dev/null
 command diff vim -d %f %F
 command zip zip -r %f.zip %f
+command unzip unzip %f
 command run !! ./%f
 command make !!make
 command vgrep vim "+grep %a"
@@ -327,4 +328,19 @@ nmap q :q<CR>
 
 " touch
 nmap ,tf :!touch %c<CR>
+
+" default not working
+set findprg="find %s %a -print -type d -prune"
+
+" Git stuff
+command Gdiff :!git diff
+
+command! cmpinternal compare-cmd %a %S
+command! cmp : if expand('%%c') == expand('%%f')
+         \ |     echo expand('Comparing %%"c and %%"C:t ...')
+         \ |     cmpinternal %c %C
+         \ | else
+         \ |     echo expand('Comparing files: %%"f ...')
+         \ |     cmpinternal %f
+         \ | endif
 

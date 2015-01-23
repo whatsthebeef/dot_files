@@ -4,11 +4,11 @@
 'b
 	/Users/john/bin/
 	../
-1414711952
+1421996291
 'h
 	/Users/john/
 	../
-1414711952
+1421996291
 
 # TUI:
 al
@@ -20,568 +20,51 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/wedstival/app/views
-	admin/
-1
-d/Users/john/dev/wedstival/app/views/admin
-	shared/
+d/Users/john
+	Downloads/
+4
+d/Users/john/Downloads
+	Contract_Eric_Aguilar_Velazquez_2014.pdf
 6
-d/Users/john/dev/wedstival/app/views/admin/shared
-	../
-0
-d/Users/john/dev/wedstival/app/views/admin
-	admin/
-1
-d/Users/john/dev/wedstival/app/views/admin/admin
-	../
-0
-d/Users/john/dev/wedstival/app/views/admin
-	admin/
-1
-d/Users/john/dev/wedstival/app/views
-	admin/
-1
-d/Users/john/dev/wedstival/app/views/admin
-	group_mailer/
-1
-d/Users/john/dev/wedstival/app/views
-	groups/
-3
-d/Users/john/dev/wedstival/app/views/groups
-	../
-0
-d/Users/john/dev/wedstival/app/views
-	group_mailer/
-2
-d/Users/john/dev/wedstival/app/views/group_mailer
-	../
-0
-d/Users/john/dev/wedstival/app/views
-	admin/
-1
-d/Users/john/dev/wedstival/app/views/admin
-	groups/
-1
-d/Users/john/dev/wedstival/app/views/admin/groups
-	index.html.erb
-3
-d/Users/john/dev/wedstival/app/views/admin
-	groups/
-1
-d/Users/john/dev/wedstival/app/views
-	groups/
-3
-d/Users/john/dev/wedstival/app/views/groups
-	../
-0
-d/Users/john/dev/wedstival/app/views
-	groups/
-3
-d/Users/john/dev/wedstival/app
-	views/
-6
-d/Users/john/dev/wedstival/app/views
-	admin/
-1
-d/Users/john/dev/wedstival/app/views/admin
-	guests/
-1
-d/Users/john/dev/wedstival/app/views/admin/guests
-	../
-0
-d/Users/john/dev/wedstival/app/views/admin
-	main_page.html.erb
-1
-d/Users/john/dev/wedstival/app/views
-	requests/
-6
-d/Users/john/dev/wedstival/app/views/requests
-	index.html.erb
-1
-d/Users/john/dev/wedstival/app/views
-	shared/
-7
-d/Users/john/dev/wedstival/app
-	models/
-5
-d/Users/john/dev/wedstival/app/models
-	concerns/
-1
-d/Users/john/dev/wedstival/app
-	helpers/
-3
-d/Users/john/dev/wedstival/app/helpers
-	../
-0
-d/Users/john/dev/wedstival/app
-	assets/
-1
-d/Users/john/dev/wedstival/app/assets
-	images/
-1
-d/Users/john/dev/wedstival/app
-	controllers/
-2
-d/Users/john/dev/wedstival
-	lib/
-5
-d/Users/john/dev/wedstival/lib
-	../
-0
-d/Users/john/dev/wedstival
-	app/
-1
-d/Users/john/dev/wedstival/app
-	controllers/
-2
-d/Users/john/dev/wedstival/app/controllers
-	admin_controller.rb
-2
-d/Users/john/dev/svims/visa-web
-	../
-0
-d/Users/john/dev/svims
-	inspection-web/
-15
-d/Users/john/dev/svims/inspection-web
-	build/
-2
-d/Users/john/dev/svims/inspection-web/build
-	../
-0
-d/Users/john/dev/svims/inspection-web
-	src/
-4
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	java/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java
-	com/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com
-	svims/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
-	inspection/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
-	web/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection/web
-	editors/
-3
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
-	web/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
-	inspection/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
-	web/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
-	inspection/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com
-	svims/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java
-	com/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	java/
-1
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	java/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java
-	com/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com
-	svims/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
-	inspection/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
-	web/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection/web
-	editors/
-3
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims/inspection
-	web/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com/svims
-	inspection/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java/com
-	svims/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java
-	com/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	java/
-1
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	java/
-1
-d/Users/john/dev/svims/inspection-web/src/main/java
-	com/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	java/
-1
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web
-	src/
-4
-d/Users/john/dev/svims
-	inspection-web/
-15
-d/Users/john/dev/svims/inspection-web
-	src/
-4
-d/Users/john/dev/svims
-	inspection-web/
-15
-d/Users/john/dev/svims/inspection-web
-	src/
-4
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	resources/
-2
-d/Users/john/dev/svims/inspection-web/src/main/resources
-	../
-0
-d/Users/john/dev/svims/inspection-web/src/main
-	resources/
-2
-d/Users/john/dev/svims/inspection-web/src/main/resources
-	views/
-2
-d/Users/john/dev/svims/inspection-web/src/main/resources/views
-	../
-0
-d/Users/john/dev/svims/inspection-web/src/main/resources
-	views/
-2
-d/Users/john/dev/svims/inspection-web/src/main
-	resources/
-2
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web
-	src/
-4
-d/Users/john/dev/svims/inspection-web/src
-	main/
-1
-d/Users/john/dev/svims/inspection-web/src/main
-	resources/
-2
-d/Users/john/dev/svims/inspection-web/src/main/resources
-	com/
-1
-d/Users/john/dev/svims/inspection-web/src/main/resources/com
-	svims/
-1
-d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims
-	inspection/
-1
-d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection
-	messages/
-1
-d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection/messages
-	messages_en.properties
-1
-d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection
-	statics/
-2
-d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection/statics
-	js/
-2
-d/Users/john/dev/svims/inspection-web/src/main/resources/com/svims/inspection/statics/js
-	svims-inspection-1.0.0.js
-1
 d
 
 # Right window history (oldest to newest):
-D/Users/john/dev/visiens/src
-	main/
-1
-D/Users/john/dev/visiens/src/main
-	java/
-1
-D/Users/john/dev/visiens/src/main/java
-	visiens/
-1
-D/Users/john/dev/visiens/src/main
-	resources/
-2
-D/Users/john/dev/visiens/src/main/resources
-	spring/
-1
-D/Users/john/dev/visiens/src/main/resources/spring
-	server-context.xml
-1
-D/Users/john/dev/visiens/src/main/resources
-	spring/
-1
-D/Users/john/dev/visiens/src/main
-	java/
-1
-D/Users/john/dev/visiens/src/main/java
-	visiens/
-1
-D/Users/john/dev/visiens/src/main/java/visiens
-	server/
-1
-D/Users/john/dev/visiens/src/main/java/visiens/server
-	api/
-1
-D/Users/john/dev/visiens/src/main/java/visiens/server/api
-	resource/
-5
-D/Users/john/dev/visiens/src/main/java/visiens/server/api/resource
-	EntityResource.java
-4
-D/Users/john/dev/visiens
-	target/
-2
-D/Users/john/dev/visiens/target
-	classes/
-2
-D/
-	Users/
-5
+D/Users/john
+	../
+0
 D/Users
 	john/
 3
-D/Users/john
-	Dropbox/
-5
-D/Users/john/Dropbox
-	../
-0
-D/Users/john
-	Downloads/
-4
-D/Users/john/Downloads
-	wordpress/
-3
-D/Users/john/Downloads/wordpress
-	wp-admin/
+D/
+	Volumes/
+6
+D/Volumes
+	JOHN/
 1
-D/Users/john/Downloads
-	../
-0
+D/Volumes/JOHN
+	eric_contract/
+3
+D/Volumes/JOHN/eric_contract
+	Contract_Eric_Aguilar_Velazquez_2014.pdf
+1
 D
 
 # Command line history (oldest to newest):
-:mkdir errors
-:error404.html.erb
-:e error404.html.erb
-:mkdir images
-:e _send_invite_button.html.erb
-:w 
-:e main.js
-:e send_invite.text.erb
-:e rsvp.html.erb
-:e sl-prototypes.js
-:e visualizations.css.scss
-:e property_value.rb
-:e new_model.html.erb
-:e mixed_model.rb
-:e graph.rb
-:cd $NEO4j
-:cd $NEO4J
-:cd $VISIENS_SERVERV
-:cd $VISIENS_SERVER
-:e entity_helper.rb
-:e loadable.rb
-:e _model_speciof
-:e
-:e _model_specific_fields
-:e _model_specific_fields.html.erb
-:mkdir labelled_property_holders
-:cd $VISIENS
-:mkdir entity_drafts
-:e draft.r
-:mkdir concerns
-:e actionable.rb
-:e smlable.rb
-:mkdir iics_wordpress_new
-:mkdir gallery
-:tyar 
-:tar -xzf gallery.tar.gz
-:tar -xzf ./gallery.tar.gz
-:h tar
-:Vimuntar
-:e _search_bar.html
-:e 
-:mkdir drafts
-:drafts_
-:grep iics-k12.net/tempate
-:grep iics-k12.net/templates
-:hk
-:grep "iics-k12.net"
-:grep iics-k12.net
-:grep dark
-:grep dark.css
-:e setup.mail
-:e setup_mail.rb
-:e email.yml
-:w
-:q
-:mkdir shared
-:e groups_helper.rb
-:w!
-:mkdir admin
-:mkdir 
-:e custom_public_exceptions.rb
-:e errors_controller.rb
+:mkdir eric_contract
 
 # Search history (oldest to newest):
 
 # Prompt history (oldest to newest):
-po
-p_group.html.erb
-padmin_controller.rb
-pmain_page.html.erb
-pmasterfrontbox1.jpg
-pstatement.html.erb
-p_entity.html.erb
-p_entities.html.erb
-psearch.js.erb
-pgrapsh.js
-pvisualizations.js
-pdrafts.html.erb
-pentity_drafts_controller.rb
-pentity_drafts.rb
-pentity_draft.rb
-pEntityDraftBuilder.java
-pEntityDraftLoader.java
-pentity_drafts
-pentity_helper.rb
-pgraphs_controller.rb
-pgraphs
-previseable.rb
-pmodel.rb
-paccion_drafts_controller.rb
-paccion_draft.rb
-plabelled_property_holders
-pdraft.rb
-paccionable.rb
-pmatch.html.erb
-pvisualization.html.erb
-pdrafts_controller.rb
-pmasterfrontbox1.jpg.bak
-p20141204192557_add_received_invite.rb
-pr
-pedit.html.erb
-ps
+pContract_Eric_Aguilar_Velazquez_2014.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/.vifm/Trash/000_requests
+""/Users/john/Downloads/Contract_Eric_Aguilar_Velazquez_2014.pdf
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/Users/john/.vifm/Trash/000_entity_helper.rb
-	/Users/john/dev/govcountability/app/helpers/entity_helper.rb
-t/Users/john/.vifm/Trash/000_entity_drafts.rb
-	/Users/john/dev/govcountability/app/models/entity_drafts.rb
-t/Users/john/.vifm/Trash/000_EntityDraftLoader.java
-	/Users/john/dev/visiens/src/main/java/visiens/server/api/query/result/loader/EntityDraftLoader.java
-t/Users/john/.vifm/Trash/000__form.html.erb.bak
-	/Users/john/dev/govcountability/app/views/entity_drafts/_form.html.erb.bak
-t/Users/john/.vifm/Trash/000_index.html.erb
-	/Users/john/dev/govcountability/app/views/entity_drafts/index.html.erb
-t/Users/john/.vifm/Trash/000_index.json.jbuilder
-	/Users/john/dev/govcountability/app/views/entity_drafts/index.json.jbuilder
-t/Users/john/.vifm/Trash/010_1
-	/Users/john/dev/govcountability/1
-t/Users/john/.vifm/Trash/000_entity_drafts
-	/Users/john/dev/govcountability/app/views/entity_drafts
-t/Users/john/.vifm/Trash/011_1
-	/Users/john/dev/govcountability/1
-t/Users/john/.vifm/Trash/012_1
-	/Users/john/dev/govcountability/1
-t/Users/john/.vifm/Trash/001__form.html.erb.bak
-	/Users/john/dev/govcountability/app/views/entities/_form.html.erb.bak
-t/Users/john/.vifm/Trash/000_CatalogResource.java
-	/Users/john/dev/visiens/src/main/java/visiens/server/api/resource/CatalogResource.java
-t/Users/john/.vifm/Trash/000__form.html.erb
-	/Users/john/dev/govcountability/app/views/entities/_form.html.erb
-t/Users/john/.vifm/Trash/001__form.html.erb
-	/Users/john/dev/govcountability/app/views/accions/_form.html.erb
-t/Users/john/.vifm/Trash/013_1
-	/Users/john/dev/govcountability/app/views/accions/1
-t/Users/john/.vifm/Trash/014_1
-	/Users/john/dev/govcountability/1
-t/Users/john/.vifm/Trash/001_index.html.erb
-	/Users/john/dev/govcountability/app/views/graphs/index.html.erb
-t/Users/john/.vifm/Trash/015_1
-	/Users/john/dev/govcountability/1
-t/Users/john/.vifm/Trash/000_pages
-	/Users/john/dev/govcountability/app/views/pages
-t/Users/john/.vifm/Trash/000_reviseable.rb
-	/Users/john/dev/govcountability/app/models/concerns/reviseable.rb
-t/Users/john/.vifm/Trash/000_concerns
-	/Users/john/dev/govcountability/app/models/concerns
-t/Users/john/.vifm/Trash/000_actionable.rb
-	/Users/john/dev/govcountability/app/models/concerns/actionable.rb
-t/Users/john/.vifm/Trash/000_\
-	/Users/john/\
-t/Users/john/.vifm/Trash/000_20141204192557_add_sent_invite.rb
-	/Users/john/dev/wedstival/db/migrate/20141204192557_add_sent_invite.rb
-t/Users/john/.vifm/Trash/000_email.yml
-	/Users/john/dev/wedstival/config/email.yml
-t/Users/john/.vifm/Trash/000_setup_mail.rb
-	/Users/john/dev/wedstival/config/setup_mail.rb
-t/Users/john/.vifm/Trash/016_1
-	/Users/john/dev/wedstival/1
-t/Users/john/.vifm/Trash/000_admin_controller.rb
-	/Users/john/dev/wedstival/app/controllers/admin_controller.rb
-t/Users/john/.vifm/Trash/000_groups_helper.rb
-	/Users/john/dev/wedstival/app/helpers/groups_helper.rb
-t/Users/john/.vifm/Trash/000_admin
-	/Users/john/dev/wedstival/app/controllers/admin
-t/Users/john/.vifm/Trash/001_admin
-	/Users/john/dev/wedstival/app/models/admin
-t/Users/john/.vifm/Trash/000_shared
-	/Users/john/dev/wedstival/app/views/admin/shared
-t/Users/john/.vifm/Trash/002_admin
-	/Users/john/dev/wedstival/app/views/admin/admin
-t/Users/john/.vifm/Trash/000_group_mailer
-	/Users/john/dev/wedstival/app/views/admin/group_mailer
-t/Users/john/.vifm/Trash/000_groups
-	/Users/john/dev/wedstival/app/views/admin/groups
-t/Users/john/.vifm/Trash/000_guests
-	/Users/john/dev/wedstival/app/views/admin/guests
-t/Users/john/.vifm/Trash/000_requests
-	/Users/john/dev/wedstival/app/views/admin/requests
-t/Users/john/.vifm/Trash/000_404.html
-	/Users/john/dev/wedstival/public/404.html
 
 # State:
 f

@@ -128,8 +128,8 @@ alias cv="vim ${HOME}/.vimrc"
 alias cl="vim ${HOME}/.lynxrc"
 alias cm="vim ${HOME}/.muttrc"
 alias ca="vim ${HOME}/.mutt/aliases"
-# alias cvp="vim ${HOME}/.vimperatorrc"
-alias cvp="vim ${HOME}/.pentadactylrc"
+alias cvp="vim ${HOME}/.vimperatorrc"
+# alias cvp="vim ${HOME}/.pentadactylrc"
 alias cvf="vim ${HOME}/.vifmrc"
 alias cws="vim ${HOME}/bin/ws"
 
@@ -147,6 +147,11 @@ alias schhb='eval `change-scheme grb256`'
 alias schgh='eval `change-scheme github`'
 
 #----------------------------------- Helper functions ----------------------------------#
+
+rescueVifm() {
+   rm ~/.vifm/vifminfo*
+}
+
 # To configure a kill function split the ps ax output by spaces and count the 
 # in from the left until a string containing the identifier is found
 # In the example below 'mysql' is in the path 5 from the left so we set the 
@@ -231,6 +236,18 @@ initConfigs() {
    # Select upper pane and split that as well
    tmux select-pane -U
    tmux split-window -c ~ -h -p 50 "vim ~/.vimrc" 
+}
+
+### Prepare tar files
+
+# android project
+tarAndroid() {
+   tar --exclude=./bin/ --exclude=./*.apk --exclude=./\.* --exclude=./gen -cvzf $1.tar.gz $1
+}
+
+# android project
+tarRails() {
+   tar --exclude=./tmp --exclude=*.log --exclude=./\.* -cvzf $1.tar.gz $1
 }
 
 #------------------------------------- Project specific -----------------------------------#
