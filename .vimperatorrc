@@ -19,6 +19,17 @@ tmap <CR> i<Cr>
 
 nmap J 10<Down>
 nmap K 10<Up>
+nmap j 100<Down>
+nmap k 100<Up>
+
+" Tabs
+nmap g1 b1<CR>
+nmap g2 b2<CR>
+nmap g3 b3<CR>
+nmap g3 b3<CR>
+nmap g4 b4<CR>
+nmap g5 b5<CR>
+nmap g6 b6<CR>
 
 " Map quick marks to normal marks
 nmap \' go
@@ -30,12 +41,20 @@ map , <Leader>
 nmap cc <M-A-k>
 nmap ce <M-A-i>
 
-" Language
-nmap <Leader>e :o http://www.wordreference.com/esen/
-nmap <Leader>s :o http://www.wordreference.com/enes/
-nmap <Leader>o :o http://stackoverflow.com/search?q=
+" Language search engine
+nmap <Leader>es :t http://www.wordreference.com/esen/
+nmap <Leader>es :t http://www.wordreference.com/enes/
+nmap <Leader>te :t https://translate.google.com/#tr/en/
+nmap <Leader>et :t https://translate.google.com/#en/tr/
+nmap <Leader>sc :t http://www.wordreference.com/conj/ESverbs.aspx?v=
+nmap <Leader>tc :t http://www.verbix.com/webverbix/go.php?Submit=Go&D1=31&H1=131&T1=
+nmap <Leader>tc :t http://www.verbix.com/webverbix/go.php?Submit=Go&D1=31&H1=131&T1=
+
+" Programming search engine
+nmap <Leader>so :o http://stackoverflow.com/search?q=
 
 " Qmarks
+qmark m https://mail.google.com
 qmark a http://bitbucket.org
 qmark b http://bbc.co.uk/news
 qmark g http://www.theguardian.com/uk
@@ -43,14 +62,16 @@ qmark k https://dashboard.heroku.com
 qmark i https://firstlook.org/theintercept
 qmark h https://github.com/whatsthebeef
 qmark n http://www.thenation.com/blogs/ali-gharib
-qmark t http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1
+qmark x http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1
+qmark t https://trello.com
 qmark y http://www.youtube.com
-qmark m http://www.mutt.org/doc/manual/
 qmark e http://eztv.it
 
 """ CSS
 " style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
-style * :focus {background:yellow !important; color:black !important} 
+style * :focus {background:yellow !important; color:black !important;} 
+
+style * #statusbar-display {display: none !important;}
 
 """ Javascript
 js <<EOM
@@ -63,9 +84,9 @@ var spSearch = "startpage.com/$";
 var bbc = "bbc";
 
 var init = function(filter, initFunction, args) {
-   if(matchesHref(filter)) {
-      initFunction(args);
-   }
+  if(matchesHref(filter)) {
+    initFunction(args);
+  }
 }
 
 var mapper = function(key, mapTo, exceptions) {
@@ -124,23 +145,18 @@ var isFunction = function(obj) {
   return !!(obj && obj.constructor && obj.call && obj.apply);
 };
 
-var matchesHref = function(string) {
-   if(isFunction(string)) {
-      return string()
+var matchesHref = function(expression) {
+   if(isFunction(expression)) {
+      return expression();
    }
    else {
-      var re = new RegExp(string);
+      var re = new RegExp(expression);
       return re.test(bWindow.location.href);
    }
-
 }
 
 var feedKeys = function(keys) {
    events.feedkeys(keys);
-}
-
-var backFromResult = function(keys) {
-   events.feedkeys("h");
 }
 
 var openInNewTab  = function() {
@@ -154,51 +170,88 @@ var backInNewTab = function() {
    liberator.execute("back");
 }
 
-var resultList = function(selector) {
-   var _url = bWindow.location.href;
-   var results = bWindow.document.querySelectorAll(selector);
-   var position = 0;
-   return {
-      next : function() {
-         position = (position < results.length-1) ? position+1 : 0;
-         results[position].focus();
-      },
-      previous : function() {
-         position = (position > 0) ? position-1 : results.length-1;
-         results[position].focus();
-      },
-      focus : function(i) {
-         results[i].focus();
-      },
-      empty : function() {
-         return !(results && results.length > 0);
-      },
-      url : function() {
-         return _url;
+var resultList = function(s) {
+  var self = this;
+  var _url = bWindow.location.href;
+  var selector = s;
+  var results = getResults(s);
+  var position = 0;
+
+  function getResults(selector) {
+    return bWindow.document.querySelectorAll(selector);
+  }
+
+  return {
+    next : function() {
+      this.reloadFocus();
+      position = (position < results.length-1) ? position+1 : 0;
+      this.focus(position);
+    },
+    previous : function() {
+      this.reloadFocus();
+      position = (position > 0) ? position-1 : results.length-1;
+      this.focus(position);
+    },
+    focus : function(i) {
+      if(results[i]) {
+        results[i].focus();
       }
-   };
+    },
+    reloadFocus : function() {
+      this.refresh();
+      this.focus(position);
+    },
+    atUrl : function() {
+      return (bWindow.location.href == this.url()); 
+    },
+    refresh : function() {
+      if(this.atUrl()) {
+        results = getResults(selector);
+      }
+    },
+    dead : function() {
+      try {
+        // try any call to results length
+        results.length;
+        return false;
+      } 
+      catch(e) {
+        return true;
+      }
+    },
+    url : function() {
+      return _url;
+    }
+  };
 }
 
 var currentResultList = null;
+
 var initResultList = function(selector) {
-   currentResultList = resultList(selector);
+  if(resultListExists()) {
+    currentResultList.reloadFocus();  
+  }
+  else {
+    currentResultList = resultList(selector);
+    currentResultList.focus(0);
+  }
 }
 
 var nextResult = function() {
-   currentResultList.next();
+  currentResultList.next();
+  // bWindow.document.activeElement.parentNode.parentNode.className += " here";
 }
 
 var previousResult = function() {
-   currentResultList.previous();
+  currentResultList.previous();
 }
 
 var focusResult = function(i) {
-   currentResultList.focus(i);
+  currentResultList.focus(i);
 }
 
 var resultListExists = function() {
-   return (currentResultList && bWindow.location.href == currentResultList.url() 
-      && !currentResultList.empty());
+  return (currentResultList && currentResultList.atUrl());
 }
 
 var yankFocus = function() {
@@ -206,19 +259,19 @@ var yankFocus = function() {
 }
 
 var removeIfNotFirstTab = function() {
-   var tabIndex = getBrowser().selectedTab._tPos;
-   if(tabIndex != 0) {
+   // var tabIndex = getBrowser().selectedTab._tPos;
+   var numTabs = getBrowser().tabs.length;
+   if(numTabs > 1) {
       getBrowser().removeTab(getBrowser().selectedTab);
    }
 }
 
+mapper("h", function() {
+  liberator.execute("back");
+});
+
 mapper("j", "10<Down>", [{filter:resultListExists, mapTo:nextResult}]);
 mapper("k", "10<Up>",   [{filter:resultListExists, mapTo:previousResult}]);
-
-mapper("h", function(){ 
-   shouldInit = false;
-   liberator.execute("back");
-});
 
 mapper("<C-l>", openInNewTab );
 mapper("<C-h>", backInNewTab );
@@ -229,33 +282,30 @@ linkMapper("S", spSearch, true);
 linkMapper("d", duckduckgo);
 linkMapper("D", duckduckgo, true);
 
+initAll = function() {
+  // init(ddg+"/", initResultList, "a.result-link");
+  init(duckduckgo+"\\/\\?q=", initResultList, "a.result__a");
+  // init(spResults, initResultList, ".result h3 a");
+  // init("bbc", initResultList, "h2 > a, h3 > a");
+  // init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");
+  // init("theintercept/$", initResultList, "h1 > a");
+  // init("mutt.org", initResultList, "li > a:last-child");
+  // init(spSearch, feedKeys, "i");
+  // init(ddg+"$", feedKeys, "i");
+}
+
 var shouldInit = true;
 initPages = function() {
-   bWindow = window.content.window;
-   bWindow.onload = function(){
-      init(ddg+"/", initResultList, "a.result-link");
-      init(duckduckgo+"/", initResultList, "a.result__a");
-      init(spResults, initResultList, ".result h3 a");
-      init("bbc", initResultList, "h2 > a, h3 > a");
-      init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");
-      init("theintercept/$", initResultList, "h1 > a");
-      if(shouldInit) {
-         init(duckduckgo, focusResult, 0);
-         init(ddg+"/", focusResult, 0);
-         init(spResults, focusResult, 0);
-      }
-      else {
-         shouldInit = true; 
-      }
-      init(spSearch, feedKeys, "i");
-      init(ddg+"$", feedKeys, "i");
-   }
+  bWindow = window.content.window;
+  bWindow.onpageshow = function(){
+    initAll();
+  }
 };
 
 EOM
 
 """ Init
-autocmd PageLoad .* :js initPages()
+" autocmd PageLoad .* :js initPages()
 autocmd LocationChange .* :js initPages()
 
 

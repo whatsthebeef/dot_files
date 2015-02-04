@@ -4,11 +4,11 @@
 'b
 	/Users/john/bin/
 	../
-1421996291
+1422517854
 'h
 	/Users/john/
 	../
-1421996291
+1422517854
 
 # TUI:
 al
@@ -20,15 +20,312 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site/templates/system
+	../
+0
+d/Users/john/dev/iics_main_site/templates
+	system/
+7
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	error.css
+17
 d/Users/john
 	Downloads/
 4
 d/Users/john/Downloads
 	Contract_Eric_Aguilar_Velazquez_2014.pdf
 6
+d/Users/john/dev/iics_main_site
+	briansworkfromhome/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	index.php
+12
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	dark.css
+14
+d/Users/john
+	dev/
+18
+d/Users/john/dev
+	iics_main_site/
+5
+d/Users/john/dev/iics_main_site
+	briansworkfromhome/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	index.php
+22
+d/Users/john
+	Library/
+7
+d/Users/john/Library
+	Application Support/
+3
+d/Users/john/Library/Application Support
+	Mozilla/
+6
+d/Users/john/Library/Application Support/Mozilla
+	Extensions/
+1
+d/Users/john/Library/Application Support/Mozilla/Extensions
+	../
+0
+d/Users/john/Library/Application Support/Mozilla
+	Extensions/
+1
+d/Users/john/Library/Application Support
+	Firefox/
+18
+d/Users/john/Library/Application Support/Firefox
+	Profiles/
+2
+d/Users/john/Library/Application Support/Firefox/Profiles
+	fgqtzpom.default/
+1
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	chrome/
+3
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/chrome
+	userChrome.css
+1
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	chrome/
+3
+d/Users/john/Library/Application Support/Firefox/Profiles
+	fgqtzpom.default/
+1
+d/Users/john/Library/Application Support/Firefox
+	Profiles/
+2
+d/Users/john/Library/Application Support/Firefox/Profiles
+	fgqtzpom.default/
+1
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	webapps/
+17
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/webapps
+	../
+0
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	webapps/
+17
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/webapps
+	../
+0
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	weave/
+16
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/weave
+	../
+0
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	storage/
+15
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/storage
+	../
+0
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
+	chrome/
+3
+d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/chrome
+	userChrome.css
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	light.css
+21
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	js/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/js
+	multibox/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/js/multibox
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/js
+	s5_flex_menu.js
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	footer.css
+19
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	js/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/js
+	s5_flex_menu.js
+5
+d/Users/john/dev/google-spreadsheet-lib-android-read-only
+	../
+0
+d/Users/john/dev
+	TrelloDoing/
+1
+d/Users/john/dev/TrelloDoing
+	app/
+1
+d/Users/john/dev/TrelloDoing/app
+	../
+0
+d/Users/john/dev/TrelloDoing
+	app/
+1
+d/Users/john/dev
+	TrelloDoing/
+1
+d/Users/john
+	Downloads/
+4
+d/Users/john/Downloads
+	gdata-src.java-1.47.1.zip
+4
+d/Users/john
+	dev/
+18
+d/Users/john/dev
+	TrelloDoing/
+1
+d/Users/john/dev/TrelloDoing
+	.idea/
+2
+d/Users/john/.vifm/Trash/000_google-spreadsheet-lib-android-read-only
+	../
+0
+d/Users/john/.vifm/Trash
+	000_google-spreadsheet-lib-android-read-only/
+6
+d/Users/john/.vifm
+	Trash/
+1
+d/Users/john
+	.jrebel/
+20
+d/Users
+	john/
+3
+d/Users/john
+	dev/
+24
+d/Users/john/dev
+	iics_main_site/
+24
+d/Users/john/dev/iics_main_site
+	templates/
+32
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	img/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/img
+	menu/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	images/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation/images
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	img/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/img
+	menu/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/img/menu
+	arrows_down.psd
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/img
+	menu/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	img/
+6
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site
+	studentmap/
+31
+d/Users/john/dev
+	pocketlab/
+33
+d/Users/john/dev/pocketlab
+	../
+0
+d/Users/john/dev
+	pocketlab/
+12
+d/Users/john/dev/pocketlab
+	node_modules/
+4
+d/Users/john/dev/pocketlab/node_modules
+	../
+0
+d/Users/john/dev/pocketlab
+	e2e-tests/
+3
+d/Users/john/dev/pocketlab/e2e-tests
+	../
+0
+d/Users/john/dev/pocketlab
+	app/
+2
+d/Users/john/dev/pocketlab/app
+	../
+0
+d/Users/john/dev/pocketlab
+	node_modules/
+4
+d/Users/john/dev/pocketlab/node_modules
+	../
+0
+d/Users/john/dev/pocketlab
+	e2e-tests/
+3
+d/Users/john/dev/pocketlab/e2e-tests
+	../
+0
+d/Users/john/dev/pocketlab
+	app/
+2
+d/Users/john/dev/pocketlab/app
+	../
+0
+d/Users/john/dev/pocketlab
+	.git/
+1
+d/Users/john/dev/pocketlab/.git
+	../
+0
+d/Users/john/dev/pocketlab
+	app/
+2
+d/Users/john/dev/pocketlab/app
+	../
+0
+d/Users/john/dev/pocketlab
+	app/
+2
+d/Users/john/dev
+	apps/
+10
+d/Users/john
+	Downloads/
+4
+d/Users/john/Downloads
+	IICS Istanbul International Community School - Administration.html
+5
 d
 
 # Right window history (oldest to newest):
+D/Users/john/dev/iics_main_site/templates/sports_nation
+	../
+0
 D/Users/john
 	../
 0
@@ -47,10 +344,26 @@ D/Volumes/JOHN
 D/Volumes/JOHN/eric_contract
 	Contract_Eric_Aguilar_Velazquez_2014.pdf
 1
+D/Volumes
+	../
+0
 D
 
 # Command line history (oldest to newest):
+:v
+:grep s5_module_call
+:grep masterfrontbox1
+:grep custom
+:grep modChrome_round_box
+:grep round_box(
+:grep "round_box("
 :mkdir eric_contract
+:grep module_round_box
+:grep upcoming
+:grep s5_menu_wrap
+:grep s5_nav
+:e userChrome.css
+:e top_menu_colors.js
 
 # Search history (oldest to newest):
 
@@ -60,16 +373,18 @@ pContract_Eric_Aguilar_Velazquez_2014.pdf
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/Downloads/Contract_Eric_Aguilar_Velazquez_2014.pdf
+""/Users/john/.vifm/Trash/000_google-spreadsheet-lib-android-read-only
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/Users/john/.vifm/Trash/000_google-spreadsheet-lib-android-read-only
+	/Users/john/dev/google-spreadsheet-lib-android-read-only
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1

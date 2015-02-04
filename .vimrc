@@ -45,8 +45,8 @@ syntax on           " syntax highlighing
 
 " set statusline=%{fugitive#statusline()} " This means the status is only useful when working in git repo
 set ls=2            " always show status line
-set tabstop=3       " numbers of spaces of tab character
-set shiftwidth=3    " numbers of spaces to (auto)indent
+set tabstop=2       " numbers of spaces of tab character
+set shiftwidth=2    " numbers of spaces to (auto)indent
 set scrolloff=3     " keep 3 lines when scrolling
 set showcmd         " display incomplete commands
 set ruler           " show the cursor position all the time
@@ -278,6 +278,10 @@ nmap q <Nop>
 
 nmap <C-w><Down> <C-w>-
 nmap <C-w><Up> CTRL-W_<Up>
+
+""" Sort out line endings and file types
+command RemoveWindowLineEndings :%s/$//g
+command ChangeFileType :set ff=unix
 
 nmap <Leader>ds :call FunDeleteSwapFile()<CR>
 "" Delete swap file of current file

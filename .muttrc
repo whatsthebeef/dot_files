@@ -33,6 +33,9 @@ set certificate_file =~/.mutt/certificates
 set smtp_url = "smtp://john@zode64.com@smtp.googlemail.com:587/"  
 set smtp_pass = "mdhr npkk sdaa zrrx"  
 
+## Attachements
+set mime_forward=yes
+
 #Special Keybindings  
 bind editor <space> noop  
 macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"  
