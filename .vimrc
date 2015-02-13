@@ -5,6 +5,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
 filetype plugin indent on     " required
@@ -26,6 +27,7 @@ Bundle "tomtom/tcomment_vim"
 " Optional
 Bundle "honza/vim-snippets"
 
+" call vundle#end()
 "" To install packets run :PluginInstall
 
 "--------------------- Variables ----------------------
@@ -482,6 +484,7 @@ endfunction
 """ Notes
 command -nargs=* FindNote :SearchNotes /<args>/<CR>
 nmap <Leader>fn :FindNote<Space>
+"" Remember gf jumps to Notes in lists
 
 "----------------- Project specific ------------------------"
 

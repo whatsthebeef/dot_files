@@ -1,6 +1,10 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Bookmarks:
+'M
+	/Users/john/dev/iics_main_site
+	newsocial/
+1423738921
 'b
 	/Users/john/bin/
 	../
@@ -9,6 +13,14 @@
 	/Users/john/
 	../
 1422517854
+'k
+	/Users/john/dev/iics_main_site
+	macbooktracker/
+1423738938
+'m
+	/Users/john/dev/iics_main_site
+	newsocial/
+1423738925
 
 # TUI:
 al
@@ -20,210 +32,78 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/iics_main_site/templates
-	sports_nation/
-6
-d/Users/john/dev/iics_main_site/templates/system
-	../
-0
-d/Users/john/dev/iics_main_site/templates
-	system/
-7
-d/Users/john/dev/iics_main_site/templates/sports_nation/css
-	error.css
-17
-d/Users/john
-	Downloads/
-4
-d/Users/john/Downloads
-	Contract_Eric_Aguilar_Velazquez_2014.pdf
-6
-d/Users/john/dev/iics_main_site
-	briansworkfromhome/
-5
-d/Users/john/dev/iics_main_site/templates/sports_nation
-	index.php
-12
-d/Users/john/dev/iics_main_site/templates/sports_nation/css
-	dark.css
-14
-d/Users/john
-	dev/
-18
-d/Users/john/dev
-	iics_main_site/
-5
-d/Users/john/dev/iics_main_site
-	briansworkfromhome/
-5
-d/Users/john/dev/iics_main_site/templates/sports_nation
-	index.php
-22
-d/Users/john
-	Library/
-7
-d/Users/john/Library
-	Application Support/
-3
-d/Users/john/Library/Application Support
-	Mozilla/
-6
-d/Users/john/Library/Application Support/Mozilla
-	Extensions/
-1
-d/Users/john/Library/Application Support/Mozilla/Extensions
-	../
-0
-d/Users/john/Library/Application Support/Mozilla
-	Extensions/
-1
-d/Users/john/Library/Application Support
-	Firefox/
-18
-d/Users/john/Library/Application Support/Firefox
-	Profiles/
-2
-d/Users/john/Library/Application Support/Firefox/Profiles
-	fgqtzpom.default/
-1
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	chrome/
-3
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/chrome
-	userChrome.css
-1
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	chrome/
-3
-d/Users/john/Library/Application Support/Firefox/Profiles
-	fgqtzpom.default/
-1
-d/Users/john/Library/Application Support/Firefox
-	Profiles/
-2
-d/Users/john/Library/Application Support/Firefox/Profiles
-	fgqtzpom.default/
-1
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	webapps/
-17
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/webapps
-	../
-0
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	webapps/
-17
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/webapps
-	../
-0
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	weave/
-16
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/weave
-	../
-0
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	storage/
-15
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/storage
-	../
-0
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default
-	chrome/
-3
-d/Users/john/Library/Application Support/Firefox/Profiles/fgqtzpom.default/chrome
-	userChrome.css
-1
-d/Users/john/dev/iics_main_site/templates/sports_nation/css
-	light.css
-21
-d/Users/john/dev/iics_main_site/templates/sports_nation
-	js/
-6
-d/Users/john/dev/iics_main_site/templates/sports_nation/js
-	multibox/
-1
-d/Users/john/dev/iics_main_site/templates/sports_nation/js/multibox
-	../
-0
-d/Users/john/dev/iics_main_site/templates/sports_nation/js
-	s5_flex_menu.js
-5
-d/Users/john/dev/iics_main_site/templates/sports_nation/css
-	footer.css
-19
-d/Users/john/dev/iics_main_site/templates/sports_nation
-	js/
-6
-d/Users/john/dev/iics_main_site/templates/sports_nation/js
-	s5_flex_menu.js
-5
-d/Users/john/dev/google-spreadsheet-lib-android-read-only
-	../
-0
-d/Users/john/dev
-	TrelloDoing/
-1
-d/Users/john/dev/TrelloDoing
-	app/
-1
-d/Users/john/dev/TrelloDoing/app
-	../
-0
-d/Users/john/dev/TrelloDoing
-	app/
-1
-d/Users/john/dev
-	TrelloDoing/
-1
-d/Users/john
-	Downloads/
-4
-d/Users/john/Downloads
-	gdata-src.java-1.47.1.zip
-4
-d/Users/john
-	dev/
-18
-d/Users/john/dev
-	TrelloDoing/
-1
-d/Users/john/dev/TrelloDoing
-	.idea/
-2
-d/Users/john/.vifm/Trash/000_google-spreadsheet-lib-android-read-only
-	../
-0
-d/Users/john/.vifm/Trash
-	000_google-spreadsheet-lib-android-read-only/
-6
-d/Users/john/.vifm
-	Trash/
-1
-d/Users/john
-	.jrebel/
-20
-d/Users
-	john/
-3
-d/Users/john
-	dev/
-24
-d/Users/john/dev
-	iics_main_site/
-24
 d/Users/john/dev/iics_main_site
 	templates/
-32
+29
 d/Users/john/dev/iics_main_site/templates
 	sports_nation/
 6
 d/Users/john/dev/iics_main_site/templates/sports_nation
-	img/
+	html/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_s5_accordion_menu/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	css/
+3
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
 6
-d/Users/john/dev/iics_main_site/templates/sports_nation/img
-	menu/
-6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	cache/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/cache
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	css/
+3
+d/Users/john/dev/iics_main_site/templates/sports_nation/css
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_s5_accordion_menu/
+2
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_s5_accordion_menu
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_s5_spotlight_news/
+5
 d/Users/john/dev/iics_main_site/templates/sports_nation
 	images/
 5
@@ -231,98 +111,239 @@ d/Users/john/dev/iics_main_site/templates/sports_nation/images
 	../
 0
 d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site
+	templates/
+29
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html
+	mod_menu/
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu
+	default.php
+1
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	html/
+4
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site
+	studentmap/
+28
+d/Users/john/dev/iics_main_site/studentmap
+	../
+0
+d/Users/john/dev/TrelloDoing
+	.git/
+1
+d/Users/john
+	Downloads/
+4
+d/Users/john/dev/iics_main_site
+	templates/
+29
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	index.php
+25
+d/Users/john
+	Google Drive/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	img/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation/img
+	icons/
+4
+d/Users/john/dev/iics_main_site/templates/sports_nation/img/icons
+	../
+0
+d/Users/john/dev/iics_main_site/templates/sports_nation/img
+	menu/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	images/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation/images
+	typography/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
 	img/
 6
 d/Users/john/dev/iics_main_site/templates/sports_nation/img
 	menu/
 6
 d/Users/john/dev/iics_main_site/templates/sports_nation/img/menu
-	arrows_down.psd
-6
+	left.png
+9
 d/Users/john/dev/iics_main_site/templates/sports_nation/img
-	menu/
+	logos/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation/img/logos
+	neacs-logo.psd
+10
+d/Users/john/dev/iics_main_site
+	templates/
+29
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
 6
 d/Users/john/dev/iics_main_site/templates/sports_nation
 	img/
 6
+d/Users/john/dev/iics_main_site/templates/sports_nation/img
+	icons/
+4
+d/Users/john/dev/iics_main_site
+	modules/
+14
+d/Users/john/dev/iics_main_site/modules
+	mod_socialslider/
+31
+d/Users/john/dev/iics_main_site/modules/mod_socialslider
+	tmpl/
+3
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl
+	panel/
+2
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl/panel
+	images/
+1
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl/panel/images
+	twitter.png.bak
+27
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl/panel
+	images/
+1
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl
+	panel/
+2
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl/panel
+	images/
+1
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl/panel/images
+	twitter.png.bak
+27
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl/panel
+	images/
+1
+d/Users/john/dev/iics_main_site/modules/mod_socialslider/tmpl
+	panel/
+2
+d/Users/john/dev/iics_main_site/modules/mod_socialslider
+	tmpl/
+3
+d/Users/john/dev/iics_main_site/modules
+	mod_socialslider/
+31
+d/Users/john/dev/iics_main_site
+	images/
+4
+d/Users/john/dev/iics_main_site/images
+	studentmap.png
+27
+d/Users/john/dev/iics_main_site
+	images/
+4
+d/Users/john/dev
+	iics_main_site/
+24
+d/Users/john/dev/iics_main_site
+	images/
+4
+d/Users/john/dev/iics_main_site/images
+	.DS_Store
+29
+d/Users/john/dev/iics_main_site
+	templates/
+29
+d/Users/john/dev/iics_main_site/templates
+	sports_nation/
+6
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	images/
+5
+d/Users/john/dev/iics_main_site/templates/sports_nation/images
+	vertex/
+7
+d/Users/john/dev/iics_main_site/templates/sports_nation
+	vertex.json
+14
 d/Users/john/dev/iics_main_site/templates
 	sports_nation/
 6
 d/Users/john/dev/iics_main_site
-	studentmap/
-31
-d/Users/john/dev
-	pocketlab/
-33
-d/Users/john/dev/pocketlab
-	../
-0
-d/Users/john/dev
-	pocketlab/
-12
-d/Users/john/dev/pocketlab
-	node_modules/
+	plugins/
 4
-d/Users/john/dev/pocketlab/node_modules
-	../
-0
-d/Users/john/dev/pocketlab
-	e2e-tests/
-3
-d/Users/john/dev/pocketlab/e2e-tests
-	../
-0
-d/Users/john/dev/pocketlab
-	app/
-2
-d/Users/john/dev/pocketlab/app
-	../
-0
-d/Users/john/dev/pocketlab
-	node_modules/
-4
-d/Users/john/dev/pocketlab/node_modules
-	../
-0
-d/Users/john/dev/pocketlab
-	e2e-tests/
-3
-d/Users/john/dev/pocketlab/e2e-tests
-	../
-0
-d/Users/john/dev/pocketlab
-	app/
-2
-d/Users/john/dev/pocketlab/app
-	../
-0
-d/Users/john/dev/pocketlab
-	.git/
+d/Users/john/dev/iics_main_site/plugins
+	system/
+11
+d/Users/john/dev/iics_main_site/plugins/system
+	sl_scrolltotop/
+11
+d/Users/john/dev/iics_main_site/plugins/system/sl_scrolltotop
+	assets/
 1
-d/Users/john/dev/pocketlab/.git
-	../
-0
-d/Users/john/dev/pocketlab
-	app/
+d/Users/john/dev/iics_main_site/plugins/system/sl_scrolltotop/assets
+	images/
 2
-d/Users/john/dev/pocketlab/app
-	../
-0
-d/Users/john/dev/pocketlab
-	app/
-2
-d/Users/john/dev
-	apps/
-10
-d/Users/john
-	Downloads/
-4
-d/Users/john/Downloads
-	IICS Istanbul International Community School - Administration.html
+d/Users/john/dev/iics_main_site/plugins/system/sl_scrolltotop/assets/images
+	top.png
 5
 d
 
 # Right window history (oldest to newest):
+D/Volumes/Macintosh HD
+	cores/
+9
+D/Users/john/dev/iics_main_site/iics
+	../
+0
+D/Users/john/dev/iics_main_site/mp3
+	../
+0
 D/Users/john/dev/iics_main_site/templates/sports_nation
 	../
 0
@@ -347,9 +368,175 @@ D/Volumes/JOHN/eric_contract
 D/Volumes
 	../
 0
+D/
+	Users/
+11
+D/Users
+	john/
+3
+D/Users/john
+	.vim/
+31
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john/.vim/bundle
+	vundle/
+16
+D/Users/john/.vim/bundle/vundle
+	../
+0
+D/Users/john/.vim/bundle
+	Vundle.vim/
+1
+D/Users/john/.vim/bundle/Vundle.vim
+	../
+0
+D/Users/john/.vim/bundle
+	Vundle.vim/
+1
+D/Users/john/.vim
+	plugin/
+8
+D/Users/john/.vim/plugin
+	../
+0
+D/Users/john/.vim
+	syntax/
+9
+D/Users/john/.vim/syntax
+	../
+0
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john/.vim/bundle
+	Vundle.vim/
+1
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john/.vim/bundle
+	Vundle.vim/
+1
+D/Users/john/.vim/bundle/Vundle.vim
+	../
+0
+D/Users/john/.vim/bundle
+	tcomment_vim/
+3
+D/Users/john/.vim/bundle/tcomment_vim
+	../
+0
+D/Users/john/.vim/bundle
+	Vundle.vim/
+1
+D/Users/john/.vim/bundle/Vundle.vim
+	../
+0
+D/Users/john/.vim/bundle
+	tcomment_vim/
+3
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john/.vim/bundle
+	tcomment_vim/
+3
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john
+	.vim/
+31
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john/.vim/bundle
+	tcomment_vim/
+3
+D/Users/john/.vim
+	bundle/
+2
+D/Users/john
+	.vimperator/
+31
+D/Users
+	john/
+3
+D/
+	Users/
+11
+D/Users
+	john/
+3
+D/Users/john
+	dev/
+22
+D/Users/john/dev
+	iics_main_site/
+24
+D/Users/john/dev/iics_main_site
+	newsletter/
+31
+D/Users/john/dev/iics_main_site/newsletter
+	../
+0
+D/Users/john/dev/iics_main_site
+	templates/
+31
+D/Users/john/dev/iics_main_site/templates
+	../
+0
+D/Users/john/dev/iics_main_site
+	modules/
+16
+D/Users/john/dev/iics_main_site/modules
+	mod_menu/
+22
+D/Users/john/dev/iics_main_site/modules/mod_menu
+	tmpl/
+1
+D/Users/john/dev/iics_main_site/modules/mod_menu/tmpl
+	../
+0
+D/Users/john/dev/iics_main_site/modules/mod_menu
+	tmpl/
+1
+D/Users/john/dev/iics_main_site/modules/mod_menu/tmpl
+	default.php
+1
+D/Users/john/dev/iics_main_site/modules/mod_menu
+	tmpl/
+1
+D/Users/john/dev/iics_main_site/modules/mod_menu/tmpl
+	default.php
+1
+D/Users/john/dev/iics_main_site/modules/mod_menu
+	tmpl/
+1
+D/Users/john/dev/iics_main_site/modules
+	mod_menu/
+22
+D/Users/john/dev/iics_main_site
+	modules/
+16
+D/Users/john/dev/iics_main_site/modules
+	mod_menu/
+22
+D/Users/john/dev/iics_main_site/modules/mod_menu
+	tmpl/
+1
+D/Users/john/dev/iics_main_site/modules/mod_menu/tmpl
+	default.php
+1
 D
 
 # Command line history (oldest to newest):
+:cddev
+:cd $DEV
+:e default.php
+:e Default.html
 :v
 :grep s5_module_call
 :grep masterfrontbox1
@@ -364,22 +551,69 @@ D
 :grep s5_nav
 :e userChrome.css
 :e top_menu_colors.js
+:mod_menu
+:mkdir mod_menu
+:vim 
+:e default2.php
+:vim Default.php
+:e Default.php
+:e Default2.html
+:find . -name text/plain
+:k
+:find . -name default_url
+:find . -name default_component
+: ~
+:cd ~
+:cd dev/iics_main_site/
+:cd dev/iics_main_site/templates/sports_nation/
+:pwd
 
 # Search history (oldest to newest):
+/templa
+/templates
+/iics
+/men
+/vim
+/iic
+/te
+/tem
+/modu
+/menu
 
 # Prompt history (oldest to newest):
+ps
+pdefault.php
+pbreadcrumb.php
 pContract_Eric_Aguilar_Velazquez_2014.pdf
+pp
+po
+psports_nation_default.php
+pDefault.php
+pDefault2.php
+ptwitter.png.bak
+pr
+ptop-metro1.bak.png
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/.vifm/Trash/000_google-spreadsheet-lib-android-read-only
+""/Users/john/dev/iics_main_site/plugins/system/sl_scrolltotop/assets/images/top-metro1.png
 
 # Directory stack (oldest to newest):
 
 # Trash content:
 t/Users/john/.vifm/Trash/000_google-spreadsheet-lib-android-read-only
 	/Users/john/dev/google-spreadsheet-lib-android-read-only
+t/Users/john/.vifm/Trash/000_default.php
+	/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu/default.php
+t/Users/john/.vifm/Trash/001_default.php
+	/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu/default.php
+t/Users/john/.vifm/Trash/000_Default2.php
+	/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu/Default2.php
+t/Users/john/.vifm/Trash/002_default.php
+	/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu/default.php
+t/Users/john/.vifm/Trash/003_default.php
+	/Users/john/dev/iics_main_site/templates/sports_nation/html/mod_menu/default.php
 
 # State:
 f
@@ -388,6 +622,6 @@ i1
 [F
 F
 I1
-].1
+].0
 ]F
 s0

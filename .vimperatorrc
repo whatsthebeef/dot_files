@@ -4,6 +4,8 @@
 set defsearch=startpage  
 " ignorekeys add https://docs.google.com
 
+set scroll=20
+
 " Reload config
 " map <C-r> :source /Users/john/.pentadactylrc<CR>
 map <C-r> :source /Users/john/.vimperatorrc<CR>
@@ -42,7 +44,7 @@ nmap cc <M-A-k>
 nmap ce <M-A-i>
 
 " Language search engine
-nmap <Leader>es :t http://www.wordreference.com/esen/
+nmap <Leader>se :t http://www.wordreference.com/esen/
 nmap <Leader>es :t http://www.wordreference.com/enes/
 nmap <Leader>te :t https://translate.google.com/#tr/en/
 nmap <Leader>et :t https://translate.google.com/#en/tr/
@@ -55,7 +57,6 @@ nmap <Leader>so :o http://stackoverflow.com/search?q=
 
 " Qmarks
 qmark m https://mail.google.com
-qmark a http://bitbucket.org
 qmark b http://bbc.co.uk/news
 qmark g http://www.theguardian.com/uk
 qmark k https://dashboard.heroku.com
@@ -66,6 +67,9 @@ qmark x http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query
 qmark t https://trello.com
 qmark y http://www.youtube.com
 qmark e http://eztv.it
+qmark l http://localhost:8777
+qmark a http://localhost:8777/administrator
+qmark w http://weeklynews.iics-k12.net/wp-admin
 
 """ CSS
 " style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
@@ -184,15 +188,37 @@ var resultList = function(s) {
   return {
     next : function() {
       this.reloadFocus();
-      position = (position < results.length-1) ? position+1 : 0;
-      this.focus(position);
+      // Jumps ahead and then back to make content visible
+      this.focus((position < results.length-1) ? position+2 : 0);
+      this.focus(position-1);
     },
     previous : function() {
       this.reloadFocus();
-      position = (position > 0) ? position-1 : results.length-1;
+      this.focus((position > 0) ? position-1 : results.length-1);
+    },
+    last : function() {
+      this.reloadFocus();
+      this.focus(results.length-1);
+      this.focus(position-1);
+    },
+    first : function() {
+      this.reloadFocus();
+      this.focus(0);
+    },
+    forward : function() {
+      this.reloadFocus();
+      position += 7;
+      this.focus((position < results.length-1) ? position : results.length-1);
+      this.focus(position-1);
+    },
+    back : function() {
+      this.reloadFocus();
+      position -= 6;
+      position = (position >= 0) ? position : 0;
       this.focus(position);
     },
     focus : function(i) {
+      position = i;
       if(results[i]) {
         results[i].focus();
       }
@@ -246,6 +272,22 @@ var previousResult = function() {
   currentResultList.previous();
 }
 
+var firstResult  = function() {
+  currentResultList.first();
+}
+
+var forwardResult  = function() {
+  currentResultList.forward();
+}
+
+var backResult  = function() {
+  currentResultList.back();
+}
+
+var lastResult  = function() {
+  currentResultList.last();
+}
+
 var focusResult = function(i) {
   currentResultList.focus(i);
 }
@@ -270,8 +312,12 @@ mapper("h", function() {
   liberator.execute("back");
 });
 
-mapper("j", "10<Down>", [{filter:resultListExists, mapTo:nextResult}]);
-mapper("k", "10<Up>",   [{filter:resultListExists, mapTo:previousResult}]);
+mapper("j", "<C-d>", [{filter:resultListExists, mapTo:nextResult}]);
+mapper("k", "<C-u>",   [{filter:resultListExists, mapTo:previousResult}]);
+mapper("gg", "<Home>",   [{filter:resultListExists, mapTo:firstResult}]);
+mapper("G", "<End>",   [{filter:resultListExists, mapTo:lastResult}]);
+mapper("<C-f>", "<C-f>",   [{filter:resultListExists, mapTo:forwardResult}]);
+mapper("<C-b>", "<C-b>",   [{filter:resultListExists, mapTo:backResult}]);
 
 mapper("<C-l>", openInNewTab );
 mapper("<C-h>", backInNewTab );
@@ -285,6 +331,7 @@ linkMapper("D", duckduckgo, true);
 initAll = function() {
   // init(ddg+"/", initResultList, "a.result-link");
   init(duckduckgo+"\\/\\?q=", initResultList, "a.result__a");
+  // init("mail.google.com", initResultList, "td.xY > div.xS");
   // init(spResults, initResultList, ".result h3 a");
   // init("bbc", initResultList, "h2 > a, h3 > a");
   // init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");
