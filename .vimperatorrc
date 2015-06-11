@@ -1,8 +1,9 @@
 " Treat file as vim config
 " vim: set ft=vim:
 
-set defsearch=startpage  
-" ignorekeys add https://docs.google.com
+" set defsearch=startpage  
+ignorekeys add https://docs.google.com
+ignorekeys add https://www.duolingo.com
 
 set scroll=20
 
@@ -17,7 +18,7 @@ nmap l <CR>
 nmap L :forward<CR>
 nmap i gi<C-t>i
 " nmap i <Insert>
-tmap <CR> i<Cr>
+" tmap <CR> i<Cr>
 
 nmap J 10<Down>
 nmap K 10<Up>
@@ -28,10 +29,12 @@ nmap k 100<Up>
 nmap g1 b1<CR>
 nmap g2 b2<CR>
 nmap g3 b3<CR>
-nmap g3 b3<CR>
 nmap g4 b4<CR>
 nmap g5 b5<CR>
 nmap g6 b6<CR>
+nmap g7 b7<CR>
+nmap g8 b8<CR>
+nmap g9 b9<CR>
 
 " Map quick marks to normal marks
 nmap \' go
@@ -61,15 +64,13 @@ qmark b http://bbc.co.uk/news
 qmark g http://www.theguardian.com/uk
 qmark k https://dashboard.heroku.com
 qmark i https://firstlook.org/theintercept
-qmark h https://github.com/whatsthebeef
+qmark h https://news.ycombinator.com/
 qmark n http://www.thenation.com/blogs/ali-gharib
 qmark x http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1
 qmark t https://trello.com
 qmark y http://www.youtube.com
-qmark e http://eztv.it
-qmark l http://localhost:8777
-qmark a http://localhost:8777/administrator
-qmark w http://weeklynews.iics-k12.net/wp-admin
+qmark a https://docs.angularjs.org/api
+qmark r https://www.reddit.com/r/programming
 
 """ CSS
 " style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
@@ -323,15 +324,15 @@ mapper("<C-l>", openInNewTab );
 mapper("<C-h>", backInNewTab );
 mapper("q", removeIfNotFirstTab );
 
-linkMapper("s", spSearch);
-linkMapper("S", spSearch, true);
 linkMapper("d", duckduckgo);
 linkMapper("D", duckduckgo, true);
 
 initAll = function() {
   // init(ddg+"/", initResultList, "a.result-link");
   init(duckduckgo+"\\/\\?q=", initResultList, "a.result__a");
-  // init("mail.google.com", initResultList, "td.xY > div.xS");
+  init("ycombinator", initResultList, "td.title > a");
+  init("reddit", initResultList, "div.entry > p.title > a");
+  init("mail.google.com", initResultList, "tr.zA.yO");
   // init(spResults, initResultList, ".result h3 a");
   // init("bbc", initResultList, "h2 > a, h3 > a");
   // init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");

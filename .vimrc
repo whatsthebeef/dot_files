@@ -10,22 +10,25 @@ call vundle#rc()
 
 filetype plugin indent on     " required
 
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
-Bundle "scrooloose/syntastic"
-Bundle "Shougo/unite.vim"
-Bundle "Shougo/vimproc"
-Bundle "tsukkee/unite-tag"
-Bundle "xolox/vim-misc"
-Bundle "xolox/vim-notes"
-Bundle "tpope/vim-fugitive"
-Bundle "tpope/vim-surround"
-Bundle "tpope/vim-rails"
-Bundle "tomtom/tcomment_vim"
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+" Plugin 'garbas/vim-snipmate'
+Plugin 'scrooloose/syntastic'
+Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/vimproc'
+Plugin 'tsukkee/unite-tag'
+Plugin 'xolox/vim-misc'
+Plugin 'xolox/vim-notes'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-rails'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'SirVer/ultisnips'
 
 " Optional
-Bundle "honza/vim-snippets"
+Plugin 'honza/vim-snippets'
 
 " call vundle#end()
 "" To install packets run :PluginInstall
@@ -68,10 +71,9 @@ set whichwrap=b,s,h,l,<,>,[,]   " move freely between files
 set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
 
+""" Folding
 set foldmethod=syntax
-set foldlevel=10
-
-set wildmenu      " nice command auto completion
+set foldlevelstart=4
 
 " search settings
 set hlsearch        " highlight searches
@@ -126,20 +128,30 @@ end
 " Tmux and vim creates problem copying to the system keyboard
 " To resolve install reattach-to-user-namespace
 " Not using as it is very disruptive
-" if TMUX == ''
-"   set clipboard+=unnamed
-" endif
+if $TMUX == ''
+  set clipboard+=unnamed
+endif
 
 """ Syntastic
-let g:syntastic_aggregate_errors = 1
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+"" Maybe should be 1 for java
+" let g:syntastic_aggregate_errors = 1
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_open = 1
 "" Jump only if it is an error
 let g:syntastic_auto_jump = 2
 "" Show error window automatically
-" let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_javascript_checkers = ['jshint']
 "" Java checkers - checkstyle is faster but doesn't check syntax
 let g:syntastic_java_checkers = ['javac', 'checkstyle']
+
 "
 """ Unite
 " Doesn't seem to work DEPRECATED 
@@ -154,7 +166,7 @@ let g:unite_winheight=10
 
 call unite#custom#source('file_rec,file_rec/async', 'max_candidates', 0)
 call unite#custom#source('file_rec,file_rec/async', 'ignore_pattern',
-         \ '\.git/\|target/\|tmp/\|rails_docs/\|vendor\|bin\|build\|.settings\|.classpath\|.project')
+         \ '\.git/\|target/\|tmp/\|rails_docs/\|vendor\|bin\|build\|.settings\|.classpath\|.project\|bower_components\|node_modules')
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 call unite#filters#sorter_default#use(['sorter_rank'])
 
@@ -181,7 +193,16 @@ unlet my_gedit_vsplit
 """ Notes
 let g:notes_directories = ['~/Documents/Notes']
 
+""" Ultisnip
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<S-tab>"
+let g:UltiSnipsJumpBackwardTrigger="<C-tab>"
+
+" If you want :UltiSnipsEdit to split your window.
+
 " --------------------------- Autocommand ------------------------------------
+
 
 if has("autocmd")
    " Restore cursor position
@@ -228,7 +249,10 @@ if has("autocmd")
    " au GUIEnter * simalt ~x
    
    " Opens quickfix window when grepping in fugitive 
-   autocmd QuickFixCmdPost *grep* cwindow
+   au QuickFixCmdPost *grep* cwindow
+
+   au FileType javascript :UltiSnipsAddFiletypes angular_js 
+   au FileType javascript :UltiSnipsAddFiletypes javascript 
 endif
 
 " ------------------- Mappings and commands --------------------------------
@@ -238,8 +262,10 @@ endif
 nmap <Leader>O o<Esc>k
 nmap <Leader>o o<Esc>
 "" Buffers
-" Using Unite buffers
-" map <Leader>bp :bp<CR>
+" Using Unite buffers 
+map <Leader>b :b#<CR>
+" map <Leader>bs :b#<CR>
+" map <Leader>bl :b 
 " map <Leader>bn :bn<CR>
 " map <Leader>bq :bd<CR>
 "" Movements
@@ -313,7 +339,7 @@ nmap <Leader>wd :cd $CWD<CR>
 """ File
 "" Open a new file in the same directory as the file in the current buffer
 "" using the name provided in the prompt
-nmap ,nf :call NewFileInDirOfCurrentBuffer()<CR>
+" nmap ,nf :call NewFileInDirOfCurrentBuffer()<CR>
 function NewFileInDirOfCurrentBuffer()
    call inputsave()
    let name = input("Enter file name: ")
@@ -453,11 +479,12 @@ nmap <Leader>js :FindJump<Space>
 nmap <Leader>ja :AllJumps<CR>
 
 "" Buffer search
-command AllBuffers :Unite buffer
-nmap <Leader>ba :AllBuffers<CR>
+command AllBuffers :Unite -start-insert -silent buffer
+nmap <Leader>n :AllBuffers<CR>
 
 """ Vifm
 nmap <Leader>sp :VsplitVifm<CR>
+nmap <Leader>e :EditVifm<CR>
 
 """ Helptags
 nmap <Leader>ht :helptags $VIMRUNTIME/doc<CR>
@@ -466,10 +493,12 @@ nmap <Leader>ht :helptags $VIMRUNTIME/doc<CR>
 nmap g[ :tag<CR>
 
 "" TODO
-function FunCreateTagsAtDir(dir)
+function! FunCreateTagsAtDir()
+  let l:query = getcwd()
+  execute '!ctags -f ./tags -R '.l:query 
 endfunction
 "" Very stange behaviour
-command -nargs=* CreateTagsAtDir :!ctags -f "/Users/john/dev/gemas/gemas_z/gemas-osgi/tags" -R "/Users/john/dev/gemas/gemas_z/gemas-osgi"<CR>
+command! CreateTagsAtDir call FunCreateTagsAtDir()
 
 """ Web
 command -nargs=* SearchWeb :!ws <args><CR>

@@ -1,13 +1,21 @@
 ####################################################### BASH CONFIG ##########################################
 
+#------------------------------------ bach config --------
+unset MAILCHECK
+#------------------------------------
+
 #--------------------------------- Environment variables----------------------------------#
+
+export MYSQL_HOME=${HOME}/dev/apps/mysql
+export DEV=${HOME}/dev 
+
 ## Path
 PATH=${PATH}:${HOME}/dev/apps/glassfish/bin
 PATH=${PATH}:${MYSQL_HOME}/bin
 
 PATH=/usr/local/bin:${PATH}
 PATH=${HOME}/bin:${PATH}
-PATH=$PATH:${HOME}/.rvm/bin # Add RVM to PATH for scripting
+PATH=${PATH}:${HOME}/.rvm/bin # Add RVM to PATH for scripting
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 export PATH
@@ -21,7 +29,6 @@ export MAVEN_OPTS="-Xmx1024M -XX:MaxPermSize=512M"
 
 export SMX=${HOME}/dev/apps/apache-servicemix-5.0.0
 export DL=${HOME}/Downloads
-export DEV=${HOME}/dev
 export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
@@ -33,11 +40,13 @@ export NEO4J=${DEV}/apps/neo4j-community-2.1.5
 # using whats in the current_scheme.txt
 eval `change-scheme $(head -n 1 ~/bin/current_scheme.txt)` 
 
-export MYSQL_HOME=${HOME}/dev/apps/mysql
-
 export MYVIFMRC=${HOME}/.vifmrc
 
-export EDITOR=/usr/bin/vim
+export EDITOR=vim
+
+# export PHANTOMJS_BIN=${HOME}/.npm/phantomjs/1.9.15/package/bin/phantomjs
+
+export MYSHELL=$(ps $$ | awk 'NR>1 {print $5}') 
 
 #--------------------------------------- Config -------------------------------------------#
 
@@ -47,7 +56,17 @@ if [[ ! $TERM =~ screen ]]; then
 fi
 
 ### Vim in bash
-set -o vi
+if [[ $MYSHELL =~ bash ]]; 
+then
+  set -o vi
+elif [[ $MYSHELL =~ zsh ]]; 
+then
+  bindkey -v
+else 
+  set -o vi
+fi
+
+
 
 ### RVM
 [[ -s "${HOME}/.rvm/scripts/rvm" ]] && source "${HOME}/.rvm/scripts/rvm" 
@@ -63,7 +82,7 @@ git config --global difftool.prompt false
 #--------------------------------------- Aliases ------------------------------------------#
 
 ### Vim
-alias vim=/usr/bin/vim
+alias vim='reattach-to-user-namespace -l ~/dev/apps/vim/src/vim'
 
 ## open in note search
 function vimn() {
@@ -98,7 +117,10 @@ alias grr="gradle bootRun"
 alias grb="gradle build"
 
 ## Pretty colours
-PS1="\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033[01;34m\]\w \[\033[00;34m\]}\[\033[01;32m\]-> \[\033[00m\]"
+
+if [[ $MYSHELL =~ bash ]]; then
+  PS1="\[\033[01;32m\]\u\[\033[01;34m\]::\[\033[01;31m\]\h \[\033[00;34m\]{ \[\033[01;34m\]\w \[\033[00;34m\]}\[\033[01;32m\]-> \[\033[00m\]"
+fi
 
 # http://linuxgazette.net/137/anonymous.html
 cursor_style_default=0 # hardware cursor (blinking)
@@ -277,10 +299,18 @@ zuma() {
    initProject $ZUMA "rails s"
 }
 
-# PocketLab
+# PocketLab android
 export POCKETLAB=${DEV}/pocketlab-android
 pocketlab() {
    initIDEProject $POCKETLAB 
+}
+
+# PocketLab chrome
+export POCKETLAB_CHROME=${DEV}/pocketlab-chrome
+export POCKETLAB_CHROME_APP=${POCKETLAB_CHROME}/app
+pocketlab-chrome() {
+   initProject $POCKETLAB_CHROME "npm start"
+   initProject $POCKETLAB_CHROME_APP "cd .. ; npm test"
 }
 
 # Wedstival
@@ -300,6 +330,7 @@ export VISIENS_SERVER=${DEV}/visiens
 visiensServer() {
    initProject $VISIENS_SERVER "cd $NEO4J"
 }
+export JAVA_OPTS='-Dlogback.configurationFile=jar:file:/Users/john/dev/apps/neo4j-community-2.1.5/plugins/visiens-server-api-1.0-SNAPSHOT.jar!/logback.xml'
 
 # IICS wordpress server
 export IICS=${DEV}/iics_wordpress
@@ -309,6 +340,18 @@ iics() {
 
 # IICS main server
 export IICS_MAIN=${DEV}/iics_main_site
-iics_main() {
+iicsMain() {
    initProject $IICS_MAIN 
+}
+
+# Visiens indexer
+export VISIENS_INDEXER=${DEV}/visiens_indexer
+visiensIndexer() {
+   initProject $VISIENS_INDEXER "guard" 
+}
+
+# Visiens indexer
+export VISIENS_FRONTEND=${DEV}/visiens-frontend
+visiensFrontend() {
+   initProject $VISIENS_FRONTEND "rails s" 
 }

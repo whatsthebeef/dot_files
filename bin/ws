@@ -3,11 +3,11 @@
 # It'd from brew, it has been updated to handle associative arrays
 
 # search engines
-engineD="https://next.duckduckgo.com?q="
+engineD="https://www.duckduckgo.com?q="
 engineG="https://www.google.com/search?q="
 engineDT="http://3g2upl4pq6kufc4m.onion/lite?q="
 engineS="https://startpage.com/do/search?q="
-engine=$engineS
+engine=$engineD
 
 # favourites (must be string without space)
 declare -A favourites

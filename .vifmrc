@@ -61,7 +61,12 @@ set noiec
 
 " Selected color scheme
 
-colorscheme juef-zenburn
+" colorscheme juef-zenburn
+colorscheme reicheltd-light
+" colorscheme Default                                                       
+" colorscheme dmilith-root
+" colorscheme dmilith-user
+" colorscheme istib-solarized-dark
 
 " The FUSE_HOME directory will be used as a root dir for all FUSE mounts.
 " Unless it exists with write/exec permissions set, vifm will attempt to
@@ -296,6 +301,9 @@ nmap yd :!echo %d | pbcopy %i<cr>
 
 " Yank current file path into the clipboard
 nmap yf :!echo %c:p | pbcopy %i<cr>
+
+" Yank current directory path into the clipboard
+nmap yn :!echo expand('%:t') | pbcopy %i<cr>
 
 " Mappings for faster renaming
 nmap I cw<c-a>
