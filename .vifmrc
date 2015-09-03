@@ -161,7 +161,11 @@ command vgrep vim "+grep %a"
 " program.
 
 " Pdf
-filetype *.pdf zathura %f,apvlv %f,xpdf %f
+filetype *.pdf 
+      \ zathura %f,
+      \ apvlv %f,
+      \ xpdf %f,
+      \ open
 fileview *.pdf pdftotext -nopgbrk %c -
 
 " PostScript
@@ -196,12 +200,14 @@ filetype *.html,*.htm links,mozilla,uzbl-browser %f %i &
 filetype *.o nm %f | less
 
 " Image
-filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.ico
         \ {View in sxiv}
         \ sxiv,
         \ {View in gpicview}
         \ gpicview %c,
-fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm convert -identify %f -verbose /dev/null
+        \ {View in firefox}
+        \ open -a Firefox,
+fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm, *.ico convert -identify %f -verbose /dev/null
 
 " MD5
 filetype *.md5
@@ -338,7 +344,9 @@ nmap q :q<CR>
 nmap ,tf :!touch %c<CR>
 
 " default not working
-set findprg="find %s %a -print -type d -prune"
+" set findprg="find %s %a -print -type d -prune"
+" set findprg="find %s %a −print , -type d \( ! −readable -o ! -executable \) −prune"
+set findprg="find %s %a"
 
 " Git stuff
 command Gdiff :!git diff

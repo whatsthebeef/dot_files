@@ -48,6 +48,14 @@ export EDITOR=vim
 
 export MYSHELL=$(ps $$ | awk 'NR>1 {print $5}') 
 
+platform='unknown'
+unamestr=$(uname)
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='mac'
+fi
+
 #--------------------------------------- Config -------------------------------------------#
 
 ### Tmux
@@ -65,8 +73,6 @@ then
 else 
   set -o vi
 fi
-
-
 
 ### RVM
 [[ -s "${HOME}/.rvm/scripts/rvm" ]] && source "${HOME}/.rvm/scripts/rvm" 
@@ -169,6 +175,27 @@ alias schhb='eval `change-scheme grb256`'
 alias schgh='eval `change-scheme github`'
 
 #----------------------------------- Helper functions ----------------------------------#
+
+memUsage() {
+  if [[ "$platform" == 'mac' ]]; then
+    ps aux -m | less 
+  else
+    ps aux --sort -%mem | less 
+  fi
+}
+
+cpuUsage() {
+  if [[ "$platform" == 'mac' ]]; then
+    ps aux -c | less 
+  else
+    ps aux --sort -%cpu | less 
+  fi
+}
+
+rubyFindAndReplace() {
+  # find . -name '*.rb' -type f -exec sed -i -e 's/$1/$2/g' {} +
+  find . -name '*.rb' -o -name '*.html.erb' -type f -exec vim -c "%s/$1/$2/gIc" -c "wq" {} \;
+}
 
 rescueVifm() {
    rm ~/.vifm/vifminfo*
@@ -354,4 +381,10 @@ visiensIndexer() {
 export VISIENS_FRONTEND=${DEV}/visiens-frontend
 visiensFrontend() {
    initProject $VISIENS_FRONTEND "rails s" 
+}
+
+# NuvoLets indexer
+export NUVOLETS=${DEV}/nuvolets
+nuvolets() {
+   initProject $NUVOLETS "rails s" 
 }

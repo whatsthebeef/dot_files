@@ -8,6 +8,7 @@ set rtp+=~/.vim/bundle/vundle/
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
+" file type not working for ultisnip. Try playing with this.
 filetype plugin indent on     " required
 
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -21,11 +22,15 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-rvm'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
+Plugin 'JulesWang/css.vim' 
+Plugin 'cakebaker/scss-syntax.vim'
 
 " Optional
 Plugin 'honza/vim-snippets'
@@ -120,8 +125,8 @@ else
    " colorscheme solarized
    colorscheme $SCHEME
    " colorscheme grb256
-   hi StatusLine   ctermfg=15  guifg=#ffffff ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
-   hi StatusLineNC ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
+   " hi StatusLine   ctermfg=15  guifg=#ffffff ctermbg=239 guibg=#4e4e4e cterm=bold gui=bold
+   " hi StatusLineNC ctermfg=249 guifg=#b2b2b2 ctermbg=237 guibg=#3a3a3a cterm=none gui=none
 end
 
 """ Tmux
@@ -133,9 +138,12 @@ if $TMUX == ''
 endif
 
 """ Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+set laststatus=2
+set statusline=%f
+" set statusline+=%#file#
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
 "" Maybe should be 1 for java
 " let g:syntastic_aggregate_errors = 1
@@ -149,10 +157,21 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_javascript_checkers = ['jshint']
+
+let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-", 
+      \ " proprietary attribute \"editable-text",  
+      \ " proprietary attribute \"typehead",  
+      \ " proprietary attribute \"snap-",  
+      \ " is not recognized!", 
+      \ "trimming empty <i>",
+      \ "discarding unexpected "]
+" let g:syntastic_quiet_messages = { "level": "warnings" } 
+let g:syntastic_html_tidy_exec = '/usr/local/bin/tidy5'
 "" Java checkers - checkstyle is faster but doesn't check syntax
 let g:syntastic_java_checkers = ['javac', 'checkstyle']
 
-"
+let g:syntastic_loc_list_height=3
+
 """ Unite
 " Doesn't seem to work DEPRECATED 
 "let g:unite_source_grep_max_candidates = 1000
@@ -253,6 +272,14 @@ if has("autocmd")
 
    au FileType javascript :UltiSnipsAddFiletypes angular_js 
    au FileType javascript :UltiSnipsAddFiletypes javascript 
+
+   au FileType ruby :UltiSnipsAddFiletypes ruby 
+
+   au FileType html :UltiSnipsAddFiletypes html 
+   au FileType html.erb :UltiSnipsAddFiletypes html 
+
+   au FileType scss :UltiSnipsAddFiletypes scss 
+   au FileType scss :UltiSnipsAddFiletypes css 
 endif
 
 " ------------------- Mappings and commands --------------------------------
@@ -371,7 +398,7 @@ nmap <Leader>u :sp $MYVIMRC<CR>      " edit my vimrc file
 nmap <Leader>U :!sp $MYVIMRC<CR>      " edit my vimrc file !EVERYONE BE CAREFUL"
 nmap <Leader>r :source $MYVIMRC<CR> " update the system settings from my vimrc file
 nmap <Leader>R :!source $MYVIMRC<CR> " update the system settings from my vimrc file
-
+nmap <Leader>J :sp ~/.jshintrc<CR>      " edit my jshint file
 
 """ Copying
 nmap <Leader>rn :set nonumber<CR>

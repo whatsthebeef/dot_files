@@ -2,7 +2,7 @@
     "node": true,
     "browser": true,
     "esnext": true,
-    "bitwise": true,
+    "bitwise": false,
     "camelcase": false,
     "curly": true,
     "eqeqeq": true,
@@ -18,10 +18,23 @@
     "trailing": true,
     "smarttabs": true,
     "multistr": true,
-    "globals": {
-        "angular": false,
-        "inject": false,
-        "describe": false,
-        "beforeEach": false
-    }
+    "predef": [
+        "angular",
+        "inject",
+        "describe",
+        "beforeEach",
+        "it",
+        "APPLICATION_SPEC",
+        "d3",
+        "topojson",
+        "expect",
+        "$",
+        "Dygraph",
+        "chrome",
+        "spyOn",
+        "Int8Array",
+        "Int32Array",
+        "Int16Array",
+        "Uint8Array"
+    ]
 }

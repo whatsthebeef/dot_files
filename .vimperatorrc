@@ -3,7 +3,6 @@
 
 " set defsearch=startpage  
 ignorekeys add https://docs.google.com
-ignorekeys add https://www.duolingo.com
 
 set scroll=20
 
@@ -69,8 +68,11 @@ qmark n http://www.thenation.com/blogs/ali-gharib
 qmark x http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1
 qmark t https://trello.com
 qmark y http://www.youtube.com
+qmark f http://www.huffingtonpost.com/graham-e-fuller
 qmark a https://docs.angularjs.org/api
 qmark r https://www.reddit.com/r/programming
+qmark p https://trello.com/b/mF1SY3dI/pocketlab-chromebook
+qmark l http://localhost:3000
 
 """ CSS
 " style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
@@ -86,7 +88,6 @@ var ddg = "3g2upl4pq6kufc4m.onion/lite";
 var spResults = "startpage.com";
 var duckduckgo = "duckduckgo.com";
 var spSearch = "startpage.com/$";
-var bbc = "bbc";
 
 var init = function(filter, initFunction, args) {
   if(matchesHref(filter)) {
@@ -165,13 +166,17 @@ var feedKeys = function(keys) {
 }
 
 var openInNewTab  = function() {
+   var tabIndex = getBrowser().selectedTab._tPos;
    var href = bWindow.document.activeElement.getAttribute("href");
-   liberator.execute("background tabopen "+href);
+   liberator.execute("tabopen "+href);
+   getBrowser().selectTabAtIndex(tabIndex);
 }
 
 var backInNewTab = function() {
    var href = bWindow.location.href;
-   liberator.execute("background tabopen "+href);
+   var tabIndex = getBrowser().selectedTab._tPos;
+   liberator.execute("tabopen "+href);
+   getBrowser().selectTabAtIndex(tabIndex);
    liberator.execute("back");
 }
 
@@ -190,12 +195,27 @@ var resultList = function(s) {
     next : function() {
       this.reloadFocus();
       // Jumps ahead and then back to make content visible
-      this.focus((position < results.length-1) ? position+2 : 0);
-      this.focus(position-1);
+      if(position < results.length-2) {
+        this.focus(position + 2);
+        this.focus(position - 1);
+      }
+      else {
+        this.focus(results.length - 1);
+      }
     },
     previous : function() {
+      // Jumps back and then forward to make content visible
       this.reloadFocus();
-      this.focus((position > 0) ? position-1 : results.length-1);
+      if(position > 1) {
+        this.focus(position - 3);
+        this.focus(position + 2);
+      }
+      else {
+        this.focus(0);
+        feedKeys("<Up>");
+        feedKeys("<Up>");
+        feedKeys("<Up>");
+      }
     },
     last : function() {
       this.reloadFocus();
@@ -205,6 +225,9 @@ var resultList = function(s) {
     first : function() {
       this.reloadFocus();
       this.focus(0);
+      feedKeys("<Up>");
+      feedKeys("<Up>");
+      feedKeys("<Up>");
     },
     forward : function() {
       this.reloadFocus();
@@ -302,10 +325,21 @@ var yankFocus = function() {
 }
 
 var removeIfNotFirstTab = function() {
-   // var tabIndex = getBrowser().selectedTab._tPos;
    var numTabs = getBrowser().tabs.length;
    if(numTabs > 1) {
       getBrowser().removeTab(getBrowser().selectedTab);
+   }
+}
+
+var removeAllTabsExceptCurrent = function() {
+   var currentTab = getBrowser().selectedTab;
+   var i = getBrowser().tabs.length - 1;
+   while(i >= 0) {
+      var tab = getBrowser().tabs[i];
+      if(tab !== currentTab) {
+         getBrowser().removeTab(tab);
+      }
+      i--;
    }
 }
 
@@ -313,16 +347,20 @@ mapper("h", function() {
   liberator.execute("back");
 });
 
-mapper("j", "<C-d>", [{filter:resultListExists, mapTo:nextResult}]);
-mapper("k", "<C-u>",   [{filter:resultListExists, mapTo:previousResult}]);
+// mapper("j", "20<C-d>", [{filter:resultListExists, mapTo:nextResult}]);
+// mapper("k", "20<C-u>",   [{filter:resultListExists, mapTo:previousResult}]);
+mapper("j", "10<Down>", [{filter:resultListExists, mapTo:nextResult}]);
+mapper("k", "10<Up>",   [{filter:resultListExists, mapTo:previousResult}]);
 mapper("gg", "<Home>",   [{filter:resultListExists, mapTo:firstResult}]);
 mapper("G", "<End>",   [{filter:resultListExists, mapTo:lastResult}]);
-mapper("<C-f>", "<C-f>",   [{filter:resultListExists, mapTo:forwardResult}]);
-mapper("<C-b>", "<C-b>",   [{filter:resultListExists, mapTo:backResult}]);
+
+mapper("<C-f>", "40<C-d>", [{filter:resultListExists, mapTo:forwardResult}]);
+mapper("<C-b>", "40<C-u>", [{filter:resultListExists, mapTo:backResult}]);
 
 mapper("<C-l>", openInNewTab );
 mapper("<C-h>", backInNewTab );
 mapper("q", removeIfNotFirstTab );
+mapper("Q", removeAllTabsExceptCurrent );
 
 linkMapper("d", duckduckgo);
 linkMapper("D", duckduckgo, true);
@@ -332,10 +370,12 @@ initAll = function() {
   init(duckduckgo+"\\/\\?q=", initResultList, "a.result__a");
   init("ycombinator", initResultList, "td.title > a");
   init("reddit", initResultList, "div.entry > p.title > a");
-  init("mail.google.com", initResultList, "tr.zA.yO");
+  // init("mail.google.com", gmailMappings);
   // init(spResults, initResultList, ".result h3 a");
-  // init("bbc", initResultList, "h2 > a, h3 > a");
-  // init("theguardian.com/uk", initResultList, "h1 > a, h3 > a");
+  init("bbc.com/news$", initResultList, "a.title-link");
+  // init("theguardian.com/uk", initResultList, "div.fc-item__container > a");
+  init("youtube.com/watch", initResultList, ".video-list-item .content-wrapper a.spf-link");  
+  init("youtube.com/results", initResultList, ".yt-lockup-title a.spf-link");  
   // init("theintercept/$", initResultList, "h1 > a");
   // init("mutt.org", initResultList, "li > a:last-child");
   // init(spSearch, feedKeys, "i");
@@ -355,5 +395,7 @@ EOM
 """ Init
 " autocmd PageLoad .* :js initPages()
 autocmd LocationChange .* :js initPages()
+autocmd LocationChange .* :js modes.passAllKeys = false
+autocmd LocationChange doc\\.google\\.com js modes.passAllKeys = true
 
 

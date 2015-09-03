@@ -1,14 +1,22 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
 # Bookmarks:
+'D
+	/Users/john/Downloads
+	../
+1440147454
 'M
-	/Users/john
-	.vifmrc
-1432272960
+	/Users/john/dev/kidscare-iics
+	functions.php
+1440414729
 'b
 	/Users/john/bin/
 	../
 1422517854
+'d
+	/Users/john/dev
+	../
+1440147494
 'h
 	/Users/john/
 	../
@@ -31,703 +39,622 @@
 1434016594
 
 # TUI:
-ar
+al
 q0
 v2
 ov
 m-1
 l2
-r2
+r-11,2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/visiens-frontend
-	public/
-9
-d/Users/john/dev/visiens-frontend/public
-	karma_html/
-1
-d/Users/john/dev/visiens-frontend/public/karma_html
-	PhantomJS_1.9.8_(Mac_OS_X_0.0.0)/
-1
-d/Users/john/dev/visiens-frontend
-	spec/
-10
-d/Users/john/dev/visiens-frontend/spec
-	karma/
+d/Users/john/dev/nuvolets/app/views/shared
+	_property_fields.html.erb
 2
-d/Users/john/dev/visiens-frontend/spec/karma
-	config/
-1
-d/Users/john/dev/visiens-frontend/spec
-	karma/
-2
-d/Users/john/dev/visiens-frontend
-	public/
-9
-d/Users/john/dev/visiens-frontend/public
-	karma_html/
-1
-d/Users/john/dev/visiens-frontend/public/karma_html
-	PhantomJS_1.9.8_(Mac_OS_X_0.0.0)/
-2
-d/Users/john/dev/visiens-frontend
-	vendor/
-13
-d/Users/john/dev/visiens-frontend/vendor
-	assets/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets
-	bower_components/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	angular-xeditable/
-5
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/css
-	../
-0
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	angular-xeditable/
-5
-d/Users/john/dev/visiens-frontend/vendor/assets
-	bower_components/
-1
-d/Users/john/dev/visiens-frontend/vendor
-	assets/
-1
-d/Users/john/dev/visiens-frontend
+d/Users/john/dev/nuvolets
 	app/
 2
-d/Users/john/dev/visiens-frontend/app
-	assets/
-1
-d/Users/john/dev/visiens-frontend/app/assets
-	javascripts/
-2
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	application.js
+d/Users/john/dev/nuvolets/app
+	models/
 5
-d/Users/john/dev/visiens-frontend/app/assets
-	stylesheets/
+d/Users/john/dev/nuvolets/app/models
+	concerns/
+1
+d/Users/john/dev/nuvolets/app/models/concerns
+	../
+0
+d/Users/john/dev/nuvolets/app/models
+	concerns/
+1
+d/Users/john/dev/nuvolets/app
+	models/
+5
+d/Users/john/dev/nuvolets/app/models
+	concerns/
+1
+d/Users/john/dev/nuvolets/app
+	helpers/
 3
-d/Users/john/dev/visiens-frontend/app/assets/stylesheets
-	application.css.scss
-1
-d/Users/john/dev/visiens-frontend/app/assets
-	stylesheets/
+d/Users/john/dev/nuvolets/app/helpers
+	section_generation_helper.rb
 3
-d/Users/john/dev/visiens-frontend/app
-	assets/
-1
-d/Users/john/dev/visiens-frontend
-	node_modules/
-8
-d/Users/john/dev/visiens-frontend/node_modules
-	../
-0
-d/Users/john/dev/visiens-frontend
-	vendor/
-13
-d/Users/john/dev/visiens-frontend/vendor
-	assets/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets
-	bower_components/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	bootstrap-sass-official/
-6
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/bootstrap-sass-official
-	../
-0
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	bootstrap-sass-official/
-6
-d/Users/john/dev/visiens-frontend/vendor/assets
-	bower_components/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	angular-xeditable/
-5
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	js/
-2
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/js
-	xeditable.js
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/css
-	xeditable.css
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	angular-xeditable/
-5
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/css
-	xeditable.css
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	js/
-2
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/js
-	xeditable.js
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	js/
-2
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	angular-xeditable/
-5
-d/Users/john/dev/visiens-frontend/vendor/assets
-	javascripts/
-2
-d/Users/john/dev/visiens-frontend/vendor
-	assets/
-1
-d/Users/john/dev/visiens-frontend
-	vendor/
-13
-d/Users/john/dev/visiens-frontend/vendor
-	assets/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets
-	javascripts/
-2
-d/Users/john/dev/visiens-frontend/vendor/assets/javascripts
-	../
-0
-d/Users/john/dev/visiens-frontend/vendor/assets
-	stylesheets/
-3
-d/Users/john/dev/visiens-frontend/vendor/assets/stylesheets
-	../
-0
-d/Users/john/dev/visiens-frontend/vendor/assets
-	bower_components/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components
-	angular-xeditable/
-5
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	js/
-2
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/js
-	xeditable.js
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist/css
-	xeditable.css
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable/dist
-	css/
-1
-d/Users/john/dev/visiens-frontend/vendor/assets/bower_components/angular-xeditable
-	dist/
-1
-d/Users/john/dev/visiens-frontend
-	spec/
-10
-d/Users/john/dev/visiens-frontend/spec
-	javascripts/
-1
-d/Users/john/dev/visiens-frontend/spec/javascripts
-	../
-0
-d/Users/john
-	.IdeaIC14/
-1
-d/Users
-	john/
-3
-d/Users/john
-	dev/
-32
-d/Users/john/dev
-	visiens-frontend/
-25
-d/Users/john/dev/visiens-frontend
-	spec/
-10
-d/Users/john/dev
-	visiens-frontend/
-25
-d/Users/john/dev/visiens-frontend
-	app/
-2
-d/Users/john/dev/visiens-frontend/app
+d/Users/john/dev/nuvolets/app
 	controllers/
 2
-d/Users/john/dev/visiens-frontend/app/controllers
-	main_controller.rb
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app/controllers/concerns
+	wizard_controller.rb
 3
-d/Users/john/dev/visiens-frontend/app
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app
+	models/
+5
+d/Users/john/dev/nuvolets/app/models
+	concerns/
+1
+d/Users/john/dev/nuvolets/app/models/concerns
+	section.rb
+2
+d/Users/john/dev/nuvolets
+	db/
+5
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150902090752_add_first_name_last_name_and_tel_number_to_landlord.rb
+26
+d/Users/john/dev/nuvolets
+	vendor/
+11
+d/Users/john/dev/nuvolets/vendor
 	assets/
 1
-d/Users/john/dev/visiens-frontend/app/assets
+d/Users/john/dev/nuvolets/vendor/assets
+	bower_components/
+1
+d/Users/john/dev/nuvolets/vendor/assets/bower_components
+	bootstrap-datepicker/
+2
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components
+	bootstrap-sass/
+3
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components
+	bootstrap-datepicker/
+2
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components
+	bootstrap-sass/
+3
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass
+	assets/
+1
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass/assets
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components
+	bootstrap-datepicker/
+2
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
+	dist/
+2
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
+	js/
+2
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist/js
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
+	css/
+1
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist/css
+	../
+0
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
+	css/
+1
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
+	dist/
+2
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
+	css/
+1
+d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist/css
+	../
+0
+d/Users/john/dev/nuvolets
+	app/
+2
+d/Users/john/dev/nuvolets/app
+	controllers/
+2
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app/controllers/concerns
+	wizard_controller.rb
+3
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app/controllers/concerns
+	property_handler_controller.rb
+2
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app/controllers/concerns
+	property_handler_controller.rb
+2
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app
+	models/
+5
+d/Users/john/dev/nuvolets/app/models
+	user.rb
+7
+d/Users/john/dev/nuvolets/app
+	views/
+6
+d/Users/john/dev/nuvolets/app/views
+	user_sessions/
+8
+d/Users/john/dev/nuvolets/app
+	controllers/
+2
+d/Users/john/dev/nuvolets/app/controllers
+	concerns/
+1
+d/Users/john/dev/nuvolets/app
+	assets/
+1
+d/Users/john/dev/nuvolets/app/assets
+	../
+0
+d/Users/john/dev/nuvolets/app
+	assets/
+1
+d/Users/john/dev/nuvolets/app/assets
+	../
+0
+d/Users/john/dev/nuvolets/app
+	assets/
+1
+d/Users/john/dev/nuvolets/app/assets
+	images/
+1
+d/Users/john/dev/nuvolets/app/assets/images
+	.keep
+1
+d/Users/john/dev/nuvolets/app/assets
+	stylesheets/
+3
+d/Users/john/dev/nuvolets/app/assets/stylesheets
+	../
+0
+d/Users/john/dev/nuvolets/app/assets
+	stylesheets/
+3
+d/Users/john/dev/nuvolets/app/assets/stylesheets
+	../
+0
+d/Users/john/dev/nuvolets/app/assets
 	javascripts/
 2
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	app.js
-4
-d/Users/john/dev/visiens-frontend
-	app/
-2
-d/Users/john/dev
-	visiens-frontend/
-25
-d/Users/john
-	dev/
-32
-d/Users
-	john/
-3
-d/Users/john
-	Downloads/
-18
-d/Users/john/Downloads
-	jetty-servlets-8.1.14.v20131031.jar
-21
-d/Users/john/dev/visiens-search/solr-server
+d/Users/john/dev/nuvolets/app/assets/javascripts
 	../
 0
-d/Users/john/dev/visiens-frontend
-	app/
-2
-d/Users/john/dev/visiens-search/solr-server
-	../
-0
-d/Users/john/.vim/bundle/YouCompleteMe
-	.git/
+d/Users/john/dev/nuvolets/app/assets
+	images/
 1
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	app.js
-4
-d/Users/john/dev/visiens-frontend
+d/Users/john/dev/nuvolets/app/assets/images
+	.keep
+1
+d/Users/john/dev/nuvolets/app/assets
+	images/
+1
+d/Users/john/dev/nuvolets/app/assets/images
+	.keep
+1
+d/Users/john/dev/nuvolets
 	app/
 2
+d/Users/john/dev/nuvolets/app
+	assets/
+1
+d/Users/john/dev/nuvolets
+	config/
+4
+d/Users/john/dev/nuvolets/config
+	initializers/
+2
+d/Users/john/dev/nuvolets/config/initializers
+	raygun.rb
+7
+d/Users/john/dev/nuvolets
+	config/
+4
+d/Users/john/dev/nuvolets/config
+	initializers/
+2
+d/Users/john/dev/nuvolets/config/initializers
+	time_formats.rb
+9
+d/Users/john/dev/nuvolets
+	db/
+5
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+16
+d/Users/john/dev/nuvolets
+	db/
+5
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+30
+d/Users/john/dev/nuvolets
+	db/
+5
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+30
+d/Users/john/dev/nuvolets
+	db/
+5
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150902102349_add_tenancy_expires_at_to_section_twenty_one.rb
+28
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+30
+d/Users/john/dev/nuvolets
+	db/
+5
+d/Users/john/dev/nuvolets/db
+	migrate/
+1
+d/Users/john/dev/nuvolets/db/migrate
+	20150902145349_add_timestamp_to_section_twenty_one.rb
+29
 d
 
 # Right window history (oldest to newest):
-D/Users/john/.vim/bundle/vim-snipmate
-	plugin/
-6
-D/Users/john/.vim/bundle/vim-snipmate/plugin
-	snipMate.vim
-1
-D/Users/john/.vim/bundle/vim-snipmate
-	plugin/
-6
-D/Users/john/.vim/bundle/vim-snipmate/plugin
-	snipMate.vim
-1
-D/Users/john/.vim/bundle/vim-snipmate
-	plugin/
-6
-D/Users/john/.vim/bundle
-	vim-snipmate/
-15
-D/Users/john/.vim/bundle/vim-snipmate
-	plugin/
-6
-D/Users/john/.vim/bundle
-	vim-snipmate/
-15
-D/Users/john/.vim
-	bundle/
-2
-D/Users/john/.vim/bundle
-	vim-snippets/
-16
-D/Users/john/.vim
-	bundle/
-2
-D/Users/john/.vim/bundle
-	ultisnips/
-6
-D/Users/john/.vim/bundle/ultisnips
-	../
-0
-D/Users/john/.vim/bundle
-	unite.vim/
-8
-D/Users/john/.vim
-	snippets/
-9
-D/Users/john/.vim/snippets
-	html/
-2
-D/Users/john/.vim
-	bundle/
-2
-D/Users/john/.vim/bundle
-	vim-snippets/
-15
-D/Users/john/.vim/bundle/vim-snippets
-	UltiSnips/
-2
-D/Users/john/.vim/bundle/vim-snippets/UltiSnips
-	bib.snippets
+D/Users/john/Documents
+	PaperPort/
+11
+D/Users/john
+	Documents/
+14
+D/Users/john/Documents
+	kidscare_v1.2/
+19
+D/Users/john/Documents/kidscare_v1.2
+	kidscare/
 3
-D/Users/john/.vim/bundle/vim-snippets
-	UltiSnips/
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	admin/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/admin
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	css/
 2
-D/Users/john/.vim/bundle
-	unite-tag/
-7
-D/Users/john/.vim
-	snippets/
-9
-D/Users/john/.vim/snippets
-	html/
+D/Users/john/Documents/kidscare_v1.2/kidscare/css
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	images/
+3
+D/Users/john/Documents/kidscare_v1.2/kidscare/images
+	bg/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/images/bg
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare/images
+	icons/
 2
-D/Users/john/.vim
-	syntax/
-9
-D/Users/john
-	tmp/
-32
-D/Users/john/tmp
-	static_pages/
-6
-D/Users/john
-	.vim/
-8
-D/Users/john/.vim
-	syntax/
-9
-D/Users/john/.vim/syntax
+D/Users/john/Documents/kidscare_v1.2/kidscare/images/icons
 	../
 0
-D/Users/john/.vim
-	plugin/
-8
-D/Users/john/.vim/plugin
+D/Users/john/Documents/kidscare_v1.2/kidscare/images
+	socials/
+3
+D/Users/john/Documents/kidscare_v1.2/kidscare/images/socials
+	addthis.png
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/images
+	woo/
+4
+D/Users/john/Documents/kidscare_v1.2/kidscare/images/woo
 	../
 0
-D/Users/john/.vim
-	plugin/
-8
-D/Users/john/.vim/plugin
+D/Users/john/Documents/kidscare_v1.2/kidscare/images
+	woo/
+4
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	includes/
+4
+D/Users/john/Documents/kidscare_v1.2/kidscare/includes
 	../
 0
-D/Users/john/.vim
-	indent/
-7
-D/Users/john/.vim/indent
-	../
-0
-D/Users/john/.vim
-	ftdetect/
-6
-D/Users/john/.vim/ftdetect
-	../
-0
-D/Users/john/.vim
-	doc/
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	js/
 5
-D/Users/john/.vim/doc
+D/Users/john/Documents/kidscare_v1.2/kidscare/js
 	../
 0
-D/Users/john/.vim
-	compiler/
-4
-D/Users/john/.vim/compiler
-	../
-0
-D/Users/john/.vim
-	colors/
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	js/
+5
+D/Users/john/Documents/kidscare_v1.2
+	kidscare/
 3
-D/Users/john/.vim/colors
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	widgets/
+12
+D/Users/john/Documents/kidscare_v1.2/kidscare/widgets
 	../
 0
-D/Users/john/.vim
-	bundle/
-2
-D/Users/john/.vim/bundle
-	unite-tag/
-7
-D/Users/john/.vim
-	autoload/
-1
-D/Users/john/.vim/autoload
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	tribe-events/
+11
+D/Users/john/Documents/kidscare_v1.2/kidscare/tribe-events
 	../
 0
-D/Users/john/.vim
-	syntax/
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	templates/
+10
+D/Users/john/Documents/kidscare_v1.2/kidscare/templates
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	skins/
 9
-D/Users/john/.vim/syntax
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins
+	kidscare/
+2
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
+	images/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare/images
 	../
 0
-D/Users/john/.vim
-	UltiSnips/
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
+	images/
 1
-D/Users/john/.vim/UltiSnips
-	java.snippets
-23
-D/Users/john/.vim
-	UltiSnips/
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare/images
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
+	images/
 1
-D/Users/john/.vim/UltiSnips
-	htmljinja.snippets
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins
+	learnplay/
+3
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/learnplay
+	images/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/learnplay/images
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/learnplay
+	images/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins
+	kidscare/
+2
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
+	images/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare/images
+	../
+0
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
+	images/
+1
+D/Users/john/Documents/kidscare_v1.2/kidscare/skins
+	kidscare/
+2
+D/Users/john/Documents/kidscare_v1.2/kidscare
+	screenshot.png
+31
+D/Users/john/Downloads
+	ic_stop_black_24dp/
+9
+D/Users/john/Downloads/ic_stop_black_24dp
+	android/
+1
+D/Users/john/Downloads/ic_stop_black_24dp/android
+	drawable-hdpi/
+1
+D/Users/john/Downloads/ic_stop_black_24dp/android/drawable-hdpi
+	ic_stop_black_24dp.png
+1
+D/Users/john/Downloads/ic_stop_black_24dp/android
+	drawable-hdpi/
+1
+D/Users/john/Downloads/ic_stop_black_24dp/android/drawable-hdpi
+	ic_stop_black_24dp.png
+1
+D/Users/john/Downloads/ic_stop_black_24dp/android
+	drawable-xhdpi/
+3
+D/Users/john/Downloads/ic_stop_black_24dp/android/drawable-xhdpi
+	../
+0
+D/Users/john/Downloads/ic_stop_black_24dp/android
+	drawable-xhdpi/
+3
+D/Users/john/Downloads/ic_stop_black_24dp
+	android/
+1
+D/Users/john/Downloads
+	MemoryAnalyzer-1.5.0.201505271423/
+1
+D/Users/john/Downloads/MemoryAnalyzer-1.5.0.201505271423
+	plugins/
+3
+D/Users/john/Downloads/MemoryAnalyzer-1.5.0.201505271423/plugins
+	../
+0
+D/Users/john/Downloads/MemoryAnalyzer-1.5.0.201505271423
+	plugins/
+3
+D/Users/john/Downloads
+	MemoryAnalyzer-1.5.0.201505271423/
+1
+D/Users/john
+	.vifmrc
 22
+D/Users/john/Downloads
+	../
+0
+D/Users/john
+	Downloads/
+1
+D/Users
+	john/
+1
+D/Users/john/Downloads
+	mat/
+1
+D/Users/john/Downloads/mat
+	../
+0
+D/Users/john/Downloads
+	Contract-NuvoLets-Phase1(1).pdf
+16
+D/Users/john
+	.vim/
+19
 D/Users/john/.vim
-	plugin/
-9
-D/Users/john/.vim/plugin
+	bundle/
+1
+D/Users/john/.vim/bundle
 	../
 0
 D/Users/john/.vim
 	bundle/
-3
+1
 D/Users/john/.vim/bundle
-	vim-snippets/
-16
-D/Users/john/.vim/bundle/vim-snippets
-	autoload/
-2
-D/Users/john/.vim/bundle
-	vim-snippets/
-16
+	../
+0
 D/Users/john/.vim
 	bundle/
-3
+1
+D/Users/john/.vim/bundle
+	../
+0
+D/Users/john/.vim
+	plugin/
+5
+D/Users/john/.vim/plugin
+	bundler.vim
+2
+D/Users/john/.vim
+	plugin/
+5
 D/Users/john
-	tmp/
-32
-D/Users/john/tmp
-	static_pages/
+	dev/
 7
-D/Users/john
-	.vim/
-8
-D/Users/john/.vim
-	UltiSnips/
-1
-D/Users/john/.vim/UltiSnips
-	../
-0
-D/Users/john/.vim
-	UltiSnips/
-1
-D/Users/john
-	tmp/
-32
-D/Users/john/tmp
-	UltiSnips/
+D/Users/john/dev
+	visiens/
 4
-D/Users/john
-	.vim/
-8
-D/Users/john/.vim
-	UltiSnips/
-1
-D/Users/john/.vim/UltiSnips
+D/Users/john/dev/visiens
 	../
 0
-D/Users/john/.vim
-	plugin/
-8
-D/Users/john/.vim/plugin
+D/Users/john/dev
+	visiens-frontend/
+5
+D/Users/john/dev/visiens-frontend
+	db/
+5
+D/Users/john/dev/visiens-frontend/db
 	../
 0
-D/Users/john/.vim
-	bundle/
-2
-D/Users/john/.vim/bundle
-	vim-snippets/
-16
-D/Users/john/.vim/bundle/vim-snippets
-	UltiSnips/
-2
-D/Users/john/.vim/bundle/vim-snippets/UltiSnips
-	cs.snippets
+D/Users/john/dev/visiens-frontend
+	config/
 9
-D/Users/john/.vim/bundle/vim-snippets
-	UltiSnips/
-2
-D/Users/john/.vim/bundle
-	vim-snippets/
-15
-D/Users/john/.vim
-	UltiSnips/
-1
-D/Users/john/.vim/UltiSnips
-	angular_js.snippets
-1
-D/Users/john/.vim
-	bundle/
+D/Users/john/dev/visiens-frontend/config
+	locales/
 3
-D/Users/john/.vim/bundle
-	vim-snippets/
-15
-D/Users/john/.vim/bundle/vim-snippets
-	UltiSnips/
+D/Users/john/dev/visiens-frontend/config/locales
+	../
+0
+D/Users/john/dev/visiens-frontend/config
+	environments/
 2
-D/Users/john/.vim/bundle/vim-snippets/UltiSnips
-	javascript_jasmine.snippets
-26
-D/Users/john/.vim/bundle/vim-snippets
-	UltiSnips/
-2
-D/Users/john/.vim/bundle
-	vim-fugitive/
-10
-D/Users/john/.vim
-	colors/
-4
-D/Users/john
-	tmp/
-32
-D/Users/john/tmp
-	YouCompleteMe/
-4
-D/Users/john
-	.vim/
-8
-D/Users/john/.vim
-	bundle/
-3
-D/Users/john/.vim/bundle
-	vim-addon-mw-utils/
+D/Users/john/dev/visiens-frontend/config/environments
+	development.rb
+1
+D/Users/john/dev/visiens-frontend/config
+	database.yml
+6
+D/Users/john/dev/visiens-frontend
+	config/
 9
-D/Users/john/.vim
-	bundle/
+D/Users/john/dev
+	betkeeper-webapp/
+33
+D/Users/john/dev/betkeeper-webapp
+	config/
 3
-D/Users/john
-	tmp/
-32
-D/Users/john/tmp
+D/Users/john/dev/betkeeper-webapp/config
+	database.yml
+7
+D/Users/john/dev/betkeeper-webapp
+	config/
+3
+D/Users/john/dev
+	wkhtmltopdf-amd64/
+1
+D/Users/john/dev/wkhtmltopdf-amd64
 	bin/
-4
-D/Users/john
-	.vim/
-8
-D/Users/john/.vim
-	bundle/
-3
-D/Users/john/.vim/bundle
-	vim-addon-mw-utils/
-10
+2
+D/Users/john/dev/wkhtmltopdf-amd64/bin
+	wkhtmltopdf-amd64
+1
+D/Users/john/Downloads
+	rentify-eviction-letters.html
+12
 D
 
 # Command line history (oldest to newest):
-:h trash
-:grep upcoming
-:grep s5_menu_wrap
-:grep s5_nav
-:e userChrome.css
-:e top_menu_colors.js
-:e
 :q
-:e iics.ftp
-:cd dev
-:grep myApp
-:mkdir mocks
-:e chrome.bluetooth
-:e chrome_bluetooth
-:mkdir config
-:e gatt_info.js
-:e c3js-test.html
-:e graphs
-:mkdir controllers
-:mkdir views
-:grep open.png
-:grep s5_pos_bottom_row1_1_width
-:mkdir
-:e dygraph.js
-:e graph.js
-:grep dark,css
-:grep dark.css
-:grep dark
-:grep s5_head_call
-:cd ~/.vim/
-:empty
-:e double_click.js
-:e rename.js
-:cd ~/dev/
-:zip app
-: cd dev
-:mkdir lib
-:grep connecting
-:grep -i Connecting
-:pwd
-:cd ~
-:e chromebook.ssh
-:wqa
-:mkdir test_pocket
-:mkdir pocketlab_test
-:git clone https://github.com/roozeboom/pocketlab-Chrome.git
-:!git clone https://github.com/roozeboom/pocketlab-Chrome.git
-:tar -xzf conf.tgz
-:!tar -xzf conf.tgz
-:!tar -xzf lib.tgz
-:cd $VISIENS_SERVER
-:diff 
-:diff
-:cd $VISIENS
-:grep avstrategy
-:grep advstrategy
-:grep -i advstrategy
-:grep -i adv
-:unzip 
-:tar -xzf
-:!tar -xzf
-:!tar -xzf visiens-search.tgz
-:grep visiens
-:cd ~/Downloads/
-:mkdir fixtures
-:mkdir bin
-:mkdir Bundler.setup
-:v Bundler.setup
-:vim Bundler.setup
-:e Bundler.setup
-:e solr_indexer.rb
-:e scheduler.rb
-:sml_generator.rb
-:e sml_generator.rb
-:e run.rb
-:e run.sh
-:grep graphs
-:grep graphs.js
-:mkdir pocketlab-c
-:vim calibration.c
-:e calibration.c
-:mkdir visiens-middleware
 :h mkdir
 :mkdir main
 :cd $POCKETLAB_CHROME
@@ -738,24 +665,108 @@ D
 :e model_runner_spec.js
 :g
 :t
-:h vifm
 :h 
 :h filename
 :mkdir javascript
 :mkdir html
 :e custom.snippets
-:view
 :mv snippets.bak
 :w
+:e non_graph_data.js
+:e timeline.js
+:e timeline.css.scss
+:cd an
+:cd dev/
+:cd ~/dev/pocketlab-android/
+:h trash
+:cd dev/pocketlab-chrome/
+:h hidden
+:mkdir plugin
+:mkdir kidscare-iics
+:mkdir images
+:mkdir pdfs
+:vifm shortcuts
+:h shortcuts
+:h bookmarks
+:e style.css
+:e $MYVIFMRC
+:h vifmrc
+:e
+:e 
+:mkdir favicon
+:grep screenshot
+:zip
+:~
+:git diff
+:!git diff
+:h last
+:h vifm-'laststatus'
+:h last-modifed
+:h last-modified
+:h vifm-!!
+:h modi
+:h order
+:h vifm-'sortorder'
+:h vifm-'columns'
+:h vifm-:file-
+:h file-l
+:cd ~
+:find .rnd
+:find .bash
+:sort=mtime
+:find .bashrc
+:sort=+mtime
+:set sort=mtime
+:set sort=-mtime
+:mkdir section_8
+:!pdftohtml doc20150827102843.pdf
+:h open
+:h vifm-open
+: cd~
+:mkdir shared
+:e _errors.html.erb
+:new 
+:new.html.erv
+:e new.html.erb
+:mkdir _address.html.erb
+:e _address.html.erb
+:e property_handler_controller.rb
+:e show_property.html.erb
+:view
+:e wicked_pdf.rb
+:e send_section_twenty_one_email.text.erb
+:e custom_variables.scss
+:!htmltree
+:!pdftohtml
+:!pdftohtml rentify-eviction-letter.pdf
+:h sort
+:set viewcolumns=size
+:set viewcolumns={size}
+:set viewcolumns={name, size}
+:set viewcolumns={name},{size}
+:set viewcolumns={name}...,{size}
+:set viewcolumns={name}..,{size}
+:h viewcolumns
+:h viewco
+:set viewcolumns=-{name}..,{size}
+:find tags
+:find b*er.json
+:find 
+:vifm replace
+:h vifm
+:e time_formats.rb
 
 # Search history (oldest to newest):
+/fun
+/Doc
+/kid
+/share
 /Downloads
 /.m2
 /org
 /maven
 /visien
 /ne
-/vis
 /info
 /pocke
 /us
@@ -766,7 +777,6 @@ D
 /remot
 /templa
 /templates
-/iics
 /men
 /iic
 /te
@@ -776,11 +786,9 @@ D
 /ch
 /remote
 /pocket
-/bin
 /vimi
 /vimin
-/vim
-/dev
+/tmp
 /sp
 /Downnload
 /doct
@@ -796,13 +804,31 @@ D
 /.vifm
 /visiens
 /download
-/pock
 /vifm
 /.vim
-/tmp
+/bin
+/govlhjjjjj
+/gov
+/visi
+/iics
+/molGkkjjjjk
+/molGgg
+/mod
+/144
+/favi
+/kids
+/favicon
+/pock
+/.vif
+/vim
+/dev
+/vis
+/nuvole
+/evi
 
 # Prompt history (oldest to newest):
 pjs.snippets
+putils_spec.js
 pjavascripts
 padd.html
 psearch_bar.html
@@ -811,6 +837,8 @@ psml_generator_spec.rb
 psentence_generator.rb
 puploading_gdrive.html
 pupload_to_gdrive.html
+psection_8.html.erb
+psection_8.pdf.erb
 psharer_test.js
 pS
 pconnection_faild.html
@@ -826,12 +854,12 @@ pmock_system_objects.js
 pmock_system_api.js
 pchrome_bluetooth.js.bak
 pindex-test.html
-pmocks.js
 ptests
 pbluetooth_test.js
 pmock_controllers.js
 pmocks.html
 pmock_services.js
+pcreate_section_8.html.erb
 pexternal_pages.js
 pexternal_pages.html
 pdevice_list.html
@@ -840,12 +868,16 @@ pdevice_list_test.js
 pupdate
 pview1
 pgraph.html
+psend_section_eight_email.text.erb
+papplication.scss
 pgraph.js
 ps
 pdefault.php
 pbreadcrumb.php
 pp
 psports_nation_default.php
+pse.scss
+pmain.scss
 pDefault.php
 pDefault2.php
 ptwitter.png.bak
@@ -884,7 +916,6 @@ pupload_failed.html
 plost_connection.html
 pmanage_devices.html
 pneo4j-server.properties.bak
-pO
 plogging.properties.bak
 prunner.rb
 pscheduler_spec.rb
@@ -898,317 +929,181 @@ pmain_controller.rb
 pgraph_db.js
 pmodel.html
 pgraph_db_spec.js
-pr
 pcontrollers_spec.js
 pM
+pmocks.js
+pO
+pdrawer.js
+pdrawer.scss
+psetting.html
+psettings.html
+psettings.js
+pjpocketlab-chrome
+ppdfs_controller.rb
+pfavicon.ico
+pfavicon_dolphin.ico
+psection_21__controller.rb
+psection_21_kkcontroller.rb
+psection_21s_controller.rb
+psection_21s
+psection_8s
+pstatic_pages_controller.rb
+psection_8s_controller.rb
+pshow.pdf.erb
+pshow.html.erb
+ppdf.html
+psection_twenty_ones_controller.rb
+psection_eights_controller.rb
+psection_twenty_ones
+psection_eights
+p_property_form.html.erb
+p20150828112527_create_users.rb
+psection_eight.rb
+psection_twenty_one.rb
+pcreate_downloader.html.erb
+pcreate_property.html.erb
+pcreate_section_twenty_eight.html.erb
+pcreate_section_eight.html.erb
+pcreate_section_twenty_one.html.erb
+pkkk
+p_show_downloader.html.erb
+p_form.html.erb
+pedit.html.erb
+pr
+pwizard_controller.rb
+plandlords_controller.rb
+plandlord.rb
+plandlords
+p_show_landlords.html.erb
+p_show_property.html.erb
+p_property_fields.html.erb
+psection.rb
+p20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/Users/john/.vifm/Trash/000_20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
 
 # Directory stack (oldest to newest):
 
 # Trash content:
 t/Users/john/.vifm/Trash/000_bluetooth.js.orig
-	/Users/john/dev/pocketlab/app/services/bluetooth.js.orig
-t/Users/john/.vifm/Trash/000_app.js
-	/Users/john/dev/pocketlab/app/libs/app.js
-t/Users/john/.vifm/Trash/001_bluetooth.js.orig
-	/Users/john/dev/pocketlab/app/services/bluetooth.js.orig
-t/Users/john/.vifm/Trash/000_graph.js.BACKUP.22551.js
-	/Users/john/dev/pocketlab/app/controllers/graph.js.BACKUP.22551.js
-t/Users/john/.vifm/Trash/000_graph.js.BASE.22551.js
-	/Users/john/dev/pocketlab/app/controllers/graph.js.BASE.22551.js
-t/Users/john/.vifm/Trash/000_graph.js.LOCAL.22551.js
-	/Users/john/dev/pocketlab/app/controllers/graph.js.LOCAL.22551.js
-t/Users/john/.vifm/Trash/000_graph.js.REMOTE.22551.js
-	/Users/john/dev/pocketlab/app/controllers/graph.js.REMOTE.22551.js
-t/Users/john/.vifm/Trash/000_graph.js.orig
-	/Users/john/dev/pocketlab/app/controllers/graph.js.orig
-t/Users/john/.vifm/Trash/000_device_list.js.orig
-	/Users/john/dev/pocketlab/app/controllers/device_list.js.orig
-t/Users/john/.vifm/Trash/000_style.css.BACKUP.22218.css
-	/Users/john/dev/pocketlab/app/assets/css/style.css.BACKUP.22218.css
-t/Users/john/.vifm/Trash/000_style.css.BASE.22218.css
-	/Users/john/dev/pocketlab/app/assets/css/style.css.BASE.22218.css
-t/Users/john/.vifm/Trash/000_style.css.LOCAL.22218.css
-	/Users/john/dev/pocketlab/app/assets/css/style.css.LOCAL.22218.css
-t/Users/john/.vifm/Trash/000_style.css.REMOTE.22218.css
-	/Users/john/dev/pocketlab/app/assets/css/style.css.REMOTE.22218.css
-t/Users/john/.vifm/Trash/000_style.css.orig
-	/Users/john/dev/pocketlab/app/assets/css/style.css.orig
-t/Users/john/.vifm/Trash/000_style.scss.orig
-	/Users/john/dev/pocketlab/app/assets/scss/style.scss.orig
-t/Users/john/.vifm/Trash/000_.DS_Store
-	/Users/john/dev/pocketlab/app/assets/.DS_Store
-t/Users/john/.vifm/Trash/000_manifest.json.orig
-	/Users/john/dev/pocketlab/app/manifest.json.orig
-t/Users/john/.vifm/Trash/001_.DS_Store
-	/Users/john/dev/pocketlab/app/.DS_Store
-t/Users/john/.vifm/Trash/000_bluetooth_test.js.orig
-	/Users/john/dev/pocketlab/app/tests/bluetooth_test.js.orig
-t/Users/john/.vifm/Trash/000_graph_test.js.orig
-	/Users/john/dev/pocketlab/app/tests/graph_test.js.orig
-t/Users/john/.vifm/Trash/000_mock_system_api.js.orig
-	/Users/john/dev/pocketlab/app/tests/mocks/mock_system_api.js.orig
-t/Users/john/.vifm/Trash/002_bluetooth.js.orig
-	/Users/john/dev/pocketlab/app/services/bluetooth.js.orig
-t/Users/john/.vifm/Trash/001_graph.js.orig
-	/Users/john/dev/pocketlab/app/directives/graph.js.orig
-t/Users/john/.vifm/Trash/000_graphs.js.orig
-	/Users/john/dev/pocketlab/app/config/graphs.js.orig
-t/Users/john/.vifm/Trash/003_bluetooth.js.orig
-	/Users/john/dev/pocketlab/app/services/bluetooth.js.orig
-t/Users/john/.vifm/Trash/000_bluetooth_BACKUP_16427.js
-	/Users/john/dev/pocketlab/app/services/bluetooth_BACKUP_16427.js
-t/Users/john/.vifm/Trash/000_bluetooth_BASE_16427.js
-	/Users/john/dev/pocketlab/app/services/bluetooth_BASE_16427.js
-t/Users/john/.vifm/Trash/000_bluetooth_LOCAL_16427.js
-	/Users/john/dev/pocketlab/app/services/bluetooth_LOCAL_16427.js
-t/Users/john/.vifm/Trash/000_bluetooth_REMOTE_16427.js
-	/Users/john/dev/pocketlab/app/services/bluetooth_REMOTE_16427.js
-t/Users/john/.vifm/Trash/002_graph.js.orig
-	/Users/john/dev/pocketlab/app/controllers/graph.js.orig
-t/Users/john/.vifm/Trash/003_graph.js.orig
-	/Users/john/dev/pocketlab_test/pocketlab-Chrome/app/controllers/graph.js.orig
-t/Users/john/.vifm/Trash/000_README.txt
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/README.txt
-t/Users/john/.vifm/Trash/000_ST4-4.0.7.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/ST4-4.0.7.jar
-t/Users/john/.vifm/Trash/000_antlr-2.7.7.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/antlr-2.7.7.jar
-t/Users/john/.vifm/Trash/000_antlr-runtime-3.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/antlr-runtime-3.5.jar
-t/Users/john/.vifm/Trash/000_antlr4-4.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/antlr4-4.2.jar
-t/Users/john/.vifm/Trash/000_antlr4-annotations-4.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/antlr4-annotations-4.2.jar
-t/Users/john/.vifm/Trash/000_antlr4-runtime-4.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/antlr4-runtime-4.2.jar
-t/Users/john/.vifm/Trash/000_aopalliance-1.0.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/aopalliance-1.0.jar
-t/Users/john/.vifm/Trash/000_aopalliance-repackaged-2.3.0-b05.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/aopalliance-repackaged-2.3.0-b05.jar
-t/Users/john/.vifm/Trash/000_bcprov-jdk16-140.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/bcprov-jdk16-140.jar
-t/Users/john/.vifm/Trash/000_commons-beanutils-1.8.0.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-beanutils-1.8.0.jar
-t/Users/john/.vifm/Trash/000_commons-beanutils-core-1.8.0.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-beanutils-core-1.8.0.jar
-t/Users/john/.vifm/Trash/000_commons-collections-3.2.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-collections-3.2.1.jar
-t/Users/john/.vifm/Trash/000_commons-compiler-2.6.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-compiler-2.6.1.jar
-t/Users/john/.vifm/Trash/000_commons-configuration-1.6.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-configuration-1.6.jar
-t/Users/john/.vifm/Trash/000_commons-digester-1.8.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-digester-1.8.1.jar
-t/Users/john/.vifm/Trash/000_commons-io-1.4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-io-1.4.jar
-t/Users/john/.vifm/Trash/000_commons-lang-2.4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-lang-2.4.jar
-t/Users/john/.vifm/Trash/000_commons-logging-1.1.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/commons-logging-1.1.1.jar
-t/Users/john/.vifm/Trash/000_concurrentlinkedhashmap-lru-1.3.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/concurrentlinkedhashmap-lru-1.3.1.jar
-t/Users/john/.vifm/Trash/000_geronimo-jta_1.1_spec-1.1.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/geronimo-jta_1.1_spec-1.1.1.jar
-t/Users/john/.vifm/Trash/000_guava-17.0.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/guava-17.0.jar
-t/Users/john/.vifm/Trash/000_hk2-api-2.3.0-b05.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/hk2-api-2.3.0-b05.jar
-t/Users/john/.vifm/Trash/000_hk2-locator-2.3.0-b05.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/hk2-locator-2.3.0-b05.jar
-t/Users/john/.vifm/Trash/000_hk2-utils-2.3.0-b05.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/hk2-utils-2.3.0-b05.jar
-t/Users/john/.vifm/Trash/000_jackson-annotations-2.3.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-annotations-2.3.2.jar
-t/Users/john/.vifm/Trash/000_jackson-core-2.3.3.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-core-2.3.3.jar
-t/Users/john/.vifm/Trash/000_jackson-core-asl-1.9.7.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-core-asl-1.9.7.jar
-t/Users/john/.vifm/Trash/000_jackson-databind-2.3.3.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-databind-2.3.3.jar
-t/Users/john/.vifm/Trash/000_jackson-jaxrs-1.9.7.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-jaxrs-1.9.7.jar
-t/Users/john/.vifm/Trash/000_jackson-jaxrs-base-2.3.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-jaxrs-base-2.3.2.jar
-t/Users/john/.vifm/Trash/000_jackson-jaxrs-json-provider-2.3.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-jaxrs-json-provider-2.3.2.jar
-t/Users/john/.vifm/Trash/000_jackson-mapper-asl-1.9.7.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-mapper-asl-1.9.7.jar
-t/Users/john/.vifm/Trash/000_jackson-module-jaxb-annotations-2.3.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jackson-module-jaxb-annotations-2.3.2.jar
-t/Users/john/.vifm/Trash/000_janino-2.6.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/janino-2.6.1.jar
-t/Users/john/.vifm/Trash/000_javassist-3.18.1-GA.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/javassist-3.18.1-GA.jar
-t/Users/john/.vifm/Trash/000_javax.annotation-api-1.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/javax.annotation-api-1.2.jar
-t/Users/john/.vifm/Trash/000_javax.inject-2.3.0-b05.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/javax.inject-2.3.0-b05.jar
-t/Users/john/.vifm/Trash/000_javax.servlet-3.0.0.v201112011016.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/javax.servlet-3.0.0.v201112011016.jar
-t/Users/john/.vifm/Trash/000_javax.ws.rs-api-2.0.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/javax.ws.rs-api-2.0.jar
-t/Users/john/.vifm/Trash/000_jcl-over-slf4j-1.7.4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jcl-over-slf4j-1.7.4.jar
-t/Users/john/.vifm/Trash/000_jersey-common-2.9.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jersey-common-2.9.jar
-t/Users/john/.vifm/Trash/000_jersey-core-1.9.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jersey-core-1.9.jar
-t/Users/john/.vifm/Trash/000_jersey-guava-2.9.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jersey-guava-2.9.jar
-t/Users/john/.vifm/Trash/000_jersey-media-json-jackson-2.9.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jersey-media-json-jackson-2.9.jar
-t/Users/john/.vifm/Trash/000_jersey-multipart-1.9.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jersey-multipart-1.9.jar
-t/Users/john/.vifm/Trash/000_jetty-http-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-http-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-io-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-io-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-security-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-security-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-server-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-server-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-servlet-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-servlet-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-util-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-util-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-webapp-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-webapp-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jetty-xml-9.0.5.v20130815.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jetty-xml-9.0.5.v20130815.jar
-t/Users/john/.vifm/Trash/000_jsr311-api-1.1.2.r612.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jsr311-api-1.1.2.r612.jar
-t/Users/john/.vifm/Trash/000_jul-to-slf4j-1.7.4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/jul-to-slf4j-1.7.4.jar
-t/Users/john/.vifm/Trash/000_logback-access-1.0.10.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/logback-access-1.0.10.jar
-t/Users/john/.vifm/Trash/000_logback-classic-1.0.10.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/logback-classic-1.0.10.jar
-t/Users/john/.vifm/Trash/000_logback-core-1.0.10.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/logback-core-1.0.10.jar
-t/Users/john/.vifm/Trash/000_lucene-core-3.6.2.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/lucene-core-3.6.2.jar
-t/Users/john/.vifm/Trash/000_mimepull-1.6.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/mimepull-1.6.jar
-t/Users/john/.vifm/Trash/000_neo4j-2.1.5.pom
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-2.1.5.pom
-t/Users/john/.vifm/Trash/000_neo4j-browser-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-browser-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-cypher-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-cypher-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-cypher-commons-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-cypher-commons-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-cypher-compiler-1.9-2.0.3.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-cypher-compiler-1.9-2.0.3.jar
-t/Users/john/.vifm/Trash/000_neo4j-cypher-compiler-2.0-2.0.3.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-cypher-compiler-2.0-2.0.3.jar
-t/Users/john/.vifm/Trash/000_neo4j-cypher-compiler-2.1-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-cypher-compiler-2.1-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-graph-algo-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-graph-algo-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-graph-matching-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-graph-matching-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-jmx-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-jmx-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-kernel-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-kernel-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-lucene-index-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-lucene-index-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-primitive-collections-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-primitive-collections-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-server-2.1.5-tests.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-server-2.1.5-tests.jar
-t/Users/john/.vifm/Trash/000_neo4j-shell-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-shell-2.1.5.jar
-t/Users/john/.vifm/Trash/000_neo4j-udc-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/neo4j-udc-2.1.5.jar
-t/Users/john/.vifm/Trash/000_opencsv-2.0.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/opencsv-2.0.jar
-t/Users/john/.vifm/Trash/000_org.abego.treelayout.core-1.0.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/org.abego.treelayout.core-1.0.1.jar
-t/Users/john/.vifm/Trash/000_org.apache.servicemix.bundles.jline-0.9.94_1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
-t/Users/john/.vifm/Trash/000_osgi-resource-locator-1.0.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/osgi-resource-locator-1.0.1.jar
-t/Users/john/.vifm/Trash/000_parboiled-core-1.1.6.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/parboiled-core-1.1.6.jar
-t/Users/john/.vifm/Trash/000_parboiled-scala_2.10-1.1.6.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/parboiled-scala_2.10-1.1.6.jar
-t/Users/john/.vifm/Trash/000_rhino-1.7R4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/rhino-1.7R4.jar
-t/Users/john/.vifm/Trash/000_rrd4j-2.0.7.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/rrd4j-2.0.7.jar
-t/Users/john/.vifm/Trash/000_scala-library-2.10.4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/scala-library-2.10.4.jar
-t/Users/john/.vifm/Trash/000_server-api-2.1.5.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/server-api-2.1.5.jar
-t/Users/john/.vifm/Trash/000_slf4j-api-1.7.4.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/slf4j-api-1.7.4.jar
-t/Users/john/.vifm/Trash/000_spring-aop-4.0.5.RELEASE.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/spring-aop-4.0.5.RELEASE.jar
-t/Users/john/.vifm/Trash/000_spring-beans-4.0.5.RELEASE.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/spring-beans-4.0.5.RELEASE.jar
-t/Users/john/.vifm/Trash/000_spring-context-4.0.5.RELEASE.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/spring-context-4.0.5.RELEASE.jar
-t/Users/john/.vifm/Trash/000_spring-core-4.0.5.RELEASE.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/spring-core-4.0.5.RELEASE.jar
-t/Users/john/.vifm/Trash/000_spring-expression-4.0.5.RELEASE.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/spring-expression-4.0.5.RELEASE.jar
-t/Users/john/.vifm/Trash/000_spring-test-4.0.5.RELEASE.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/spring-test-4.0.5.RELEASE.jar
-t/Users/john/.vifm/Trash/000_stringtemplate-3.2.1.jar
-	/Users/john/dev/apps/neo4j-community-2.1.5/lib/stringtemplate-3.2.1.jar
-t/Users/john/.vifm/Trash/000_Bundler.setup
-	/Users/john/dev/visiens_indexer/Bundler.setup
-t/Users/john/.vifm/Trash/000_bin
-	/Users/john/dev/visiens_indexer/bin
-t/Users/john/.vifm/Trash/000_graphs.js
-	/Users/john/dev/pocketlab-chrome/app/services/graphs.js
-t/Users/john/.vifm/Trash/000_graphs_test.js
-	/Users/john/dev/pocketlab-chrome/app/tests/graphs_test.js
-t/Users/john/.vifm/Trash/000_controllers
-	/Users/john/dev/visiens-frontend/app/assets/javascripts/controllers
-t/Users/john/.vifm/Trash/000_bootstrap-bower
-	/Users/john/dev/visiens-frontend/vendor/assets/bower_components/bootstrap-bower
-t/Users/john/.vifm/Trash/000_META-INF
-	/Users/john/dev/visiens-search/solr-server/webapps/META-INF
-t/Users/john/.vifm/Trash/000_WEB-INF
-	/Users/john/dev/visiens-search/solr-server/webapps/WEB-INF
-t/Users/john/.vifm/Trash/000_css
-	/Users/john/dev/visiens-search/solr-server/webapps/css
-t/Users/john/.vifm/Trash/000_img
-	/Users/john/dev/visiens-search/solr-server/webapps/img
-t/Users/john/.vifm/Trash/000_js
-	/Users/john/dev/visiens-search/solr-server/webapps/js
-t/Users/john/.vifm/Trash/000_tpl
-	/Users/john/dev/visiens-search/solr-server/webapps/tpl
-t/Users/john/.vifm/Trash/000_admin.html
-	/Users/john/dev/visiens-search/solr-server/webapps/admin.html
-t/Users/john/.vifm/Trash/000_favicon.ico
-	/Users/john/dev/visiens-search/solr-server/webapps/favicon.ico
-t/Users/john/.vifm/Trash/001_controllers
-	/Users/john/dev/visiens-frontend/app/assets/javascripts/controllers
-t/Users/john/.vifm/Trash/000_karma_html
-	/Users/john/dev/visiens-frontend/karma_html
-t/Users/john/.vifm/Trash/000_vim-snipmate
-	/Users/john/.vim/bundle/vim-snipmate
-t/Users/john/.vifm/Trash/000_ultisnips
-	/Users/john/.vim/bundle/ultisnips
-t/Users/john/.vifm/Trash/000_zuma_cms
-	/Users/john/tmp/zuma_cms
-t/Users/john/.vifm/Trash/000_pocketlab-android-release.apk
-	/Users/john/tmp/pocketlab-android-release.apk
-t/Users/john/.vifm/Trash/000_pocketlab-android-release.apk.zip
-	/Users/john/tmp/pocketlab-android-release.apk.zip
-t/Users/john/.vifm/Trash/001_UltiSnips
-	/Users/john/.vim/UltiSnips
-t/Users/john/.vifm/Trash/002_UltiSnips
-	/Users/john/.vim/UltiSnips
-t/Users/john/.vifm/Trash/003_UltiSnips
-	/Users/john/tmp/UltiSnips
+	/Users/john/dev/pocketlab-chrome/app/services/bluetooth.js.orig
+t/Users/john/.vifm/Trash/000_pocketlab-iOS
+	/Users/john/dev/pocketlab-iOS
+t/Users/john/.vifm/Trash/000_feedSomeKeys_3.js
+	/Users/john/.vimperator/plugin/feedSomeKeys_3.js
+t/Users/john/.vifm/Trash/000__libly.js
+	/Users/john/.vimperator/plugin/_libly.js
+t/Users/john/.vifm/Trash/000_kidscare-iics.zip
+	/Users/john/dev/kidscare-iics.zip
+t/Users/john/.vifm/Trash/001_kidscare-iics.zip
+	/Users/john/dev/kidscare-iics.zip
+t/Users/john/.vifm/Trash/000_wkhtmltopdf.rb
+	/Users/john/dev/nuvolets/config/initializers/wkhtmltopdf.rb
+t/Users/john/.vifm/Trash/002_kidscare-iics.zip
+	/Users/john/dev/kidscare-iics.zip
+t/Users/john/.vifm/Trash/000_kidscare 2
+	/Users/john/Documents/kidscare_v1.2/kidscare 2
+t/Users/john/.vifm/Trash/000_text.txt
+	/Users/john/dev/kidscare-iics/text.txt
+t/Users/john/.vifm/Trash/000_style.css
+	/Users/john/dev/kidscare-iics/style.css
+t/Users/john/.vifm/Trash/000_favicon
+	/Users/john/dev/kidscare-iics/images/favicon
+t/Users/john/.vifm/Trash/000_section_8.pdf.erb
+	/Users/john/dev/nuvolets/app/views/section_21s/section_8.pdf.erb
+t/Users/john/.vifm/Trash/000_section_8.html.erb
+	/Users/john/dev/nuvolets/app/views/section_21s/section_8.html.erb
+t/Users/john/.vifm/Trash/000_section_21.html.erb
+	/Users/john/dev/nuvolets/app/views/section_8s/section_21.html.erb
+t/Users/john/.vifm/Trash/000_section_21.pdf.erb
+	/Users/john/dev/nuvolets/app/views/section_8s/section_21.pdf.erb
+t/Users/john/.vifm/Trash/000_edit.html.erb
+	/Users/john/dev/nuvolets/app/views/downloaders/edit.html.erb
+t/Users/john/.vifm/Trash/000_show.html.erb
+	/Users/john/dev/nuvolets/app/views/downloaders/show.html.erb
+t/Users/john/.vifm/Trash/000_show.json.jbuilder
+	/Users/john/dev/nuvolets/app/views/downloaders/show.json.jbuilder
+t/Users/john/.vifm/Trash/000__address.html.erb
+	/Users/john/dev/nuvolets/app/views/shared/_address.html.erb
+t/Users/john/.vifm/Trash/000__form.html.erb
+	/Users/john/dev/nuvolets/app/views/properties/_form.html.erb
+t/Users/john/.vifm/Trash/000_20150828163835_section_eight.rb
+	/Users/john/dev/nuvolets/db/migrate/20150828163835_section_eight.rb
+t/Users/john/.vifm/Trash/000_new.html.erb
+	/Users/john/dev/nuvolets/app/views/section_generation/new.html.erb
+t/Users/john/.vifm/Trash/000_create_section_eight.html.erb
+	/Users/john/dev/nuvolets/app/views/section_twenty_ones/create_section_eight.html.erb
+t/Users/john/.vifm/Trash/000_20150831065907_rename_downloader_id_id_to_downloader_id_in_properties.rb
+	/Users/john/dev/nuvolets/db/migrate/20150831065907_rename_downloader_id_id_to_downloader_id_in_properties.rb
+t/Users/john/.vifm/Trash/000_downloaders.scss
+	/Users/john/dev/nuvolets/app/assets/stylesheets/downloaders.scss
+t/Users/john/.vifm/Trash/000_downloaders.coffee
+	/Users/john/dev/nuvolets/app/assets/javascripts/downloaders.coffee
+t/Users/john/.vifm/Trash/000_application_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/application_controller.rb-e
+t/Users/john/.vifm/Trash/000_downloaders_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/downloaders_controller.rb-e
+t/Users/john/.vifm/Trash/000_properties_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/properties_controller.rb-e
+t/Users/john/.vifm/Trash/000_section_eights_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/section_eights_controller.rb-e
+t/Users/john/.vifm/Trash/000_section_generation_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/section_generation_controller.rb-e
+t/Users/john/.vifm/Trash/000_section_twenty_ones_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/section_twenty_ones_controller.rb-e
+t/Users/john/.vifm/Trash/000_static_pages_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/static_pages_controller.rb-e
+t/Users/john/.vifm/Trash/000_user_sessions_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/user_sessions_controller.rb-e
+t/Users/john/.vifm/Trash/000_users_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/users_controller.rb-e
+t/Users/john/.vifm/Trash/000_property_handler_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/concerns/property_handler_controller.rb-e
+t/Users/john/.vifm/Trash/000_wizard_controller.rb-e
+	/Users/john/dev/nuvolets/app/controllers/concerns/wizard_controller.rb-e
+t/Users/john/.vifm/Trash/000_downloaders_helper.rb
+	/Users/john/dev/nuvolets/app/helpers/downloaders_helper.rb
+t/Users/john/.vifm/Trash/000_20150901152423_remove_house_number_or_name_address_line1_address_line2_town_city_and_postcode_from_properties.rb
+	/Users/john/dev/nuvolets/db/migrate/20150901152423_remove_house_number_or_name_address_line1_address_line2_town_city_and_postcode_from_properties.rb
+t/Users/john/.vifm/Trash/000_20150901153647_add_address_to_landlord.rb
+	/Users/john/dev/nuvolets/db/migrate/20150901153647_add_address_to_landlord.rb
+t/Users/john/.vifm/Trash/000_20150901151834_create_addresses.rb
+	/Users/john/dev/nuvolets/db/migrate/20150901151834_create_addresses.rb
+t/Users/john/.vifm/Trash/000_address.rb
+	/Users/john/dev/nuvolets/app/models/address.rb
+t/Users/john/.vifm/Trash/000_section_generation_controller.rb
+	/Users/john/dev/nuvolets/app/controllers/section_generation_controller.rb
+t/Users/john/.vifm/Trash/000_wizard_controller.rb
+	/Users/john/dev/nuvolets/app/controllers/concerns/wizard_controller.rb
+t/Users/john/.vifm/Trash/000_static_pages_controller.rb
+	/Users/john/dev/nuvolets/app/controllers/static_pages_controller.rb
+t/Users/john/.vifm/Trash/000_section_generation
+	/Users/john/dev/nuvolets/app/views/section_generation
+t/Users/john/.vifm/Trash/000_static_pages
+	/Users/john/dev/nuvolets/app/views/static_pages
+t/Users/john/.vifm/Trash/000_wrap_parameters.rb-e
+	/Users/john/dev/nuvolets/config/initializers/wrap_parameters.rb-e
+t/Users/john/.vifm/Trash/000_wicked_pdf.rb-e
+	/Users/john/dev/nuvolets/config/initializers/wicked_pdf.rb-e
+t/Users/john/.vifm/Trash/000_session_store.rb-e
+	/Users/john/dev/nuvolets/config/initializers/session_store.rb-e
+t/Users/john/.vifm/Trash/000_mime_types.rb-e
+	/Users/john/dev/nuvolets/config/initializers/mime_types.rb-e
+t/Users/john/.vifm/Trash/000_inflections.rb-e
+	/Users/john/dev/nuvolets/config/initializers/inflections.rb-e
+t/Users/john/.vifm/Trash/000_filter_parameter_logging.rb-e
+	/Users/john/dev/nuvolets/config/initializers/filter_parameter_logging.rb-e
+t/Users/john/.vifm/Trash/000_cookies_serializer.rb-e
+	/Users/john/dev/nuvolets/config/initializers/cookies_serializer.rb-e
+t/Users/john/.vifm/Trash/000_backtrace_silencers.rb-e
+	/Users/john/dev/nuvolets/config/initializers/backtrace_silencers.rb-e
+t/Users/john/.vifm/Trash/000_assets.rb-e
+	/Users/john/dev/nuvolets/config/initializers/assets.rb-e
+t/Users/john/.vifm/Trash/000_20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+	/Users/john/dev/nuvolets/db/migrate/20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
 
 # State:
 f
