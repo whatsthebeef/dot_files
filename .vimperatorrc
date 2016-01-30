@@ -1,8 +1,13 @@
 " Treat file as vim config
 " vim: set ft=vim:
 
+map , <Leader>
+
 " set defsearch=startpage  
+ignorekeys clear
 ignorekeys add https://docs.google.com
+ignorekeys add -except=q,<ESC>,:,g,t,e,T,Q,1,2,3,4,5,6,7,8,9,0 https://mail.google.com/
+ignorekeys add -except=<C-l>,<C-h>,:,t,g,G,e,T,L,n,o,q,Q,r,i,h,l,1,2,3,4,5,6,7,8,9,0 https://duckduckgo.com/
 
 set scroll=20
 
@@ -15,7 +20,8 @@ map <C-r> :source /Users/john/.vimperatorrc<CR>
 " More vim like movement
 nmap l <CR>
 nmap L :forward<CR>
-nmap i gi<C-t>i
+nmap i gi
+" nmap i gi<C-t>i
 " nmap i <Insert>
 " tmap <CR> i<Cr>
 
@@ -38,20 +44,23 @@ nmap g9 b9<CR>
 " Map quick marks to normal marks
 nmap \' go
 nmap m M
-map , <Leader>
 
 " q for quit
 " nmap q :tabclose<CR>
 nmap cc <M-A-k>
 nmap ce <M-A-i>
 
+"  Quick history
+nmap <Leader>h :history<CR>;t
+
+" nmap l v -urls=*duckduckgo*
+
 " Language search engine
 nmap <Leader>se :t http://www.wordreference.com/esen/
 nmap <Leader>es :t http://www.wordreference.com/enes/
 nmap <Leader>te :t https://translate.google.com/#tr/en/
-nmap <Leader>et :t https://translate.google.com/#en/tr/
+nmap et :t https://translate.google.com/#en/tr/
 nmap <Leader>sc :t http://www.wordreference.com/conj/ESverbs.aspx?v=
-nmap <Leader>tc :t http://www.verbix.com/webverbix/go.php?Submit=Go&D1=31&H1=131&T1=
 nmap <Leader>tc :t http://www.verbix.com/webverbix/go.php?Submit=Go&D1=31&H1=131&T1=
 
 " Programming search engine
@@ -73,10 +82,11 @@ qmark a https://docs.angularjs.org/api
 qmark r https://www.reddit.com/r/programming
 qmark p https://trello.com/b/mF1SY3dI/pocketlab-chromebook
 qmark l http://localhost:3000
+qmark s https://docs.google.com/a/zode64.com/spreadsheets/d/1uJyzSoF2PG2qT2yznjxrKJ0nbqiFDRggpCWxBA5-4P8
 
 """ CSS
-" style startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
-style * :focus {background:yellow !important; color:black !important;} 
+style stackoverflow.com,startpage.com,3g2upl4pq6kufc4m.onion,duckduckgo. :focus {background:yellow;} 
+" style * :focus {background:yellow !important; color:black !important;} 
 
 style * #statusbar-display {display: none !important;}
 
@@ -367,11 +377,10 @@ linkMapper("D", duckduckgo, true);
 
 initAll = function() {
   // init(ddg+"/", initResultList, "a.result-link");
-  init(duckduckgo+"\\/\\?q=", initResultList, "a.result__a");
+  // init(duckduckgo+"\\/\\?q=", initResultList, "a.result__a");
   init("ycombinator", initResultList, "td.title > a");
   init("reddit", initResultList, "div.entry > p.title > a");
-  // init("mail.google.com", gmailMappings);
-  // init(spResults, initResultList, ".result h3 a");
+  init(spResults, initResultList, ".result h3 a");
   init("bbc.com/news$", initResultList, "a.title-link");
   // init("theguardian.com/uk", initResultList, "div.fc-item__container > a");
   init("youtube.com/watch", initResultList, ".video-list-item .content-wrapper a.spf-link");  
@@ -380,6 +389,7 @@ initAll = function() {
   // init("mutt.org", initResultList, "li > a:last-child");
   // init(spSearch, feedKeys, "i");
   // init(ddg+"$", feedKeys, "i");
+  init("stackoverflow.com/search", initResultList, ".result-link > span > a");
 }
 
 var shouldInit = true;
@@ -395,7 +405,7 @@ EOM
 """ Init
 " autocmd PageLoad .* :js initPages()
 autocmd LocationChange .* :js initPages()
-autocmd LocationChange .* :js modes.passAllKeys = false
-autocmd LocationChange doc\\.google\\.com js modes.passAllKeys = true
+" autocmd LocationChange .* :js modes.passAllKeys = false
+" autocmd LocationChange doc\\.google\\.com js modes.passAllKeys = true
 
 

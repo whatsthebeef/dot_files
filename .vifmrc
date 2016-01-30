@@ -62,11 +62,12 @@ set noiec
 " Selected color scheme
 
 " colorscheme juef-zenburn
-colorscheme reicheltd-light
+" colorscheme reicheltd-light
 " colorscheme Default                                                       
 " colorscheme dmilith-root
 " colorscheme dmilith-user
 " colorscheme istib-solarized-dark
+colorscheme mc-like
 
 " The FUSE_HOME directory will be used as a root dir for all FUSE mounts.
 " Unless it exists with write/exec permissions set, vifm will attempt to
@@ -180,6 +181,8 @@ filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a
        \ ffplay %c,
        \ {Play using MPlayer}
        \ mplayer %f,
+       \ {Play with mac open}
+       \ open %f,
 fileviewer *.mp3 mp3info
 
 " Video
@@ -190,6 +193,8 @@ filextype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.vob,*.flv
         \ dragon %f,
         \ {View using mplayer}
         \ mplayer %f,
+        \ {View using OSX open}
+        \ open %f,
 fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.vob
          \ ffprobe -pretty %c 2>&1
 

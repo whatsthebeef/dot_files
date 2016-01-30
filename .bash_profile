@@ -8,6 +8,7 @@ unset MAILCHECK
 
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 export DEV=${HOME}/dev 
+export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 
 ## Path
 PATH=${PATH}:${HOME}/dev/apps/glassfish/bin
@@ -17,6 +18,7 @@ PATH=/usr/local/bin:${PATH}
 PATH=${HOME}/bin:${PATH}
 PATH=${PATH}:${HOME}/.rvm/bin # Add RVM to PATH for scripting
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+PATH=${ANDROID_HOME}/platform-tools:${PATH}
 
 export PATH
 
@@ -31,7 +33,6 @@ export SMX=${HOME}/dev/apps/apache-servicemix-5.0.0
 export DL=${HOME}/Downloads
 export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
-export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 export NEO4J=${DEV}/apps/neo4j-community-2.1.5
 
 # There is a CWD environment set in initProject to avoid being reset
@@ -174,6 +175,13 @@ alias mysqld="${MYSQL_HOME}/bin/mysqld --basedir=${MYSQL_HOME} &"
 alias schhb='eval `change-scheme grb256`'
 alias schgh='eval `change-scheme github`'
 
+if [[ "$platform" == 'mac' ]]; then
+  alias sftpd="sudo launchctl start com.apple.ftpd"  
+  alias sftpdstop="sudo launchctl stop com.apple.ftpd"  
+  # alias sftpd="sudo -s launchctl load -w /System/Library/LaunchDaemons/ftp.plist"  
+  # alias sftpdstop="sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist"  
+fi
+
 #----------------------------------- Helper functions ----------------------------------#
 
 memUsage() {
@@ -252,13 +260,22 @@ initProject() {
    # the start of a session
    # tmux set -u set-remain-on-exit on
    # Editor pane
-   tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
+   # tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
+   tmux new-window -c $1 -n $1 "vim"
    tmux setenv CWD $1
    # Process pane
    tmux split-window -c "#{pane_current_path}" -v -p 25 
-   # Spare pain 
+   # Spare pane 
    if [ ! -z "$2" ]; then
-      tmux split-window -c "#{pane_current_path}" -h -p 50 "source ~/.bash_profile ; $2" 
+      # tmux split-window -c "#{pane_current_path}" -h -p 50 "source ~/.bash_profile ; $2" 
+      tmux split-window -c "#{pane_current_path}" -h -p 50 
+      tmux run-shell "[[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm"
+      tmux run-shell "$2"
+   fi
+   if [ ! -z "$3" ]; then
+      tmux select-pane -U
+      # tmux split-window -c "#{pane_current_path}" -v -p 33 "source ~/.bash_profile ; $3"
+      tmux split-window -c "#{pane_current_path}" -v -p 33 "$3"
    fi
    # Select editor pane
    tmux select-pane -U
@@ -276,6 +293,16 @@ initIDEProject() {
    tmux split-window -c "#{pane_current_path}" -v -p 50 
    # Select editor pane
    tmux select-pane -L
+}
+
+# first argument is directory, second argument command to run, 
+# third argument is second directory, fourth argument is fourth command
+initSplit() {
+  #tmux new-window -c $1 "source ~/.bash_profile ; $2"
+  #tmux split-window -c $3 -v -p 50 "source ~/.bash_profile ; $4" 
+
+   tmux new-window -c $1 "$2"
+   tmux split-window -c $3 -v -p 50 "$4" 
 }
 
 initConfigs() {
@@ -297,6 +324,22 @@ tarAndroid() {
 # android project
 tarRails() {
    tar --exclude=./tmp --exclude=*.log --exclude=./\.* -cvzf $1.tar.gz $1
+}
+
+
+# Git search in revisions
+gitRevisionSearch() {
+  git rev-list --all | xargs git grep $1
+}
+
+# Andriody stuff
+mountAndroid() { 
+  hdiutil attach ~/dev/android/android.dmg.sparseimage -mountpoint /Volumes/android; 
+}
+
+
+umountAndroid() { 
+  hdiutil detach -force /Volumes/android; 
 }
 
 #------------------------------------- Project specific -----------------------------------#
@@ -339,25 +382,13 @@ pocketlab-chrome() {
    initProject $POCKETLAB_CHROME "npm start"
    initProject $POCKETLAB_CHROME_APP "cd .. ; npm test"
 }
+alias pocketlabZip='zip -r pocketlab.zip app'
 
 # Wedstival
 export WEDSTIVAL=${DEV}/wedstival
 wedstival() {
    initProject $WEDSTIVAL "rails s"
 }
-
-# Visiens
-export VISIENS=${DEV}/govcountability
-visiens() {
-   initProject $VISIENS "rails s"
-}
-
-# Visiens server
-export VISIENS_SERVER=${DEV}/visiens
-visiensServer() {
-   initProject $VISIENS_SERVER "cd $NEO4J"
-}
-export JAVA_OPTS='-Dlogback.configurationFile=jar:file:/Users/john/dev/apps/neo4j-community-2.1.5/plugins/visiens-server-api-1.0-SNAPSHOT.jar!/logback.xml'
 
 # IICS wordpress server
 export IICS=${DEV}/iics_wordpress
@@ -382,6 +413,28 @@ export VISIENS_FRONTEND=${DEV}/visiens-frontend
 visiensFrontend() {
    initProject $VISIENS_FRONTEND "rails s" 
 }
+
+# Visiens server
+export VISIENS_SERVER=${DEV}/visiens
+visiensServer() {
+   initProject $VISIENS_SERVER 
+}
+
+# Visiens search
+export VISIENS_SEARCH=${DEV}/visiens-search/solr-server
+visiensSearch() {
+   initProject $VISIENS_SEARCH "java -jar start.jar" 
+}
+
+visiens() {
+  visiensFrontend
+  visiensSearch
+  visiensServer
+  visiensIndexer
+  initSplit "$NEO4J/data/log" "tail -f console.log" "$NEO4J/data/log" "tail -f neo4j.0.0.log" 
+}
+
+export JAVA_OPTS='-Dlogback.configurationFile=jar:file:/Users/john/dev/apps/neo4j-community-2.1.5/plugins/visiens-server-api-1.0-SNAPSHOT.jar!/logback.xml'
 
 # NuvoLets indexer
 export NUVOLETS=${DEV}/nuvolets

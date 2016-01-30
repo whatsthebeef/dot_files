@@ -1,762 +1,784 @@
 # You can edit this file by hand, but it's recommended not to do that.
 
-# Bookmarks:
+# Marks:
 'D
 	/Users/john/Downloads
-	../
+	..
 1440147454
 'M
-	/Users/john/dev/kidscare-iics
+	/Users/john/dev/binderpro-iics
 	functions.php
-1440414729
+1446221894
+'a
+	/Users/john/dev/apps
+	neo4j-community-2.1.5
+1449044288
 'b
 	/Users/john/bin/
-	../
+	..
 1422517854
 'd
 	/Users/john/dev
-	../
+	..
 1440147494
 'h
 	/Users/john/
-	../
+	..
 1422517854
 'k
 	/Users/john/dev/visiens-frontend
 	README.rdoc
 1433873100
 'm
-	/Users/john/tmp
-	YouCompleteMe/
-1434028072
+	/Users/john/dev/binderpro-iics
+	module-categories.php
+1446221882
 'n
-	/Users/john
-	.vimperatorrc
-1425283477
+	/Users/john/dev/apps/neo4j-community-2.1.5
+	data
+1449044289
 'v
 	/Users/john/.vim
-	snippets/
+	snippets
 1434016594
 
 # TUI:
-al
+ar
 q0
 v2
 ov
 m-1
-l2
+l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/nuvolets/app/views/shared
-	_property_fields.html.erb
-2
-d/Users/john/dev/nuvolets
-	app/
-2
-d/Users/john/dev/nuvolets/app
-	models/
+d/Users/john/dev/zode64
+	app
+6
+d/Users/john/dev/zode64/app
+	assets
+3
+d/Users/john/dev/zode64
+	tmp
 5
-d/Users/john/dev/nuvolets/app/models
-	concerns/
-1
-d/Users/john/dev/nuvolets/app/models/concerns
-	../
+d/Users/john/dev/zode64/tmp
+	..
 0
-d/Users/john/dev/nuvolets/app/models
-	concerns/
+d/Users/john/dev/zode64
+	config
+4
+d/Users/john/dev/zode64/config
+	environments
 1
-d/Users/john/dev/nuvolets/app
-	models/
+d/Users/john/dev/zode64/config/environments
+	..
+0
+d/Users/john/dev/zode64/config
+	environments
+1
+d/Users/john/dev/zode64
+	log
+3
+d/Users/john/dev/zode64/log
+	..
+0
+d/Users/john/dev/zode64
+	db
+2
+d/Users/john/dev/zode64/db
+	..
+0
+d/Users/john/dev/zode64
+	.git
+1
+d/Users/john/dev/zode64/.git
+	..
+0
+d/Users/john/dev/zode64
+	config
+4
+d/Users/john/dev/zode64/config
+	initializers
+2
+d/Users/john/dev/zode64/config/initializers
+	..
+0
+d/Users/john/dev/zode64/config
+	database.yml
+4
+d/Users/john/dev/ios-charts
+	Assets
+2
+d/Users/john/dev/ios-charts/Assets
+	..
+0
+d/Users/john/dev/ios-charts
+	ChartsDemo
+4
+d/Users/john/dev/ios-charts/ChartsDemo
+	..
+0
+d/Users/john/dev/ios-charts
+	Charts
+3
+d/Users/john/dev/ios-charts/Charts
+	..
+0
+d/Users/john/dev/ios-charts
+	Assets
+2
+d/Users/john/dev/ios-charts/Assets
+	..
+0
+d/Users/john/dev/ios-charts
+	Assets
+2
+d/Users/john/dev
+	ios-charts
+1
+d/Users/john/dev/ios-charts
+	Assets
+2
+d/Users/john/dev/ios-charts/Assets
+	..
+0
+d/Users/john/dev/ios-charts
+	Charts
+3
+d/Users/john/dev/ios-charts/Charts
+	Classes
+3
+d/Users/john/dev/ios-charts/Charts/Classes
+	Data
+4
+d/Users/john/dev/ios-charts/Charts/Classes/Data
+	Interfaces
+2
+d/Users/john/dev/ios-charts/Charts/Classes/Data/Interfaces
+	..
+0
+d/Users/john/dev/ios-charts/Charts/Classes/Data
+	Interfaces
+2
+d/Users/john/dev/ios-charts/Charts/Classes
+	Interfaces
+8
+d/Users/john/dev/ios-charts/Charts/Classes/Interfaces
+	..
+0
+d/Users/john/dev/ios-charts/Charts/Classes
+	Interfaces
+8
+d/Users/john/dev/ios-charts/Charts/Classes/Interfaces
+	..
+0
+d/Users/john/dev/ios-charts/Charts/Classes
+	Renderers
+9
+d/Users/john/dev/ios-charts/Charts/Classes/Renderers
+	ChartAxisRendererBase.swift
+4
+d/Users/john/dev/ios-charts/Charts/Classes
+	Renderers
+9
+d/Users/john/dev/ios-charts/Charts/Classes/Renderers
+	ChartAxisRendererBase.swift
+4
+d/Users/john/dev/ios-charts/Charts/Classes
+	Utils
+10
+d/Users/john/dev/ios-charts/Charts/Classes/Utils
+	..
+0
+d/Users/john/dev/ios-charts/Charts/Classes
+	Utils
+10
+d/Users/john/dev/ios-charts/Charts
+	ThirdParty
 5
-d/Users/john/dev/nuvolets/app/models
-	concerns/
+d/Users/john/dev/ios-charts/Charts/ThirdParty
+	Realm
 1
+d/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	ios
+1
+d/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
+	Realm.framework
+1
+d/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	ios
+1
+d/Users/john/dev/ios-charts/Charts/ThirdParty
+	Realm
+1
+d/Users/john/dev/ios-charts/Charts
+	Supporting Files
+4
+d/Users/john/dev/ios-charts/Charts/Supporting Files
+	..
+0
+d/Users/john/dev/ios-charts/Charts
+	ThirdParty
+5
+d/Users/john/dev/ios-charts
+	Assets
+2
+d/Users/john/dev/ios-charts/Assets
+	..
+0
+d/Users/john/dev/ios-charts
+	.git
+1
+d/Users/john/dev
+	ios-charts
+1
+d/Users/john/dev/ios-charts
+	Assets
+2
+d/Users/john/dev/ios-charts/Assets
+	..
+0
+d/Users/john/dev/ios-charts
+	Charts
+3
+d/Users/john/dev/ios-charts/Charts
+	Classes
+3
+d/Users/john/dev/ios-charts/Charts/Classes
+	Utils
+10
+d/Users/john/dev/nuvolets
+	resources
+2
+d/Users/john/dev/nuvolets/resources
+	..
+0
+d/Users/john/dev/nuvolets
+	app
+6
 d/Users/john/dev/nuvolets/app
-	helpers/
+	models
+1
+d/Users/john/dev/nuvolets/app/models
+	..
+0
+d/Users/john/dev/nuvolets/app
+	controllers
+2
+d/Users/john/dev/nuvolets/app/controllers
+	..
+0
+d/Users/john/dev/nuvolets/app
+	helpers
 3
 d/Users/john/dev/nuvolets/app/helpers
-	section_generation_helper.rb
-3
-d/Users/john/dev/nuvolets/app
-	controllers/
-2
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app/controllers/concerns
-	wizard_controller.rb
-3
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app
-	models/
-5
-d/Users/john/dev/nuvolets/app/models
-	concerns/
-1
-d/Users/john/dev/nuvolets/app/models/concerns
-	section.rb
-2
-d/Users/john/dev/nuvolets
-	db/
-5
-d/Users/john/dev/nuvolets/db
-	migrate/
-1
-d/Users/john/dev/nuvolets/db/migrate
-	20150902090752_add_first_name_last_name_and_tel_number_to_landlord.rb
-26
-d/Users/john/dev/nuvolets
-	vendor/
-11
-d/Users/john/dev/nuvolets/vendor
-	assets/
-1
-d/Users/john/dev/nuvolets/vendor/assets
-	bower_components/
-1
-d/Users/john/dev/nuvolets/vendor/assets/bower_components
-	bootstrap-datepicker/
-2
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components
-	bootstrap-sass/
-3
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components
-	bootstrap-datepicker/
-2
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components
-	bootstrap-sass/
-3
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass
-	assets/
-1
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass/assets
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-sass
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components
-	bootstrap-datepicker/
-2
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
-	dist/
-2
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
-	js/
-2
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist/js
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
-	css/
-1
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist/css
-	../
-0
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
-	css/
-1
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker
-	dist/
-2
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist
-	css/
-1
-d/Users/john/dev/nuvolets/vendor/assets/bower_components/bootstrap-datepicker/dist/css
-	../
-0
-d/Users/john/dev/nuvolets
-	app/
-2
-d/Users/john/dev/nuvolets/app
-	controllers/
-2
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app/controllers/concerns
-	wizard_controller.rb
-3
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app/controllers/concerns
-	property_handler_controller.rb
-2
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app/controllers/concerns
-	property_handler_controller.rb
-2
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app
-	models/
-5
-d/Users/john/dev/nuvolets/app/models
-	user.rb
-7
-d/Users/john/dev/nuvolets/app
-	views/
-6
-d/Users/john/dev/nuvolets/app/views
-	user_sessions/
-8
-d/Users/john/dev/nuvolets/app
-	controllers/
-2
-d/Users/john/dev/nuvolets/app/controllers
-	concerns/
-1
-d/Users/john/dev/nuvolets/app
-	assets/
-1
-d/Users/john/dev/nuvolets/app/assets
-	../
+	..
 0
 d/Users/john/dev/nuvolets/app
-	assets/
-1
-d/Users/john/dev/nuvolets/app/assets
-	../
-0
-d/Users/john/dev/nuvolets/app
-	assets/
-1
-d/Users/john/dev/nuvolets/app/assets
-	images/
-1
-d/Users/john/dev/nuvolets/app/assets/images
-	.keep
-1
-d/Users/john/dev/nuvolets/app/assets
-	stylesheets/
-3
-d/Users/john/dev/nuvolets/app/assets/stylesheets
-	../
-0
-d/Users/john/dev/nuvolets/app/assets
-	stylesheets/
-3
-d/Users/john/dev/nuvolets/app/assets/stylesheets
-	../
-0
-d/Users/john/dev/nuvolets/app/assets
-	javascripts/
-2
-d/Users/john/dev/nuvolets/app/assets/javascripts
-	../
-0
-d/Users/john/dev/nuvolets/app/assets
-	images/
-1
-d/Users/john/dev/nuvolets/app/assets/images
-	.keep
-1
-d/Users/john/dev/nuvolets/app/assets
-	images/
-1
-d/Users/john/dev/nuvolets/app/assets/images
-	.keep
-1
-d/Users/john/dev/nuvolets
-	app/
-2
-d/Users/john/dev/nuvolets/app
-	assets/
-1
-d/Users/john/dev/nuvolets
-	config/
+	mailers
 4
-d/Users/john/dev/nuvolets/config
-	initializers/
+d/Users/john/dev/nuvolets/app/mailers
+	document_mailer.rb
+1
+d/Users/john/dev/ios-charts
+	Charts
 2
-d/Users/john/dev/nuvolets/config/initializers
-	raygun.rb
-7
-d/Users/john/dev/nuvolets
-	config/
+d/Users/john/dev
+	pocketlab-ios
 4
-d/Users/john/dev/nuvolets/config
-	initializers/
+d/Users/john
+	Downloads
+1
+d/Users/john/Downloads
+	realm-swift-0.97.0
+1
+d/Users/john/Downloads/realm-swift-0.97.0
+	osx
+3
+d/Users/john/Downloads/realm-swift-0.97.0/osx
+	..
+0
+d/Users/john/Downloads/realm-swift-0.97.0
+	osx
+3
+d/Users/john/Downloads/realm-swift-0.97.0/osx
+	swift-2.1.1
+1
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
+	RealmSwift.framework
 2
-d/Users/john/dev/nuvolets/config/initializers
-	time_formats.rb
-9
-d/Users/john/dev/nuvolets
-	db/
-5
-d/Users/john/dev/nuvolets/db
-	migrate/
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
+	..
+0
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
+	RealmSwift.framework
+2
+d/Users/john/Downloads/realm-swift-0.97.0/osx
+	swift-2.1.1
 1
-d/Users/john/dev/nuvolets/db/migrate
-	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
-16
-d/Users/john/dev/nuvolets
-	db/
-5
-d/Users/john/dev/nuvolets/db
-	migrate/
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
+	RealmSwift.framework
+2
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
+	Versions
+4
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework/Versions
+	..
+0
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
+	Resources
+3
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework/Resources
+	..
+0
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
+	Resources
+3
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
+	RealmSwift.framework
+2
+d/Users/john/Downloads/realm-swift-0.97.0/osx
+	swift-2.1.1
 1
-d/Users/john/dev/nuvolets/db/migrate
-	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
-30
-d/Users/john/dev/nuvolets
-	db/
-5
-d/Users/john/dev/nuvolets/db
-	migrate/
+d/Users/john/Downloads/realm-swift-0.97.0
+	osx
+3
+d/Users/john/Downloads/realm-swift-0.97.0/osx
+	swift-2.1.1
 1
-d/Users/john/dev/nuvolets/db/migrate
-	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
-30
-d/Users/john/dev/nuvolets
-	db/
-5
-d/Users/john/dev/nuvolets/db
-	migrate/
+d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
+	RealmSwift.framework
+2
+d/Users/john/Downloads/realm-swift-0.97.0/osx
+	swift-2.1.1
 1
-d/Users/john/dev/nuvolets/db/migrate
-	20150902102349_add_tenancy_expires_at_to_section_twenty_one.rb
-28
-d/Users/john/dev/nuvolets/db
-	migrate/
-1
-d/Users/john/dev/nuvolets/db/migrate
-	20150903130758_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
-30
-d/Users/john/dev/nuvolets
-	db/
-5
-d/Users/john/dev/nuvolets/db
-	migrate/
-1
-d/Users/john/dev/nuvolets/db/migrate
-	20150902145349_add_timestamp_to_section_twenty_one.rb
-29
 d
 
 # Right window history (oldest to newest):
-D/Users/john/Documents
-	PaperPort/
-11
-D/Users/john
-	Documents/
-14
-D/Users/john/Documents
-	kidscare_v1.2/
-19
-D/Users/john/Documents/kidscare_v1.2
-	kidscare/
-3
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	admin/
+D/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+	MacOSX10.6.sdk
 1
-D/Users/john/Documents/kidscare_v1.2/kidscare/admin
-	../
+D/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
+	..
 0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	css/
-2
-D/Users/john/Documents/kidscare_v1.2/kidscare/css
-	../
+D/Volumes
+	..
 0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	images/
-3
-D/Users/john/Documents/kidscare_v1.2/kidscare/images
-	bg/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/images/bg
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/images
-	icons/
-2
-D/Users/john/Documents/kidscare_v1.2/kidscare/images/icons
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/images
-	socials/
-3
-D/Users/john/Documents/kidscare_v1.2/kidscare/images/socials
-	addthis.png
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/images
-	woo/
-4
-D/Users/john/Documents/kidscare_v1.2/kidscare/images/woo
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/images
-	woo/
-4
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	includes/
-4
-D/Users/john/Documents/kidscare_v1.2/kidscare/includes
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	js/
-5
-D/Users/john/Documents/kidscare_v1.2/kidscare/js
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	js/
-5
-D/Users/john/Documents/kidscare_v1.2
-	kidscare/
-3
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	widgets/
-12
-D/Users/john/Documents/kidscare_v1.2/kidscare/widgets
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	tribe-events/
-11
-D/Users/john/Documents/kidscare_v1.2/kidscare/tribe-events
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	templates/
-10
-D/Users/john/Documents/kidscare_v1.2/kidscare/templates
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	skins/
-9
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins
-	kidscare/
-2
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare/images
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare/images
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins
-	learnplay/
-3
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/learnplay
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/learnplay/images
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/learnplay
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins
-	kidscare/
-2
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare/images
-	../
-0
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins/kidscare
-	images/
-1
-D/Users/john/Documents/kidscare_v1.2/kidscare/skins
-	kidscare/
-2
-D/Users/john/Documents/kidscare_v1.2/kidscare
-	screenshot.png
-31
-D/Users/john/Downloads
-	ic_stop_black_24dp/
-9
-D/Users/john/Downloads/ic_stop_black_24dp
-	android/
-1
-D/Users/john/Downloads/ic_stop_black_24dp/android
-	drawable-hdpi/
-1
-D/Users/john/Downloads/ic_stop_black_24dp/android/drawable-hdpi
-	ic_stop_black_24dp.png
-1
-D/Users/john/Downloads/ic_stop_black_24dp/android
-	drawable-hdpi/
-1
-D/Users/john/Downloads/ic_stop_black_24dp/android/drawable-hdpi
-	ic_stop_black_24dp.png
-1
-D/Users/john/Downloads/ic_stop_black_24dp/android
-	drawable-xhdpi/
-3
-D/Users/john/Downloads/ic_stop_black_24dp/android/drawable-xhdpi
-	../
-0
-D/Users/john/Downloads/ic_stop_black_24dp/android
-	drawable-xhdpi/
-3
-D/Users/john/Downloads/ic_stop_black_24dp
-	android/
-1
-D/Users/john/Downloads
-	MemoryAnalyzer-1.5.0.201505271423/
-1
-D/Users/john/Downloads/MemoryAnalyzer-1.5.0.201505271423
-	plugins/
-3
-D/Users/john/Downloads/MemoryAnalyzer-1.5.0.201505271423/plugins
-	../
-0
-D/Users/john/Downloads/MemoryAnalyzer-1.5.0.201505271423
-	plugins/
-3
-D/Users/john/Downloads
-	MemoryAnalyzer-1.5.0.201505271423/
-1
-D/Users/john
-	.vifmrc
-22
-D/Users/john/Downloads
-	../
-0
-D/Users/john
-	Downloads/
-1
-D/Users
-	john/
-1
-D/Users/john/Downloads
-	mat/
-1
-D/Users/john/Downloads/mat
-	../
-0
-D/Users/john/Downloads
-	Contract-NuvoLets-Phase1(1).pdf
-16
-D/Users/john
-	.vim/
-19
-D/Users/john/.vim
-	bundle/
-1
-D/Users/john/.vim/bundle
-	../
-0
-D/Users/john/.vim
-	bundle/
-1
-D/Users/john/.vim/bundle
-	../
-0
-D/Users/john/.vim
-	bundle/
-1
-D/Users/john/.vim/bundle
-	../
-0
-D/Users/john/.vim
-	plugin/
-5
-D/Users/john/.vim/plugin
-	bundler.vim
-2
-D/Users/john/.vim
-	plugin/
-5
-D/Users/john
-	dev/
-7
+D/
+	sbin
+8
 D/Users/john/dev
-	visiens/
-4
-D/Users/john/dev/visiens
-	../
-0
-D/Users/john/dev
-	visiens-frontend/
-5
-D/Users/john/dev/visiens-frontend
-	db/
-5
-D/Users/john/dev/visiens-frontend/db
-	../
-0
-D/Users/john/dev/visiens-frontend
-	config/
-9
-D/Users/john/dev/visiens-frontend/config
-	locales/
-3
-D/Users/john/dev/visiens-frontend/config/locales
-	../
-0
-D/Users/john/dev/visiens-frontend/config
-	environments/
+	android
 2
-D/Users/john/dev/visiens-frontend/config/environments
-	development.rb
+D/Users/john/dev/android
+	system
 1
-D/Users/john/dev/visiens-frontend/config
-	database.yml
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android/system/.repo
+	..
+0
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android/system/.repo
+	projects
+2
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev
+	android
+2
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev
+	android
+2
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android/system/.repo
+	projects
+2
+D/Users/john/dev/android/system/.repo/projects
+	..
+0
+D/Users/john/dev/android/system/.repo
+	projects
+2
+D/Users/john/dev/android/system/.repo/projects
+	..
+0
+D/Users/john/dev/android/system/.repo
+	project-objects
+3
+D/Users/john/dev/android/system/.repo/project-objects
+	..
+0
+D/Users/john/dev/android/system/.repo
+	project-objects
+3
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev
+	android
+2
+D/Users/john/dev/android
+	android.dmg.sparseimage
+3
+D/Volumes/android/WORKING_DIRECTORY/.repo/projects/hardware
+	..
+0
+D/Volumes/android/WORKING_DIRECTORY/.repo/projects
+	hardware
+1
+D/Volumes/android/WORKING_DIRECTORY/.repo
+	projects
+1
+D/Volumes/android/WORKING_DIRECTORY
+	.repo
+4
+D/Volumes/android
+	WORKING_DIRECTORY
+1
+D/Users/john/dev
+	dot_files
+3
+D/Users/john/dev/dot_files
+	.vimrc
+8
+D/Users/john/dev
+	dot_files
+4
+D/Users/john
+	.bash_sessions
+8
+D/Users/john/dev
+	android
+8
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android
+	system
+1
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android/system/.repo
+	project-objects
+3
+D/Users/john/dev/android/system
+	.repo
+1
+D/Users/john/dev/android
+	android.dmg.sparseimage
+2
+D/Users/john/dev
+	android
+2
+D/Users/john
+	dev
+4
+D/Users/john/dev
+	class-site-list-page
+4
+D/Users/john/dev/class-site-list-page
+	button_blue_narrow.psd
+3
+D/Users/john/dev
+	class-site-list-page
+4
+D/Users/john
+	.vifm
+2
+D/Users/john/.vifm
+	colors
+2
+D/Users/john/.vifm/colors
+	dmilith-user.vifm
+4
+D/Users/john/.vifm
+	colors
+2
+D/Users/john
+	Dropbox
 6
-D/Users/john/dev/visiens-frontend
-	config/
-9
 D/Users/john/dev
-	betkeeper-webapp/
-33
-D/Users/john/dev/betkeeper-webapp
-	config/
-3
-D/Users/john/dev/betkeeper-webapp/config
-	database.yml
-7
-D/Users/john/dev/betkeeper-webapp
-	config/
-3
-D/Users/john/dev
-	wkhtmltopdf-amd64/
-1
-D/Users/john/dev/wkhtmltopdf-amd64
-	bin/
+	ios-charts
 2
-D/Users/john/dev/wkhtmltopdf-amd64/bin
-	wkhtmltopdf-amd64
+D/Users/john/dev/ios-charts
+	Charts
+2
+D/Users/john/dev/ios-charts/Charts
+	ChartsOSX
+2
+D/Users/john/dev/ios-charts/Charts/ChartsOSX
+	..
+0
+D/Users/john/dev/ios-charts/Charts
+	Classes
+9
+D/Users/john/dev/ios-charts/Charts/Classes
+	Interfaces
+10
+D/Users/john/dev/ios-charts/Charts/Classes/Interfaces
+	..
+0
+D/Users/john/dev/ios-charts/Charts/Classes
+	Highlight
+9
+D/Users/john/dev/ios-charts/Charts/Classes/Highlight
+	..
+0
+D/Users/john/dev/ios-charts/Charts/Classes
+	Formatters
+8
+D/Users/john/dev/ios-charts/Charts/Classes/Formatters
+	..
+0
+D/Users/john/dev/ios-charts/Charts/Classes
+	Filters
+7
+D/Users/john/dev/ios-charts/Charts/Classes/Filters
+	..
+0
+D/Users/john/dev/ios-charts/Charts/Classes
+	Data
+6
+D/Users/john/dev/ios-charts/Charts/Classes/Data
+	..
+0
+D/Users/john/dev/ios-charts/Charts/Classes
+	Renderers
+4
+D/Users/john/dev/ios-charts/Charts
+	Supporting Files
+10
+D/Users/john/dev/ios-charts/Charts/Supporting Files
+	..
+0
+D/Users/john/dev/ios-charts/Charts
+	ThirdParty
+11
+D/Users/john/dev/ios-charts/Charts/ThirdParty
+	Realm
 1
-D/Users/john/Downloads
-	rentify-eviction-letters.html
-12
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	ios
+1
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	tvos
+2
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/tvos
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	osx
+1
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/osx
+	RealmSwift.framework
+2
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	osx
+1
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/osx
+	RealmSwift.framework
+2
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	ios
+2
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	tvos
+3
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/tvos
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	osx
+1
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/osx
+	RealmSwift.framework
+2
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	ios
+2
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	tvos
+3
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/tvos
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
+	..
+0
+D/Users/john/dev/ios-charts/Charts/ThirdParty
+	Realm
+1
+D/Users/john/dev/ios-charts/Charts
+	ThirdParty
+11
 D
 
 # Command line history (oldest to newest):
-:q
-:h mkdir
-:mkdir main
-:cd $POCKETLAB_CHROME
-:mkdir services
-:e visiens.js
-:e search_engine.js
-:mkdir directives
-:e model_runner_spec.js
-:g
-:t
-:h 
-:h filename
-:mkdir javascript
-:mkdir html
-:e custom.snippets
-:mv snippets.bak
-:w
-:e non_graph_data.js
-:e timeline.js
-:e timeline.css.scss
-:cd an
-:cd dev/
-:cd ~/dev/pocketlab-android/
-:h trash
-:cd dev/pocketlab-chrome/
-:h hidden
-:mkdir plugin
-:mkdir kidscare-iics
-:mkdir images
-:mkdir pdfs
-:vifm shortcuts
-:h shortcuts
-:h bookmarks
-:e style.css
-:e $MYVIFMRC
-:h vifmrc
-:e
-:e 
-:mkdir favicon
-:grep screenshot
-:zip
-:~
-:git diff
-:!git diff
-:h last
-:h vifm-'laststatus'
-:h last-modifed
-:h last-modified
-:h vifm-!!
-:h modi
-:h order
-:h vifm-'sortorder'
-:h vifm-'columns'
-:h vifm-:file-
-:h file-l
-:cd ~
-:find .rnd
-:find .bash
-:sort=mtime
-:find .bashrc
-:sort=+mtime
-:set sort=mtime
-:set sort=-mtime
-:mkdir section_8
-:!pdftohtml doc20150827102843.pdf
-:h open
-:h vifm-open
-: cd~
-:mkdir shared
-:e _errors.html.erb
-:new 
-:new.html.erv
-:e new.html.erb
-:mkdir _address.html.erb
-:e _address.html.erb
-:e property_handler_controller.rb
-:e show_property.html.erb
-:view
-:e wicked_pdf.rb
-:e send_section_twenty_one_email.text.erb
-:e custom_variables.scss
-:!htmltree
-:!pdftohtml
-:!pdftohtml rentify-eviction-letter.pdf
-:h sort
-:set viewcolumns=size
-:set viewcolumns={size}
-:set viewcolumns={name, size}
-:set viewcolumns={name},{size}
-:set viewcolumns={name}...,{size}
 :set viewcolumns={name}..,{size}
+:e _tenants_fields.html.erb
+:e show.html.erb
+:pdf.scss
+:pdf
+:e pdf.scss
+:mkdir fonts
+:e mixins.scss
+:sort={name}
+:set sort={name}
+:h vifm-column-view
+:set sort={mdate}
+:h view-columns
+:h vifm-viewcolumns
 :h viewcolumns
-:h viewco
-:set viewcolumns=-{name}..,{size}
-:find tags
-:find b*er.json
-:find 
-:vifm replace
+:set sort=mdate
+:set sort=mtime
+:set sort=-name
+:set sort=-mtime
+:h empty
+:h trash
+:h diff
+:h vifm-d
+:help diff
+:mkdir test
+:diff
+:vimdiff
+:mkdir jjk
+:e terms_and_condtions
+:e terms_and_conditions.rb
+:e _header.html.erb
+: cd ~
+:mkdir iq-framework
+:grep flashnews
+:grep module
+:zip
+:tar -xzf 
+:h selected
 :h vifm
-:e time_formats.rb
+:tar -xzf %c
+:!tar -xzf %c
+:!tar -h
+:!tar -xzf -C apidemos %c
+:!tar -xzfC apidemos %c
+:!tar -C apidemos -xzf %c
+:!tar -C apidemos,t -xzf %c
+:!tar -xzf %c -C apidemos
+:!tar -xzf %c -C ./apidemos
+:mkdir api_demos
+:!tar -xzf %c -C api_demos
+:find android-support-v4.jar
+:mkdir libs
+:e
+:open
+:!open
+:cd ~
+:find https://github.com/metaneer/PocketLab/blob/master/PocketLab/PocketLab/Images.xcassets/IconCameraUnderGraph.imageset/IconCameraUnderGraph.pdf
+:find mimeTypes.rdf
+:find 
+:grep -i OMXMaster
+:OMXMaster
+:grep -i omx
+:grep -i MediaCodecSource
+:grep -i mpeg4wrtier
+:grep -i mpeg4writer
+:open %f
+:sort crea
+:h sort
+:sort ctime
+:sort +cname
+:h vifm-!!
+:set sort=+ctime
+:set sort=-ctime
+:tar -xcf %f
+:tar -xcf %c
+:tar -xcf
+:!tar -zxf %c
+:android-tests
+:mkdir android-tests
+:cd /Volumes/android/WORKING_DIRECTORY/.repo/projects/hardware
+:vif
+:h vifm-%b
+:open %a
+:!open %a
+:!open %f
+:empty
+:q1
+:q
+:GR
+:view
+:wq!
+:vim mc-like.vifm
+:e mc-like.vifm
+:Gdiff
+:Gre
+:grep UIKit
+:grep 
+:grep UI
+:unzip
+:mkdir
+:mkdir osx
 
 # Search history (oldest to newest):
+/vimrc
+/swp
+/git_
+/nu
+/zode64
+/Gem
+/dot
+/vimlh
+/rc
+/tml
+/vimr
+/spa
+/lock
+/git
+/.git
+/rou
+/prop
+/remo
 /fun
 /Doc
 /kid
@@ -765,15 +787,12 @@ D
 /.m2
 /org
 /maven
-/visien
 /ne
 /info
 /pocke
 /us
-/Down
 /pha
 /chromel
-/Dow
 /remot
 /templa
 /templates
@@ -785,7 +804,6 @@ D
 /fus
 /ch
 /remote
-/pocket
 /vimi
 /vimin
 /tmp
@@ -800,13 +818,10 @@ D
 /Do
 /tem
 /klkl
-/app
 /.vifm
 /visiens
 /download
-/vifm
 /.vim
-/bin
 /govlhjjjjj
 /gov
 /visi
@@ -818,13 +833,41 @@ D
 /favi
 /kids
 /favicon
-/pock
 /.vif
-/vim
-/dev
 /vis
 /nuvole
 /evi
+/kidscare
+/pock
+/trell
+/Trell
+/T
+/com
+/nuv
+/Dow
+/Down
+/src
+/wiki
+/app
+/bin
+/vifm
+/Doi
+/Fire
+/Mus
+/Mis
+/pocket
+/psd
+/visien
+/.bash
+/dev
+/cts
+/test
+/vim
+/hhhhhhhjj
+/A
+/Xc
+/a
+/ios-ch
 
 # Prompt history (oldest to newest):
 pjs.snippets
@@ -868,7 +911,6 @@ pdevice_list_test.js
 pupdate
 pview1
 pgraph.html
-psend_section_eight_email.text.erb
 papplication.scss
 pgraph.js
 ps
@@ -881,11 +923,14 @@ pmain.scss
 pDefault.php
 pDefault2.php
 ptwitter.png.bak
+plogo_bogh.png
+plogo_big.png
 ptop-metro1.bak.png
-po
 pchromebook
 pdevice.html
 pContract_Eric_Aguilar_Velazquez_2014.pdf
+piics-k12.com.ssh
+piicscom.ssh
 pdevice_list/
 pdevice_list
 pchrome_bluetooth.js
@@ -932,7 +977,6 @@ pgraph_db_spec.js
 pcontrollers_spec.js
 pM
 pmocks.js
-pO
 pdrawer.js
 pdrawer.scss
 psetting.html
@@ -942,6 +986,11 @@ pjpocketlab-chrome
 ppdfs_controller.rb
 pfavicon.ico
 pfavicon_dolphin.ico
+pwell_pages.html.erb
+psend_section_eight_email.text.erb
+pkkkr
+psend_section_eight_email.html.erb
+psend_section_twenty_one_email.html.erb
 psection_21__controller.rb
 psection_21_kkcontroller.rb
 psection_21s_controller.rb
@@ -951,9 +1000,33 @@ pstatic_pages_controller.rb
 psection_8s_controller.rb
 pshow.pdf.erb
 pshow.html.erb
+padvertisement_builder_control
+padvertisement_builder
+pproperty.rb
+padd_price_and_availability.html.erb
+p.vimrct
+p.vimrc.bak
+pproperties
+pbuild_controller.rb
+paddresses
+paddress.rb
+paddresses_controller.rb
+pnew.html.erb
+padd_info.html.erb
+p.vimrc
+p.vim.bak2
+p.vimrc.bak2
+p_address_fields.html.erb
+p_simple_form.html.erb
+pnew_simple.html.erb
+psimple.html.erb
+psimple_new.html.erb
+psimple_edit.html.erb
+pbutton_narrow.png
 ppdf.html
 psection_twenty_ones_controller.rb
 psection_eights_controller.rb
+pjquery_equalheights.js
 psection_twenty_ones
 psection_eights
 p_property_form.html.erb
@@ -969,7 +1042,6 @@ pkkk
 p_show_downloader.html.erb
 p_form.html.erb
 pedit.html.erb
-pr
 pwizard_controller.rb
 plandlords_controller.rb
 plandlord.rb
@@ -979,131 +1051,113 @@ p_show_property.html.erb
 p_property_fields.html.erb
 psection.rb
 p20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+pkidscare-iics-test
+p_show_landlord.html.erb
+plogo-border.png
+pdip_old.png
+pdip.png
+pkjjkjkjkjk
+plogo.png
+ppresso_t.zip
+ppresso_new.zip
+pterms_and_conditions.html.erb
+pindex_export.html.erb
+pset_deadline.png
+ptick.png
+palarm_clock.png
+pcross.png
+ptick_green.png
+pcross_green.png
+palarm_clock_green.png
+ptick_grey.png
+palarm_clock_grey.png
+pcancel_grey.png
+pcross_grey.png
+pup_arrow_green.png
+pup_arrow_grey.png
+ppause_grey.png
+pl
+ppause_green.png
+plist_green.png
+plist_grey.png
+ptoday.xml
+pcard_grey.png
+pcard_green.png
+pcard.xml
+pAlarm`.png
+palarm_clock_white.png
+pdelete_green.png
+pDelete Filled-100(1h.png
+pdelete_grey.png
+pcancel_deadline.xml
+pplus_green.png
+pplus_grey.png
+plink_grey.png
+plink_green.png
+pleft_arrow_green.png
+pleft_arrow_grey.png
+pto_todo.xml
+paudio_file_grey.png
+pimage_file_grey.png
+pimage_file_green.png
+paudio_file_green.png
+pO
+paudio_file.xml
+pimage_file.xml
+pprivacy_policy_nuvolets.pdf
+pborder
+pneosans-regular.ttf
+pNeoSans-regular.ttf
+pfrontpage_background.png
+pfrontpage_background.psd
+pwell_pages.scss
+pwell_page.html.erb
+pwizard_page.html.erb
+po
+piics-binderpro
+pbinderpro-iics
+pmodule-categories.php
+pinc
+pchrome_bluetooth_web_api_test
+pr
+pnote.ssh
+pweek_green.png
+pweek_grey.png
+picon_camera_graph.pdf
+pclass-site-list-page
+pjquery.equalHeights.js
+pjquery.equalheights.js
+pmc-like.vifm
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/.vifm/Trash/000_20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+""/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/Realm.framework
+""/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/Users/john/.vifm/Trash/000_bluetooth.js.orig
-	/Users/john/dev/pocketlab-chrome/app/services/bluetooth.js.orig
-t/Users/john/.vifm/Trash/000_pocketlab-iOS
-	/Users/john/dev/pocketlab-iOS
-t/Users/john/.vifm/Trash/000_feedSomeKeys_3.js
-	/Users/john/.vimperator/plugin/feedSomeKeys_3.js
-t/Users/john/.vifm/Trash/000__libly.js
-	/Users/john/.vimperator/plugin/_libly.js
-t/Users/john/.vifm/Trash/000_kidscare-iics.zip
-	/Users/john/dev/kidscare-iics.zip
-t/Users/john/.vifm/Trash/001_kidscare-iics.zip
-	/Users/john/dev/kidscare-iics.zip
-t/Users/john/.vifm/Trash/000_wkhtmltopdf.rb
-	/Users/john/dev/nuvolets/config/initializers/wkhtmltopdf.rb
-t/Users/john/.vifm/Trash/002_kidscare-iics.zip
-	/Users/john/dev/kidscare-iics.zip
-t/Users/john/.vifm/Trash/000_kidscare 2
-	/Users/john/Documents/kidscare_v1.2/kidscare 2
-t/Users/john/.vifm/Trash/000_text.txt
-	/Users/john/dev/kidscare-iics/text.txt
-t/Users/john/.vifm/Trash/000_style.css
-	/Users/john/dev/kidscare-iics/style.css
-t/Users/john/.vifm/Trash/000_favicon
-	/Users/john/dev/kidscare-iics/images/favicon
-t/Users/john/.vifm/Trash/000_section_8.pdf.erb
-	/Users/john/dev/nuvolets/app/views/section_21s/section_8.pdf.erb
-t/Users/john/.vifm/Trash/000_section_8.html.erb
-	/Users/john/dev/nuvolets/app/views/section_21s/section_8.html.erb
-t/Users/john/.vifm/Trash/000_section_21.html.erb
-	/Users/john/dev/nuvolets/app/views/section_8s/section_21.html.erb
-t/Users/john/.vifm/Trash/000_section_21.pdf.erb
-	/Users/john/dev/nuvolets/app/views/section_8s/section_21.pdf.erb
-t/Users/john/.vifm/Trash/000_edit.html.erb
-	/Users/john/dev/nuvolets/app/views/downloaders/edit.html.erb
-t/Users/john/.vifm/Trash/000_show.html.erb
-	/Users/john/dev/nuvolets/app/views/downloaders/show.html.erb
-t/Users/john/.vifm/Trash/000_show.json.jbuilder
-	/Users/john/dev/nuvolets/app/views/downloaders/show.json.jbuilder
-t/Users/john/.vifm/Trash/000__address.html.erb
-	/Users/john/dev/nuvolets/app/views/shared/_address.html.erb
-t/Users/john/.vifm/Trash/000__form.html.erb
-	/Users/john/dev/nuvolets/app/views/properties/_form.html.erb
-t/Users/john/.vifm/Trash/000_20150828163835_section_eight.rb
-	/Users/john/dev/nuvolets/db/migrate/20150828163835_section_eight.rb
-t/Users/john/.vifm/Trash/000_new.html.erb
-	/Users/john/dev/nuvolets/app/views/section_generation/new.html.erb
-t/Users/john/.vifm/Trash/000_create_section_eight.html.erb
-	/Users/john/dev/nuvolets/app/views/section_twenty_ones/create_section_eight.html.erb
-t/Users/john/.vifm/Trash/000_20150831065907_rename_downloader_id_id_to_downloader_id_in_properties.rb
-	/Users/john/dev/nuvolets/db/migrate/20150831065907_rename_downloader_id_id_to_downloader_id_in_properties.rb
-t/Users/john/.vifm/Trash/000_downloaders.scss
-	/Users/john/dev/nuvolets/app/assets/stylesheets/downloaders.scss
-t/Users/john/.vifm/Trash/000_downloaders.coffee
-	/Users/john/dev/nuvolets/app/assets/javascripts/downloaders.coffee
-t/Users/john/.vifm/Trash/000_application_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/application_controller.rb-e
-t/Users/john/.vifm/Trash/000_downloaders_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/downloaders_controller.rb-e
-t/Users/john/.vifm/Trash/000_properties_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/properties_controller.rb-e
-t/Users/john/.vifm/Trash/000_section_eights_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/section_eights_controller.rb-e
-t/Users/john/.vifm/Trash/000_section_generation_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/section_generation_controller.rb-e
-t/Users/john/.vifm/Trash/000_section_twenty_ones_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/section_twenty_ones_controller.rb-e
-t/Users/john/.vifm/Trash/000_static_pages_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/static_pages_controller.rb-e
-t/Users/john/.vifm/Trash/000_user_sessions_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/user_sessions_controller.rb-e
-t/Users/john/.vifm/Trash/000_users_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/users_controller.rb-e
-t/Users/john/.vifm/Trash/000_property_handler_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/concerns/property_handler_controller.rb-e
-t/Users/john/.vifm/Trash/000_wizard_controller.rb-e
-	/Users/john/dev/nuvolets/app/controllers/concerns/wizard_controller.rb-e
-t/Users/john/.vifm/Trash/000_downloaders_helper.rb
-	/Users/john/dev/nuvolets/app/helpers/downloaders_helper.rb
-t/Users/john/.vifm/Trash/000_20150901152423_remove_house_number_or_name_address_line1_address_line2_town_city_and_postcode_from_properties.rb
-	/Users/john/dev/nuvolets/db/migrate/20150901152423_remove_house_number_or_name_address_line1_address_line2_town_city_and_postcode_from_properties.rb
-t/Users/john/.vifm/Trash/000_20150901153647_add_address_to_landlord.rb
-	/Users/john/dev/nuvolets/db/migrate/20150901153647_add_address_to_landlord.rb
-t/Users/john/.vifm/Trash/000_20150901151834_create_addresses.rb
-	/Users/john/dev/nuvolets/db/migrate/20150901151834_create_addresses.rb
-t/Users/john/.vifm/Trash/000_address.rb
-	/Users/john/dev/nuvolets/app/models/address.rb
-t/Users/john/.vifm/Trash/000_section_generation_controller.rb
-	/Users/john/dev/nuvolets/app/controllers/section_generation_controller.rb
-t/Users/john/.vifm/Trash/000_wizard_controller.rb
-	/Users/john/dev/nuvolets/app/controllers/concerns/wizard_controller.rb
-t/Users/john/.vifm/Trash/000_static_pages_controller.rb
-	/Users/john/dev/nuvolets/app/controllers/static_pages_controller.rb
-t/Users/john/.vifm/Trash/000_section_generation
-	/Users/john/dev/nuvolets/app/views/section_generation
-t/Users/john/.vifm/Trash/000_static_pages
-	/Users/john/dev/nuvolets/app/views/static_pages
-t/Users/john/.vifm/Trash/000_wrap_parameters.rb-e
-	/Users/john/dev/nuvolets/config/initializers/wrap_parameters.rb-e
-t/Users/john/.vifm/Trash/000_wicked_pdf.rb-e
-	/Users/john/dev/nuvolets/config/initializers/wicked_pdf.rb-e
-t/Users/john/.vifm/Trash/000_session_store.rb-e
-	/Users/john/dev/nuvolets/config/initializers/session_store.rb-e
-t/Users/john/.vifm/Trash/000_mime_types.rb-e
-	/Users/john/dev/nuvolets/config/initializers/mime_types.rb-e
-t/Users/john/.vifm/Trash/000_inflections.rb-e
-	/Users/john/dev/nuvolets/config/initializers/inflections.rb-e
-t/Users/john/.vifm/Trash/000_filter_parameter_logging.rb-e
-	/Users/john/dev/nuvolets/config/initializers/filter_parameter_logging.rb-e
-t/Users/john/.vifm/Trash/000_cookies_serializer.rb-e
-	/Users/john/dev/nuvolets/config/initializers/cookies_serializer.rb-e
-t/Users/john/.vifm/Trash/000_backtrace_silencers.rb-e
-	/Users/john/dev/nuvolets/config/initializers/backtrace_silencers.rb-e
-t/Users/john/.vifm/Trash/000_assets.rb-e
-	/Users/john/dev/nuvolets/config/initializers/assets.rb-e
-t/Users/john/.vifm/Trash/000_20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
-	/Users/john/dev/nuvolets/db/migrate/20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
+t/Users/john/.vifm/Trash/000_pids
+	/Users/john/dev/zode64/tmp/pids
+t/Users/john/.vifm/Trash/000_cache
+	/Users/john/dev/zode64/tmp/cache
+t/Users/john/.vifm/Trash/000_sockets
+	/Users/john/dev/zode64/tmp/sockets
+t/Users/john/.vifm/Trash/001_pids
+	/Users/john/dev/zode64/tmp/pids
+t/Users/john/.vifm/Trash/001_cache
+	/Users/john/dev/zode64/tmp/cache
+t/Users/john/.vifm/Trash/001_sockets
+	/Users/john/dev/zode64/tmp/sockets
+t/Users/john/.vifm/Trash/000_backtrace_silencers.rb
+	/Users/john/dev/zode64/config/initializers/backtrace_silencers.rb
+t/Users/john/.vifm/Trash/000_inflections.rb
+	/Users/john/dev/zode64/config/initializers/inflections.rb
+t/Users/john/.vifm/Trash/000_newrelic.yml
+	/Users/john/dev/zode64/config/newrelic.yml
+t/Users/john/.vifm/Trash/000_routes.rb.orig
+	/Users/john/dev/nuvolets/config/routes.rb.orig
 
 # State:
 f

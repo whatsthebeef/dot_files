@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/Users/john/dev/gemas/gemas_z/gemas/.git'
-let g:netrw_dirhist_2='/Users/john/dev/neo4j'
-let g:netrw_dirhist_3='/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home'
-let g:netrw_dirhist_4='/Users/john/dev/visiens'
-let g:netrw_dirhist_5='/Users/john/dev/neography'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/john/dev/zode64/config/locales'
+let g:netrw_dirhist_2='/Users/john/dev/zode64/config'
+let g:netrw_dirhist_3='/Users/john/dev/zode64'
+let g:netrw_dirhist_4='/Users/john/dev/zode64/app'
+let g:netrw_dirhist_5='/Users/john/dev/zode64/app/views'
+let g:netrw_dirhist_6='/Users/john/dev/zode64/app/views/pages'
+let g:netrw_dirhist_7='/Users/john/dev/zode64/app/views/layouts'
+let g:netrw_dirhist_8='/Users/john/dev/ios-charts/Charts'
+let g:netrw_dirhist_9='/Users/john/.vifm'
