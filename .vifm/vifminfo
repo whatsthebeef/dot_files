@@ -52,441 +52,309 @@ l-10,2
 r-11,2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/zode64
+d/Users/john/dev/download-fix
+	blooming-tor-9301
+1
+d/Users/john/dev/download-fix/blooming-tor-9301
 	app
+7
+d/Users/john/dev/download-fix/blooming-tor-9301/app
+	views
 6
-d/Users/john/dev/zode64/app
-	assets
+d/Users/john/dev/download-fix/blooming-tor-9301/app/views
+	landlords
 3
-d/Users/john/dev/zode64
-	tmp
-5
-d/Users/john/dev/zode64/tmp
-	..
-0
-d/Users/john/dev/zode64
-	config
+d/Users/john/dev/download-fix/blooming-tor-9301/app/views/landlords
+	new.html.erb
 4
-d/Users/john/dev/zode64/config
-	environments
+d/Users/john/dev/download-fix/blooming-tor-9301/app/views
+	landlords
 1
-d/Users/john/dev/zode64/config/environments
-	..
-0
-d/Users/john/dev/zode64/config
-	environments
-1
-d/Users/john/dev/zode64
-	log
-3
-d/Users/john/dev/zode64/log
-	..
-0
-d/Users/john/dev/zode64
-	db
-2
-d/Users/john/dev/zode64/db
-	..
-0
-d/Users/john/dev/zode64
-	.git
-1
-d/Users/john/dev/zode64/.git
-	..
-0
-d/Users/john/dev/zode64
-	config
-4
-d/Users/john/dev/zode64/config
-	initializers
-2
-d/Users/john/dev/zode64/config/initializers
-	..
-0
-d/Users/john/dev/zode64/config
-	database.yml
-4
-d/Users/john/dev/ios-charts
-	Assets
-2
-d/Users/john/dev/ios-charts/Assets
-	..
-0
-d/Users/john/dev/ios-charts
-	ChartsDemo
-4
-d/Users/john/dev/ios-charts/ChartsDemo
-	..
-0
-d/Users/john/dev/ios-charts
-	Charts
-3
-d/Users/john/dev/ios-charts/Charts
-	..
-0
-d/Users/john/dev/ios-charts
-	Assets
-2
-d/Users/john/dev/ios-charts/Assets
-	..
-0
-d/Users/john/dev/ios-charts
-	Assets
-2
-d/Users/john/dev
-	ios-charts
-1
-d/Users/john/dev/ios-charts
-	Assets
-2
-d/Users/john/dev/ios-charts/Assets
-	..
-0
-d/Users/john/dev/ios-charts
-	Charts
-3
-d/Users/john/dev/ios-charts/Charts
-	Classes
-3
-d/Users/john/dev/ios-charts/Charts/Classes
-	Data
-4
-d/Users/john/dev/ios-charts/Charts/Classes/Data
-	Interfaces
-2
-d/Users/john/dev/ios-charts/Charts/Classes/Data/Interfaces
-	..
-0
-d/Users/john/dev/ios-charts/Charts/Classes/Data
-	Interfaces
-2
-d/Users/john/dev/ios-charts/Charts/Classes
-	Interfaces
-8
-d/Users/john/dev/ios-charts/Charts/Classes/Interfaces
-	..
-0
-d/Users/john/dev/ios-charts/Charts/Classes
-	Interfaces
-8
-d/Users/john/dev/ios-charts/Charts/Classes/Interfaces
-	..
-0
-d/Users/john/dev/ios-charts/Charts/Classes
-	Renderers
-9
-d/Users/john/dev/ios-charts/Charts/Classes/Renderers
-	ChartAxisRendererBase.swift
-4
-d/Users/john/dev/ios-charts/Charts/Classes
-	Renderers
-9
-d/Users/john/dev/ios-charts/Charts/Classes/Renderers
-	ChartAxisRendererBase.swift
-4
-d/Users/john/dev/ios-charts/Charts/Classes
-	Utils
-10
-d/Users/john/dev/ios-charts/Charts/Classes/Utils
-	..
-0
-d/Users/john/dev/ios-charts/Charts/Classes
-	Utils
-10
-d/Users/john/dev/ios-charts/Charts
-	ThirdParty
-5
-d/Users/john/dev/ios-charts/Charts/ThirdParty
-	Realm
-1
-d/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	ios
-1
-d/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
-	Realm.framework
-1
-d/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	ios
-1
-d/Users/john/dev/ios-charts/Charts/ThirdParty
-	Realm
-1
-d/Users/john/dev/ios-charts/Charts
-	Supporting Files
-4
-d/Users/john/dev/ios-charts/Charts/Supporting Files
-	..
-0
-d/Users/john/dev/ios-charts/Charts
-	ThirdParty
-5
-d/Users/john/dev/ios-charts
-	Assets
-2
-d/Users/john/dev/ios-charts/Assets
-	..
-0
-d/Users/john/dev/ios-charts
-	.git
+d/Users/john/dev/download-fix/blooming-tor-9301/app
+	views
+6
+d/Users/john/dev/download-fix/blooming-tor-9301
+	app
+7
+d/Users/john/dev/download-fix
+	blooming-tor-9301
 1
 d/Users/john/dev
-	ios-charts
-1
-d/Users/john/dev/ios-charts
-	Assets
-2
-d/Users/john/dev/ios-charts/Assets
-	..
-0
-d/Users/john/dev/ios-charts
-	Charts
-3
-d/Users/john/dev/ios-charts/Charts
-	Classes
-3
-d/Users/john/dev/ios-charts/Charts/Classes
-	Utils
-10
-d/Users/john/dev/nuvolets
-	resources
-2
-d/Users/john/dev/nuvolets/resources
-	..
-0
+	nuvolets
+4
 d/Users/john/dev/nuvolets
 	app
-6
-d/Users/john/dev/nuvolets/app
-	models
-1
-d/Users/john/dev/nuvolets/app/models
-	..
-0
-d/Users/john/dev/nuvolets/app
-	controllers
-2
-d/Users/john/dev/nuvolets/app/controllers
-	..
-0
-d/Users/john/dev/nuvolets/app
-	helpers
-3
-d/Users/john/dev/nuvolets/app/helpers
-	..
-0
+8
 d/Users/john/dev/nuvolets/app
 	mailers
 4
 d/Users/john/dev/nuvolets/app/mailers
 	document_mailer.rb
 1
-d/Users/john/dev/ios-charts
-	Charts
+d/Users/john/dev/nuvolets/app
+	controllers
+1
+d/Users/john/dev/nuvolets/app/controllers
+	..
+0
+d/Users/john/dev/nuvolets/app
+	views
+5
+d/Users/john/dev/nuvolets/app/views
+	landlords
 2
-d/Users/john/dev
-	pocketlab-ios
+d/Users/john/dev/nuvolets/app/views/landlords
+	new.erb
+1
+d/Users/john/dev/nuvolets
+	app
+8
+d/Users/john/dev/nuvolets/app
+	views
+5
+d/Users/john/dev/nuvolets/app/views
+	landlords
+1
+d/Users/john/dev/nuvolets/app/views/landlords
+	new.erb
+1
+d/Users/john/dev/nuvolets/app/views
+	landlords
+1
+d/Users/john/dev/nuvolets/app/views/landlords
+	..
+0
+d/Users/john/dev/nuvolets
+	app
+8
+d/Users/john/dev/nuvolets/app
+	views
+5
+d/Users/john/dev/nuvolets/app/views
+	shared
+3
+d/Users/john/dev/nuvolets/app/views/shared
+	_footer.html.erb
+1
+d/Users/john/dev/nuvolets
+	app
+8
+d/Users/john/dev/nuvolets/app
+	views
+5
+d/Users/john/dev/nuvolets/app/views
+	landlords
+6
+d/Users/john/dev/nuvolets/app/views/landlords
+	..
+0
+d/Users/john/dev/nuvolets/app/views
+	properties
+10
+d/Users/john/dev/nuvolets/app/views/properties
+	build
+1
+d/Users/john/dev/nuvolets/app/views/properties/build
+	user_info.html.erb
+3
+d/Users/john/dev/nuvolets
+	app
+8
+d/Users/john/dev/nuvolets/app
+	views
+5
+d/Users/john/dev/nuvolets/app/views
+	properties
+10
+d/Users/john/dev/nuvolets/app/views/properties
+	build
+1
+d/Users/john/dev/nuvolets/app/views/properties/build
+	add_info.html.erb
+5
+d/Users/john/dev/download-fix/blooming-tor-9301
+	app
+7
+d/Users/john/dev/download-fix/blooming-tor-9301/app
+	views
+6
+d/Users/john/dev/download-fix/blooming-tor-9301/app/views
+	landlords
+2
+d/Users/john/dev/download-fix/blooming-tor-9301/app
+	assets
 4
+d/Users/john/dev/download-fix/blooming-tor-9301
+	test
+3
+d/Users/john/dev/download-fix/blooming-tor-9301/test
+	models
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/test/models
+	downloader_test.rb
+3
+d/Users/john/dev/download-fix/blooming-tor-9301/test
+	mailers
+6
+d/Users/john/dev/download-fix/blooming-tor-9301/test/mailers
+	previews
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/test/mailers/previews
+	document_mailer_preview.rb
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/test/mailers
+	previews
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/test
+	fixtures
+4
+d/Users/john/dev/download-fix/blooming-tor-9301
+	lib
+10
+d/Users/john/dev/download-fix/blooming-tor-9301/lib
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301
+	test
+3
+d/Users/john/dev/download-fix/blooming-tor-9301/test
+	models
+2
+d/Users/john/dev/download-fix/blooming-tor-9301/test/models
+	section_twenty_one_test.rb
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/test
+	mailers
+2
+d/Users/john/dev/download-fix/blooming-tor-9301
+	spec
+2
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	features
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec/features
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	models
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec/models
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301
+	spec
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	factories
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec/factories
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301
+	spec
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	models
+3
+d/Users/john/dev/download-fix/blooming-tor-9301/spec/models
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301
+	app
+7
+d/Users/john/dev/download-fix/blooming-tor-9301/app
+	assets
+4
+d/Users/john/dev/download-fix/blooming-tor-9301
+	config
+4
+d/Users/john/dev/download-fix/blooming-tor-9301/config
+	environments
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/config/environments
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301/config
+	environments
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/config/environments
+	test.rb
+4
+d/Users/john/dev/download-fix/blooming-tor-9301/config
+	initializers
+2
+d/Users/john/dev/download-fix/blooming-tor-9301/config/initializers
+	time_formats.rb
+9
+d/
+	.DocumentRevisions-V100
+2
+d/Users/john/dev/download-fix/blooming-tor-9301
+	config
+4
+d/Users/john/dev/download-fix/blooming-tor-9301/config
+	initializers
+2
+d/Users/john/dev/download-fix/blooming-tor-9301
+	spec
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	support
+3
+d/Users/john/dev/download-fix/blooming-tor-9301/spec/support
+	factory_girl.rb
+1
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	factories
+2
+d/Users/john/dev/download-fix/blooming-tor-9301/spec/factories
+	..
+0
+d/Users/john/dev/download-fix/blooming-tor-9301/spec
+	factories.rb
+4
+d/Users/john/dev/pocketlab-android
+	..
+0
+d/Users/john/dev
+	amazon
+33
+d/Users/john/dev/amazon
+	..
+0
+d/Users/john/Downloads
+	..
+0
 d/Users/john
 	Downloads
-1
+2
 d/Users/john/Downloads
-	realm-swift-0.97.0
-1
-d/Users/john/Downloads/realm-swift-0.97.0
-	osx
-3
-d/Users/john/Downloads/realm-swift-0.97.0/osx
 	..
 0
-d/Users/john/Downloads/realm-swift-0.97.0
-	osx
-3
-d/Users/john/Downloads/realm-swift-0.97.0/osx
-	swift-2.1.1
-1
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
-	RealmSwift.framework
+d/Users/john
+	Downloads
 2
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
+d/Users/john/Downloads
+	database.tgz
+23
+d/Users/john/dev/wordapp
+	mongodb
+1
+d/Users/john/dev/wordapp/mongodb
 	..
 0
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
-	RealmSwift.framework
-2
-d/Users/john/Downloads/realm-swift-0.97.0/osx
-	swift-2.1.1
+d/Users/john/dev/wordapp
+	mongodb
 1
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
-	RealmSwift.framework
-2
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
-	Versions
+d/Users/john/dev/wordapp/mongodb
+	local.ns
 4
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework/Versions
-	..
-0
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
-	Resources
-3
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework/Resources
-	..
-0
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
-	Resources
-3
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
-	RealmSwift.framework
+d/Users/john/dev/wordapp
+	schema.MONGODB.native
 2
-d/Users/john/Downloads/realm-swift-0.97.0/osx
-	swift-2.1.1
-1
-d/Users/john/Downloads/realm-swift-0.97.0
-	osx
-3
-d/Users/john/Downloads/realm-swift-0.97.0/osx
-	swift-2.1.1
-1
-d/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1
-	RealmSwift.framework
-2
-d/Users/john/Downloads/realm-swift-0.97.0/osx
-	swift-2.1.1
-1
 d
 
 # Right window history (oldest to newest):
-D/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
-	MacOSX10.6.sdk
-1
-D/Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.6.sdk
-	..
-0
-D/Volumes
-	..
-0
-D/
-	sbin
-8
-D/Users/john/dev
-	android
-2
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android/system/.repo
-	..
-0
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android/system/.repo
-	projects
-2
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev
-	android
-2
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev
-	android
-2
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android/system/.repo
-	projects
-2
-D/Users/john/dev/android/system/.repo/projects
-	..
-0
-D/Users/john/dev/android/system/.repo
-	projects
-2
-D/Users/john/dev/android/system/.repo/projects
-	..
-0
-D/Users/john/dev/android/system/.repo
-	project-objects
-3
-D/Users/john/dev/android/system/.repo/project-objects
-	..
-0
-D/Users/john/dev/android/system/.repo
-	project-objects
-3
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev
-	android
-2
-D/Users/john/dev/android
-	android.dmg.sparseimage
-3
-D/Volumes/android/WORKING_DIRECTORY/.repo/projects/hardware
-	..
-0
-D/Volumes/android/WORKING_DIRECTORY/.repo/projects
-	hardware
-1
-D/Volumes/android/WORKING_DIRECTORY/.repo
-	projects
-1
-D/Volumes/android/WORKING_DIRECTORY
-	.repo
-4
-D/Volumes/android
-	WORKING_DIRECTORY
-1
-D/Users/john/dev
-	dot_files
-3
-D/Users/john/dev/dot_files
-	.vimrc
-8
-D/Users/john/dev
-	dot_files
-4
-D/Users/john
-	.bash_sessions
-8
-D/Users/john/dev
-	android
-8
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev/android/system
-	.repo
-1
 D/Users/john/dev/android
 	system
 1
@@ -654,17 +522,143 @@ D/Users/john/dev/ios-charts/Charts/ThirdParty
 1
 D/Users/john/dev/ios-charts/Charts
 	ThirdParty
+3
+D/Users/john/dev/ios-charts
+	Charts
+2
+D/Users/john/dev
+	ios-charts
+4
+D/Users/john/Downloads
+	jaspersoft.pem
+7
+D/Users/john
+	Downloads
+3
+D/Users
+	john
+1
+D/
+	Applications
+6
+D/Applications
+	jasperreports-server-6.2.0
+3
+D/Applications/jasperreports-server-6.2.0
+	samples
+9
+D/Applications/jasperreports-server-6.2.0/samples
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	docs
+12
+D/Applications/jasperreports-server-6.2.0/docs
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	eval-licenses
 11
+D/Applications/jasperreports-server-6.2.0/eval-licenses
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	apps
+10
+D/Applications/jasperreports-server-6.2.0/apps
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	apps
+10
+D/Applications/jasperreports-server-6.2.0/apps
+	jasperserver
+1
+D/Applications/jasperreports-server-6.2.0/apps/jasperserver
+	..
+0
+D/Applications/jasperreports-server-6.2.0/apps
+	jasperserver
+1
+D/Applications/jasperreports-server-6.2.0
+	java
+15
+D/Applications/jasperreports-server-6.2.0/java
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	common
+16
+D/Applications/jasperreports-server-6.2.0/common
+	share
+5
+D/Applications/jasperreports-server-6.2.0/common/share
+	..
+0
+D/Applications/jasperreports-server-6.2.0/common
+	include
+4
+D/Applications/jasperreports-server-6.2.0/common/include
+	..
+0
+D/Applications/jasperreports-server-6.2.0/common
+	openssl
+3
+D/Applications/jasperreports-server-6.2.0/common/openssl
+	..
+0
+D/Applications/jasperreports-server-6.2.0/common
+	lib
+2
+D/Applications/jasperreports-server-6.2.0/common/lib
+	..
+0
+D/Applications/jasperreports-server-6.2.0/common
+	bin
+1
+D/Applications/jasperreports-server-6.2.0/common/bin
+	..
+0
+D/Applications/jasperreports-server-6.2.0/common
+	bin
+1
+D/Applications/jasperreports-server-6.2.0
+	docs
+12
+D/Applications/jasperreports-server-6.2.0/docs
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	eval-licenses
+11
+D/Applications/jasperreports-server-6.2.0/eval-licenses
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	apps
+10
+D/Applications/jasperreports-server-6.2.0/apps
+	jasperserver
+1
+D/Applications/jasperreports-server-6.2.0
+	samples
+9
+D/Applications/jasperreports-server-6.2.0/samples
+	..
+0
+D/Applications/jasperreports-server-6.2.0
+	common
+16
+D/Applications/jasperreports-server-6.2.0/common
+	bin
+1
+D/Applications/jasperreports-server-6.2.0
+	samples
+9
 D
 
 # Command line history (oldest to newest):
 :set viewcolumns={name}..,{size}
-:e _tenants_fields.html.erb
-:e show.html.erb
-:pdf.scss
-:pdf
-:e pdf.scss
-:mkdir fonts
 :e mixins.scss
 :sort={name}
 :set sort={name}
@@ -747,7 +741,6 @@ D
 :q1
 :q
 :GR
-:view
 :wq!
 :vim mc-like.vifm
 :e mc-like.vifm
@@ -759,6 +752,13 @@ D
 :unzip
 :mkdir
 :mkdir osx
+:w
+:e 
+:mkdir models
+:mkdir factories
+:e section_twenty_one.rb
+:e section_twenty_one_spec.rb
+:view
 
 # Search history (oldest to newest):
 /vimrc
@@ -767,7 +767,11 @@ D
 /nu
 /zode64
 /Gem
+/mongo
+/var
+/word
 /dot
+/nuvo
 /vimlh
 /rc
 /tml
@@ -868,6 +872,10 @@ D
 /Xc
 /a
 /ios-ch
+/amaz
+/data
+/da
+/jas
 
 # Prompt history (oldest to newest):
 pjs.snippets
@@ -1011,7 +1019,6 @@ pbuild_controller.rb
 paddresses
 paddress.rb
 paddresses_controller.rb
-pnew.html.erb
 padd_info.html.erb
 p.vimrc
 p.vim.bak2
@@ -1027,14 +1034,21 @@ ppdf.html
 psection_twenty_ones_controller.rb
 psection_eights_controller.rb
 pjquery_equalheights.js
+pmongodb
+pfeatures
+psection_eight_spec.rb
+psection_twenty_one_spec.rb
 psection_twenty_ones
 psection_eights
 p_property_form.html.erb
 p20150828112527_create_users.rb
 psection_eight.rb
+plandlords_helper.rb
 psection_twenty_one.rb
 pcreate_downloader.html.erb
 pcreate_property.html.erb
+pwizard_first_page.html.erb
+pnew_user_page.html.erb
 pcreate_section_twenty_eight.html.erb
 pcreate_section_eight.html.erb
 pcreate_section_twenty_one.html.erb
@@ -1128,36 +1142,38 @@ pclass-site-list-page
 pjquery.equalHeights.js
 pjquery.equalheights.js
 pmc-like.vifm
+pnew_for_section_twenty_one.html.erb
+pnew_for_section_eight.html.erb
+pnew.erb
+pnew.html.erb
+p_header.html.erb
+p_footer.html.erb
+pconditions.html.erb
+psection_twenty_one_test.rb
+pfactories.rb
+pmongod.conf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/Realm.framework
-""/Users/john/Downloads/realm-swift-0.97.0/osx/swift-2.1.1/RealmSwift.framework
 
 # Directory stack (oldest to newest):
 
 # Trash content:
-t/Users/john/.vifm/Trash/000_pids
-	/Users/john/dev/zode64/tmp/pids
-t/Users/john/.vifm/Trash/000_cache
-	/Users/john/dev/zode64/tmp/cache
-t/Users/john/.vifm/Trash/000_sockets
-	/Users/john/dev/zode64/tmp/sockets
-t/Users/john/.vifm/Trash/001_pids
-	/Users/john/dev/zode64/tmp/pids
-t/Users/john/.vifm/Trash/001_cache
-	/Users/john/dev/zode64/tmp/cache
-t/Users/john/.vifm/Trash/001_sockets
-	/Users/john/dev/zode64/tmp/sockets
-t/Users/john/.vifm/Trash/000_backtrace_silencers.rb
-	/Users/john/dev/zode64/config/initializers/backtrace_silencers.rb
-t/Users/john/.vifm/Trash/000_inflections.rb
-	/Users/john/dev/zode64/config/initializers/inflections.rb
-t/Users/john/.vifm/Trash/000_newrelic.yml
-	/Users/john/dev/zode64/config/newrelic.yml
-t/Users/john/.vifm/Trash/000_routes.rb.orig
-	/Users/john/dev/nuvolets/config/routes.rb.orig
+t/Users/john/.vifm/Trash/000_jasperreports-server-6.2.0-osx-x64-installer.app
+	/Users/john/Downloads/jasperreports-server-6.2.0-osx-x64-installer.app
+t/Users/john/.vifm/Trash/000_new_for_section_twenty_one.html.erb
+	/Users/john/dev/nuvolets/app/views/landlords/new_for_section_twenty_one.html.erb
+t/Users/john/.vifm/Trash/000_user_test.rb-e
+	/Users/john/dev/download-fix/blooming-tor-9301/test/models/user_test.rb-e
+t/Users/john/.vifm/Trash/000_document_mailer_test.rb-e
+	/Users/john/dev/download-fix/blooming-tor-9301/test/mailers/document_mailer_test.rb-e
+t/Users/john/.vifm/Trash/000_document_mailer_preview.rb-e
+	/Users/john/dev/download-fix/blooming-tor-9301/test/mailers/previews/document_mailer_preview.rb-e
+t/Users/john/.vifm/Trash/000_production.rb-e
+	/Users/john/dev/download-fix/blooming-tor-9301/config/environments/production.rb-e
+t/Users/john/.vifm/Trash/000_factories
+	/Users/john/dev/download-fix/blooming-tor-9301/spec/factories
 
 # State:
 f

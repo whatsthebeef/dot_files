@@ -9,6 +9,7 @@ unset MAILCHECK
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 export DEV=${HOME}/dev 
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
+export MONGO_HOME=${HOME}/dev/apps/mongodb
 
 ## Path
 PATH=${PATH}:${HOME}/dev/apps/glassfish/bin
@@ -19,6 +20,7 @@ PATH=${HOME}/bin:${PATH}
 PATH=${PATH}:${HOME}/.rvm/bin # Add RVM to PATH for scripting
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 PATH=${ANDROID_HOME}/platform-tools:${PATH}
+PATH=${MONGO_HOME}/bin:${PATH}
 
 export PATH
 
@@ -61,8 +63,13 @@ fi
 
 ### Tmux
 if [[ ! $TERM =~ screen ]]; then
-    exec tmux
+    exec tmux new-session -s default 
 fi
+
+### command to rescue 'can't connect to server'
+# ps aux | grep -w [t]mux
+# kill -USR1 <uid>
+# tmux ls
 
 ### Vim in bash
 if [[ $MYSHELL =~ bash ]]; 
@@ -80,21 +87,19 @@ fi
 
 ### Source control
 ## Git
-# git difftool --tool=vimdiff --no-prompt
-# git mergetool --tool=vimdiff --no-prompt
 git config --global diff.tool vimdiff
 git config --global merge.tool vimdiff
 git config --global difftool.prompt false
+git config --global user.name 'John Bower'
+git config --global user.email 'john@zode64.com'
 
 #--------------------------------------- Aliases ------------------------------------------#
 
 ### Vim
-alias vim='reattach-to-user-namespace -l ~/dev/apps/vim/src/vim'
 
-## open in note search
-function vimn() {
-   vim -c "SearchNotes /$@/";
-}
+if [[ "$platform" == 'mac' ]]; then
+  alias vim='reattach-to-user-namespace -l ~/dev/apps/vim/src/vim'
+fi
 
 ### Vifm
 ## hack to make vifm close into current vifm location
@@ -343,23 +348,6 @@ umountAndroid() {
 }
 
 #------------------------------------- Project specific -----------------------------------#
-## GeMaS
-export G=${HOME}/dev/gemas/gemas_z/gemas-osgi
-alias cdg="cd ${G}"
-alias mysqlg="mysql -Dgemas -ugemas -pgemas"
-
-## Visiens
-export GOV=${HOME}/dev/govcountability
-alias cdgov="cd ${GOV}"
-
-## SVIMS
-export SVIMS=${HOME}/dev/svims
-alias cdsv="cd ${SVIMS}"
-alias mysqls="mysql -Dsvims -usvims -psvims"
-alias grf="gradle flow"
-svims() {
-   initProject $SVIMS/$1 "gradle bootRun"
-}
 
 ## Zuma 
 export ZUMA=${DEV}/zuma_cms
@@ -388,18 +376,6 @@ alias pocketlabZip='zip -r pocketlab.zip app'
 export WEDSTIVAL=${DEV}/wedstival
 wedstival() {
    initProject $WEDSTIVAL "rails s"
-}
-
-# IICS wordpress server
-export IICS=${DEV}/iics_wordpress
-iics() {
-   initProject $IICS 
-}
-
-# IICS main server
-export IICS_MAIN=${DEV}/iics_main_site
-iicsMain() {
-   initProject $IICS_MAIN 
 }
 
 # Visiens indexer
@@ -433,7 +409,6 @@ visiens() {
   visiensIndexer
   initSplit "$NEO4J/data/log" "tail -f console.log" "$NEO4J/data/log" "tail -f neo4j.0.0.log" 
 }
-
 export JAVA_OPTS='-Dlogback.configurationFile=jar:file:/Users/john/dev/apps/neo4j-community-2.1.5/plugins/visiens-server-api-1.0-SNAPSHOT.jar!/logback.xml'
 
 # NuvoLets indexer

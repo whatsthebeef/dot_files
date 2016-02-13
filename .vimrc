@@ -212,27 +212,27 @@ endif
 " ------------------- Mappings and commands --------------------------------
 
 "" Saving
-nmap <Leader>w :w!<CR>
-nmap <Leader>q :q!<CR>
+" nmap <Leader>w :w!<CR>
+" nmap <Leader>q :q!<CR>
 
 "" General insert mappings EVERY ONE BE CAREFUL
-imap <BS> <Nop>
-inoremap <BS> <Nop>
+" imap <BS> <Nop>
+" inoremap <BS> <Nop>
 
 "" Clipboard
 " Copy/paste with the system buffer 
 " noremap <Leader>p :call PasteFromSystemBuffer()<CR>
 " noremap <Leader>y "+y
-function! PasteFromSystemBuffer()
-  exec "set paste"
-  call feedkeys('"+p')
-  exec "set nopaste"
-endfunction
+" function! PasteFromSystemBuffer()
+"   exec "set paste"
+"   call feedkeys('"+p')
+"   exec "set nopaste"
+" endfunction
 
 
 "" Ex Commands
 " By default enter ex-command for search and command
-nmap : :<C-F>i
+" nmap : :<C-F>i
 nmap / :<C-F>/
 
 "" Deleting into an oblivion
@@ -264,17 +264,17 @@ imap ,/ </<C-X><C-O>
 "" Buffers
 map <Leader>m :silent b#<CR>
 set wildcharm=<C-z>
-nnoremap <leader>b :<C-f>ibuffer<Space>
+nnoremap <leader>b :<C-f>isilent buffer<Space>
 nnoremap <leader>B :<C-f>isbuffer<Space>
 
 """ File
 set path=.,**
-nnoremap <leader>f :<C-f>ifind *
+nnoremap <leader>f :<C-f>isilent find *
 nnoremap <leader>s :<C-f>isfind *
 nnoremap <leader>v :<C-f>ivert sfind *
 nnoremap <leader>t :<C-f>itabfind *
 "" Under directory of current file
-nnoremap <leader>F :find <C-R>=expand('%:h').'/*'<CR>
+nnoremap <leader>F :silent find <C-R>=expand('%:h').'/*'<CR>
 nnoremap <leader>S :sfind <C-R>=expand('%:h').'/*'<CR>
 nnoremap <leader>V :vert sfind <C-R>=expand('%:h').'/*'<CR>
 nnoremap <leader>T :tabfind <C-R>=expand('%:h').'/*'<CR>
@@ -322,7 +322,7 @@ nmap <Leader>J :tabedit ~/.jshintrc<CR>      " edit my jshint file
 map <silent> <C-N> :silent noh<CR>
 
 nmap <Leader>g :execute 'Ggrep ' . expand("<cword>")<CR>
-command! -nargs=1 GgrepRev :Git! grep <args> $(git rev-list --all)
+command! -nargs=1 GgrepRev :execute 'Git! grep <args> $(git rev-list --all)'<CR>
 
 " Extracts class name from value in clipboard and does tag search - called at start up in tmux script
 " Also if it can find a line number it will add it to the 'l' register
