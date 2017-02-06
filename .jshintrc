@@ -36,6 +36,7 @@
         "Int32Array",
         "Int16Array",
         "Uint8Array",
-        "Modernizr"
+        "Modernizr",
+        "typeahead"
     ]
 }

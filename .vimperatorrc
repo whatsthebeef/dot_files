@@ -6,6 +6,7 @@ map , <Leader>
 " set defsearch=startpage  
 ignorekeys clear
 ignorekeys add https://docs.google.com
+ignorekeys add https://translate.google.com
 ignorekeys add -except=q,<ESC>,:,g,t,e,T,Q,1,2,3,4,5,6,7,8,9,0 https://mail.google.com/
 ignorekeys add -except=<C-l>,<C-h>,:,t,g,G,e,T,L,n,o,q,Q,r,i,h,l,1,2,3,4,5,6,7,8,9,0 https://duckduckgo.com/
 
@@ -58,7 +59,7 @@ nmap <Leader>h :history<CR>;t
 " Language search engine
 nmap <Leader>se :t http://www.wordreference.com/esen/
 nmap <Leader>es :t http://www.wordreference.com/enes/
-nmap <Leader>te :t https://translate.google.com/#tr/en/
+nmap er :t https://translate.google.com/#tr/en/
 nmap et :t https://translate.google.com/#en/tr/
 nmap <Leader>sc :t http://www.wordreference.com/conj/ESverbs.aspx?v=
 nmap <Leader>tc :t http://www.verbix.com/webverbix/go.php?Submit=Go&D1=31&H1=131&T1=

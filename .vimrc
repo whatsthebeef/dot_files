@@ -75,7 +75,7 @@ set backspace=indent,eol,start
 "set viminfo='20,<50,s10,h
 
 """ Folding
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevelstart=4
 
 " search settings
@@ -96,9 +96,9 @@ set wildignore+=*.tar.*
 exec 'set backupdir=' . g:tempDir
 exec 'set directory=' . g:tempDir
 
-"  set autoindent     " always set autoindenting on
-"  set smartindent        " smart indent
-"  set cindent            " cindent
+set autoindent     " always set autoindenting on
+set smartindent        " smart indent
+set cindent            " cindent
 
 " set autowrite      " auto saves changes when quitting and swiching buffer
 set expandtab      " tabs are converted to spaces, use only when required
@@ -112,6 +112,19 @@ set tagstack
 
 colorscheme grb256
 hi StatusLineNC ctermbg=242
+hi rubyConstant ctermfg=red
+hi rubyFunction ctermfg=green
+hi cssClassName ctermfg=blue
+hi cssClassNameDot ctermfg=blue
+hi cssIdentifier ctermfg=blue
+hi cssProp ctermfg=blue
+hi funcName ctermfg=blue
+hi jsFunction ctermfg=green
+hi jsNull ctermfg=green
+hi jsThis ctermfg=blue
+hi shOption ctermfg=black
+hi shFunction ctermfg=red
+hi htmlArg ctermfg=green
 
 """ Tmux
 " Tmux and vim creates problem copying to the system keyboard
@@ -135,9 +148,10 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['jshint']
 
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-", 
-      \ " proprietary attribute \"editable-text",  
-      \ " proprietary attribute \"typehead",  
       \ " proprietary attribute \"snap-",  
+      \ " proprietary attribute \"md-",  
+      \ " proprietary attribute \"layout",  
+      \ "plain text isn't allowed in <head> elements",  
       \ " is not recognized!", 
       \ "trimming empty <i>",
       \ "discarding unexpected "]
@@ -232,7 +246,7 @@ endif
 
 "" Ex Commands
 " By default enter ex-command for search and command
-" nmap : :<C-F>i
+nmap : :<C-F>i
 nmap / :<C-F>/
 
 "" Deleting into an oblivion
@@ -262,9 +276,9 @@ imap ,/ </<C-X><C-O>
 
 """ Buffers
 "" Buffers
-map <Leader>m :silent b#<CR>
+map <Leader>n :silent b#<CR>
 set wildcharm=<C-z>
-nnoremap <leader>b :<C-f>isilent buffer<Space>
+nnoremap <leader>m :<C-f>isilent buffer<Space>
 nnoremap <leader>B :<C-f>isbuffer<Space>
 
 """ File

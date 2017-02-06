@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/john/dev/visiens-frontend/app/assets/javascripts/services'
-let g:netrw_dirhist_2='/Users/john/dev/nuvolets/app/controllers/properties'
-let g:netrw_dirhist_3='/Users/john/dev/wordapp'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/john/dev/science-journal'
+let g:netrw_dirhist_2='/Users/john/dev/pocketlab-ios/PocketLab/PocketLab-OSX'
+let g:netrw_dirhist_3='/Users/john/dev/pocketlab-chrome/app/velocitylab'
+let g:netrw_dirhist_4='/Users/john/dev/pocketlab-android/libs/SweetBlue/scripts'
+let g:netrw_dirhist_5='/Users/john/dev/pocketlab-android/libs/SweetBlue'
+let g:netrw_dirhist_6='/Users/john/dev/pocketlab-android/.git'
+let g:netrw_dirhist_7='/Users/john/dev/pocketlab-chrome'
+let g:netrw_dirhist_8='/Users/john/.bash_sessions'

@@ -1,8 +1,8 @@
 ####################################################### BASH CONFIG ##########################################
 
-#------------------------------------ bach config --------
+#------------------------------------ bash config ----------------------------------------#
+
 unset MAILCHECK
-#------------------------------------
 
 #--------------------------------- Environment variables----------------------------------#
 
@@ -10,6 +10,11 @@ export MYSQL_HOME=${HOME}/dev/apps/mysql
 export DEV=${HOME}/dev 
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 export MONGO_HOME=${HOME}/dev/apps/mongodb
+export NEO4J=${DEV}/apps/neo4j
+# export GEM_PATH=${HOME}/.gem
+
+## Because tmux is broken on OSX
+export EVENT_NOKQUEUE=1
 
 ## Path
 PATH=${PATH}:${HOME}/dev/apps/glassfish/bin
@@ -21,11 +26,12 @@ PATH=${PATH}:${HOME}/.rvm/bin # Add RVM to PATH for scripting
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 PATH=${ANDROID_HOME}/platform-tools:${PATH}
 PATH=${MONGO_HOME}/bin:${PATH}
+PATH=${NEO4J}/bin:${PATH}
 
 export PATH
 
 ## Others
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 # JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home
 # JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
 
@@ -35,9 +41,8 @@ export SMX=${HOME}/dev/apps/apache-servicemix-5.0.0
 export DL=${HOME}/Downloads
 export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
-export NEO4J=${DEV}/apps/neo4j-community-2.1.5
 
-# There is a CWD environment set in initProject to avoid being reset
+# There is a CWD environment set in initSplitWindowProject to avoid being reset
 
 # Sets SCHEME environment variable and terminal color scheme
 # using whats in the current_scheme.txt
@@ -54,17 +59,26 @@ export MYSHELL=$(ps $$ | awk 'NR>1 {print $5}')
 platform='unknown'
 unamestr=$(uname)
 if [[ "$unamestr" == 'Linux' ]]; then
-   platform='linux'
+  platform='linux'
 elif [[ "$unamestr" == 'Darwin' ]]; then
-   platform='mac'
+  platform='mac'
 fi
 
 #--------------------------------------- Config -------------------------------------------#
 
 ### Tmux
 if [[ ! $TERM =~ screen ]]; then
-    exec tmux new-session -s default 
+  exec tmux -S ~/tmp/default new-session # -s default 
 fi
+
+# avoid duplicates..
+export HISTCONTROL=ignoredups:erasedups
+
+# append history entries.. (true so it is ignored) 
+shopt -s histappend || true
+
+# After each command, save and reload history
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 ### command to rescue 'can't connect to server'
 # ps aux | grep -w [t]mux
@@ -92,13 +106,21 @@ git config --global merge.tool vimdiff
 git config --global difftool.prompt false
 git config --global user.name 'John Bower'
 git config --global user.email 'john@zode64.com'
+git config --global alias.xpush '!git push $1 $2 && sh .git/hooks/post-push'
+
+git config --global alias.accept-ours '!f() { git checkout --ours -- "${@:-.}"; git add -u "${@:-.}"; }; f'
+git config --global alias.accept-theirs '!f() { git checkout --theirs -- "${@:-.}"; git add -u "${@:-.}"; }; f'
 
 #--------------------------------------- Aliases ------------------------------------------#
+
+### Use python 3 (for YCM vim plugin)
+alias python='python3'
 
 ### Vim
 
 if [[ "$platform" == 'mac' ]]; then
   alias vim='reattach-to-user-namespace -l ~/dev/apps/vim/src/vim'
+  defaults write com.apple.finder AppleShowAllFiles YES
 fi
 
 ### Vifm
@@ -187,6 +209,18 @@ if [[ "$platform" == 'mac' ]]; then
   # alias sftpdstop="sudo -s launchctl unload -w /System/Library/LaunchDaemons/ftp.plist"  
 fi
 
+# find . -type f -exec sed -i -e 's/\$modal/\$uibModal/g' {} \;
+
+#----------------------------------- Compile functions ----------------------------------#
+
+# Ensure python 3 is available
+compileVim() {
+  cd ~/dev/apps/vim
+  ./configure --enable-python3interp
+  make VIMRUNTIMEDIR=~/dev/apps/vim/runtime
+  cd -
+}
+
 #----------------------------------- Helper functions ----------------------------------#
 
 memUsage() {
@@ -211,7 +245,7 @@ rubyFindAndReplace() {
 }
 
 rescueVifm() {
-   rm ~/.vifm/vifminfo*
+  rm ~/.vifm/vifminfo*
 }
 
 # To configure a kill function split the ps ax output by spaces and count the 
@@ -222,113 +256,130 @@ rescueVifm() {
 # kill mysql process
 
 killVifm() {
-   kill -9 `ps ax | awk '$5~/.*vifm.*/ { print $1 }'`
+  kill -9 `ps ax | awk '$5~/.*vifm.*/ { print $1 }'`
+}
+
+killVim() {
+  kill -9 `ps ax | awk '$6~/.*vim.*/ { print $1 }'`
 }
 
 killMySql() {
-   kill -9 `ps ax | awk '$5~/.*mysql.*/ { print $1 }'`
+  kill -9 `ps ax | awk '$5~/.*mysql.*/ { print $1 }'`
 }
 
 # kill diff process
 killDiff() {
-   kill -9 `ps ax | awk '$6~/.*difftool.*/ { print $1 }'`
+  kill -9 `ps ax | awk '$6~/.*difftool.*/ { print $1 }'`
 }
 
 # kill ServiceMix process
 killSMX() {
-   kill -9 `ps ax | awk '$12~/.*servicemix*/ { print $1 }'`
+  kill -9 `ps ax | awk '$12~/.*servicemix*/ { print $1 }'`
 }
 
 # kill gradle process
 killGradle() {
-   kill -9 `ps ax | awk '$6~/.*Gradle*/ { print $1 }'`
+  kill -9 `ps ax | awk '$6~/.*Gradle*/ { print $1 }'`
 }
 
 # kill gradle process
 killSolr() {
-   kill -9 `ps ax | awk '$12~/.*runSolr*/ { print $1 }'`
+  kill -9 `ps ax | awk '$12~/.*runSolr*/ { print $1 }'`
 }
 
 # kill rails process
 killRails() {
-   kill -9 `ps ax | awk '$6~/.*rails*/ { print $1 }'`
+  kill -9 `ps ax | awk '$6~/.*rails*/ { print $1 }'`
 }
 
 # kill rails process
 killJava() {
-   kill -9 `ps ax | awk '$5~/.*java*/ { print $1 }'`
+  kill -9 `ps ax | awk '$5~/.*java*/ { print $1 }'`
+}
+
+# first argument is init directory and second is command run in the second window
+initDoubleWindowProject() {
+  tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
+  tmux setenv CWD $1
+  if [ ! -z "$4" ]; then
+    initSplit $2 $3 $4 $5
+  else 
+    tmux new-window -c $2 -n "$2 $3" "source ~/.bash_profile ; $3"
+    tmux split-window -c "#{pane_current_path}" -v -p 50 
+  fi
+  tmux previous-window
 }
 
 # first argument is init directory and second is command run in bottom window
-initProject() {
-   # Don't close pane if one of the programs is closed (I think this needs to be set at   
-   # the start of a session
-   # tmux set -u set-remain-on-exit on
-   # Editor pane
-   # tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
-   tmux new-window -c $1 -n $1 "vim"
-   tmux setenv CWD $1
-   # Process pane
-   tmux split-window -c "#{pane_current_path}" -v -p 25 
-   # Spare pane 
-   if [ ! -z "$2" ]; then
-      # tmux split-window -c "#{pane_current_path}" -h -p 50 "source ~/.bash_profile ; $2" 
-      tmux split-window -c "#{pane_current_path}" -h -p 50 
-      tmux run-shell "[[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm"
-      tmux run-shell "$2"
-   fi
-   if [ ! -z "$3" ]; then
-      tmux select-pane -U
-      # tmux split-window -c "#{pane_current_path}" -v -p 33 "source ~/.bash_profile ; $3"
-      tmux split-window -c "#{pane_current_path}" -v -p 33 "$3"
-   fi
-   # Select editor pane
-   tmux select-pane -U
-   # for future windows, revert r-o-e to global value
-   # tmux set -u set-remain-on-exit
+initSplitWindowProject() {
+  # Don't close pane if one of the programs is closed (I think this needs to be set at   
+  # the start of a session
+  # tmux set -u set-remain-on-exit on
+  # Editor pane
+  # tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
+  tmux new-window -c $1 -n $1 "vim"
+  tmux setenv CWD $1
+  # Process pane
+  tmux split-window -c "#{pane_current_path}" -v -p 25 
+  # Spare pane 
+  if [ ! -z "$2" ]; then
+    # tmux split-window -c "#{pane_current_path}" -h -p 50 "source ~/.bash_profile ; $2" 
+    tmux split-window -c "#{pane_current_path}" -h -p 50 
+    tmux run-shell "[[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm"
+    tmux run-shell "$2"
+  fi
+  if [ ! -z "$3" ]; then
+    tmux select-pane -U
+    # tmux split-window -c "#{pane_current_path}" -v -p 33 "source ~/.bash_profile ; $3"
+    tmux split-window -c "#{pane_current_path}" -v -p 33 "$3"
+  fi
+  # Select editor pane
+  tmux select-pane -U
+  # for future windows, revert r-o-e to global value
+  # tmux set -u set-remain-on-exit
 }
 
 # first argument is init directory, no second argument because no 
 # process
 initIDEProject() {
-   # Editor pane
-   tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
-   tmux setenv CWD $1
-   # Spare pane
-   tmux split-window -c "#{pane_current_path}" -v -p 50 
-   # Select editor pane
-   tmux select-pane -L
+  # Editor pane
+  tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
+  tmux setenv CWD $1
+  # Spare pane
+  tmux split-window -c "#{pane_current_path}" -v -p 50 
+  # Select editor pane
+  tmux select-pane -L
 }
 
 # first argument is directory, second argument command to run, 
 # third argument is second directory, fourth argument is fourth command
 initSplit() {
-  #tmux new-window -c $1 "source ~/.bash_profile ; $2"
-  #tmux split-window -c $3 -v -p 50 "source ~/.bash_profile ; $4" 
+  # tmux new-window -c $1 "source ~/.bash_profile ; $2"
+  # tmux split-window -c $3 -v -p 50 "source ~/.bash_profile ; $4" 
 
-   tmux new-window -c $1 "$2"
-   tmux split-window -c $3 -v -p 50 "$4" 
+  tmux new-window -c $1 "source ~/.bash_profile ; $2"
+  tmux split-window -c $3 -v -p 50 "source ~/.bash_profile ; $4" 
 }
 
 initConfigs() {
-   tmux new-window -c ~ -n "configurations" "vim ~/.bash_profile"
-   tmux split-window -c ~ -v -p 50 "vim ~/.tmux.conf"
-   tmux split-window -c ~ -h -p 50 "vim ~/.pentadactylrc"
-   # Select upper pane and split that as well
-   tmux select-pane -U
-   tmux split-window -c ~ -h -p 50 "vim ~/.vimrc" 
+  tmux new-window -c ~ -n "configurations" "vim ~/.bash_profile"
+  tmux split-window -c ~ -v -p 50 "vim ~/.tmux.conf"
+  # tmux split-window -c ~ -h -p 50 "vim ~/.pentadactylrc"
+  # Select upper pane and split that as well
+  tmux select-pane -U
+  # tmux split-window -c ~ -h -p 50 "vim ~/.vimrc" 
 }
 
 ### Prepare tar files
 
 # android project
 tarAndroid() {
-   tar --exclude=./bin/ --exclude=./*.apk --exclude=./\.* --exclude=./gen -cvzf $1.tar.gz $1
+  tar --exclude=./bin/ --exclude=./*.apk --exclude=./\.* --exclude=./gen -cvzf $1.tar.gz $1
 }
 
 # android project
 tarRails() {
-   tar --exclude=./tmp --exclude=*.log --exclude=./\.* -cvzf $1.tar.gz $1
+  tar --exclude=./tmp --exclude=*.log --exclude=./\.* -cvzf $1.tar.gz $1
 }
 
 
@@ -342,77 +393,35 @@ mountAndroid() {
   hdiutil attach ~/dev/android/android.dmg.sparseimage -mountpoint /Volumes/android; 
 }
 
-
 umountAndroid() { 
   hdiutil detach -force /Volumes/android; 
 }
 
 #------------------------------------- Project specific -----------------------------------#
 
-## Zuma 
-export ZUMA=${DEV}/zuma_cms
-alias cdz="cd ${ZUMA}"
-alias psqlz="psql -d zuma"
-zuma() {
-   initProject $ZUMA "rails s"
-}
-
 # PocketLab android
 export POCKETLAB=${DEV}/pocketlab-android
 pocketlab() {
-   initIDEProject $POCKETLAB 
+  initIDEProject $POCKETLAB 
 }
 
 # PocketLab chrome
 export POCKETLAB_CHROME=${DEV}/pocketlab-chrome
-export POCKETLAB_CHROME_APP=${POCKETLAB_CHROME}/app
-pocketlab-chrome() {
-   initProject $POCKETLAB_CHROME "npm start"
-   initProject $POCKETLAB_CHROME_APP "cd .. ; npm test"
-}
-alias pocketlabZip='zip -r pocketlab.zip app'
-
-# Wedstival
-export WEDSTIVAL=${DEV}/wedstival
-wedstival() {
-   initProject $WEDSTIVAL "rails s"
+pocketlabChrome() {
+  initDoubleWindowProject $POCKETLAB_CHROME/app $POCKETLAB_CHROME "npm start" # "$POCKETLAB_CHROME" "npm test"
 }
 
-# Visiens indexer
-export VISIENS_INDEXER=${DEV}/visiens_indexer
-visiensIndexer() {
-   initProject $VISIENS_INDEXER "guard" 
-}
-
-# Visiens indexer
-export VISIENS_FRONTEND=${DEV}/visiens-frontend
-visiensFrontend() {
-   initProject $VISIENS_FRONTEND "rails s" 
-}
-
-# Visiens server
-export VISIENS_SERVER=${DEV}/visiens
-visiensServer() {
-   initProject $VISIENS_SERVER 
-}
-
-# Visiens search
 export VISIENS_SEARCH=${DEV}/visiens-search/solr-server
-visiensSearch() {
-   initProject $VISIENS_SEARCH "java -jar start.jar" 
-}
-
+export VISIENS_SERVER=${DEV}/visiens
+export VISIENS_FRONTEND=${DEV}/visiens-frontend
 visiens() {
-  visiensFrontend
-  visiensSearch
-  visiensServer
-  visiensIndexer
-  initSplit "$NEO4J/data/log" "tail -f console.log" "$NEO4J/data/log" "tail -f neo4j.0.0.log" 
+  initDoubleWindowProject $VISIENS_FRONTEND/app $VISIENS_FRONTEND "rails s" 
+  $NEO4J/bin/neo4j start  
+  initSplit "$VISIENS_SEARCH" "java -jar start.jar" "$NEO4J/logs" "tail -f neo4j.log" 
 }
-export JAVA_OPTS='-Dlogback.configurationFile=jar:file:/Users/john/dev/apps/neo4j-community-2.1.5/plugins/visiens-server-api-1.0-SNAPSHOT.jar!/logback.xml'
 
-# NuvoLets indexer
+# NuvoLets 
 export NUVOLETS=${DEV}/nuvolets
 nuvolets() {
-   initProject $NUVOLETS "rails s" 
+  initSplitWindowProject $NUVOLETS "rails s" 
 }

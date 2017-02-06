@@ -43,722 +43,722 @@
 1434016594
 
 # TUI:
-ar
+al
 q0
 v2
 ov
 m-1
-l-10,2
-r-11,2
+l2,11
+r-10,2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/download-fix
-	blooming-tor-9301
-1
-d/Users/john/dev/download-fix/blooming-tor-9301
-	app
-7
-d/Users/john/dev/download-fix/blooming-tor-9301/app
-	views
-6
-d/Users/john/dev/download-fix/blooming-tor-9301/app/views
-	landlords
-3
-d/Users/john/dev/download-fix/blooming-tor-9301/app/views/landlords
-	new.html.erb
-4
-d/Users/john/dev/download-fix/blooming-tor-9301/app/views
-	landlords
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/app
-	views
-6
-d/Users/john/dev/download-fix/blooming-tor-9301
-	app
-7
-d/Users/john/dev/download-fix
-	blooming-tor-9301
-1
-d/Users/john/dev
-	nuvolets
-4
-d/Users/john/dev/nuvolets
-	app
-8
-d/Users/john/dev/nuvolets/app
-	mailers
-4
-d/Users/john/dev/nuvolets/app/mailers
-	document_mailer.rb
-1
-d/Users/john/dev/nuvolets/app
+d/Users/john/dev/pocketlab-chrome/app/pocketlab
 	controllers
+2
+d/Users/john/dev/pocketlab-chrome/app/pocketlab/controllers
+	GraphsCtrl.js
 1
-d/Users/john/dev/nuvolets/app/controllers
+d/Users/john/dev/pocketlab-chrome/app/pocketlab
+	controllers
+2
+d/Users/john/dev/pocketlab-chrome/app
+	controllers
+4
+d/Users/john/dev/pocketlab-chrome/app/controllers
 	..
 0
-d/Users/john/dev/nuvolets/app
-	views
-5
-d/Users/john/dev/nuvolets/app/views
-	landlords
-2
-d/Users/john/dev/nuvolets/app/views/landlords
-	new.erb
-1
-d/Users/john/dev/nuvolets
-	app
+d/Users/john/dev/pocketlab-chrome/app
+	services
 8
-d/Users/john/dev/nuvolets/app
-	views
-5
-d/Users/john/dev/nuvolets/app/views
-	landlords
-1
-d/Users/john/dev/nuvolets/app/views/landlords
-	new.erb
-1
-d/Users/john/dev/nuvolets/app/views
-	landlords
-1
-d/Users/john/dev/nuvolets/app/views/landlords
-	..
-0
-d/Users/john/dev/nuvolets
-	app
-8
-d/Users/john/dev/nuvolets/app
-	views
-5
-d/Users/john/dev/nuvolets/app/views
-	shared
-3
-d/Users/john/dev/nuvolets/app/views/shared
-	_footer.html.erb
-1
-d/Users/john/dev/nuvolets
-	app
-8
-d/Users/john/dev/nuvolets/app
-	views
-5
-d/Users/john/dev/nuvolets/app/views
-	landlords
-6
-d/Users/john/dev/nuvolets/app/views/landlords
-	..
-0
-d/Users/john/dev/nuvolets/app/views
-	properties
-10
-d/Users/john/dev/nuvolets/app/views/properties
-	build
-1
-d/Users/john/dev/nuvolets/app/views/properties/build
-	user_info.html.erb
-3
-d/Users/john/dev/nuvolets
-	app
-8
-d/Users/john/dev/nuvolets/app
-	views
-5
-d/Users/john/dev/nuvolets/app/views
-	properties
-10
-d/Users/john/dev/nuvolets/app/views/properties
-	build
-1
-d/Users/john/dev/nuvolets/app/views/properties/build
-	add_info.html.erb
-5
-d/Users/john/dev/download-fix/blooming-tor-9301
-	app
-7
-d/Users/john/dev/download-fix/blooming-tor-9301/app
-	views
-6
-d/Users/john/dev/download-fix/blooming-tor-9301/app/views
-	landlords
+d/Users/john/dev/pocketlab-chrome/app/services
+	bluetooth_service.js
 2
-d/Users/john/dev/download-fix/blooming-tor-9301/app
-	assets
-4
-d/Users/john/dev/download-fix/blooming-tor-9301
-	test
+d/Users/john
+	..
+0
+d/Users
+	john
 3
-d/Users/john/dev/download-fix/blooming-tor-9301/test
-	models
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/test/models
-	downloader_test.rb
-3
-d/Users/john/dev/download-fix/blooming-tor-9301/test
-	mailers
-6
-d/Users/john/dev/download-fix/blooming-tor-9301/test/mailers
-	previews
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/test/mailers/previews
-	document_mailer_preview.rb
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/test/mailers
-	previews
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/test
-	fixtures
-4
-d/Users/john/dev/download-fix/blooming-tor-9301
-	lib
-10
-d/Users/john/dev/download-fix/blooming-tor-9301/lib
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301
-	test
-3
-d/Users/john/dev/download-fix/blooming-tor-9301/test
-	models
-2
-d/Users/john/dev/download-fix/blooming-tor-9301/test/models
-	section_twenty_one_test.rb
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/test
-	mailers
-2
-d/Users/john/dev/download-fix/blooming-tor-9301
-	spec
-2
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	features
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec/features
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	models
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec/models
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301
-	spec
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	factories
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec/factories
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301
-	spec
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	models
-3
-d/Users/john/dev/download-fix/blooming-tor-9301/spec/models
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301
-	app
-7
-d/Users/john/dev/download-fix/blooming-tor-9301/app
-	assets
-4
-d/Users/john/dev/download-fix/blooming-tor-9301
-	config
-4
-d/Users/john/dev/download-fix/blooming-tor-9301/config
-	environments
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/config/environments
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301/config
-	environments
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/config/environments
-	test.rb
-4
-d/Users/john/dev/download-fix/blooming-tor-9301/config
-	initializers
-2
-d/Users/john/dev/download-fix/blooming-tor-9301/config/initializers
-	time_formats.rb
-9
 d/
-	.DocumentRevisions-V100
-2
-d/Users/john/dev/download-fix/blooming-tor-9301
-	config
-4
-d/Users/john/dev/download-fix/blooming-tor-9301/config
-	initializers
-2
-d/Users/john/dev/download-fix/blooming-tor-9301
-	spec
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	support
+	Users
+14
+d/Users
+	john
 3
-d/Users/john/dev/download-fix/blooming-tor-9301/spec/support
-	factory_girl.rb
-1
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	factories
-2
-d/Users/john/dev/download-fix/blooming-tor-9301/spec/factories
-	..
-0
-d/Users/john/dev/download-fix/blooming-tor-9301/spec
-	factories.rb
-4
-d/Users/john/dev/pocketlab-android
-	..
-0
-d/Users/john/dev
-	amazon
+d/Users/john
+	Users
 33
-d/Users/john/dev/amazon
-	..
-0
-d/Users/john/Downloads
-	..
-0
-d/Users/john
-	Downloads
-2
-d/Users/john/Downloads
-	..
-0
-d/Users/john
-	Downloads
-2
-d/Users/john/Downloads
-	database.tgz
-23
-d/Users/john/dev/wordapp
-	mongodb
+d/Users/john/Users
+	Shared
 1
-d/Users/john/dev/wordapp/mongodb
-	..
-0
-d/Users/john/dev/wordapp
-	mongodb
-1
-d/Users/john/dev/wordapp/mongodb
-	local.ns
+d/Users/john
+	Users
+33
+d/Users
+	john
+3
+d/Users/john
+	Users
+33
+d/Users
+	john
+3
+d/Users/john
+	.cvimrc
+24
+d/Users
+	john
+3
+d/Users/john
+	.cvimrc
+24
+d/Users/john/dev/pocketlab-chrome/app
+	services
+8
+d/Users/john/dev/pocketlab-chrome
+	app
+3
+d/Users/john/dev
+	apps
 4
-d/Users/john/dev/wordapp
-	schema.MONGODB.native
+d/Users/john/dev/apps
+	mouseless-1.3.1
+5
+d/Users/john/dev/apps/mouseless-1.3.1
+	manifest.json
+19
+d/Users/john/dev/pocketlab-chrome/app
+	services
+8
+d/Users/john/dev/pocketlab-chrome/app/services
+	converter_factory.js
+3
+d/Users/john
+	.cvimrc
+24
+d/Users
+	john
+3
+d/Users/john
+	dev
+10
+d/Users/john/dev
+	apps
+4
+d/Users/john/dev/apps
+	neo4j
+8
+d/Users/john/dev/apps/neo4j
+	bin
+1
+d/Users/john/dev/apps/neo4j/bin
+	..
+0
+d/Users/john/dev/apps/neo4j
+	bin
+1
+d/Users/john/dev/apps
+	neo4j
+8
+d/Users/john
+	dev
+10
+d/Users/john/dev
+	apps
+4
+d/Users/john/dev/apps
+	neo4j
+8
+d/Users/john/dev/apps/neo4j
+	data
+4
+d/Users/john/dev/apps/neo4j/data
+	databases
+1
+d/Users/john/dev/apps/neo4j/data/databases
+	..
+0
+d/Users/john/dev/apps/neo4j/data
+	databases
+1
+d/Users/john/dev/apps/neo4j
+	conf
+3
+d/Users/john/dev/apps/neo4j/conf
+	..
+0
+d/Users/john/dev/apps/neo4j
+	logs
+7
+d/Users/john/dev/apps/neo4j/logs
+	..
+0
+d/Users/john/dev/apps/neo4j
+	logs
+7
+d/Users/john/dev/apps/neo4j/logs
+	..
+0
+d/Users/john/dev/apps/neo4j
+	logs
+7
+d/Users/john
+	dev
+10
+d/Users/john/dev
+	apps
+4
+d/Users/john/dev/apps
+	neo4j
+8
+d/Users/john/dev/apps/neo4j
+	logs
+7
+d/Users/john/dev/apps/neo4j/logs
+	..
+0
+d/Users/john/dev/visiens-frontend
+	app
+3
+d/Users/john/dev/visiens-frontend/app
+	..
+0
+d/Users/john/dev/visiens-frontend
+	app
+3
+d/Users/john/dev
+	visiens-frontend
+33
+d/Users/john/dev/visiens-frontend
+	app
+3
+d/Users/john/dev/visiens-frontend/app
+	assets
+1
+d/Users/john/dev/visiens-frontend
+	app
+3
+d/Users/john/dev/visiens-frontend/app
+	controllers
 2
+d/Users/john/dev/visiens-frontend/app/controllers
+	..
+0
+d/Users/john/dev/visiens-frontend/app
+	assets
+1
+d/Users/john/dev/visiens-frontend/app/assets
+	javascripts
+3
+d/Users/john/dev/visiens-frontend/app/assets/javascripts
+	directives
+1
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/directives
+	input_buttons.js
+4
+d/Users/john/dev/visiens-frontend/app/assets/javascripts
+	templates
+3
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
+	modals
+1
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/modals
+	..
+0
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
+	widgets
+2
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets
+	input_buttons.html
+4
+d/Users/john/dev/visiens-frontend/app
+	assets
+1
+d/Users/john/dev/visiens-frontend/app/assets
+	javascripts
+3
+d/Users/john/dev/visiens-frontend/app/assets/javascripts
+	templates
+3
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
+	widgets
+2
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets
+	input_buttons.html
+4
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
+	widgets
+2
+d/Users/john/dev/visiens-frontend/app/assets/javascripts
+	directives
+1
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/directives
+	input_buttons.js
+4
+d/Users/john/dev/visiens-frontend/app/assets/javascripts
+	templates
+3
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
+	widgets
+2
+d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets
+	input_buttons.html
+4
+d/Users/john/dev/pocketlab-chrome/app
+	services
+8
+d/Users/john/dev/pocketlab-chrome/app/services
+	converter_factory.js
+3
+d/Users/john/dev/pocketlab-chrome/app
+	libs
+6
+d/Users/john/dev/pocketlab-chrome
+	app
+3
+d/Users/john/dev
+	pocketlab-chrome
+23
+d/Users/john
+	dev
+10
+d/Users/john/dev
+	apps
+4
+d/Users/john/dev/apps
+	vim
+10
+d/Users/john/dev/apps/vim
+	src
+7
+d/Users/john/dev/apps/vim/src
+	..
+0
+d/Users/john/dev/apps/vim
+	.gitignore
+9
+d/Users/john/dev/apps
+	vim
+10
+d/Users/john/dev
+	dot_files
+14
+d/Users/john
+	dev
+10
+d/Users/john/dev
+	dot_files
+14
+d/Users/john
+	Google Drive
+4
 d
 
 # Right window history (oldest to newest):
-D/Users/john/dev/android
-	system
-1
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android/system/.repo
-	project-objects
-3
-D/Users/john/dev/android/system
-	.repo
-1
-D/Users/john/dev/android
-	android.dmg.sparseimage
+D/Users/john/dev/pocketlab-ios/PocketLab/build
+	Products
 2
+D/Users/john/dev/pocketlab-ios/PocketLab
+	build
+7
+D/Users/john/dev/pocketlab-ios
+	PocketLab
+1
 D/Users/john/dev
-	android
+	science-journal
+4
+D/Users/john/dev/science-journal
+	api
+4
+D/Users/john/dev/science-journal/api
+	ScalarInputApi
 2
+D/Users/john/dev/science-journal/api/ScalarInputApi
+	build
+2
+D/Users/john/dev/science-journal/api/ScalarInputApi/build
+	..
+0
+D/Users/john/dev/science-journal/api/ScalarInputApi
+	build
+2
+D/Users/john/dev/science-journal/api
+	ScienceJournalApi
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi
+	src
+4
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src
+	main
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main
+	aidl
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl
+	com
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com
+	google
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google
+	android
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android
+	apps
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps
+	forscience
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience
+	whistlepunk
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk
+	api
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk/api
+	scalarinput
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk/api/scalarinput
+	IDeviceConsumer.aidl
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk/api
+	scalarinput
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk
+	api
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience
+	whistlepunk
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps
+	forscience
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android
+	apps
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google
+	android
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com
+	google
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl
+	com
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main
+	aidl
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi/src
+	main
+1
+D/Users/john/dev/science-journal/api/ScienceJournalApi
+	src
+4
+D/Users/john/dev/science-journal/api
+	ScienceJournalApi
+1
+D/Users/john/dev/science-journal
+	api
+4
+D/Users/john/dev
+	science-journal
+4
+D/Users/john
+	.ssh
+30
+D/Users/john/.ssh
+	old_keys
+1
+D/Users/john/.ssh/old_keys
+	..
+0
+D/Users/john/.ssh
+	old_keys
+1
 D/Users/john
 	dev
-4
+5
 D/Users/john/dev
-	class-site-list-page
-4
-D/Users/john/dev/class-site-list-page
-	button_blue_narrow.psd
+	pocketlab-chrome
+2
+D/Users/john/dev/pocketlab-chrome
+	app
+2
+D/Users/john/dev/pocketlab-chrome/app
+	velocitylab
 3
-D/Users/john/dev
-	class-site-list-page
-4
-D/Users/john
-	.vifm
-2
-D/Users/john/.vifm
-	colors
-2
-D/Users/john/.vifm/colors
-	dmilith-user.vifm
-4
-D/Users/john/.vifm
-	colors
-2
-D/Users/john
-	Dropbox
-6
-D/Users/john/dev
-	ios-charts
-2
-D/Users/john/dev/ios-charts
-	Charts
-2
-D/Users/john/dev/ios-charts/Charts
-	ChartsOSX
-2
-D/Users/john/dev/ios-charts/Charts/ChartsOSX
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	controllers
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/controllers
 	..
 0
-D/Users/john/dev/ios-charts/Charts
-	Classes
-9
-D/Users/john/dev/ios-charts/Charts/Classes
-	Interfaces
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	views
+3
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
+	..
+0
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	views
+3
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
+	graph.html
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	controllers
+2
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/controllers
+	GraphsCtrl.js
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	assets
+3
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/assets
+	images
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/assets/images
+	pocketlab_name.png
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/assets
+	images
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	icon48.png
 10
-D/Users/john/dev/ios-charts/Charts/Classes/Interfaces
+D/Users/john/dev/pocketlab-chrome/app
+	directives
+3
+D/Users/john/dev/pocketlab-chrome/app/directives
+	graph_select_directive.js
+7
+D/Users/john/dev/pocketlab-chrome/app
+	pocketlab
+1
+D/Users/john/dev/pocketlab-chrome/app/pocketlab
+	app.js
+6
+D/Users/john/dev/pocketlab-chrome/app
+	services
+5
+D/Users/john/dev/pocketlab-chrome/app/services
+	bluetooth_service.js
+1
+D/Users/john/dev/pocketlab-chrome/app
+	velocitylab
+1
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	views
+3
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
+	directives
+2
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/views/directives
 	..
 0
-D/Users/john/dev/ios-charts/Charts/Classes
-	Highlight
-9
-D/Users/john/dev/ios-charts/Charts/Classes/Highlight
-	..
-0
-D/Users/john/dev/ios-charts/Charts/Classes
-	Formatters
+D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
+	directives
+2
+D/Users/john/dev/pocketlab-chrome/app/velocitylab
+	views
+3
+D/Users/john/dev/pocketlab-chrome/app
+	velocitylab
+1
+D/Users/john/dev/pocketlab-chrome
+	app
+2
+D/Users/john/dev
+	science-journal
 8
-D/Users/john/dev/ios-charts/Charts/Classes/Formatters
-	..
-0
-D/Users/john/dev/ios-charts/Charts/Classes
-	Filters
-7
-D/Users/john/dev/ios-charts/Charts/Classes/Filters
-	..
-0
-D/Users/john/dev/ios-charts/Charts/Classes
-	Data
-6
-D/Users/john/dev/ios-charts/Charts/Classes/Data
-	..
-0
-D/Users/john/dev/ios-charts/Charts/Classes
-	Renderers
-4
-D/Users/john/dev/ios-charts/Charts
-	Supporting Files
-10
-D/Users/john/dev/ios-charts/Charts/Supporting Files
-	..
-0
-D/Users/john/dev/ios-charts/Charts
-	ThirdParty
-11
-D/Users/john/dev/ios-charts/Charts/ThirdParty
-	Realm
-1
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	ios
-1
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	tvos
-2
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/tvos
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	osx
-1
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/osx
-	RealmSwift.framework
-2
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	osx
-1
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/osx
-	RealmSwift.framework
-2
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	ios
-2
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	tvos
-3
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/tvos
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	osx
-1
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/osx
-	RealmSwift.framework
-2
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	ios
-2
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/ios
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	tvos
-3
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm/tvos
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty/Realm
-	..
-0
-D/Users/john/dev/ios-charts/Charts/ThirdParty
-	Realm
-1
-D/Users/john/dev/ios-charts/Charts
-	ThirdParty
-3
-D/Users/john/dev/ios-charts
-	Charts
-2
-D/Users/john/dev
-	ios-charts
-4
-D/Users/john/Downloads
-	jaspersoft.pem
-7
 D/Users/john
 	Downloads
 3
+D/Users/john/Downloads
+	FullTiltUK 2
+1
+D/Users/john
+	Downloads
+3
+D/Users/john/Downloads
+	FullTiltUK 2
+1
+D/Users/john
+	Documents
+15
+D/Users/john/Documents
+	..
+0
+D/Users/john
+	Documents
+15
 D/Users
 	john
 1
-D/
-	Applications
-6
-D/Applications
-	jasperreports-server-6.2.0
-3
-D/Applications/jasperreports-server-6.2.0
-	samples
-9
-D/Applications/jasperreports-server-6.2.0/samples
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	docs
+D/Users/john
+	dev
 12
-D/Applications/jasperreports-server-6.2.0/docs
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	eval-licenses
-11
-D/Applications/jasperreports-server-6.2.0/eval-licenses
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	apps
-10
-D/Applications/jasperreports-server-6.2.0/apps
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	apps
-10
-D/Applications/jasperreports-server-6.2.0/apps
-	jasperserver
-1
-D/Applications/jasperreports-server-6.2.0/apps/jasperserver
-	..
-0
-D/Applications/jasperreports-server-6.2.0/apps
-	jasperserver
-1
-D/Applications/jasperreports-server-6.2.0
-	java
-15
-D/Applications/jasperreports-server-6.2.0/java
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	common
-16
-D/Applications/jasperreports-server-6.2.0/common
-	share
-5
-D/Applications/jasperreports-server-6.2.0/common/share
-	..
-0
-D/Applications/jasperreports-server-6.2.0/common
-	include
+D/Users/john/dev
+	pocketlab-android
 4
-D/Applications/jasperreports-server-6.2.0/common/include
+D/Users/john/dev/pocketlab-android
 	..
 0
-D/Applications/jasperreports-server-6.2.0/common
-	openssl
+D/Users/john/dev
+	pocketlab-ios
 3
-D/Applications/jasperreports-server-6.2.0/common/openssl
-	..
-0
-D/Applications/jasperreports-server-6.2.0/common
-	lib
+D/Users/john/dev/pocketlab-ios
+	PocketLab
 2
-D/Applications/jasperreports-server-6.2.0/common/lib
+D/Users/john/dev/pocketlab-ios/PocketLab
+	build
+8
+D/Users/john/dev/pocketlab-ios
+	PocketLab
+2
+D/Users/john/dev
+	osc-test-package
+6
+D/Users/john/dev/pocketlab-chrome
 	..
 0
-D/Applications/jasperreports-server-6.2.0/common
-	bin
-1
-D/Applications/jasperreports-server-6.2.0/common/bin
+D/Users/john/dev
+	pocketlab-chrome
+4
+D/Users/john
+	tmp
+4
+D/Users/john/tmp
 	..
 0
-D/Applications/jasperreports-server-6.2.0/common
-	bin
-1
-D/Applications/jasperreports-server-6.2.0
-	docs
+D/Users/john
+	dev
 12
-D/Applications/jasperreports-server-6.2.0/docs
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	eval-licenses
-11
-D/Applications/jasperreports-server-6.2.0/eval-licenses
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	apps
-10
-D/Applications/jasperreports-server-6.2.0/apps
-	jasperserver
+D/Users/john/dev
+	pocketlab-chrome
+4
+D/Users/john/dev/pocketlab-chrome
+	app
+2
+D/Users/john/dev/pocketlab-chrome/app
+	pocketlab
+3
+D/Users/john/dev/pocketlab-chrome/app/pocketlab
+	config.js
+5
+D/Users/john/dev/pocketlab-chrome/app
+	tests
+4
+D/Users/john/dev/pocketlab-chrome/app/tests
+	resources
 1
-D/Applications/jasperreports-server-6.2.0
-	samples
-9
-D/Applications/jasperreports-server-6.2.0/samples
-	..
-0
-D/Applications/jasperreports-server-6.2.0
-	common
-16
-D/Applications/jasperreports-server-6.2.0/common
-	bin
+D/Users/john/dev/pocketlab-chrome/app/tests/resources
+	test_config.js
 1
-D/Applications/jasperreports-server-6.2.0
-	samples
-9
 D
 
 # Command line history (oldest to newest):
 :set viewcolumns={name}..,{size}
-:e mixins.scss
-:sort={name}
-:set sort={name}
-:h vifm-column-view
-:set sort={mdate}
-:h view-columns
-:h vifm-viewcolumns
-:h viewcolumns
-:set sort=mdate
-:set sort=mtime
-:set sort=-name
-:set sort=-mtime
-:h empty
-:h trash
-:h diff
-:h vifm-d
-:help diff
-:mkdir test
-:diff
-:vimdiff
-:mkdir jjk
-:e terms_and_condtions
-:e terms_and_conditions.rb
-:e _header.html.erb
-: cd ~
-:mkdir iq-framework
-:grep flashnews
-:grep module
-:zip
-:tar -xzf 
-:h selected
-:h vifm
-:tar -xzf %c
-:!tar -xzf %c
-:!tar -h
-:!tar -xzf -C apidemos %c
-:!tar -xzfC apidemos %c
-:!tar -C apidemos -xzf %c
-:!tar -C apidemos,t -xzf %c
-:!tar -xzf %c -C apidemos
-:!tar -xzf %c -C ./apidemos
-:mkdir api_demos
-:!tar -xzf %c -C api_demos
-:find android-support-v4.jar
-:mkdir libs
-:e
-:open
-:!open
-:cd ~
-:find https://github.com/metaneer/PocketLab/blob/master/PocketLab/PocketLab/Images.xcassets/IconCameraUnderGraph.imageset/IconCameraUnderGraph.pdf
-:find mimeTypes.rdf
-:find 
-:grep -i OMXMaster
-:OMXMaster
-:grep -i omx
-:grep -i MediaCodecSource
-:grep -i mpeg4wrtier
-:grep -i mpeg4writer
-:open %f
-:sort crea
-:h sort
-:sort ctime
-:sort +cname
-:h vifm-!!
-:set sort=+ctime
-:set sort=-ctime
-:tar -xcf %f
-:tar -xcf %c
-:tar -xcf
-:!tar -zxf %c
-:android-tests
-:mkdir android-tests
-:cd /Volumes/android/WORKING_DIRECTORY/.repo/projects/hardware
-:vif
-:h vifm-%b
-:open %a
-:!open %a
-:!open %f
-:empty
-:q1
-:q
-:GR
-:wq!
-:vim mc-like.vifm
-:e mc-like.vifm
-:Gdiff
-:Gre
-:grep UIKit
-:grep 
-:grep UI
 :unzip
 :mkdir
 :mkdir osx
-:w
 :e 
-:mkdir models
 :mkdir factories
 :e section_twenty_one.rb
 :e section_twenty_one_spec.rb
+:e application.yml
+:e file_upload.js
+:sort+=size
+:sort=+size
+:help sort
+:h vifm-sjjjjkkkkkkkkkk
+:set sort=+size
+:set sort=-size
+:set sort=-cdate
+:set sort=-date
+:set sort=-mdate
+:h vifm-sort
+:h vifm-'sort
+:h vifm-'sort'
+:set sort=-ctime
+:unzip %c
+:mkdir font
+:mkdir bootstrap
+:mkdir integration
+:mkdir tasks
+:e Procfile
+:1
+:Cd ~
+:e jaspersoft.ssh
+:e %c
+:set sort=+name
+:mkdir models
+:cd ~/Downloads/
+:cd Documents/
+:cd ~/Documents/Neo4j/
+:grep neo4*.jar
+:grep org.apache.ivy.ant.BuildBundleRepoDescriptorTask
+:grep -ir org/abego/treelayout/TreeForTreeLayout
+:grep -ir TreeForTreeLayout
+:cd NEO4J
+:cd dev/
+:cd ~/Documents/Neo4j/default.graphdb/
+:mkdir Java
+:mkdir Extensions
+: cd ~
+:cd dev/visiens/
+:vim logback.xml
+:e logback.xml
+:cd ~/dev/
+:cd -
+:cd ~/dev/apps/
+:cd dev/apps/neo4j/certificates/
+:cd ~/dev/apps/neo4j-community-2.1.5/
+:grep Logger
+:grep logback
+:cd .m2/repository/ch/qos/logback/logback-classic/
+:mkdir audio
+:e analysis_controller.rb
+:mkdir analysis
+:e new.html.erb
+:grep inline
+:find *.entitlements
+:e .htmltidyrc
+:grep AccelX
+:cd ~
+:cd ~/dev/pocketlab-ios/
+:cd /
+:graph_directive.html
+:e graph_directive.html
+:e audio_directive.html
+:e
+:wq!
+:mkdir directives
+:e compile
+:w
+:set col
+:h col
+:set info
+:h fsize
+:cd pocketlab-chrome/
+:grep ifdef
 :view
+:zip 
+:zip
+:q
+:empty
+:mkdir resources
+:sort=+date
+:set sort=+time
+:h sort
+:set sort+=mtime
+:h vifm
+:set viewcolumns=-{name}..,6{size},11{perms}
+:set viewcolumns=-{name}..,6{size},11{mtime}
+:set viewcolumns=-{name}..,6{size},10{mtime}
+:set viewcolumns=-{name}..,8{size},10{mtime}
+:set viewcolumns=-{name}..,5{size},10{mtime}
+:set viewcolumns=-{name}..,8{size},11{mtime}
 
 # Search history (oldest to newest):
 /vimrc
@@ -769,7 +769,6 @@ D
 /Gem
 /mongo
 /var
-/word
 /dot
 /nuvo
 /vimlh
@@ -778,19 +777,15 @@ D
 /vimr
 /spa
 /lock
-/git
 /.git
 /rou
 /prop
 /remo
 /fun
-/Doc
 /kid
-/share
 /Downloads
-/.m2
-/org
-/maven
+/simple
+/uk
 /ne
 /info
 /pocke
@@ -799,7 +794,17 @@ D
 /chromel
 /remot
 /templa
+/de
+/aa
+/sear
 /templates
+/bouc
+/bounc
+/bc
+/ass
+/hk
+/ssi
+/h2
 /men
 /iic
 /te
@@ -807,17 +812,89 @@ D
 /menu
 /fus
 /ch
-/remote
 /vimi
 /vimin
-/tmp
 /sp
 /Downnload
 /doct
+/commons
+/jms
+/toolk
+/jmx
+/jacl
+/hib
+/q
+/jyt
+/jrub
+/jy
+/spring
+/bean
+/Neo
+/luce
+/lucen
+/cire
 /doc
-/poc
+/aop
+/abeg
+/abe
+/ple
+/tuk
+/xz
+/oro
+/jcr
+/jsc
+/comm
+/nog
+/boun
+/http
+/sol
+/logger
+/codec
+/htt
+/service
+/inje
+/osgi
+/ger
+/sun
+/bsh
+/joda
+/ruby
+/groovy
+/hiber
+/ejb
+/aspe
+/asp
+/pool
+/did
+/bsf
+/javax
+/jdml
+/jdmk
+/tcl
+/cli
+/ju
+/enter
+/mail
+/jboss
+/groov
+/jr
+/beans
+/a[[
+/Doc
+/He
+/neo
+/spr
+/open
+/Jersey
+/jerse
+/jackson
+/media
+/front
+/proper
 /chrom
 /dr
+/share
+/logback
 /chrome
 /Do
 /tem
@@ -825,10 +902,8 @@ D
 /.vifm
 /visiens
 /download
-/.vim
 /govlhjjjjj
 /gov
-/visi
 /iics
 /molGkkjjjjk
 /molGgg
@@ -836,46 +911,144 @@ D
 /144
 /favi
 /kids
+/yea
 /favicon
+/Misf
+/.tmp
 /.vif
-/vis
 /nuvole
 /evi
 /kidscare
 /pock
+/S
+/Sla
+/Downl
 /trell
+/Libra
 /Trell
 /T
-/com
+/Pock
+/X
 /nuv
 /Dow
-/Down
 /src
 /wiki
-/app
 /bin
+/iT'nj
 /vifm
+/etc
+/git
 /Doi
 /Fire
-/Mus
 /Mis
 /pocket
+/mjj
+/fkn
+/fknjpchmlkelakiklkjpbfdcjkcahjcl
+/ctag
+/.vim
+/ct
 /psd
-/visien
 /.bash
-/dev
 /cts
 /test
-/vim
 /hhhhhhhjj
-/A
 /Xc
 /a
-/ios-ch
 /amaz
 /data
 /da
 /jas
+/Chart
+/chart
+/LineChart
+/Line
+/word
+/Poc
+/ios-ch
+/dow
+/rvm
+/betke
+/john
+/Mus
+/bloomin
+/remote
+/gua
+/common
+/nogg
+/ant
+/A
+/Ja
+/aspec
+/java
+/jun
+/bs
+/apa
+/groo
+/bea
+/luc
+/Java
+/lucene
+/Ne
+/server
+/.m2
+/com
+/org
+/apps
+/vis
+/APp
+/App
+/neo4j
+/m2
+/slf4
+/guava
+/ui
+/plex
+/ivy
+/nlp
+/antl
+/jgr
+/solr
+/maven
+/nlg
+/apac
+/logb
+/4j
+/sl
+/neo4
+/log
+/slf
+/wed
+/nuvol
+/hina
+/visi
+/Download
+/V
+/Appl
+/Libr
+/visien
+/Librar
+/poc
+/music
+/ios
+/Googl
+/Goog
+/Google
+/sci
+/Down
+/pub
+/ssh
+/pocketl
+/Downloa
+/cali
+/cal
+/cha
+/tmp
+/iT
+/vim
+/Users
+/dev
+/app
 
 # Prompt history (oldest to newest):
 pjs.snippets
@@ -913,7 +1086,6 @@ pmock_services.js
 pcreate_section_8.html.erb
 pexternal_pages.js
 pexternal_pages.html
-pdevice_list.html
 pdevice_list.js
 pdevice_list_test.js
 pupdate
@@ -935,7 +1107,6 @@ plogo_bogh.png
 plogo_big.png
 ptop-metro1.bak.png
 pchromebook
-pdevice.html
 pContract_Eric_Aguilar_Velazquez_2014.pdf
 piics-k12.com.ssh
 piicscom.ssh
@@ -952,7 +1123,6 @@ pgraphs.js
 ploading_graph.html
 ploading_failed.html
 pmodernizr.js
-psharer.js
 prename.html
 pright_click.js
 prename.js
@@ -985,10 +1155,8 @@ pgraph_db_spec.js
 pcontrollers_spec.js
 pM
 pmocks.js
-pdrawer.js
 pdrawer.scss
 psetting.html
-psettings.html
 psettings.js
 pjpocketlab-chrome
 ppdfs_controller.rb
@@ -1037,7 +1205,6 @@ pjquery_equalheights.js
 pmongodb
 pfeatures
 psection_eight_spec.rb
-psection_twenty_one_spec.rb
 psection_twenty_ones
 psection_eights
 p_property_form.html.erb
@@ -1057,6 +1224,9 @@ p_show_downloader.html.erb
 p_form.html.erb
 pedit.html.erb
 pwizard_controller.rb
+pdocument_mailer.rb
+padmin_mailer.rb
+psend_deployment_test_fail.html.erb
 plandlords_controller.rb
 plandlord.rb
 plandlords
@@ -1074,14 +1244,63 @@ pkjjkjkjkjk
 plogo.png
 ppresso_t.zip
 ppresso_new.zip
+pjersey-server-2.9.jarkkkkk
+pjersey-server-2.9.jarkkk
 pterms_and_conditions.html.erb
+popennlp-tools-1.5.3.jar
+pplugins.bak
+pplugins.baknw
+p.neo4j.conf.bak2
+pdevice_list.html
+plabels.js
+plabels.html
+psettings.html
+padd_entity
+padd_entity.html
+pproperties.html
+padd_entity.js
+pproperties.js
+pdevice_connect.js
+pdevice.js
+pdevice_controller.js
+pgraph_controller.js
+pexternal_pages_controller.js
+pmodals_controller.js
+pgraph_directive.js
+pbluetooth_services.js
+psharer.js
+pbluetooth_service.js
+psharer_service.js
+pbluetooth_servie_test.js
+psharer_service_test.js
+pdevice.html
+pgraph_config.js
+pgraph_configs.js
+pw
+pgraph-configs.js
+pgatt-config.js
+pgraph-config.js
+pconfig.js
+pbluetooth_service_test.js
+pExternalPagesCtrl.js
+pGraphCtrl.js
+pModalsCtrl.js
+pDeviceCtrl.js
+pDevicesCtrl.js
+pGraphsCtrl.js
+pentity.html
+pentity.js
 pindex_export.html.erb
+pSkulls.mp3
 pset_deadline.png
 ptick.png
 palarm_clock.png
 pcross.png
 ptick_green.png
 pcross_green.png
+pdrawer.js
+pvisualization_select.html
+pvisualization_select.js
 palarm_clock_green.png
 ptick_grey.png
 palarm_clock_grey.png
@@ -1098,15 +1317,22 @@ ptoday.xml
 pcard_grey.png
 pcard_green.png
 pcard.xml
+pgraph.db.bak
 pAlarm`.png
+pcom.pocketlab.json
 palarm_clock_white.png
 pdelete_green.png
 pDelete Filled-100(1h.png
 pdelete_grey.png
+pcom.pocketlab.scratchx.json
 pcancel_deadline.xml
 pplus_green.png
 pplus_grey.png
+paudio_factory.js
+paudio_factory_test.js
 plink_grey.png
+pbuild-pocketlab.sh
+pbuild-velocitylab.sh
 plink_green.png
 pleft_arrow_green.png
 pleft_arrow_grey.png
@@ -1116,18 +1342,38 @@ pimage_file_grey.png
 pimage_file_green.png
 paudio_file_green.png
 pO
+pdevice_options_directive.js
+pdevice_options_directive.html
 paudio_file.xml
 pimage_file.xml
 pprivacy_policy_nuvolets.pdf
 pborder
 pneosans-regular.ttf
 pNeoSans-regular.ttf
+pback_directive.js
+pback_directive.html
+pgraph_back_directive.html
+pgraph_back_directive.js
+pattach_pocketlab.html
+psetup_wizard.html
 pfrontpage_background.png
 pfrontpage_background.psd
 pwell_pages.scss
 pwell_page.html.erb
+pflip_directive.html
+pflip_directive.js
 pwizard_page.html.erb
 po
+pdigits_directive.js
+pdigits_directive.html
+pgraph_buttons_directive.js
+pgraph_buttons_directive.html
+pdisplay_buttons_directive.js
+pdisplay_buttons_directive.html
+pdisplay_directive.html
+pdisplay_directive.js
+psidebar_view.js
+psidebar_view.html
 piics-binderpro
 pbinderpro-iics
 pmodule-categories.php
@@ -1145,35 +1391,138 @@ pmc-like.vifm
 pnew_for_section_twenty_one.html.erb
 pnew_for_section_eight.html.erb
 pnew.erb
-pnew.html.erb
 p_header.html.erb
 p_footer.html.erb
 pconditions.html.erb
+pdescription.html
+pdescription.js
 psection_twenty_one_test.rb
 pfactories.rb
 pmongod.conf
+p20160213155249_create_images.rb
+pimage.rb
+pPocketLab-OSX-Bridging-Header.h
+pfonts
+psection_twenty_one_spec.rb
+padmin_mailer.html.erb
+piics.ftp
+p.ftp
+pjaspersoft.ssh
+ptasks.rb
+psample_section_21.pdf
+psample_section_8.pdf
+pdownload_export.html.erb
+pdownload_export.txt.erb
+pindex_downloads.txt.erb
+pneo4j.properties
+pneo4j.propertiesjkjkjjjjj
+pneo4j.conf
+p.neo4j.conf.bak
+p.neo4j.conf
+pplugins.bak2
+pplugins
+plibs.bak
+pindex.html.erb
+poverhead.html.erb
+panalyze.html.erb
+panalysis_controller.rb
+pnew.html.erb
+paction.js
+paction.html
+pdrawer.html
+pnew_entity.html
+pvis.html.erb
+pIcon-512@2x.png
+picon_512x512@2x.png
+pIcon-256.png
+picon_512x512.png
+picon_256x256.png
+picon_128x128.png
+picon_32x32.png
+picon_16x16.png
+pcom.myriadsensors.pocketlab.nativeproxy.json
+panalysis.js
+ptext_analyzer.js
+ptext_analyzer.html
+pcom.myriadsensors.osx.pocketlab.nativeproxy.json
+pThumbs.db
+pThumbs.db.bak
+pdate.html
+pdae.js
+pdate.js
+pPocketLab_for_scratch.app
+paudio_service.js
+paudio_service_test.js
+paudio_directive.js
+pssh_host_rsa_key.pub.bak
+pcontrols_directive.js
+pgraph_directive.html
+pcontrols_directive.html
+pgraph_select_directive.html
+pgraph_select_directive.js
+prate_select_directive.html
+prate_select_directive.js
+prate_change_directive.js
+prate_change_directive.html
+punit_select_directive.js
+punit_select_directive.html
+pcalibrate_directive.js
+pcalibrate_directive.html
+pdisconnect_directive.html
+pdisconnect_directive.js
+psetup_wizard_directive.js
+psetup_wizard_directive.html
+paxis_x.png
+pcompile_directive.js
+pPocketLab.app
+pPocketLab
+pservice_config_constants.js
+pservice_config.js
+pvoyager_service_configs.js
+pservice_configs.js
+ptest_service_configs.js
+ptest_config.js
+ppocketlab_config.js
+pvoyager_config.js
+pvoyager_graph_config.js
+ppocketlab_service_configs.js
+pvoyager_graph_configs.js
+ppocketlab_graph_configs.js
+pvelocitylab_graph_configs.js
+pmanifest.json
+pvelocitylab_service_configs.js
+pprocessor_factory.js
+ptransformer_factory.js
+pconverter_factory.js
+pinput_buttons.js
+pinput_buttons.html
 
 # Local filter history (oldest to newest):
 
 # Registers:
+""/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets/properties.html
 
 # Directory stack (oldest to newest):
+S/Users/john/dev/neo4j/manual/server-examples/target
+	neo4j-server-examples-3.1.0-SNAPSHOT.jar
+S/Users/john/Documents/Neo4j
+	default.graphdb
 
 # Trash content:
-t/Users/john/.vifm/Trash/000_jasperreports-server-6.2.0-osx-x64-installer.app
-	/Users/john/Downloads/jasperreports-server-6.2.0-osx-x64-installer.app
-t/Users/john/.vifm/Trash/000_new_for_section_twenty_one.html.erb
-	/Users/john/dev/nuvolets/app/views/landlords/new_for_section_twenty_one.html.erb
-t/Users/john/.vifm/Trash/000_user_test.rb-e
-	/Users/john/dev/download-fix/blooming-tor-9301/test/models/user_test.rb-e
-t/Users/john/.vifm/Trash/000_document_mailer_test.rb-e
-	/Users/john/dev/download-fix/blooming-tor-9301/test/mailers/document_mailer_test.rb-e
-t/Users/john/.vifm/Trash/000_document_mailer_preview.rb-e
-	/Users/john/dev/download-fix/blooming-tor-9301/test/mailers/previews/document_mailer_preview.rb-e
-t/Users/john/.vifm/Trash/000_production.rb-e
-	/Users/john/dev/download-fix/blooming-tor-9301/config/environments/production.rb-e
-t/Users/john/.vifm/Trash/000_factories
-	/Users/john/dev/download-fix/blooming-tor-9301/spec/factories
+t/Users/john/.vifm/Trash/000_bet365
+	/Users/john/dev/bet365
+t/Users/john/.vifm/Trash/000_bluetooth_service.js.orig
+	/Users/john/dev/pocketlab-chrome/app/services/bluetooth_service.js.orig
+t/Users/john/.vifm/Trash/000_DevicesCtrl.js.orig
+	/Users/john/dev/pocketlab-chrome/app/controllers/DevicesCtrl.js.orig
+t/Users/john/.vifm/Trash/000_http.log
+	/Users/john/dev/apps/neo4j/logs/http.log
+t/Users/john/.vifm/Trash/000_http.log.1
+	/Users/john/dev/apps/neo4j/logs/http.log.1
+t/Users/john/.vifm/Trash/000_http.log.2
+	/Users/john/dev/apps/neo4j/logs/http.log.2
+t/Users/john/.vifm/Trash/000_debug.log
+	/Users/john/dev/apps/neo4j/logs/debug.log
 
 # State:
 f
