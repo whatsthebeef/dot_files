@@ -1,0 +1,24 @@
+[user]
+	name = John Bower
+	email = john@zode64.com
+[core]
+	editor = vim
+	hooksPath = ../hooks
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[rerere]
+	enabled = true
+[color]
+	ui = auto
+[init]
+	templatedir = ~/bin/git_template
+[alias]
+	accept-ours = "!f() { git checkout --ours -- \"${@:-.}\"; git add -u \"${@:-.}\"; }; f"
+	accept-theirs = "!f() { git checkout --theirs -- \"${@:-.}\"; git add -u \"${@:-.}\"; }; f"
+	xpush = !git push $1 $2 && sh .git/hooks/post-push
+[credential]
+	helper = osxkeychain

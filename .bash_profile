@@ -9,8 +9,27 @@ unset MAILCHECK
 export MYSQL_HOME=${HOME}/dev/apps/mysql
 export DEV=${HOME}/dev 
 export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
-export MONGO_HOME=${HOME}/dev/apps/mongodb
+export MONGO_HOME=${HOME}/dev/apps/mongodb-osx-x86_64-3.4.4
 export NEO4J=${DEV}/apps/neo4j
+# export CL_PARSE_APP_ID=kQoQ6C13go1v6OHlHr25NhVO7qxd7QWAf2SQq2jJ
+export CL_PARSE_APP_ID=myAppId
+export CL_PARSE_API_KEY=
+export CL_PARSE_MASTER_KEY=myMasterKey
+export CL_PARSE_SERVER_URL=http://localhost:1337/parse
+export REDIS_HOME=~/dev/apps/redis-4.0.2
+export POCKETLAB_WEB_PORT=8081
+export POCKETLAB_WEB_SERVER=https://0.0.0.0:4200
+export POCKETLAB_WEB_CLOUDLAB_ENABLED=1
+export POCKETLAB_WEB_PARSE_APP_ID=myAppId
+export POCKETLAB_WEB_PARSE_SERVER_URL=http://localhost:1337/parse
+export POCKETLAB_CLOUDLAB_SERVER_URL=http://localhost:3000
+export APP_ID=d7d8909ee4f8ac570212b6daeaef7e33
+export MONGODB_URI=mongodb://localhost:27017/dev
+export SERVER_URL=http://localhost:1337/parse
+export MASTER_KEY=myMasterKey
+export REDISCLOUD_URL=redis://localhost:6379
+# export PIP_TARGET=/usr/local/lib/python3.6/site-packages/pip
+
 # export GEM_PATH=${HOME}/.gem
 
 ## Because tmux is broken on OSX
@@ -27,6 +46,9 @@ PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 PATH=${ANDROID_HOME}/platform-tools:${PATH}
 PATH=${MONGO_HOME}/bin:${PATH}
 PATH=${NEO4J}/bin:${PATH}
+PATH="/usr/local/opt/apr-util/bin:$PATH"
+PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+PATH="$HOME/Library/Python/3.7/bin:$PATH"
 
 export PATH
 
@@ -63,6 +85,10 @@ if [[ "$unamestr" == 'Linux' ]]; then
 elif [[ "$unamestr" == 'Darwin' ]]; then
   platform='mac'
 fi
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+nvm use 10.14.1
 
 #--------------------------------------- Config -------------------------------------------#
 
@@ -125,7 +151,7 @@ fi
 
 ### Vifm
 ## hack to make vifm close into current vifm location
-alias vifm='source ~/bin/vf'
+# alias vifm='source ~/bin/vf'
 
 ### Navigation
 alias ..="cd .."
@@ -149,6 +175,9 @@ alias mvni="mvn clean install -Dmaven.test.skip=true"
 ## Gradle
 alias grr="gradle bootRun"
 alias grb="gradle build"
+
+## Camera 
+alias killcam="sudo killall VDCAssistant"
 
 ## Pretty colours
 
@@ -211,6 +240,16 @@ fi
 
 # find . -type f -exec sed -i -e 's/\$modal/\$uibModal/g' {} \;
 
+alias parse-dashboard-local='parse-dashboard --serverURL="$SERVER_URL" --appId="$APP_ID" --masterKey="$MASTER_KEY"' 
+alias parse-dashboard-staging='parse-dashboard --serverURL="https://pocketlab-parse-staging.herokuapp.com/parse" --appId="$APP_ID" --masterKey="$MASTER_KEY"' 
+
+alias mongod-local='$MONGO_HOME/bin/mongod --dbpath=$MONGO_HOME/data'
+
+alias redis-local='$REDIS_HOME/src/redis-server'
+
+# from inside app
+alias ng-serve-https='ng serve --host=0.0.0.0 --ssl 1 --ssl-key /usr/local/etc/httpd/server.key --ssl-cert /usr/local/etc/httpd/server.crt'
+alias http-server-https='http-server -S -K /usr/local/etc/httpd/server.key -C /usr/local/etc/httpd/server.crt -o'
 #----------------------------------- Compile functions ----------------------------------#
 
 # Ensure python 3 is available
@@ -255,6 +294,10 @@ rescueVifm() {
 # 1809   ??  S      4:11.12 /Users/john/dev/apps/mysql/bin/mysqld --basedir=/Users/john/dev/apps/mysql
 # kill mysql process
 
+killChrome() {
+  kill -9 `ps ax | awk '$6~/.*Chrome.app*/ { print $1 }'`
+}
+
 killVifm() {
   kill -9 `ps ax | awk '$5~/.*vifm.*/ { print $1 }'`
 }
@@ -297,7 +340,18 @@ killJava() {
   kill -9 `ps ax | awk '$5~/.*java*/ { print $1 }'`
 }
 
+# kill ionic process
+killIonic() {
+  kill -9 `ps ax | awk '$5~/.*ionic*/ { print $1 }'`
+}
+
+# kill  xcode
+killXcode() {
+  kill -9 `ps ax | awk '$5~/.*Xcode*/ { print $1 }'`
+}
+
 # first argument is init directory and second is command run in the second window
+
 initDoubleWindowProject() {
   tmux new-window -c $1 -n $1 "source ~/.bash_profile ; vim"
   tmux setenv CWD $1
@@ -371,6 +425,9 @@ initConfigs() {
 }
 
 ### Prepare tar files
+tarPLServices() {
+  tar --exclude='./node_modules' --exclude='./dist' --exclude='./.git' -zvcf pocketlab-services.tar.gz pocketlab-services
+}
 
 # android project
 tarAndroid() {
@@ -397,6 +454,10 @@ umountAndroid() {
   hdiutil detach -force /Volumes/android; 
 }
 
+ngServeHttps() {
+  ng serve --env=local --host 0.0.0.0 --ssl 1 --ssl-cert '/usr/local/etc/httpd/server.crt' --ssl-key '/usr/local/etc/httpd/server.key'
+}
+
 #------------------------------------- Project specific -----------------------------------#
 
 # PocketLab android
@@ -409,6 +470,13 @@ pocketlab() {
 export POCKETLAB_CHROME=${DEV}/pocketlab-chrome
 pocketlabChrome() {
   initDoubleWindowProject $POCKETLAB_CHROME/app $POCKETLAB_CHROME "npm start" # "$POCKETLAB_CHROME" "npm test"
+}
+
+export POCKETLAB_CLOUDLAB=${DEV}/pocketlab-labnotebook
+pocketlabCloudlab() {
+  initSplit "$POCKETLAB_CLOUDLAB" "parse-server-local" "$MONGO_HOME" "bin/mongodb --dbpath=data" 
+  initSplit "$POCKETLAB_CLOUDLAB" "parse-dashboard-local" "$REDIS_HOME" "src/redis-server" 
+  initSplit "$POCKETLAB_CLOUDLAB" "rails s" "$POCKETLAB_CLOUDLAB" "vim" 
 }
 
 export VISIENS_SEARCH=${DEV}/visiens-search/solr-server

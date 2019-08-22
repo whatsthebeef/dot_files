@@ -1,0 +1,1144 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'D
+	/Users/john/Downloads
+	..
+1440147454
+'M
+	/Users/john/dev/binderpro-iics
+	functions.php
+1446221894
+'a
+	/Users/john/dev/apps
+	neo4j-community-2.1.5
+1449044288
+'b
+	/Users/john/bin/
+	..
+1422517854
+'d
+	/Users/john/dev
+	..
+1440147494
+'h
+	/Users/john/
+	..
+1494173764
+'k
+	/Users/john/dev/visiens-frontend
+	README.rdoc
+1433873100
+'m
+	/Users/john/dev/binderpro-iics
+	module-categories.php
+1446221882
+'n
+	/Users/john/dev/apps/neo4j-community-2.1.5
+	data
+1449044289
+'v
+	/Users/john/.vim
+	snippets
+1434016594
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome/src/app
+	constants
+3
+d/Users/john/dev/pocketlab-chrome/src/app/constants
+	graph.config.ts
+4
+d/Users/john/dev/pocketlab-chrome/src/app
+	constants
+3
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev
+	pocketlab-services
+12
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev/pocketlab-services/src
+	app.ts
+4
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev
+	pocketlab-chrome
+8
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome/src/app
+	services
+6
+d/Users/john/dev/pocketlab-chrome/src/app/services
+	..
+0
+d/Users/john/dev/pocketlab-chrome/src/app
+	data-view
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	components
+1
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components
+	velocitylab-setup
+16
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	services
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/services
+	uploader.service.ts
+16
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	models
+3
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/models
+	raw-data-receiver.ts
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	services
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/services
+	uploader.service.ts
+16
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	utils
+5
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/utils
+	y-range-calculator.ts
+1
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	services
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/services
+	tab.service.ts
+15
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	utils
+5
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/utils
+	..
+0
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	components
+1
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components
+	line-chart
+8
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components/line-chart
+	..
+0
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components
+	line-chart
+8
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	services
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/services
+	statistics-calculator.service.spec.ts
+12
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	services
+4
+d/Users/john/dev/pocketlab-chrome/src/app
+	data-view
+4
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome
+	node_modules
+7
+d/Users/john/dev/pocketlab-chrome/node_modules
+	@types
+7
+d/Users/john/dev/pocketlab-chrome/node_modules/@types
+	google.visualization
+12
+d/Users/john/dev/pocketlab-chrome/node_modules/@types/google.visualization
+	package.json
+4
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome/src/app
+	services
+6
+d/Users/john/dev/pocketlab-chrome/src/app/services
+	context.service.ts
+3
+d/Users/john/dev/pocketlab-chrome/src/app
+	data-view
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	components
+1
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components
+	line-chart
+11
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components/line-chart
+	..
+0
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components
+	line-chart
+11
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	components
+1
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/components
+	line-chart
+11
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	constants
+2
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/constants
+	..
+0
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	models
+3
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/models
+	raw-data-receiver.ts
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	services
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/services
+	plot-dr-factory.service.ts
+21
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	plot-data-view.component.ts
+18
+d/Users/john/dev/pocketlab-parse
+	logs
+4
+d/Users/john/dev
+	pocketlab-chrome
+18
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome/src/app
+	models
+5
+d/Users/john/dev/pocketlab-chrome/src/app/models
+	lab-report.ts
+10
+d/Users/john/dev/pocketlab-chrome/src
+	app
+1
+d/Users/john/dev/pocketlab-chrome/src/app
+	models
+5
+d/Users/john/dev/pocketlab-chrome/src/app/models
+	lab-report.ts
+10
+d/Users/john/dev/pocketlab-chrome/src/app
+	constants
+3
+d/Users/john/dev/pocketlab-chrome/src/app/constants
+	theme.config.ts
+7
+d/Users/john/dev/pocketlab-chrome/src/app
+	data-view
+4
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	constants
+2
+d/Users/john/dev/pocketlab-chrome/src/app/data-view/constants
+	..
+0
+d/Users/john/dev/pocketlab-chrome/src/app/data-view
+	models
+2
+d/Users/john/dev/pocketlab-chrome/src/app
+	data-view
+4
+d/Users/john/dev/pocketlab-chrome/src
+	assets
+2
+d/Users/john/dev/pocketlab-chrome
+	src
+9
+d/Users/john/dev
+	pocketlab-services
+22
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev/pocketlab-services/src
+	mappers
+1
+d/Users/john/dev/pocketlab-services/src/mappers
+	..
+0
+d/Users/john/dev/pocketlab-services/src
+	models
+2
+d/Users/john/dev/pocketlab-services/src/models
+	..
+0
+d/Users/john/dev/pocketlab-services/src
+	models
+2
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev/pocketlab-services/src
+	mappers
+1
+d/Users/john/dev/pocketlab-services/src/mappers
+	..
+0
+d/Users/john/dev/pocketlab-services/src
+	models
+2
+d/Users/john/dev/pocketlab-services/src/models
+	..
+0
+d/Users/john/dev/pocketlab-services/src
+	app.spec.ts
+3
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev
+	pocketlab-services
+22
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev/pocketlab-services/src
+	mappers
+1
+d/Users/john/dev/pocketlab-services/src/mappers
+	lab-report-mapper.ts
+4
+d
+
+# Right window history (oldest to newest):
+D/Users/john/.nvm
+	.dockerignore
+7
+D/Users/john
+	.nvm
+9
+D/Users
+	john
+3
+D/
+	Users
+10
+D/Users
+	john
+3
+D/Users/john
+	dev
+11
+D/Users/john/dev
+	pocketlab-chrome
+9
+D/Users/john/dev/pocketlab-chrome
+	src
+7
+D/Users/john/dev/pocketlab-chrome/src
+	app
+1
+D/Users/john/dev/pocketlab-chrome/src/app
+	cloudlab
+1
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab
+	components
+1
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components
+	lab-report
+6
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab
+	components
+1
+D/Users/john/dev/pocketlab-chrome/src/app
+	components
+2
+D/Users/john/dev/pocketlab-chrome/src/app/components
+	name-editor
+5
+D/Users/john/dev/pocketlab-chrome/src/app/components/name-editor
+	..
+0
+D/Users/john/dev/pocketlab-chrome/src/app/components
+	name-editor
+5
+D/Users/john/dev/pocketlab-chrome/src/app
+	cloudlab
+1
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab
+	components
+1
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components
+	lab-report
+6
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report
+	lab-report.component.spec.ts
+6
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components
+	lab-report
+6
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab
+	components
+1
+D/Users/john/dev/pocketlab-chrome/src/app
+	components
+2
+D/Users/john/dev/pocketlab-chrome/src/app/components
+	name-editor
+5
+D/Users/john/dev/pocketlab-chrome/src/app/components/name-editor
+	name-editor.component.ts
+4
+D/Users/john/dev/pocketlab-chrome/src/app/components
+	name-editor
+5
+D/Users/john/dev/pocketlab-chrome/src/app
+	.DS_Store
+9
+D/Users/john/dev/pocketlab-chrome/src
+	environments
+3
+D/Users/john/dev/pocketlab-chrome
+	src
+8
+D/Users/john/dev/pocketlab-chrome/src
+	app
+1
+D/Users/john/dev/pocketlab-chrome/src/app
+	components
+2
+D/Users/john/dev/pocketlab-chrome/src/app/components
+	cloudlab-auth
+3
+D/Users/john/dev/pocketlab-chrome/src/app
+	cloudlab
+1
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab
+	components
+1
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components
+	misc-trials
+9
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/misc-trials
+	misc-trials.component.scss
+2
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components
+	misc-trials
+9
+D/Users/john/dev/pocketlab-chrome/src/app/cloudlab
+	components
+1
+D/Users/john/dev/pocketlab-chrome/src/app
+	cloudlab
+1
+D/Users/john/dev/pocketlab-chrome/src
+	favicon.ico
+4
+D/Users/john/dev/pocketlab-chrome
+	karma.conf.js
+11
+D/Users/john/dev
+	pocketlab-chrome
+9
+D/Users/john/dev/pocketlab-chrome
+	protractor.conf.js
+26
+D/Users/john/dev
+	one_year
+15
+D/Users/john
+	Downloads
+4
+D/Users/john/Downloads
+	material-design-icons-3.0.1
+1
+D/Users/john/Downloads/material-design-icons-3.0.1
+	iconfont
+10
+D/Users/john/Downloads/material-design-icons-3.0.1/iconfont
+	..
+0
+D/Users/john/Downloads/material-design-icons-3.0.1
+	iconfont
+10
+D/Users/john/Downloads
+	..
+0
+D/Users/john
+	Downloads
+4
+D/Users
+	john
+3
+D/Users/john
+	dev
+16
+D/Users/john/dev
+	pocketlab-chrome
+18
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev/pocketlab-chrome/src
+	assets
+2
+D/Users/john/dev/pocketlab-chrome/src/assets
+	iconfont
+1
+D/Users/john/dev/pocketlab-chrome/src/assets/iconfont
+	..
+0
+D/Users/john/dev/pocketlab-chrome/src/assets
+	icons
+1
+D/Users/john/dev/pocketlab-chrome/src/assets/icons
+	..
+0
+D/Users/john/dev/pocketlab-chrome/src/assets
+	icons
+1
+D/Users/john/dev/pocketlab-chrome/src
+	assets
+2
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev
+	pocketlab-chrome
+18
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev/pocketlab-chrome/src
+	environments
+3
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev
+	pocketlab-services
+22
+D/Users/john/dev/pocketlab-services
+	src
+3
+D/Users/john/dev/pocketlab-services/src
+	app.ts
+1
+D/Users/john/dev/pocketlab-services
+	src
+3
+D/Users/john/dev/pocketlab-services/src
+	app.ts
+1
+D/Users/john/dev/pocketlab-services
+	src
+4
+D/Users/john/dev
+	pocketlab-chrome
+18
+D/Users/john/dev/pocketlab-chrome
+	tsconfig.json
+29
+D/Users/john/dev
+	pocketlab-services
+22
+D/Users/john/dev/pocketlab-services
+	node_modules
+4
+D/Users/john/dev/pocketlab-services/node_modules
+	..
+0
+D/Users/john/dev/pocketlab-services
+	dist
+3
+D/Users/john/dev/pocketlab-services/dist
+	src
+1
+D/Users/john/dev/pocketlab-services
+	aws_sam_ocr
+2
+D/Users/john/dev/pocketlab-services/aws_sam_ocr
+	..
+0
+D/Users/john/dev/pocketlab-services
+	src
+5
+D/Users/john/dev
+	pocketlab-chrome
+18
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev/pocketlab-chrome/src
+	tsconfig.spec.json
+16
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev
+	pocketlab-chrome
+18
+D/Users/john
+	dev
+16
+D/Users/john/dev
+	pocketlab-chrome
+18
+D/Users/john/dev/pocketlab-chrome
+	dist
+4
+D/Users/john/dev/pocketlab-chrome/dist
+	assets
+1
+D/Users/john/dev/pocketlab-chrome/dist/assets
+	..
+0
+D/Users/john/dev/pocketlab-chrome/dist
+	assets
+1
+D/Users/john/dev/pocketlab-chrome
+	src
+9
+D/Users/john/dev/pocketlab-chrome/src
+	tsconfig.spec.json
+16
+D/Users/john/dev/pocketlab-chrome
+	start.sh
+27
+D/Users/john/dev
+	pocketlab-chrome
+8
+D/Users/john/dev/pocketlab-chrome
+	karma.conf.js
+24
+D
+
+# Command line history (oldest to newest):
+:cd -
+:trial.
+:grep fullText
+:models
+:e lesson.ts
+:mkdir House
+:e conveyancer_questions.txt
+:e custom.css
+:mkdir thoughts
+:e show.html
+:e show.html.erb
+:cd ~/dev/
+:e chromebook.ssh
+:e iicscom.ssh
+:e jaspersoft.ssh
+:e note.ssh
+:e visiens_root.ssh
+:e visiens.ssh
+:e zode64.ssh
+:mkdir psds
+:mkdir shared
+:e _menu.html.erb
+:edit 
+:nano
+:e user.ts
+:e location.ts
+:e 
+:Ggrep weather-report.ts
+:e weather-report.ts
+:e view-state.ts
+:mkdir etr
+:e data-state.ts
+:e sensor_test.html
+: cd ~
+:e realtime
+:services
+:mkdir services
+:mkdir components
+:e dream.txt
+:e realtime-dr-factory.ts
+:e realtime.interface.ts
+:e device.config
+:mkdir dv
+:e device.interface.ts
+:e app.json
+:cd dev/
+:mkdir tests
+:mkdir test
+:e stubs.ts
+:e data-view.stub.ts
+:e data-view.stubs.ts
+:e model.stubs.ts
+:e data-recever
+:e open-weathre-data-provider.service.spec
+:e independent-variable.ts
+:mkdir configs
+:parse.txt
+:e parse.txt
+:e ols_address.txt
+:e raw-data-receiver.spec.tx
+:e test-utils.ts
+:e google-mock.js
+:h
+:e run-analysis-option.ts
+:e source.config.ts
+:e utils.ts
+:RealtimeService
+:grep RealtimeService
+:Ggrep MemoryDataService
+:grep RealtimeDataProvider
+:lab-report-section
+:m
+:mkdir lab-report-section-form
+:empty
+:open %r
+:open %
+:open
+:e ~/.vifmrc
+:mkdir .bin
+:open index.html
+:open ./index.html
+:l
+:e inline-edit.component.ts
+:wq!
+:view
+:cd ~
+:mkdir support
+:e jasmine.json
+:j
+:mkdir main
+:spec
+:mkdir spec
+:w!
+:mkdir models
+:e lab-report.ts
+:e plot
+:e primary-key.ts
+:mkdir utils
+:q:
+:q
+
+# Search history (oldest to newest):
+/.bas
+/pocketl
+/Download
+/Keep
+/log
+/de
+/zode64
+/desi
+/head
+/logo
+/orig
+/XC
+/Appl
+/ioni
+/nvm
+/node
+/node_
+/npm
+/Web
+/webb
+/vimr
+/ycm
+/ma
+/web
+/share
+/uplo
+/empt
+/bin
+/Tra
+/Libra
+/Mobile
+/tras
+/ion
+/icon
+/Picke
+/copy
+/poc
+/Doc
+/Jap
+/tra
+/appl
+/textf
+/material
+/mar
+/ugli
+/pock
+/Downlo
+/rx
+/marine
+/marin
+/theme
+/dyg
+/sha
+/www
+/type
+/mem
+/att
+/pack
+/regre
+/regres
+/materi
+/mater
+/pars
+/Dow
+/vim
+/zode
+/vifmjjkkh
+/vif
+/vifm
+/ssh
+/Con
+/hina
+/Boa
+/pocketlab-p
+/typ
+/tmp
+/http
+/bas
+/po
+/Music
+/app
+/Mus
+/sites
+/bash
+/goog
+/map
+/iT
+/parse
+/dev
+/karma
+/source
+/setting
+/sett
+/blu
+/in
+/movi
+/themin
+/local
+/poi
+/types
+
+# Prompt history (oldest to newest):
+pdata.service.spec.ts
+pconverters.spec.ts
+punit.config.spec.ts
+pdata.config.spec.ts
+pgraph.config.spec.ts
+pbluetooth.service.spec.ts
+pstatistics-calculator.service.spec.ts
+plab-report.component.spec.ts
+prouter.service.spec.ts
+pbar-chart.component.spec.ts
+pdata-view-model.stubs.ts
+prun-analysis-option
+pmerged-plot-dr-factory.service.spec.ts
+pmerged-plot-dr-factory.service.ts
+pdigit-display.component.spec.ts
+pconstants
+pgraph-select.component.spec.ts
+pgraph-select-dialog.component.spec.ts
+poptions-bar.component.spec.ts
+phome.component.spec.ts
+ppocketlab_extension.js
+ppocketlab_staging_extension.js
+pexperiment.component.spec.ts
+pparse-source.service.ts
+prealtime-
+prealtime-data-view.module.ts
+prealtime-data-view.component.ts
+prealtime-data-view.component.spec.ts
+prealtime-data-view.component.scss
+pdata-view.component.html
+prealtime-data-view.component.html
+pmemory-data-view
+prealtime-data-view.compo[1;5D[1;5D[1;5Dnent.html
+prealtime-data-view.componenl
+pmemory-data-view.component.html
+pmemory-data-view.component.scss
+pmemory-data-view.component.ts
+pmemory-data-view.module.ts
+prealtime-data-view
+pplot-data-view
+prun-data-view.component.ts
+pdr-factory-holder.service.ts
+pdr-factory-wrapper.service.ts
+psource-selection.component.scss
+pdevice-data-view.component.ts
+poptional-data-view-dialog.component.html
+poptional-data-view-dialog.component.scss
+psource-selection-dialog.component.html
+psource-selection-dialog.component.scss
+poptional-data-view.component.ts
+pdemo-data-view.component.ts
+pplot-data-view.component.ts
+pmerged-plot-data-view.component.ts
+pcloudlab-auth-without-routing.module.ts
+pdata-view-without-routing.module.ts
+pdata-view.module.ts
+pdemo-dr-factory.service.ts
+pdemo-weather-data-view.component.ts
+pdata-view.component.spec.ts
+prun-data-view.component.spec.ts
+pplot-data-view.component.spec.ts
+plab-report.spec.ts
+plab-report-section.component.scss
+pnew-lab-report-section.component.html
+pnew-lab-report-section.component.ts
+plab-report-section-form.component.html
+plab-report-section-form.component.ts
+plab-report-section-form.component.spec.ts
+plab-report-section-form.component.scss
+plab-report-section-form.module.ts
+pnew-run-panel.component.html
+pnew-run-panel.component.spec.ts
+pnew-run-panel.component.ts
+pApplications
+pinvestigation.component.spec.ts
+pfavicon.
+pclass
+pclass.component.ts
+pclass.component.spec.ts
+pname-editor.component.spec.ts
+ptree-node.ts
+pinline-iv-edit.component.html
+presultant-edit.component.html
+pinline-resultant-edit.component.html
+pinline-resultant-edit.component.ts
+pinline-iv-edit.component.ts
+pc
+pinline-edit.component.html
+pinlineedit.component.ts
+pinline-edit.component.ts
+pinline-edit.component.scss
+plab-report-section.component.spec.ts
+plab-report-section.module.ts
+plab-report-section
+pyoutube-attachment
+ptsconfig.spec.json
+pgraph.config.tsp
+pprocessors.ts
+ptransformers.ts
+py-range-calculator.ts
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/Users/john/.vifm/Trash/000_@!
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/Users/john/.vifm/Trash/000_experiments
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/experiments
+t/Users/john/.vifm/Trash/000_experiment.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/experiment.component.spec.ts
+t/Users/john/.vifm/Trash/000_experiment
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/experiment
+t/Users/john/.vifm/Trash/000_\
+	/Users/john/dev/pocketlab-chrome/src/\
+t/Users/john/.vifm/Trash/000_investigation-map-dialog.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/investigation-map-dialog.component.html
+t/Users/john/.vifm/Trash/000_investigation-map-dialog.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/investigation-map-dialog.component.scss
+t/Users/john/.vifm/Trash/000_investigation-map-dialog.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/investigation-map-dialog.component.ts
+t/Users/john/.vifm/Trash/000_ngsw-config.json
+	/Users/john/dev/pocketlab-chrome/ngsw-config.json
+t/Users/john/.vifm/Trash/001_node_modules
+	/Users/john/dev/pocketlab-chrome/node_modules
+t/Users/john/.vifm/Trash/000_package(1).json
+	/Users/john/dev/pocketlab-chrome/package(1).json
+t/Users/john/.vifm/Trash/000_1
+	/Users/john/dev/pocketlab-chrome/src/1
+t/Users/john/.vifm/Trash/000_@
+	/Users/john/dev/pocketlab-chrome/src/@
+t/Users/john/.vifm/Trash/000_q
+	/Users/john/dev/pocketlab-chrome/q
+t/Users/john/.vifm/Trash/000_iconfont
+	/Users/john/dev/pocketlab-chrome/src/assets/iconfont
+t/Users/john/.vifm/Trash/000_lab-report.component.ts.orig
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/lab-report.component.ts.orig
+t/Users/john/.vifm/Trash/000_new-run.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run/new-run.component.html
+t/Users/john/.vifm/Trash/000_new-run.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run/new-run.component.spec.ts
+t/Users/john/.vifm/Trash/000_new-run.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run/new-run.component.ts
+t/Users/john/.vifm/Trash/000_run-form
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run-form
+t/Users/john/.vifm/Trash/000_inline-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-edit.component.ts
+t/Users/john/.vifm/Trash/000_inline-resultant-edit.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-resultant-edit.component.html
+t/Users/john/.vifm/Trash/000_inline-resultant-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-resultant-edit.component.ts
+t/Users/john/.vifm/Trash/000_inline-iv-edit.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-iv-edit.component.html
+t/Users/john/.vifm/Trash/000_inline-iv-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-iv-edit.component.ts
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.html
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.scss
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.spec.ts
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.ts
+t/Users/john/.vifm/Trash/000_lab-report-section
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section
+t/Users/john/.vifm/Trash/000_trial-notes.dialog.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/youtube-attachment/trial-notes.dialog.html
+t/Users/john/.vifm/Trash/000_youtube-attachment.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/youtube-attachment/youtube-attachment.component.spec.ts
+t/Users/john/.vifm/Trash/000_kk
+	/Users/john/dev/pocketlab-chrome/src/kk
+t/Users/john/.vifm/Trash/000_aws
+	/usr/local/bin/aws
+t/Users/john/.vifm/Trash/000_aws.cmd
+	/usr/local/bin/aws.cmd
+t/Users/john/.vifm/Trash/000_aws_bash_completer
+	/usr/local/bin/aws_bash_completer
+t/Users/john/.vifm/Trash/000_aws_completer
+	/usr/local/bin/aws_completer
+t/Users/john/.vifm/Trash/000_aws_zsh_completer.sh
+	/usr/local/bin/aws_zsh_completer.sh
+t/Users/john/.vifm/Trash/000_sam-app
+	/Users/john/dev/pocketlab-services/sam-app
+t/Users/john/.vifm/Trash/000_dynamodb_event_reader
+	/Users/john/dev/pocketlab-services/dynamodb_event_reader
+t/Users/john/.vifm/Trash/000___init__.py
+	/Users/john/dev/pocketlab-services/src/__init__.py
+t/Users/john/.vifm/Trash/000_app.py
+	/Users/john/dev/pocketlab-services/src/app.py
+t/Users/john/.vifm/Trash/000_serverlessNodeExpressServices
+	/Users/john/dev/pocketlab-services/serverlessNodeExpressServices
+t/Users/john/.vifm/Trash/001_serverlessNodeExpressServices
+	/Users/john/dev/pocketlab-services/dist/serverlessNodeExpressServices
+t/Users/john/.vifm/Trash/000_dist
+	/Users/john/dev/pocketlab-services/dist
+t/Users/john/.vifm/Trash/000_aws_sam_ocr
+	/Users/john/dev/pocketlab-services/aws_sam_ocr
+t/Users/john/.vifm/Trash/000_SampleEvent.json
+	/Users/john/dev/pocketlab-services/SampleEvent.json
+t/Users/john/.vifm/Trash/000_api.yml
+	/Users/john/dev/pocketlab-services/api.yml
+t/Users/john/.vifm/Trash/000_support
+	/Users/john/dev/pocketlab-services/spec/support
+t/Users/john/.vifm/Trash/000_spec
+	/Users/john/dev/pocketlab-services/spec
+t/Users/john/.vifm/Trash/000_app.js
+	/Users/john/dev/pocketlab-services/dist/app.js
+t/Users/john/.vifm/Trash/000_main
+	/Users/john/dev/pocketlab-services/src/main
+t/Users/john/.vifm/Trash/001_spec
+	/Users/john/dev/pocketlab-services/src/spec
+t/Users/john/.vifm/Trash/000_plot
+	/Users/john/dev/pocketlab-services/src/models/plot
+t/Users/john/.vifm/Trash/000_data-receiver.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/data-receiver.spec.ts
+t/Users/john/.vifm/Trash/000_data-receiver.ts
+	/Users/john/dev/pocketlab-services/src/models/data-receiver.ts
+t/Users/john/.vifm/Trash/000_cloudlab-object.ts
+	/Users/john/dev/pocketlab-services/src/models/cloudlab-object.ts
+t/Users/john/.vifm/Trash/000_independent-variable.ts
+	/Users/john/dev/pocketlab-services/src/models/independent-variable.ts
+t/Users/john/.vifm/Trash/000_lab-report.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/lab-report.spec.ts
+t/Users/john/.vifm/Trash/000_location.ts
+	/Users/john/dev/pocketlab-services/src/models/location.ts
+t/Users/john/.vifm/Trash/000_model.stubs.ts
+	/Users/john/dev/pocketlab-services/src/models/model.stubs.ts
+t/Users/john/.vifm/Trash/000_open-weather-report.ts
+	/Users/john/dev/pocketlab-services/src/models/open-weather-report.ts
+t/Users/john/.vifm/Trash/000_run.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/run.spec.ts
+t/Users/john/.vifm/Trash/000_stats.ts
+	/Users/john/dev/pocketlab-services/src/models/stats.ts
+t/Users/john/.vifm/Trash/000_tree-node.ts
+	/Users/john/dev/pocketlab-services/src/models/tree-node.ts
+t/Users/john/.vifm/Trash/000_trial.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/trial.spec.ts
+t/Users/john/.vifm/Trash/000_class.ts
+	/Users/john/dev/pocketlab-services/src/models/class.ts
+t/Users/john/.vifm/Trash/000_experiment.ts
+	/Users/john/dev/pocketlab-services/src/models/experiment.ts
+t/Users/john/.vifm/Trash/000_data.ts
+	/Users/john/dev/pocketlab-services/src/models/data.ts
+t/Users/john/.vifm/Trash/001_main
+	/Users/john/dev/pocketlab-services/tsc-out/main
+t/Users/john/.vifm/Trash/000_tsc-out
+	/Users/john/dev/pocketlab-services/tsc-out
+t/Users/john/.vifm/Trash/010_\
+	/Users/john/dev/pocketlab-services/\
+t/Users/john/.vifm/Trash/000_user.ts
+	/Users/john/dev/pocketlab-services/src/models/user.ts
+t/Users/john/.vifm/Trash/000_-C
+	/Users/john/dev/-C
+t/Users/john/.vifm/Trash/000_v
+	/Users/john/dev/pocketlab-services/v
+t/Users/john/.vifm/Trash/003_@
+	/Users/john/dev/pocketlab-services/@
+t/Users/john/.vifm/Trash/000_y-range-calculator.service.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/services/y-range-calculator.service.ts
+t/Users/john/.vifm/Trash/000_utils
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/utils
+t/Users/john/.vifm/Trash/000_scratch-adapter.service.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/services/scratch-adapter.service.ts
+t/Users/john/.vifm/Trash/000_constants
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/constants
+t/Users/john/.vifm/Trash/000_@!
+	/Users/john/dev/pocketlab-chrome/src/@!
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0

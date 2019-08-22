@@ -15,14 +15,16 @@ Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-rvm'
+" Plugin 'tpope/vim-rails'
+" Plugin 'tpope/vim-rvm'
 Plugin 'pangloss/vim-javascript'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'JulesWang/css.vim' 
 Plugin 'cakebaker/scss-syntax.vim'
-Plugin 'toyamarinyon/vim-swift'
+" Plugin 'toyamarinyon/vim-swift'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'othree/html5.vim'
 
 " Optional
 Plugin 'honza/vim-snippets'
@@ -30,6 +32,7 @@ Plugin 'honza/vim-snippets'
 call vundle#end()
 " file type not working for ultisnip. Try playing with this.
 filetype plugin indent on     " required
+runtime macros/matchit.vim
 
 "" To install packets run :PluginInstall
 
@@ -91,14 +94,16 @@ set wildignore+=*.pyc,*.class,*.sln,*.Master,*.csproj,*.csproj.user,*.cache,*.dl
 set wildignore+=*/.git/**/*,*/.hg/**/*,*/.svn/**/*
 set wildignore+=tags
 set wildignore+=*.tar.*
+set wildignore+=bower_components,node_modules,tmp,10m_cultural    
+
 
 " should have ~/dev/swptmp/
 exec 'set backupdir=' . g:tempDir
 exec 'set directory=' . g:tempDir
 
 set autoindent     " always set autoindenting on
-set smartindent        " smart indent
-set cindent            " cindent
+" set smartindent        " smart indent
+" set cindent            " cindent
 
 " set autowrite      " auto saves changes when quitting and swiching buffer
 set expandtab      " tabs are converted to spaces, use only when required
@@ -110,21 +115,51 @@ set sm             " show matching braces
 set tags=./tags,tags
 set tagstack
 
+hi x018_DarkBlue ctermfg=18 guifg=#000087 "rgb=0,0,135
+hi x017_NavyBlue ctermfg=17 guifg=#00005f "rgb=0,0,95
+hi x142_Gold3 ctermfg=142 guifg=#afaf00 "rgb=175,175,0
+hi x148_Yellow3 ctermfg=148 guifg=#afd700 "rgb=175,215,0
+hi x108_DarkSeaGreen ctermfg=108 guifg=#87af87 "rgb=135,175,135
+hi x022_DarkGreen ctermfg=22 guifg=#005f00 "rgb=0,95,0
+hi x088_DarkRed ctermfg=88 guifg=#870000 "rgb=135,0,0
+hi x124_Red3 ctermfg=124 guifg=#af0000 "rgb=175,0,0
+hi x128_Brown ctermfg=130 
+hi x138_RosyBrown ctermfg=138 
+hi x143_DarkKhaki ctermfg=143 
+hi x208_DarkOrange ctermfg=208
+
+
+" 142 Gold
+" 148 Green
 colorscheme grb256
 hi StatusLineNC ctermbg=242
-hi rubyConstant ctermfg=red
-hi rubyFunction ctermfg=green
-hi cssClassName ctermfg=blue
-hi cssClassNameDot ctermfg=blue
-hi cssIdentifier ctermfg=blue
-hi cssProp ctermfg=blue
-hi funcName ctermfg=blue
-hi jsFunction ctermfg=green
-hi jsNull ctermfg=green
-hi jsThis ctermfg=blue
-hi shOption ctermfg=black
-hi shFunction ctermfg=red
-hi htmlArg ctermfg=green
+hi Cursor ctermfg=124
+" hi rubyConstant ctermfg=17
+" hi rubyFunction ctermfg=148
+" hi cssClassName ctermfg=17
+" hi cssClassNameDot ctermfg=17
+" hi cssIdentifier ctermfg=17
+" hi cssProp ctermfg=17
+" hi funcName ctermfg=17
+hi jsVariable ctermfg=18
+hi jsThis ctermfg=18 cterm=bold
+hi jsNull ctermfg=124
+" hi jsVariableDef ctermfg=17
+" hi shOption ctermfg=17
+" hi shFunction ctermfg=148
+" hi htmlArg ctermfg=148
+" hi vimFunction ctermfg=148
+hi jsFunction ctermfg=22 cterm=bold
+hi Function ctermfg=22 cterm=bold
+hi Type ctermfg=142
+hi Special ctermfg=22
+hi Number ctermfg=124
+hi Variables ctermfg=18
+hi String ctermfg=18
+hi Constant ctermfg=208
+hi Identifier ctermfg=208
+hi Todo ctermfg=16 ctermbg=160
+" hi Statement ctermfg=130
 
 """ Tmux
 " Tmux and vim creates problem copying to the system keyboard
@@ -146,14 +181,24 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_typescript_checkers = ['tslint', 'tsc']
+"" let g:syntastic_typescript_tslint_args = "--project ./tsconfig.api.json"
+
+let g:syntastic_jshint_ignore_errors=[" was used before it was defined"]
 
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-", 
       \ " proprietary attribute \"snap-",  
       \ " proprietary attribute \"md-",  
       \ " proprietary attribute \"layout",  
+      \ "unescaped & which should be written as &amp",  
       \ "plain text isn't allowed in <head> elements",  
       \ " is not recognized!", 
       \ "trimming empty <i>",
+      \ " attribute name \"*ngfor",
+      \ " attribute name \"(ngsubmit)",
+      \ " attribute name \"[formgroup]",
+      \ " attribute name \"[formcontrol]",
+      \ " attribute name \"[(ngmodel)]",
       \ "discarding unexpected "]
 " let g:syntastic_quiet_messages = { "level": "warnings" } 
 let g:syntastic_html_tidy_exec = '/usr/local/bin/tidy5'
@@ -161,18 +206,24 @@ let g:syntastic_html_tidy_exec = '/usr/local/bin/tidy5'
 " let g:syntastic_java_checkers = ['javac', 'checkstyle']
 let g:syntastic_java_checkers = ['checkstyle']
 
-let g:syntastic_loc_list_height=3
+let g:syntastic_loc_list_height=2
 
 """ Ultisnip
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-let g:UltiSnipsExpandTrigger="<C-j>"
+" let g:UltiSnipsExpandTrigger="<C-j>"
+let g:UltiSnipsExpandTrigger="j"
 let g:UltiSnipsJumpForwardTrigger="<C-l>"
 let g:UltiSnipsJumpBackwardTrigger="<C-h>"
 
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
+
 " If you want :UltiSnipsEdit to split your window.
 
-" --------------------------- Autocommand ------------------------------------
+" YCM
+let g:ycm_python_binary_path = '/Library/Frameworks/Python.framework/Versions/3.6/bin/python3'
+set completeopt-=preview
 
+" --------------------------- Autocommand ------------------------------------
 
 if has("autocmd")
 
@@ -181,6 +232,7 @@ if has("autocmd")
   autocmd BufLeave *.html normal! mH
   autocmd BufLeave *.erb normal! mH
   autocmd BufLeave *.js   normal! mJ
+  autocmd BufLeave *.ts   normal! mT
   autocmd BufLeave *.php  normal! mP
   autocmd BufLeave *.rb  normal! mR
 
@@ -211,8 +263,10 @@ if has("autocmd")
   " Opens quickfix window when grepping in fugitive 
   au QuickFixCmdPost *grep* cwindow
 
-  au FileType javascript :UltiSnipsAddFiletypes angular_js 
+  au BufNewFile,BufRead *.ts setlocal filetype=typescript
+
   au FileType javascript :UltiSnipsAddFiletypes javascript 
+  au FileType typescript :UltiSnipsAddFiletypes typescript
 
   au FileType ruby :UltiSnipsAddFiletypes ruby 
 
@@ -221,6 +275,7 @@ if has("autocmd")
 
   au FileType scss :UltiSnipsAddFiletypes scss 
   au FileType scss :UltiSnipsAddFiletypes css 
+
 endif
 
 " ------------------- Mappings and commands --------------------------------
@@ -250,7 +305,7 @@ nmap : :<C-F>i
 nmap / :<C-F>/
 
 "" Deleting into an oblivion
-nmap <leader>d "_d
+nmap <Leader>d "_d
 nmap x "_dl
 
 "" Don't record
@@ -271,27 +326,45 @@ function! FunDeleteSwapFile()
   execute "!rm ".l:swpFile
 endfunction
 
-""" Html
+""" Htmtabedit $MYVIMRCl
 imap ,/ </<C-X><C-O>
+imap jj <ESC>
 
 """ Buffers
-"" Buffers
 map <Leader>n :silent b#<CR>
 set wildcharm=<C-z>
-nnoremap <leader>m :<C-f>isilent buffer<Space>
-nnoremap <leader>B :<C-f>isbuffer<Space>
+nnoremap <Leader>m :<C-f>isilent buffer<Space>
+nnoremap <Leader>b :<C-f>isbuffer<Space>
 
 """ File
 set path=.,**
-nnoremap <leader>f :<C-f>isilent find *
-nnoremap <leader>s :<C-f>isfind *
-nnoremap <leader>v :<C-f>ivert sfind *
-nnoremap <leader>t :<C-f>itabfind *
+nnoremap <Leader>f :<C-f>isilent find *
+nnoremap <Leader>s :<C-f>isfind *
+nnoremap <Leader>v :<C-f>ivert sfind *
+nnoremap <Leader>h :<C-f>ibo sfind *
+nnoremap <Leader>t :<C-f>itabfind *
+
 "" Under directory of current file
-nnoremap <leader>F :silent find <C-R>=expand('%:h').'/*'<CR>
-nnoremap <leader>S :sfind <C-R>=expand('%:h').'/*'<CR>
-nnoremap <leader>V :vert sfind <C-R>=expand('%:h').'/*'<CR>
-nnoremap <leader>T :tabfind <C-R>=expand('%:h').'/*'<CR>
+nnoremap <Leader>F :silent find <C-R>=expand('%:h').'/*'<CR>
+nnoremap <Leader>S :sfind <C-R>=expand('%:h').'/*'<CR>
+nnoremap <Leader>V :vert sfind <C-R>=expand('%:h').'/*'<CR>
+nnoremap <Leader>T :tabfind <C-R>=expand('%:h').'/*'<CR>
+
+"" Angular
+nnoremap <Leader>at :call AngularSwitch('.spec.ts')<CR>
+nnoremap <Leader>ac :call AngularSwitch('.ts')<CR>
+nnoremap <Leader>ah :call AngularSwitch('.html')<CR>
+nnoremap <Leader>as :call AngularSwitch('.scss')<CR>
+
+func! AngularSwitch(ext)
+  let path = expand('%')
+  let newPath = substitute(l:path, '\.spec.ts\|\.ts\|\.html\|\.scss', a:ext, '')
+  if bufexists(l:newPath) > 0
+    exec 'silent buffer '.newPath
+  else
+    exec 'silent e '.newPath
+  endif
+endfunc
 
 "" Open a new file in the same directory as the file in the current buffer
 "" using the name provided in the prompt
@@ -363,7 +436,7 @@ nnoremap <leader>j :<C-f>itjump /
 "" TODO
 function! FunCreateTagsAtDir()
   let l:query = getcwd()
-  execute '!ctags -f ./tags -R '.l:query 
+  execute '!ctags -f ./tags --exclude=node_modules --exclude=bower_components -R '.l:query
 endfunction
 "" Very stange behaviour
 command! CreateTagsAtDir call FunCreateTagsAtDir()
@@ -377,3 +450,4 @@ function! FunSearchWebWithLine()
   echo l:query
   execute 'SearchWeb '.l:query
 endfunction
+

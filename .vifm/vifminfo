@@ -21,14 +21,22 @@
 	/Users/john/dev
 	..
 1440147494
+'e
+	/Users/john/dev/pocketlab/node_modules/@aws-amplify/interactions/src
+	Interactions.ts
+1555517662
 'h
 	/Users/john/
 	..
-1422517854
+1494173764
+'j
+	/Users/john/dev/pocketlab-services/src
+	mappers
+1553642896
 'k
-	/Users/john/dev/visiens-frontend
-	README.rdoc
-1433873100
+	/Users/john/dev/pocketlab-models
+	..
+1549200845
 'm
 	/Users/john/dev/binderpro-iics
 	module-categories.php
@@ -48,1481 +56,1674 @@ q0
 v2
 ov
 m-1
-l2,11
-r-10,2
+l2
+r2
 
 # Left window history (oldest to newest):
-d/Users/john/dev/pocketlab-chrome/app/pocketlab
-	controllers
+d/Users/john/dev/pocketlab/src/app/constants
+	..
+0
+d/Users/john/dev/pocketlab/src/app
+	constants
 2
-d/Users/john/dev/pocketlab-chrome/app/pocketlab/controllers
-	GraphsCtrl.js
-1
-d/Users/john/dev/pocketlab-chrome/app/pocketlab
-	controllers
-2
-d/Users/john/dev/pocketlab-chrome/app
-	controllers
+d/Users/john/dev/pocketlab/src/app/constants
+	service.config.ts
+9
+d/Users/john/dev/pocketlab/src/app
+	services
 4
-d/Users/john/dev/pocketlab-chrome/app/controllers
+d/Users/john/dev/pocketlab/src/app/services
+	select.service.ts
+10
+d/Users/john/dev/pocketlab-utils/src/test
 	..
 0
-d/Users/john/dev/pocketlab-chrome/app
-	services
-8
-d/Users/john/dev/pocketlab-chrome/app/services
-	bluetooth_service.js
-2
-d/Users/john
-	..
-0
-d/Users
-	john
+d/Users/john/dev/pocketlab-utils/src
+	test
 3
-d/
-	Users
-14
-d/Users
-	john
-3
-d/Users/john
-	Users
-33
-d/Users/john/Users
-	Shared
-1
-d/Users/john
-	Users
-33
-d/Users
-	john
-3
-d/Users/john
-	Users
-33
-d/Users
-	john
-3
-d/Users/john
-	.cvimrc
-24
-d/Users
-	john
-3
-d/Users/john
-	.cvimrc
-24
-d/Users/john/dev/pocketlab-chrome/app
-	services
-8
-d/Users/john/dev/pocketlab-chrome
-	app
-3
+d/Users/john/dev/pocketlab-utils
+	src
+4
 d/Users/john/dev
-	apps
-4
-d/Users/john/dev/apps
-	mouseless-1.3.1
-5
-d/Users/john/dev/apps/mouseless-1.3.1
-	manifest.json
+	pocketlab-parse
+21
+d/Users/john/dev/pocketlab-parse
+	npm-debug.log
+17
+d/Users/john/dev
+	pocketlab-models
+20
+d/Users/john/dev/pocketlab-models
+	.git
+1
+d/Users/john/dev
+	pocketlab-lex
 19
-d/Users/john/dev/pocketlab-chrome/app
-	services
-8
-d/Users/john/dev/pocketlab-chrome/app/services
-	converter_factory.js
-3
-d/Users/john
-	.cvimrc
-24
-d/Users
-	john
-3
-d/Users/john
-	dev
-10
+d/Users/john/dev/pocketlab-utils/src/test
+	index.d.ts
+1
+d/Users/john/dev/pocketlab-utils/src
+	@types
+1
+d/Users/john/dev/pocketlab-utils/src/@types
+	index.d.ts
+1
+d/Users/john/dev/pocketlab-utils
+	src
+4
 d/Users/john/dev
-	apps
-4
-d/Users/john/dev/apps
-	neo4j
-8
-d/Users/john/dev/apps/neo4j
-	bin
-1
-d/Users/john/dev/apps/neo4j/bin
-	..
-0
-d/Users/john/dev/apps/neo4j
-	bin
-1
-d/Users/john/dev/apps
-	neo4j
-8
-d/Users/john
-	dev
-10
-d/Users/john/dev
-	apps
-4
-d/Users/john/dev/apps
-	neo4j
-8
-d/Users/john/dev/apps/neo4j
-	data
-4
-d/Users/john/dev/apps/neo4j/data
-	databases
-1
-d/Users/john/dev/apps/neo4j/data/databases
-	..
-0
-d/Users/john/dev/apps/neo4j/data
-	databases
-1
-d/Users/john/dev/apps/neo4j
-	conf
-3
-d/Users/john/dev/apps/neo4j/conf
-	..
-0
-d/Users/john/dev/apps/neo4j
-	logs
-7
-d/Users/john/dev/apps/neo4j/logs
-	..
-0
-d/Users/john/dev/apps/neo4j
-	logs
-7
-d/Users/john/dev/apps/neo4j/logs
-	..
-0
-d/Users/john/dev/apps/neo4j
-	logs
-7
-d/Users/john
-	dev
-10
-d/Users/john/dev
-	apps
-4
-d/Users/john/dev/apps
-	neo4j
-8
-d/Users/john/dev/apps/neo4j
-	logs
-7
-d/Users/john/dev/apps/neo4j/logs
-	..
-0
-d/Users/john/dev/visiens-frontend
-	app
-3
-d/Users/john/dev/visiens-frontend/app
-	..
-0
-d/Users/john/dev/visiens-frontend
-	app
-3
-d/Users/john/dev
-	visiens-frontend
-33
-d/Users/john/dev/visiens-frontend
-	app
-3
-d/Users/john/dev/visiens-frontend/app
-	assets
-1
-d/Users/john/dev/visiens-frontend
-	app
-3
-d/Users/john/dev/visiens-frontend/app
-	controllers
-2
-d/Users/john/dev/visiens-frontend/app/controllers
-	..
-0
-d/Users/john/dev/visiens-frontend/app
-	assets
-1
-d/Users/john/dev/visiens-frontend/app/assets
-	javascripts
-3
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	directives
-1
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/directives
-	input_buttons.js
-4
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	templates
-3
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
-	modals
-1
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/modals
-	..
-0
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
-	widgets
-2
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets
-	input_buttons.html
-4
-d/Users/john/dev/visiens-frontend/app
-	assets
-1
-d/Users/john/dev/visiens-frontend/app/assets
-	javascripts
-3
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	templates
-3
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
-	widgets
-2
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets
-	input_buttons.html
-4
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
-	widgets
-2
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	directives
-1
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/directives
-	input_buttons.js
-4
-d/Users/john/dev/visiens-frontend/app/assets/javascripts
-	templates
-3
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates
-	widgets
-2
-d/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets
-	input_buttons.html
-4
-d/Users/john/dev/pocketlab-chrome/app
-	services
-8
-d/Users/john/dev/pocketlab-chrome/app/services
-	converter_factory.js
-3
-d/Users/john/dev/pocketlab-chrome/app
-	libs
-6
-d/Users/john/dev/pocketlab-chrome
-	app
-3
-d/Users/john/dev
-	pocketlab-chrome
+	pocketlab-services
 23
-d/Users/john
-	dev
-10
-d/Users/john/dev
-	apps
-4
-d/Users/john/dev/apps
-	vim
-10
-d/Users/john/dev/apps/vim
+d/Users/john/dev/pocketlab-services
+	dynamodb-template.yaml
+12
+d/Users/john/dev/pocketlab
 	src
 7
-d/Users/john/dev/apps/vim/src
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab/src/app
+	services
+4
+d/Users/john/dev/pocketlab/src
+	index.html
+8
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev
+	pocketlab-services
+23
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev
+	pocketlab
+14
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab/src/app
+	validators
+8
+d/Users/john/dev/pocketlab/src
+	environments
+3
+d/Users/john/dev/pocketlab/src/environments
+	environment.prod.ts
+2
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab-services
+	src
+4
+d/Users/john/dev/pocketlab-services/src
+	mappers
+1
+d/Users/john/dev/pocketlab-services/src/mappers
+	class-mapper.spec.ts
+1
+d/Users/john/dev/pocketlab-services/src
+	mappers
+1
+d/Users/john/dev/pocketlab-services
+	dist
+2
+d/Users/john/dev/pocketlab-services/dist
 	..
 0
-d/Users/john/dev/apps/vim
-	.gitignore
-9
-d/Users/john/dev/apps
-	vim
-10
+d/Users/john/dev/pocketlab-services
+	tslint.json
+19
 d/Users/john/dev
-	dot_files
-14
+	pocketlab
+8
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab/src/app
+	services
+4
+d/Users/john/dev/pocketlab/src/app/services
+	..
+0
+d/Users/john/dev/pocketlab/src/app
+	components
+1
+d/Users/john/dev/pocketlab/src/app/components
+	data-view
+4
+d/Users/john/dev/pocketlab/src/app/components/data-view
+	services
+3
+d/Users/john/dev/pocketlab/src/app/components/data-view/services
+	dr-factory.ts
+10
+d/Users/john/dev/pocketlab/src/app/components/data-view
+	services
+3
+d/Users/john/dev/pocketlab/src/app/components
+	image-section
+9
+d/Users/john/dev/pocketlab/src/app
+	components
+1
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab/src/app
+	models
+3
+d/Users/john/dev/pocketlab/src/app/models
+	..
+0
+d/Users/john/dev/pocketlab/src/app
+	models
+3
+d/Users/john/dev/pocketlab/src
+	polyfills.ts
+13
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	environments
+3
+d/Users/john/dev/pocketlab/src/environments
+	environment.prod.ts
+1
+d/Users/john/dev/pocketlab/src
+	favicon.ico
+7
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab/src/app
+	components
+1
+d/Users/john/dev/pocketlab/src/app/components
+	data-view
+4
+d/Users/john/dev/pocketlab/src/app/components/data-view
+	components
+1
+d/Users/john/dev/pocketlab/src/app/components/data-view/components
+	memory-status
+8
+d/Users/john/dev/pocketlab/src/app/components/data-view/components/memory-status
+	memory-status.component.ts
+3
+d/Users/john/dev/pocketlab/src/app/components/data-view/components
+	settings-menu
+12
+d/Users/john/dev/pocketlab/src/app/components/data-view/components/settings-menu
+	disconnect-dialog.component.html
+1
+d/Users/john/dev/pocketlab/src/app/components/data-view/components
+	map-chart
+9
+d/Users/john/dev/pocketlab/src/app/components/data-view
+	services
+3
+d/Users/john/dev/pocketlab/src/app/components/data-view/services
+	bluetooth.service.ts
+3
+d/Users/john/dev/pocketlab/src/app/components/data-view
+	services
+3
+d/Users/john/dev/pocketlab/src/app/components
+	data-view
+4
+d/Users/john/dev/pocketlab/src/app
+	components
+1
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev
+	pocketlab
+8
+d/Users/john
+	Downloads
+5
+d/Users/john/Downloads
+	pl_users - Sheet1 (1).csv
+17
+d/Users/john
+	Downloads
+5
+d/Users/john/Downloads
+	pl_users - Sheet1.csv
+17
 d/Users/john
 	dev
-10
+17
 d/Users/john/dev
-	dot_files
-14
-d/Users/john
-	Google Drive
+	pocketlab
+8
+d/Users/john/dev/pocketlab
+	src
+7
+d/Users/john/dev/pocketlab/src
+	app
+1
+d/Users/john/dev/pocketlab/src/app
+	components
+1
+d/Users/john/dev/pocketlab/src/app/components
+	cloudlab-auth
+3
+d/Users/john/dev/pocketlab/src/app/components/cloudlab-auth
+	cloudlab-role-select.component.html
+13
+d/Users/john/dev/pocketlab/src/app/components
+	cloudlab-auth
+3
+d/Users/john/dev/pocketlab/src/app/components/cloudlab-auth
+	cloudlab-role-select.component.html
+13
+d/Users/john/dev/pocketlab/src/app/components
+	data-view
 4
+d/Users/john/dev/pocketlab/src/app/components/data-view
+	trial-data-view.component.spec.ts
+17
+d/Users/john/dev/pocketlab/src/app/components
+	cloudlab-auth
+3
+d/Users/john/dev/pocketlab/src/app/components/cloudlab-auth
+	cloudlab-role-select.component.ts
+16
 d
 
 # Right window history (oldest to newest):
-D/Users/john/dev/pocketlab-ios/PocketLab/build
-	Products
+D/Users/john/dev/pocketlab-utils/dist
+	test
 2
-D/Users/john/dev/pocketlab-ios/PocketLab
-	build
-7
-D/Users/john/dev/pocketlab-ios
-	PocketLab
-1
-D/Users/john/dev
-	science-journal
-4
-D/Users/john/dev/science-journal
-	api
-4
-D/Users/john/dev/science-journal/api
-	ScalarInputApi
-2
-D/Users/john/dev/science-journal/api/ScalarInputApi
-	build
-2
-D/Users/john/dev/science-journal/api/ScalarInputApi/build
-	..
-0
-D/Users/john/dev/science-journal/api/ScalarInputApi
-	build
-2
-D/Users/john/dev/science-journal/api
-	ScienceJournalApi
-1
-D/Users/john/dev/science-journal/api/ScienceJournalApi
+D/Users/john/dev/pocketlab-utils
 	src
 4
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src
-	main
+D/Users/john/dev/pocketlab-utils/src
+	validators
+4
+D/Users/john/dev/pocketlab-utils/src/validators
+	class-entry-validator-factory.spec.ts
+3
+D/Users/john/dev/pocketlab-utils/src
+	@types
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main
-	aidl
+D/Users/john/dev/pocketlab-utils/src/@types
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl
-	com
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
+3
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
+3
+D/Users/john/dev/pocketlab-utils/src
+	@types
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com
-	google
+D/Users/john/dev/pocketlab-utils/src/@types
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google
-	android
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android
-	apps
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils/src/test
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps
-	forscience
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience
-	whistlepunk
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils/src/test
+	utils.ts
+2
+D/Users/john/dev/pocketlab-utils/src
+	validators
+4
+D/Users/john/dev/pocketlab-utils/src/validators
+	investigation-entry-validator-factory.spec.ts
+12
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils/src/test
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk
-	api
+D/Users/john/dev/pocketlab-utils/src
+	validators
+4
+D/Users/john/dev/pocketlab-utils/src/validators
+	fail-all-validator-factory.spec.ts
+8
+D/Users/john/dev/pocketlab-utils/src
+	validators
+4
+D/Users/john/dev/pocketlab-utils/src/validators
+	fail-all-validator-factory.spec.ts
+8
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils/src/test
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk/api
-	scalarinput
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk/api/scalarinput
-	IDeviceConsumer.aidl
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk/api
-	scalarinput
+D/Users/john/dev/pocketlab-utils/src
+	@types
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience/whistlepunk
-	api
+D/Users/john/dev/pocketlab-utils/src/@types
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps/forscience
-	whistlepunk
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android/apps
-	forscience
+D/Users/john/dev/pocketlab-utils/src
+	@types
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google/android
-	apps
+D/Users/john/dev/pocketlab-utils/src/@types
+	index.d.ts
 1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com/google
-	android
-1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl/com
-	google
-1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main/aidl
-	com
-1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src/main
-	aidl
-1
-D/Users/john/dev/science-journal/api/ScienceJournalApi/src
-	main
-1
-D/Users/john/dev/science-journal/api/ScienceJournalApi
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils/src/test
+	utils.ts
+2
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils
 	src
 4
-D/Users/john/dev/science-journal/api
-	ScienceJournalApi
+D/Users/john/dev/pocketlab-utils/src
+	@types
 1
-D/Users/john/dev/science-journal
-	api
+D/Users/john/dev/pocketlab-utils/src/@types
+	index.d.ts
+1
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils/src/auth
+	authorization-authority.spec.ts
+3
+D/Users/john/dev/pocketlab-utils/src
+	auth
+2
+D/Users/john/dev/pocketlab-utils
+	dist
+2
+D/Users/john/dev/pocketlab-utils/dist
+	validators
+3
+D/Users/john/dev/pocketlab-utils/dist/validators
+	class-entry-validator-factory.js
+1
+D/Users/john/dev/pocketlab-utils/dist
+	index.js
+4
+D/Users/john/dev/pocketlab-utils
+	src
+4
+D/Users/john/dev/pocketlab-utils/src
+	validators
+4
+D/Users/john/dev/pocketlab-utils
+	src
 4
 D/Users/john/dev
-	science-journal
+	pocketlab
 4
-D/Users/john
-	.ssh
-30
-D/Users/john/.ssh
-	old_keys
+D/Users/john/dev/pocketlab
+	node_modules
+5
+D/Users/john/dev/pocketlab/node_modules
+	regression
+4
+D/Users/john/dev/pocketlab/node_modules/regression
+	dist
 1
-D/Users/john/.ssh/old_keys
+D/Users/john/dev/pocketlab/node_modules/regression/dist
 	..
 0
-D/Users/john/.ssh
-	old_keys
+D/Users/john/dev/pocketlab/node_modules/regression
+	build
 1
-D/Users/john
-	dev
+D/Users/john/dev/pocketlab/node_modules
+	regression
+4
+D/Users/john/dev/pocketlab
+	node_modules
 5
 D/Users/john/dev
-	pocketlab-chrome
-2
-D/Users/john/dev/pocketlab-chrome
+	pocketlab
+14
+D/Users/john/dev/pocketlab
+	Gruntfile.js
+16
+D/Users/john/dev
+	pocketlab-utils
+25
+D/Users/john/dev/pocketlab-utils
+	src
+4
+D/Users/john/dev/pocketlab-utils/src
+	validators
+4
+D/Users/john/dev/pocketlab-utils
+	src
+4
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils/src/test
+	utils.ts
+1
+D/Users/john/dev/pocketlab-utils/src
+	test
+3
+D/Users/john/dev/pocketlab-utils
+	src
+4
+D/Users/john/dev
+	pocketlab-services
+23
+D/Users/john/dev/pocketlab-services
+	api-gateway-template.yaml
+6
+D/Users/john/dev
+	pocketlab
+8
+D/Users/john/dev/pocketlab
+	src
+7
+D/Users/john/dev/pocketlab/src
+	..
+0
+D/Users/john/dev/pocketlab
+	src
+7
+D/Users/john/dev/pocketlab/src
 	app
-2
-D/Users/john/dev/pocketlab-chrome/app
-	velocitylab
+1
+D/Users/john/dev/pocketlab/src/app
+	components
+1
+D/Users/john/dev/pocketlab/src/app/components
+	image-section
+8
+D/Users/john/dev/pocketlab/src/app/components/image-section
+	image-section.component.spec.ts
 3
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	controllers
+D/Users/john/dev/pocketlab/src/app/components
+	name-editor
+12
+D/Users/john/dev/pocketlab/src/app
+	components
 1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/controllers
-	..
-0
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	views
-3
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
-	..
-0
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	views
-3
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
-	graph.html
-1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	controllers
-2
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/controllers
-	GraphsCtrl.js
-1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	assets
-3
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/assets
-	images
-1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/assets/images
-	pocketlab_name.png
-1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/assets
-	images
-1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	icon48.png
+D/Users/john/dev/pocketlab/src/app/components
+	lab-report
 10
-D/Users/john/dev/pocketlab-chrome/app
-	directives
-3
-D/Users/john/dev/pocketlab-chrome/app/directives
-	graph_select_directive.js
+D/Users/john/dev/pocketlab/src/app/components/lab-report
+	lab-report.module.ts
+5
+D/Users/john/dev/pocketlab/src/app/components
+	lab-report
+10
+D/Users/john/dev/pocketlab/src/app
+	components
+1
+D/Users/john/dev/pocketlab/src
+	app
+1
+D/Users/john/dev/pocketlab
+	src
 7
-D/Users/john/dev/pocketlab-chrome/app
-	pocketlab
-1
-D/Users/john/dev/pocketlab-chrome/app/pocketlab
-	app.js
-6
-D/Users/john/dev/pocketlab-chrome/app
-	services
-5
-D/Users/john/dev/pocketlab-chrome/app/services
-	bluetooth_service.js
-1
-D/Users/john/dev/pocketlab-chrome/app
-	velocitylab
-1
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	views
-3
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
-	directives
-2
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/views/directives
-	..
-0
-D/Users/john/dev/pocketlab-chrome/app/velocitylab/views
-	directives
-2
-D/Users/john/dev/pocketlab-chrome/app/velocitylab
-	views
-3
-D/Users/john/dev/pocketlab-chrome/app
-	velocitylab
-1
-D/Users/john/dev/pocketlab-chrome
-	app
-2
 D/Users/john/dev
-	science-journal
-8
-D/Users/john
-	Downloads
+	pocketlab-utils
+17
+D/Users/john/dev/pocketlab-utils
+	src
+4
+D/Users/john/dev/pocketlab-utils/src
+	test
 3
-D/Users/john/Downloads
-	FullTiltUK 2
+D/Users/john/dev/pocketlab-utils/src/test
+	utils.ts
 1
-D/Users/john
-	Downloads
+D/Users/john/dev/pocketlab-utils/src
+	test
 3
-D/Users/john/Downloads
-	FullTiltUK 2
-1
-D/Users/john
-	Documents
+D/Users/john/dev/pocketlab-utils
+	src
+4
+D/Users/john/dev
+	pocketlab-services
 15
-D/Users/john/Documents
-	..
-0
-D/Users/john
-	Documents
-15
-D/Users
-	john
-1
-D/Users/john
-	dev
-12
-D/Users/john/dev
-	pocketlab-android
-4
-D/Users/john/dev/pocketlab-android
-	..
-0
-D/Users/john/dev
-	pocketlab-ios
-3
-D/Users/john/dev/pocketlab-ios
-	PocketLab
-2
-D/Users/john/dev/pocketlab-ios/PocketLab
-	build
+D/Users/john/dev/pocketlab-services
+	cognito.properties
 8
-D/Users/john/dev/pocketlab-ios
-	PocketLab
-2
-D/Users/john/dev
-	osc-test-package
-6
-D/Users/john/dev/pocketlab-chrome
-	..
-0
-D/Users/john/dev
-	pocketlab-chrome
-4
-D/Users/john
-	tmp
-4
-D/Users/john/tmp
-	..
-0
-D/Users/john
-	dev
-12
-D/Users/john/dev
-	pocketlab-chrome
-4
-D/Users/john/dev/pocketlab-chrome
-	app
-2
-D/Users/john/dev/pocketlab-chrome/app
-	pocketlab
-3
-D/Users/john/dev/pocketlab-chrome/app/pocketlab
-	config.js
-5
-D/Users/john/dev/pocketlab-chrome/app
-	tests
-4
-D/Users/john/dev/pocketlab-chrome/app/tests
-	resources
-1
-D/Users/john/dev/pocketlab-chrome/app/tests/resources
-	test_config.js
-1
 D
 
 # Command line history (oldest to newest):
-:set viewcolumns={name}..,{size}
-:unzip
-:mkdir
-:mkdir osx
-:e 
-:mkdir factories
-:e section_twenty_one.rb
-:e section_twenty_one_spec.rb
-:e application.yml
-:e file_upload.js
-:sort+=size
-:sort=+size
-:help sort
-:h vifm-sjjjjkkkkkkkkkk
-:set sort=+size
-:set sort=-size
-:set sort=-cdate
-:set sort=-date
-:set sort=-mdate
-:h vifm-sort
-:h vifm-'sort
-:h vifm-'sort'
-:set sort=-ctime
-:unzip %c
-:mkdir font
-:mkdir bootstrap
-:mkdir integration
-:mkdir tasks
-:e Procfile
-:1
-:Cd ~
-:e jaspersoft.ssh
-:e %c
-:set sort=+name
-:mkdir models
-:cd ~/Downloads/
-:cd Documents/
-:cd ~/Documents/Neo4j/
-:grep neo4*.jar
-:grep org.apache.ivy.ant.BuildBundleRepoDescriptorTask
-:grep -ir org/abego/treelayout/TreeForTreeLayout
-:grep -ir TreeForTreeLayout
-:cd NEO4J
+:e device.interface.ts
+:e app.json
 :cd dev/
-:cd ~/Documents/Neo4j/default.graphdb/
-:mkdir Java
-:mkdir Extensions
-: cd ~
-:cd dev/visiens/
-:vim logback.xml
-:e logback.xml
-:cd ~/dev/
-:cd -
-:cd ~/dev/apps/
-:cd dev/apps/neo4j/certificates/
-:cd ~/dev/apps/neo4j-community-2.1.5/
-:grep Logger
-:grep logback
-:cd .m2/repository/ch/qos/logback/logback-classic/
-:mkdir audio
-:e analysis_controller.rb
-:mkdir analysis
-:e new.html.erb
-:grep inline
-:find *.entitlements
-:e .htmltidyrc
-:grep AccelX
-:cd ~
-:cd ~/dev/pocketlab-ios/
-:cd /
-:graph_directive.html
-:e graph_directive.html
-:e audio_directive.html
-:e
+:mkdir tests
+:e stubs.ts
+:e data-view.stub.ts
+:e data-view.stubs.ts
+:e model.stubs.ts
+:e data-recever
+:e open-weathre-data-provider.service.spec
+:e independent-variable.ts
+:mkdir configs
+:parse.txt
+:e parse.txt
+:e ols_address.txt
+:e raw-data-receiver.spec.tx
+:e test-utils.ts
+:e google-mock.js
+:h
+:e run-analysis-option.ts
+:e source.config.ts
+:e utils.ts
+:RealtimeService
+:grep RealtimeService
+:Ggrep MemoryDataService
+:grep RealtimeDataProvider
+:lab-report-section
+:m
+:mkdir lab-report-section-form
+:open %r
+:open %
+:e ~/.vifmrc
+:mkdir .bin
+:open index.html
+:open ./index.html
+:l
+:e inline-edit.component.ts
 :wq!
-:mkdir directives
-:e compile
-:w
-:set col
-:h col
-:set info
-:h fsize
-:cd pocketlab-chrome/
-:grep ifdef
-:view
-:zip 
-:zip
-:q
+:cd ~
+:mkdir support
+:e jasmine.json
+:j
+:mkdir main
+:spec
+:mkdir spec
+:mkdir models
+:e lab-report.ts
+:e plot
+:e primary-key.ts
+:mkdir utils
+:q:
+:mkdir inline-edit
+:mkdir state
+:vim LabReportFacad
+:e lab-report-facade.ts
+:e lab-report.state.ts
+:e store.ts
+:aws.service.ts
+:e aws.service.ts
+:mkdir api
+:mkdir 
+:mkdir web
+:mkdir src
+:mkdir pocketlab-models
 :empty
-:mkdir resources
-:sort=+date
-:set sort=+time
-:h sort
-:set sort+=mtime
-:h vifm
-:set viewcolumns=-{name}..,6{size},11{perms}
-:set viewcolumns=-{name}..,6{size},11{mtime}
-:set viewcolumns=-{name}..,6{size},10{mtime}
-:set viewcolumns=-{name}..,8{size},10{mtime}
-:set viewcolumns=-{name}..,5{size},10{mtime}
-:set viewcolumns=-{name}..,8{size},11{mtime}
+:grep UserPoolPostConfirmationLambdaInvokePermission
+:open %d
+:open
+:mkdir web_test
+:e AWSLexProvider.ts
+:Ggrep InteractionsClass
+:grep Interactions
+:grep InteractionsClass
+:e run-analysis-option.component.spec.ts
+:e run-analysis-option.component.scss
+:e run-analysis-option.component.html
+:e run-analysis-option.component.ts
+:e env.ts
+:e validators.ts
+:mkdir text-section
+:e app.config.ts
+:grep CognitoUser
+:grep memberUserName
+:mkdir expandable
+:mkdir expandable-card
+:e expandable-card.ts
+:mkdir source-selection
+:mkdir test
+:mkdir types
+:mkdir
+:mkdir @types
+:vim power-commit.sh
+:e power-commit.sh
+:w!
+:Ggrep select.service.ts
+:e select.ser
+:e entry.operators.ts
+:w
+:q
+:view
 
 # Search history (oldest to newest):
-/vimrc
-/swp
-/git_
-/nu
-/zode64
-/Gem
-/mongo
-/var
-/dot
-/nuvo
-/vimlh
-/rc
-/tml
+/nvm
+/node
+/node_
+/npm
+/Web
+/webb
 /vimr
-/spa
-/lock
-/.git
-/rou
-/prop
-/remo
-/fun
-/kid
-/Downloads
-/simple
-/uk
-/ne
-/info
-/pocke
-/us
-/pha
-/chromel
-/remot
-/templa
-/de
-/aa
-/sear
-/templates
-/bouc
-/bounc
-/bc
-/ass
-/hk
-/ssi
-/h2
-/men
-/iic
-/te
-/modu
-/menu
-/fus
-/ch
-/vimi
-/vimin
-/sp
-/Downnload
-/doct
-/commons
-/jms
-/toolk
-/jmx
-/jacl
-/hib
-/q
-/jyt
-/jrub
-/jy
-/spring
-/bean
-/Neo
-/luce
-/lucen
-/cire
-/doc
-/aop
-/abeg
-/abe
-/ple
-/tuk
-/xz
-/oro
-/jcr
-/jsc
-/comm
-/nog
-/boun
-/http
-/sol
-/logger
-/codec
-/htt
-/service
-/inje
-/osgi
-/ger
-/sun
-/bsh
-/joda
-/ruby
-/groovy
-/hiber
-/ejb
-/aspe
-/asp
-/pool
-/did
-/bsf
-/javax
-/jdml
-/jdmk
-/tcl
-/cli
-/ju
-/enter
-/mail
-/jboss
-/groov
-/jr
-/beans
-/a[[
-/Doc
-/He
-/neo
-/spr
-/open
-/Jersey
-/jerse
-/jackson
-/media
-/front
-/proper
-/chrom
-/dr
+/ycm
+/ma
+/web
 /share
-/logback
-/chrome
-/Do
-/tem
-/klkl
-/.vifm
-/visiens
-/download
-/govlhjjjjj
-/gov
-/iics
-/molGkkjjjjk
-/molGgg
-/mod
-/144
-/favi
-/kids
-/yea
-/favicon
-/Misf
-/.tmp
-/.vif
-/nuvole
-/evi
-/kidscare
-/pock
-/S
-/Sla
-/Downl
-/trell
+/uplo
+/empt
+/Tra
 /Libra
-/Trell
-/T
-/Pock
-/X
-/nuv
-/Dow
-/src
-/wiki
-/bin
-/iT'nj
-/vifm
-/etc
-/git
-/Doi
-/Fire
-/Mis
-/pocket
-/mjj
-/fkn
-/fknjpchmlkelakiklkjpbfdcjkcahjcl
-/ctag
-/.vim
-/ct
-/psd
-/.bash
-/cts
-/test
-/hhhhhhhjj
-/Xc
-/a
-/amaz
-/data
-/da
-/jas
-/Chart
-/chart
-/LineChart
-/Line
-/word
-/Poc
-/ios-ch
-/dow
-/rvm
-/betke
-/john
-/Mus
-/bloomin
-/remote
-/gua
-/common
-/nogg
-/ant
-/A
-/Ja
-/aspec
-/java
-/jun
-/bs
-/apa
-/groo
-/bea
-/luc
-/Java
-/lucene
-/Ne
-/server
-/.m2
-/com
-/org
-/apps
-/vis
-/APp
-/App
-/neo4j
-/m2
-/slf4
-/guava
-/ui
-/plex
-/ivy
-/nlp
-/antl
-/jgr
-/solr
-/maven
-/nlg
-/apac
-/logb
-/4j
-/sl
-/neo4
-/log
-/slf
-/wed
-/nuvol
-/hina
-/visi
-/Download
-/V
-/Appl
-/Libr
-/visien
-/Librar
+/Mobile
+/tras
+/ion
+/icon
+/Picke
+/copy
 /poc
-/music
-/ios
-/Googl
-/Goog
-/Google
-/sci
-/Down
-/pub
-/ssh
-/pocketl
-/Downloa
-/cali
-/cal
-/cha
-/tmp
-/iT
+/Doc
+/Jap
+/tra
+/appl
+/textf
+/material
+/mar
+/ugli
+/Downlo
+/rx
+/marine
+/marin
+/theme
+/dyg
+/sha
+/www
+/type
+/mem
+/att
+/pack
+/regre
+/regres
+/materi
+/mater
+/pars
+/Dow
 /vim
-/Users
-/dev
+/zode
+/vifmjjkkh
+/vif
+/vifm
+/ssh
+/Con
+/hina
+/Boa
+/pocketlab-p
+/typ
+/tmp
+/http
+/bas
+/po
+/Music
 /app
+/Mus
+/sites
+/bash
+/goog
+/map
+/iT
+/parse
+/karma
+/source
+/setting
+/blu
+/in
+/movi
+/themin
+/local
+/poi
+/types
+/imme
+/imm
+/aws-amp
+/ampl
+/lex
+//amplify
+/angular
+/amplify
+/config
+/conf
+/bin
+/.vim
+/aws
+/pock
+/pocketlab
+/dev
+/sett
+/spec
 
 # Prompt history (oldest to newest):
-pjs.snippets
-putils_spec.js
-pjavascripts
-padd.html
-psearch_bar.html
-psearch_bar.js
-psml_generator_spec.rb
-psentence_generator.rb
-puploading_gdrive.html
-pupload_to_gdrive.html
-psection_8.html.erb
-psection_8.pdf.erb
-psharer_test.js
-pS
-pconnection_faild.html
-pconnection_failed.html
-pconnecting.html
-padapter_off.html
-pno
-pno_adapter.html
-pstyle.css
-pgraphs_test.js
-pmock_api.js
-pmock_system_objects.js
-pmock_system_api.js
-pchrome_bluetooth.js.bak
-pindex-test.html
-ptests
-pbluetooth_test.js
-pmock_controllers.js
-pmocks.html
-pmock_services.js
-pcreate_section_8.html.erb
-pexternal_pages.js
-pexternal_pages.html
-pdevice_list.js
-pdevice_list_test.js
-pupdate
-pview1
-pgraph.html
-papplication.scss
-pgraph.js
-ps
-pdefault.php
-pbreadcrumb.php
-pp
-psports_nation_default.php
-pse.scss
-pmain.scss
-pDefault.php
-pDefault2.php
-ptwitter.png.bak
-plogo_bogh.png
-plogo_big.png
-ptop-metro1.bak.png
-pchromebook
-pContract_Eric_Aguilar_Velazquez_2014.pdf
-piics-k12.com.ssh
-piicscom.ssh
-pdevice_list/
-pdevice_list
-pchrome_bluetooth.js
-pdevice_list_scenarios.js
-pgraph_list_scenarios.js
-pgraph_list_test.js
-pgraph_scenarios.js
-putils.js
-pgraph_test.js
-pgraphs.js
-ploading_graph.html
-ploading_failed.html
-pmodernizr.js
-prename.html
-pright_click.js
-prename.js
-prename_device.js
-prename_device.html
-picon-16x16.png
-picon16.png
-picon48.png
-picon128.png
-ppocketlab-chrome.zip
-plibs
-puploading_to_gdrive.html
-pupload_failed.html
-plost_connection.html
-pmanage_devices.html
-pneo4j-server.properties.bak
-plogging.properties.bak
-prunner.rb
-pscheduler_spec.rb
-prunner_spec.rb
-pdolphin_favicon.ico
-ppocketlab_logo.png
-ppocketlab_name.png
-ppocketlab_logo_no_radio.png
-papplication.css.scss
-pmain_controller.rb
-pgraph_db.js
-pmodel.html
-pgraph_db_spec.js
-pcontrollers_spec.js
-pM
-pmocks.js
-pdrawer.scss
-psetting.html
-psettings.js
-pjpocketlab-chrome
-ppdfs_controller.rb
-pfavicon.ico
-pfavicon_dolphin.ico
-pwell_pages.html.erb
-psend_section_eight_email.text.erb
-pkkkr
-psend_section_eight_email.html.erb
-psend_section_twenty_one_email.html.erb
-psection_21__controller.rb
-psection_21_kkcontroller.rb
-psection_21s_controller.rb
-psection_21s
-psection_8s
-pstatic_pages_controller.rb
-psection_8s_controller.rb
-pshow.pdf.erb
-pshow.html.erb
-padvertisement_builder_control
-padvertisement_builder
-pproperty.rb
-padd_price_and_availability.html.erb
-p.vimrct
-p.vimrc.bak
-pproperties
-pbuild_controller.rb
-paddresses
-paddress.rb
-paddresses_controller.rb
-padd_info.html.erb
-p.vimrc
-p.vim.bak2
-p.vimrc.bak2
-p_address_fields.html.erb
-p_simple_form.html.erb
-pnew_simple.html.erb
-psimple.html.erb
-psimple_new.html.erb
-psimple_edit.html.erb
-pbutton_narrow.png
-ppdf.html
-psection_twenty_ones_controller.rb
-psection_eights_controller.rb
-pjquery_equalheights.js
-pmongodb
-pfeatures
-psection_eight_spec.rb
-psection_twenty_ones
-psection_eights
-p_property_form.html.erb
-p20150828112527_create_users.rb
-psection_eight.rb
-plandlords_helper.rb
-psection_twenty_one.rb
-pcreate_downloader.html.erb
-pcreate_property.html.erb
-pwizard_first_page.html.erb
-pnew_user_page.html.erb
-pcreate_section_twenty_eight.html.erb
-pcreate_section_eight.html.erb
-pcreate_section_twenty_one.html.erb
-pkkk
-p_show_downloader.html.erb
-p_form.html.erb
-pedit.html.erb
-pwizard_controller.rb
-pdocument_mailer.rb
-padmin_mailer.rb
-psend_deployment_test_fail.html.erb
-plandlords_controller.rb
-plandlord.rb
-plandlords
-p_show_landlords.html.erb
-p_show_property.html.erb
-p_property_fields.html.erb
-psection.rb
-p20150903070155_add_possession_required_at_tenant_and_second_tenant_to_section_twenty_one.rb
-pkidscare-iics-test
-p_show_landlord.html.erb
-plogo-border.png
-pdip_old.png
-pdip.png
-pkjjkjkjkjk
-plogo.png
-ppresso_t.zip
-ppresso_new.zip
-pjersey-server-2.9.jarkkkkk
-pjersey-server-2.9.jarkkk
-pterms_and_conditions.html.erb
-popennlp-tools-1.5.3.jar
-pplugins.bak
-pplugins.baknw
-p.neo4j.conf.bak2
-pdevice_list.html
-plabels.js
-plabels.html
-psettings.html
-padd_entity
-padd_entity.html
-pproperties.html
-padd_entity.js
-pproperties.js
-pdevice_connect.js
-pdevice.js
-pdevice_controller.js
-pgraph_controller.js
-pexternal_pages_controller.js
-pmodals_controller.js
-pgraph_directive.js
-pbluetooth_services.js
-psharer.js
-pbluetooth_service.js
-psharer_service.js
-pbluetooth_servie_test.js
-psharer_service_test.js
-pdevice.html
-pgraph_config.js
-pgraph_configs.js
-pw
-pgraph-configs.js
-pgatt-config.js
-pgraph-config.js
-pconfig.js
-pbluetooth_service_test.js
-pExternalPagesCtrl.js
-pGraphCtrl.js
-pModalsCtrl.js
-pDeviceCtrl.js
-pDevicesCtrl.js
-pGraphsCtrl.js
-pentity.html
-pentity.js
-pindex_export.html.erb
-pSkulls.mp3
-pset_deadline.png
-ptick.png
-palarm_clock.png
-pcross.png
-ptick_green.png
-pcross_green.png
-pdrawer.js
-pvisualization_select.html
-pvisualization_select.js
-palarm_clock_green.png
-ptick_grey.png
-palarm_clock_grey.png
-pcancel_grey.png
-pcross_grey.png
-pup_arrow_green.png
-pup_arrow_grey.png
-ppause_grey.png
-pl
-ppause_green.png
-plist_green.png
-plist_grey.png
-ptoday.xml
-pcard_grey.png
-pcard_green.png
-pcard.xml
-pgraph.db.bak
-pAlarm`.png
-pcom.pocketlab.json
-palarm_clock_white.png
-pdelete_green.png
-pDelete Filled-100(1h.png
-pdelete_grey.png
-pcom.pocketlab.scratchx.json
-pcancel_deadline.xml
-pplus_green.png
-pplus_grey.png
-paudio_factory.js
-paudio_factory_test.js
-plink_grey.png
-pbuild-pocketlab.sh
-pbuild-velocitylab.sh
-plink_green.png
-pleft_arrow_green.png
-pleft_arrow_grey.png
-pto_todo.xml
-paudio_file_grey.png
-pimage_file_grey.png
-pimage_file_green.png
-paudio_file_green.png
-pO
-pdevice_options_directive.js
-pdevice_options_directive.html
-paudio_file.xml
-pimage_file.xml
-pprivacy_policy_nuvolets.pdf
-pborder
-pneosans-regular.ttf
-pNeoSans-regular.ttf
-pback_directive.js
-pback_directive.html
-pgraph_back_directive.html
-pgraph_back_directive.js
-pattach_pocketlab.html
-psetup_wizard.html
-pfrontpage_background.png
-pfrontpage_background.psd
-pwell_pages.scss
-pwell_page.html.erb
-pflip_directive.html
-pflip_directive.js
-pwizard_page.html.erb
-po
-pdigits_directive.js
-pdigits_directive.html
-pgraph_buttons_directive.js
-pgraph_buttons_directive.html
-pdisplay_buttons_directive.js
-pdisplay_buttons_directive.html
-pdisplay_directive.html
-pdisplay_directive.js
-psidebar_view.js
-psidebar_view.html
-piics-binderpro
-pbinderpro-iics
-pmodule-categories.php
-pinc
-pchrome_bluetooth_web_api_test
-pr
-pnote.ssh
-pweek_green.png
-pweek_grey.png
-picon_camera_graph.pdf
-pclass-site-list-page
-pjquery.equalHeights.js
-pjquery.equalheights.js
-pmc-like.vifm
-pnew_for_section_twenty_one.html.erb
-pnew_for_section_eight.html.erb
-pnew.erb
-p_header.html.erb
-p_footer.html.erb
-pconditions.html.erb
-pdescription.html
-pdescription.js
-psection_twenty_one_test.rb
-pfactories.rb
-pmongod.conf
-p20160213155249_create_images.rb
-pimage.rb
-pPocketLab-OSX-Bridging-Header.h
-pfonts
-psection_twenty_one_spec.rb
-padmin_mailer.html.erb
-piics.ftp
-p.ftp
-pjaspersoft.ssh
-ptasks.rb
-psample_section_21.pdf
-psample_section_8.pdf
-pdownload_export.html.erb
-pdownload_export.txt.erb
-pindex_downloads.txt.erb
-pneo4j.properties
-pneo4j.propertiesjkjkjjjjj
-pneo4j.conf
-p.neo4j.conf.bak
-p.neo4j.conf
-pplugins.bak2
-pplugins
-plibs.bak
-pindex.html.erb
-poverhead.html.erb
-panalyze.html.erb
-panalysis_controller.rb
-pnew.html.erb
-paction.js
-paction.html
-pdrawer.html
-pnew_entity.html
-pvis.html.erb
-pIcon-512@2x.png
-picon_512x512@2x.png
-pIcon-256.png
-picon_512x512.png
-picon_256x256.png
-picon_128x128.png
-picon_32x32.png
-picon_16x16.png
-pcom.myriadsensors.pocketlab.nativeproxy.json
-panalysis.js
-ptext_analyzer.js
-ptext_analyzer.html
-pcom.myriadsensors.osx.pocketlab.nativeproxy.json
-pThumbs.db
-pThumbs.db.bak
-pdate.html
-pdae.js
-pdate.js
-pPocketLab_for_scratch.app
-paudio_service.js
-paudio_service_test.js
-paudio_directive.js
-pssh_host_rsa_key.pub.bak
-pcontrols_directive.js
-pgraph_directive.html
-pcontrols_directive.html
-pgraph_select_directive.html
-pgraph_select_directive.js
-prate_select_directive.html
-prate_select_directive.js
-prate_change_directive.js
-prate_change_directive.html
-punit_select_directive.js
-punit_select_directive.html
-pcalibrate_directive.js
-pcalibrate_directive.html
-pdisconnect_directive.html
-pdisconnect_directive.js
-psetup_wizard_directive.js
-psetup_wizard_directive.html
-paxis_x.png
-pcompile_directive.js
-pPocketLab.app
-pPocketLab
-pservice_config_constants.js
-pservice_config.js
-pvoyager_service_configs.js
-pservice_configs.js
-ptest_service_configs.js
-ptest_config.js
-ppocketlab_config.js
-pvoyager_config.js
-pvoyager_graph_config.js
-ppocketlab_service_configs.js
-pvoyager_graph_configs.js
-ppocketlab_graph_configs.js
-pvelocitylab_graph_configs.js
-pmanifest.json
-pvelocitylab_service_configs.js
-pprocessor_factory.js
-ptransformer_factory.js
-pconverter_factory.js
-pinput_buttons.js
-pinput_buttons.html
+pcloudlab-verification.component.scss
+pcloudlab-verification.component.ts
+pcloudlab-verification.component.html
+pcloudlab-forgot-password.component.scss
+pcloudlab-forgot-password.component.ts
+pauth-state.config.ts
+pcloudlab-request-password.component.scss
+pcloudlab-request-password.component.ts
+pcloudlab-forgot-password.component.html
+pcloudlab-request-password.component.html
+pcloudlab-resend-code.component.html
+pcloudlab-resend-code.component.scss
+pcloudlab-resend-code.component.ts
+pAWSLexProvider.ts.bak
+pAWSLexProvider.ts
+ptrials.store.spec.ts
+ptrial.cache.store.ts
+ptrial-cache.store.ts
+puser-trials.store.ts
+ptrial-cache.store.spec.ts
+puser-trials.store.spec.ts
+papi-gateway.properties
+papi-gateway-staging.properties
+papi-gateway-template.yaml
+plab-report-summary.store.ts
+plab-report-summary-cache.store.ts
+pdynamo-staging.properties
+pdynamodb-tables-template.yaml
+pstaging.properties
+plab-report-update-handler.ts
+plab-report-updated-handler.ts
+ppocketlab-test
+pindex.ts
+pdynamodb-streams-template.yaml
+plab-report-streams-handler.ts
+plab-report-stream-handlers.tse
+plab-report-stream-handlers.ts
+pdynamodb-template.yaml
+plab-report-stream-handler.ts
+plab-reports-stream-handler.ts
+pkarma-env.js
+pkarma-env.ts
+poptional-data-view.component.ts
+pupdate-firmware.component.html
+pupdate-firmware.component.scss
+pupdate-firmware.component.ts
+pentry.store.ts
+pentry-builder.service.ts
+pis-valid-array-validator.spec.ts
+pis-valid-array-validator.ts
+pis-valid-attribute-validator.ts
+pis-valid-attribute-validator.spec.ts
+pentry-vaidator.ts
+pentry-validator.ts
+psection.component.spec.ts
+psection.component.htzml
+psection.component.html
+plab-report-section.component.html
+pimage-section
+pvideo-section
+pentry.component.ts
+peditable.component.ts
+ptoolkit
+pinvestigation-adapter.ts
+plab-report-template-adapter.ts
+pentriescomponent.ts
+pentries.component.ts
+ptoolkit-data-view.component.ts
+ptoolkit-data-view.component.spec.ts
+psection.component.ts
+pexpandable-card.directive.ts
+pexpandable-card.component.ts
+pexpandable-card.component.html
+pexpandable.component.scss
+pexpandable-card.component.scss
+pexpandable-card.module.ts
+ptoolkit-entry-validator-factory.spec.ts
+ptoolkit-entry-validator-factory.ts
+psource-selection.component.ts
+psource-selection.component.html
+psource-selection-dialog.component.ts
+psource-selection.component.scss
+ppage.component.ts
+psection.component.scss
+ptext-section.component.spec.ts
+putils.ts
+ptypes.d.ts
+pindex.d.ts
+p@types
+ppower-commit
+pselect.operators.ts
+pselect.service.ts.bak
+pselect.service.ts
+penvironment.ts
+ptest.csv
+pcloudlab-role-select.component.html
+pcloudlab-role-select.component.scss
+pcloudlab-role-select.component.ts
+pcloudlab-auth.component.spec.ts
+pcloudlab-role-select.component.spec.ts
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/Users/john/dev/visiens-frontend/app/assets/javascripts/templates/widgets/properties.html
 
 # Directory stack (oldest to newest):
-S/Users/john/dev/neo4j/manual/server-examples/target
-	neo4j-server-examples-3.1.0-SNAPSHOT.jar
-S/Users/john/Documents/Neo4j
-	default.graphdb
 
 # Trash content:
-t/Users/john/.vifm/Trash/000_bet365
-	/Users/john/dev/bet365
-t/Users/john/.vifm/Trash/000_bluetooth_service.js.orig
-	/Users/john/dev/pocketlab-chrome/app/services/bluetooth_service.js.orig
-t/Users/john/.vifm/Trash/000_DevicesCtrl.js.orig
-	/Users/john/dev/pocketlab-chrome/app/controllers/DevicesCtrl.js.orig
-t/Users/john/.vifm/Trash/000_http.log
-	/Users/john/dev/apps/neo4j/logs/http.log
-t/Users/john/.vifm/Trash/000_http.log.1
-	/Users/john/dev/apps/neo4j/logs/http.log.1
-t/Users/john/.vifm/Trash/000_http.log.2
-	/Users/john/dev/apps/neo4j/logs/http.log.2
-t/Users/john/.vifm/Trash/000_debug.log
-	/Users/john/dev/apps/neo4j/logs/debug.log
+t/Users/john/.vifm/Trash/000_package.json
+	/Users/john/dev/pocketlab-models/package.json
+t/Users/john/.vifm/Trash/000_class-id.ts
+	/Users/john/dev/pocketlab-models/class-id.ts
+t/Users/john/.vifm/Trash/000_class.ts
+	/Users/john/dev/pocketlab-models/class.ts
+t/Users/john/.vifm/Trash/000_independent-variable.ts
+	/Users/john/dev/pocketlab-models/independent-variable.ts
+t/Users/john/.vifm/Trash/000_investigation.ts
+	/Users/john/dev/pocketlab-models/investigation.ts
+t/Users/john/.vifm/Trash/000_lab-report-id.ts
+	/Users/john/dev/pocketlab-models/lab-report-id.ts
+t/Users/john/.vifm/Trash/000_lab-report-section.ts
+	/Users/john/dev/pocketlab-models/lab-report-section.ts
+t/Users/john/.vifm/Trash/000_lab-report.ts
+	/Users/john/dev/pocketlab-models/lab-report.ts
+t/Users/john/.vifm/Trash/000_location.ts
+	/Users/john/dev/pocketlab-models/location.ts
+t/Users/john/.vifm/Trash/000_plot.ts
+	/Users/john/dev/pocketlab-models/plot.ts
+t/Users/john/.vifm/Trash/000_run.ts
+	/Users/john/dev/pocketlab-models/run.ts
+t/Users/john/.vifm/Trash/000_trial.ts
+	/Users/john/dev/pocketlab-models/trial.ts
+t/Users/john/.vifm/Trash/000_user.ts
+	/Users/john/dev/pocketlab-models/user.ts
+t/Users/john/.vifm/Trash/000_models
+	/Users/john/dev/pocketlab-models/models
+t/Users/john/.vifm/Trash/001_models
+	/Users/john/dev/pocketlab/src/models
+t/Users/john/.vifm/Trash/000_current-run.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/current-run.store.ts
+t/Users/john/.vifm/Trash/000_experiments
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/experiments
+t/Users/john/.vifm/Trash/000_experiment.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/experiment.component.spec.ts
+t/Users/john/.vifm/Trash/000_experiment
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/experiment
+t/Users/john/.vifm/Trash/000_\
+	/Users/john/dev/pocketlab-chrome/src/\
+t/Users/john/.vifm/Trash/000_investigation-map-dialog.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/investigation-map-dialog.component.html
+t/Users/john/.vifm/Trash/000_investigation-map-dialog.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/investigation-map-dialog.component.scss
+t/Users/john/.vifm/Trash/000_investigation-map-dialog.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/investigation/investigation-map-dialog.component.ts
+t/Users/john/.vifm/Trash/000_ngsw-config.json
+	/Users/john/dev/pocketlab-chrome/ngsw-config.json
+t/Users/john/.vifm/Trash/001_node_modules
+	/Users/john/dev/pocketlab-chrome/node_modules
+t/Users/john/.vifm/Trash/000_package(1).json
+	/Users/john/dev/pocketlab-chrome/package(1).json
+t/Users/john/.vifm/Trash/000_1
+	/Users/john/dev/pocketlab-chrome/src/1
+t/Users/john/.vifm/Trash/000_@
+	/Users/john/dev/pocketlab-chrome/src/@
+t/Users/john/.vifm/Trash/000_q
+	/Users/john/dev/pocketlab-chrome/q
+t/Users/john/.vifm/Trash/000_iconfont
+	/Users/john/dev/pocketlab-chrome/src/assets/iconfont
+t/Users/john/.vifm/Trash/000_lab-report.component.ts.orig
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/lab-report.component.ts.orig
+t/Users/john/.vifm/Trash/000_new-run.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run/new-run.component.html
+t/Users/john/.vifm/Trash/000_new-run.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run/new-run.component.spec.ts
+t/Users/john/.vifm/Trash/000_new-run.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run/new-run.component.ts
+t/Users/john/.vifm/Trash/000_run-form
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run-form
+t/Users/john/.vifm/Trash/000_inline-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-edit.component.ts
+t/Users/john/.vifm/Trash/000_inline-resultant-edit.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-resultant-edit.component.html
+t/Users/john/.vifm/Trash/000_inline-resultant-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-resultant-edit.component.ts
+t/Users/john/.vifm/Trash/000_inline-iv-edit.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-iv-edit.component.html
+t/Users/john/.vifm/Trash/000_inline-iv-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-iv-edit.component.ts
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.html
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.scss
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.spec.ts
+t/Users/john/.vifm/Trash/000_lab-report-section-form.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section-form/lab-report-section-form.component.ts
+t/Users/john/.vifm/Trash/000_lab-report-section
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report-section
+t/Users/john/.vifm/Trash/000_trial-notes.dialog.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/youtube-attachment/trial-notes.dialog.html
+t/Users/john/.vifm/Trash/000_youtube-attachment.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/youtube-attachment/youtube-attachment.component.spec.ts
+t/Users/john/.vifm/Trash/000_kk
+	/Users/john/dev/pocketlab-chrome/src/kk
+t/Users/john/.vifm/Trash/000_aws
+	/usr/local/bin/aws
+t/Users/john/.vifm/Trash/000_aws.cmd
+	/usr/local/bin/aws.cmd
+t/Users/john/.vifm/Trash/000_aws_bash_completer
+	/usr/local/bin/aws_bash_completer
+t/Users/john/.vifm/Trash/000_aws_completer
+	/usr/local/bin/aws_completer
+t/Users/john/.vifm/Trash/000_aws_zsh_completer.sh
+	/usr/local/bin/aws_zsh_completer.sh
+t/Users/john/.vifm/Trash/000_sam-app
+	/Users/john/dev/pocketlab-services/sam-app
+t/Users/john/.vifm/Trash/000_dynamodb_event_reader
+	/Users/john/dev/pocketlab-services/dynamodb_event_reader
+t/Users/john/.vifm/Trash/000___init__.py
+	/Users/john/dev/pocketlab-services/src/__init__.py
+t/Users/john/.vifm/Trash/000_app.py
+	/Users/john/dev/pocketlab-services/src/app.py
+t/Users/john/.vifm/Trash/000_serverlessNodeExpressServices
+	/Users/john/dev/pocketlab-services/serverlessNodeExpressServices
+t/Users/john/.vifm/Trash/001_serverlessNodeExpressServices
+	/Users/john/dev/pocketlab-services/dist/serverlessNodeExpressServices
+t/Users/john/.vifm/Trash/000_dist
+	/Users/john/dev/pocketlab-services/dist
+t/Users/john/.vifm/Trash/000_aws_sam_ocr
+	/Users/john/dev/pocketlab-services/aws_sam_ocr
+t/Users/john/.vifm/Trash/000_SampleEvent.json
+	/Users/john/dev/pocketlab-services/SampleEvent.json
+t/Users/john/.vifm/Trash/000_api.yml
+	/Users/john/dev/pocketlab-services/api.yml
+t/Users/john/.vifm/Trash/000_support
+	/Users/john/dev/pocketlab-services/spec/support
+t/Users/john/.vifm/Trash/000_spec
+	/Users/john/dev/pocketlab-services/spec
+t/Users/john/.vifm/Trash/000_app.js
+	/Users/john/dev/pocketlab-services/dist/app.js
+t/Users/john/.vifm/Trash/000_main
+	/Users/john/dev/pocketlab-services/src/main
+t/Users/john/.vifm/Trash/001_spec
+	/Users/john/dev/pocketlab-services/src/spec
+t/Users/john/.vifm/Trash/000_plot
+	/Users/john/dev/pocketlab-services/src/models/plot
+t/Users/john/.vifm/Trash/000_data-receiver.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/data-receiver.spec.ts
+t/Users/john/.vifm/Trash/000_data-receiver.ts
+	/Users/john/dev/pocketlab-services/src/models/data-receiver.ts
+t/Users/john/.vifm/Trash/000_cloudlab-object.ts
+	/Users/john/dev/pocketlab-services/src/models/cloudlab-object.ts
+t/Users/john/.vifm/Trash/000_independent-variable.ts
+	/Users/john/dev/pocketlab-services/src/models/independent-variable.ts
+t/Users/john/.vifm/Trash/000_lab-report.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/lab-report.spec.ts
+t/Users/john/.vifm/Trash/000_location.ts
+	/Users/john/dev/pocketlab-services/src/models/location.ts
+t/Users/john/.vifm/Trash/000_model.stubs.ts
+	/Users/john/dev/pocketlab-services/src/models/model.stubs.ts
+t/Users/john/.vifm/Trash/000_open-weather-report.ts
+	/Users/john/dev/pocketlab-services/src/models/open-weather-report.ts
+t/Users/john/.vifm/Trash/000_run.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/run.spec.ts
+t/Users/john/.vifm/Trash/000_stats.ts
+	/Users/john/dev/pocketlab-services/src/models/stats.ts
+t/Users/john/.vifm/Trash/000_tree-node.ts
+	/Users/john/dev/pocketlab-services/src/models/tree-node.ts
+t/Users/john/.vifm/Trash/000_trial.spec.ts
+	/Users/john/dev/pocketlab-services/src/models/trial.spec.ts
+t/Users/john/.vifm/Trash/000_class.ts
+	/Users/john/dev/pocketlab-services/src/models/class.ts
+t/Users/john/.vifm/Trash/000_experiment.ts
+	/Users/john/dev/pocketlab-services/src/models/experiment.ts
+t/Users/john/.vifm/Trash/000_data.ts
+	/Users/john/dev/pocketlab-services/src/models/data.ts
+t/Users/john/.vifm/Trash/001_main
+	/Users/john/dev/pocketlab-services/tsc-out/main
+t/Users/john/.vifm/Trash/000_tsc-out
+	/Users/john/dev/pocketlab-services/tsc-out
+t/Users/john/.vifm/Trash/010_\
+	/Users/john/dev/pocketlab-services/\
+t/Users/john/.vifm/Trash/000_user.ts
+	/Users/john/dev/pocketlab-services/src/models/user.ts
+t/Users/john/.vifm/Trash/000_-C
+	/Users/john/dev/-C
+t/Users/john/.vifm/Trash/000_v
+	/Users/john/dev/pocketlab-services/v
+t/Users/john/.vifm/Trash/003_@
+	/Users/john/dev/pocketlab-services/@
+t/Users/john/.vifm/Trash/000_y-range-calculator.service.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/services/y-range-calculator.service.ts
+t/Users/john/.vifm/Trash/000_utils
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/utils
+t/Users/john/.vifm/Trash/000_scratch-adapter.service.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/services/scratch-adapter.service.ts
+t/Users/john/.vifm/Trash/000_constants
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/constants
+t/Users/john/.vifm/Trash/000_@!
+	/Users/john/dev/pocketlab-chrome/src/@!
+t/Users/john/.vifm/Trash/000_dr-digits.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/components/digit-line-display/dr-digits.component.html
+t/Users/john/.vifm/Trash/000_dr-digits.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/components/digit-line-display/dr-digits.component.scss
+t/Users/john/.vifm/Trash/000_dr-digits.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/components/digit-line-display/dr-digits.component.ts
+t/Users/john/.vifm/Trash/000_digit-display.routing.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/components/digit-line-display/digit-display.routing.ts
+t/Users/john/.vifm/Trash/000_digit-display.module.ts
+	/Users/john/dev/pocketlab-chrome/src/app/data-view/components/digit-line-display/digit-display.module.ts
+t/Users/john/.vifm/Trash/000_inline-edit.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/inline-edit.component.html
+t/Users/john/.vifm/Trash/000_inline-edit.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/inline-edit.component.scss
+t/Users/john/.vifm/Trash/001_inline-edit.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/inline-edit.component.ts
+t/Users/john/.vifm/Trash/000_lab-report.routing.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/lab-report.routing.ts
+t/Users/john/.vifm/Trash/001_inline-edit.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-edit.component.html
+t/Users/john/.vifm/Trash/001_inline-edit.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/lab-report/inline-edit.component.scss
+t/Users/john/.vifm/Trash/000_results-table.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/inline-edit/results-table.component.html
+t/Users/john/.vifm/Trash/000_results-table.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/inline-edit/results-table.component.scss
+t/Users/john/.vifm/Trash/000_results-table.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/inline-edit/results-table.component.spec.ts
+t/Users/john/.vifm/Trash/000_results-table.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/inline-edit/results-table.component.ts
+t/Users/john/.vifm/Trash/000_run-analysis-option
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/run-analysis-option
+t/Users/john/.vifm/Trash/000_theme.config.ts
+	/Users/john/dev/pocketlab-chrome/src/app/constants/theme.config.ts
+t/Users/john/.vifm/Trash/000_momentjs
+	/Users/john/dev/pocketlab-chrome/node_modules/momentjs
+t/Users/john/.vifm/Trash/003_1
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/state/1
+t/Users/john/.vifm/Trash/004_1
+	/Users/john/dev/pocketlab-chrome/1
+t/Users/john/.vifm/Trash/000_lab-reports.actions.ts
+	/Users/john/dev/pocketlab-chrome/src/app/stores/lab-reports.actions.ts
+t/Users/john/.vifm/Trash/000_lab-reports.state.ts
+	/Users/john/dev/pocketlab-chrome/src/app/stores/lab-reports.state.ts
+t/Users/john/.vifm/Trash/000_amplify
+	/Users/john/dev/pocketlab-chrome/amplify
+t/Users/john/.vifm/Trash/000_.gitignore
+	/Users/john/dev/pocketlab-chrome/amplify/backend/api/.gitignore
+t/Users/john/.vifm/Trash/000_auth
+	/Users/john/dev/pocketlab/amplify/backend/auth
+t/Users/john/.vifm/Trash/000_awscloudformation
+	/Users/john/dev/pocketlab/amplify/backend/awscloudformation
+t/Users/john/.vifm/Trash/000_hosting
+	/Users/john/dev/pocketlab/amplify/backend/hosting
+t/Users/john/.vifm/Trash/000_storage
+	/Users/john/dev/pocketlab/amplify/backend/storage
+t/Users/john/.vifm/Trash/002_amplify
+	/Users/john/dev/pocketlab/api/amplify
+t/Users/john/.vifm/Trash/000_.amplifyrc
+	/Users/john/dev/pocketlab/api/.amplifyrc
+t/Users/john/.vifm/Trash/000_tsconfig.app.json.bak
+	/Users/john/dev/pocketlab/src/tsconfig.app.json.bak
+t/Users/john/.vifm/Trash/000_tsconfig.json
+	/Users/john/dev/pocketlab/src/api/tsconfig.json
+t/Users/john/.vifm/Trash/002_node_modules
+	/Users/john/dev/pocketlab/src/api/node_modules
+t/Users/john/.vifm/Trash/000_models
+	/Users/john/dev/pocketlab/src/api/src/models
+t/Users/john/.vifm/Trash/015_\
+	/Users/john/dev/pocketlab/src/\
+t/Users/john/.vifm/Trash/001_models
+	/Users/john/dev/pocketlab-services/src/models
+t/Users/john/.vifm/Trash/016_\
+	/Users/john/dev/pocketlab/\
+t/Users/john/.vifm/Trash/000_tsconfig.json.bak
+	/Users/john/dev/pocketlab/src/api/tsconfig.json.bak
+t/Users/john/.vifm/Trash/000_tsconfig.spec.json.bak
+	/Users/john/dev/pocketlab/src/api/tsconfig.spec.json.bak
+t/Users/john/.vifm/Trash/007_@
+	/Users/john/dev/pocketlab/src/api/@
+t/Users/john/.vifm/Trash/000_gulpfile.js
+	/Users/john/dev/pocketlab/src/gulpfile.js
+t/Users/john/.vifm/Trash/000_models2
+	/Users/john/dev/pocketlab/src/app/models2
+t/Users/john/.vifm/Trash/000_e2e
+	/Users/john/dev/pocketlab/e2e
+t/Users/john/.vifm/Trash/000_logs
+	/Users/john/dev/pocketlab/logs
+t/Users/john/.vifm/Trash/003_node_modules
+	/Users/john/dev/pocketlab/node_modules
+t/Users/john/.vifm/Trash/000_coverage
+	/Users/john/dev/pocketlab/coverage
+t/Users/john/.vifm/Trash/000_src
+	/Users/john/dev/pocketlab/src
+t/Users/john/.vifm/Trash/000_.sass-cache
+	/Users/john/dev/pocketlab/.sass-cache
+t/Users/john/.vifm/Trash/000_start.sh
+	/Users/john/dev/pocketlab/start.sh
+t/Users/john/.vifm/Trash/000_stop.sh
+	/Users/john/dev/pocketlab/stop.sh
+t/Users/john/.vifm/Trash/000_yarn-error.log
+	/Users/john/dev/pocketlab/yarn-error.log
+t/Users/john/.vifm/Trash/000_yarn.lock
+	/Users/john/dev/pocketlab/yarn.lock
+t/Users/john/.vifm/Trash/001_.amplifyrc
+	/Users/john/dev/pocketlab/.amplifyrc
+t/Users/john/.vifm/Trash/000_.angular-cli.json
+	/Users/john/dev/pocketlab/.angular-cli.json
+t/Users/john/.vifm/Trash/000_.editorconfig
+	/Users/john/dev/pocketlab/.editorconfig
+t/Users/john/.vifm/Trash/000_.gitattributes
+	/Users/john/dev/pocketlab/client/.gitattributes
+t/Users/john/.vifm/Trash/001_.gitignore
+	/Users/john/dev/pocketlab/client/.gitignore
+t/Users/john/.vifm/Trash/000_.travis.yml
+	/Users/john/dev/pocketlab/.travis.yml
+t/Users/john/.vifm/Trash/001_.travis.yml
+	/Users/john/dev/pocketlab/client/.travis.yml
+t/Users/john/.vifm/Trash/000_.yarnrc
+	/Users/john/dev/pocketlab/.yarnrc
+t/Users/john/.vifm/Trash/000_Gruntfile.js
+	/Users/john/dev/pocketlab/Gruntfile.js
+t/Users/john/.vifm/Trash/000_Procfile
+	/Users/john/dev/pocketlab/Procfile
+t/Users/john/.vifm/Trash/000_angular.json
+	/Users/john/dev/pocketlab/angular.json
+t/Users/john/.vifm/Trash/000_app.json
+	/Users/john/dev/pocketlab/app.json
+t/Users/john/.vifm/Trash/000_dump.rdb
+	/Users/john/dev/pocketlab/dump.rdb
+t/Users/john/.vifm/Trash/000_index.js
+	/Users/john/dev/pocketlab/index.js
+t/Users/john/.vifm/Trash/000_karma.conf.js
+	/Users/john/dev/pocketlab/karma.conf.js
+t/Users/john/.vifm/Trash/000_package.json
+	/Users/john/dev/pocketlab/package.json
+t/Users/john/.vifm/Trash/000_protractor.conf.js
+	/Users/john/dev/pocketlab/protractor.conf.js
+t/Users/john/.vifm/Trash/001_api
+	/Users/john/dev/pocketlab/src/api
+t/Users/john/.vifm/Trash/002_models
+	/Users/john/dev/pocketlab/models
+t/Users/john/.vifm/Trash/000_client
+	/Users/john/dev/pocketlab/client
+t/Users/john/.vifm/Trash/000_api
+	/Users/john/dev/pocketlab/api
+t/Users/john/.vifm/Trash/000_template.yaml.orig
+	/Users/john/dev/pocketlab-services/template.yaml.orig
+t/Users/john/.vifm/Trash/000_s3-resources.yaml
+	/Users/john/dev/pocketlab-services/s3-resources.yaml
+t/Users/john/.vifm/Trash/000_role-resources-packaged.yaml
+	/Users/john/dev/pocketlab-services/role-resources-packaged.yaml
+t/Users/john/.vifm/Trash/000_role-resources.yaml
+	/Users/john/dev/pocketlab-services/role-resources.yaml
+t/Users/john/.vifm/Trash/000_cognito-resources.yaml
+	/Users/john/dev/pocketlab-services/cognito-resources.yaml
+t/Users/john/.vifm/Trash/000_investigation.ts.orig
+	/Users/john/dev/pocketlab-services/src/models/investigation.ts.orig
+t/Users/john/.vifm/Trash/000_dynamo-resources-packaged.yaml
+	/Users/john/dev/pocketlab-services/dynamo-resources-packaged.yaml
+t/Users/john/.vifm/Trash/000_dynamodb-resources.yaml
+	/Users/john/dev/pocketlab-services/dynamodb-resources.yaml
+t/Users/john/.vifm/Trash/000_api-cloudformation-template.yaml
+	/Users/john/dev/pocketlab-services/api-cloudformation-template.yaml
+t/Users/john/.vifm/Trash/000_cognito-lambdas.properties
+	/Users/john/dev/pocketlab-services/cognito-lambdas.properties
+t/Users/john/.vifm/Trash/000_1
+	/Users/john/dev/pocketlab/src/app/stores/1
+t/Users/john/.vifm/Trash/000_cognito-handlers.ts
+	/Users/john/dev/pocketlab-services/src/cognito-handlers.ts
+t/Users/john/.vifm/Trash/001_run.component.html.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/run/run.component.html.orig
+t/Users/john/.vifm/Trash/001_run.component.spec.ts.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/run/run.component.spec.ts.orig
+t/Users/john/.vifm/Trash/000_lab-report.component.html.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report.component.html.orig
+t/Users/john/.vifm/Trash/000_lab-reports.component.html.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-reports/lab-reports.component.html.orig
+t/Users/john/.vifm/Trash/002_1
+	/Users/john/dev/pocketlab/src/1
+t/Users/john/.vifm/Trash/000_feedback
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/feedback
+t/Users/john/.vifm/Trash/000_lab-reports.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/lab-reports.store.ts
+t/Users/john/.vifm/Trash/001_lab-report.component.ts.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report.component.ts.orig
+t/Users/john/.vifm/Trash/000_parse.service.ts
+	/Users/john/dev/pocketlab/src/app/services/parse.service.ts
+t/Users/john/.vifm/Trash/001_run.ts
+	/Users/john/dev/pocketlab/src/app/models/run.ts
+t/Users/john/.vifm/Trash/001_user.ts
+	/Users/john/dev/pocketlab/src/app/models/user.ts
+t/Users/john/.vifm/Trash/001_lab-report.ts
+	/Users/john/dev/pocketlab/src/app/models/lab-report.ts
+t/Users/john/.vifm/Trash/001_lab-report-section.ts
+	/Users/john/dev/pocketlab/src/app/models/lab-report-section.ts
+t/Users/john/.vifm/Trash/000_investigation.component.html.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/investigation/investigation.component.html.orig
+t/Users/john/.vifm/Trash/000_investigation.component.ts.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/investigation/investigation.component.ts.orig
+t/Users/john/.vifm/Trash/000_context.service.spec.ts
+	/Users/john/dev/pocketlab/src/app/services/context.service.spec.ts
+t/Users/john/.vifm/Trash/000_context.service.ts
+	/Users/john/dev/pocketlab/src/app/services/context.service.ts
+t/Users/john/.vifm/Trash/000_class.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/class.store.ts
+t/Users/john/.vifm/Trash/001_class.ts
+	/Users/john/dev/pocketlab/src/app/models/class.ts
+t/Users/john/.vifm/Trash/000_experiment.ts
+	/Users/john/dev/pocketlab/src/app/models/experiment.ts
+t/Users/john/.vifm/Trash/000_run.spec.ts
+	/Users/john/dev/pocketlab/src/app/models/run.spec.ts
+t/Users/john/.vifm/Trash/000_lab-report.spec.ts
+	/Users/john/dev/pocketlab/src/app/models/lab-report.spec.ts
+t/Users/john/.vifm/Trash/000_data-view.component.html.orig
+	/Users/john/dev/pocketlab/src/app/data-view/data-view.component.html.orig
+t/Users/john/.vifm/Trash/000_lex-params.json
+	/Users/john/dev/pocketlab-services/lex-params.json
+t/Users/john/.vifm/Trash/000_webbluetooth_test.html
+	/Users/john/dev/pocketlab/webbluetooth_test.html
+t/Users/john/.vifm/Trash/000_auth
+	/Users/john/dev/pocketlab/src/app/components/auth
+t/Users/john/.vifm/Trash/000_home.component.ts.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/home/home.component.ts.orig
+t/Users/john/.vifm/Trash/000_lab-report-section.component.ts.orig
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report-section.component.ts.orig
+t/Users/john/.vifm/Trash/000_@types
+	/Users/john/dev/pocketlab-models/node_modules/@types
+t/Users/john/.vifm/Trash/000_trials-table-packaged.yaml
+	/Users/john/dev/pocketlab-services/trials-table-packaged.yaml
+t/Users/john/.vifm/Trash/000_trials-table.yaml
+	/Users/john/dev/pocketlab-services/trials-table.yaml
+t/Users/john/.vifm/Trash/002_@
+	/Users/john/dev/pocketlab/@
+t/Users/john/.vifm/Trash/000_class.spec.ts
+	/Users/john/dev/pocketlab/src/app/models/class.spec.ts
+t/Users/john/.vifm/Trash/000_cloudlab-object.ts
+	/Users/john/dev/pocketlab/src/app/models/cloudlab-object.ts
+t/Users/john/.vifm/Trash/000_experiment.spec.ts
+	/Users/john/dev/pocketlab/src/app/models/experiment.spec.ts
+t/Users/john/.vifm/Trash/000_data.ts
+	/Users/john/dev/pocketlab/src/app/models/data.ts
+t/Users/john/.vifm/Trash/001_location.ts
+	/Users/john/dev/pocketlab/src/app/models/location.ts
+t/Users/john/.vifm/Trash/001_independent-variable.ts
+	/Users/john/dev/pocketlab/src/app/models/independent-variable.ts
+t/Users/john/.vifm/Trash/001_plot.ts
+	/Users/john/dev/pocketlab/src/app/models/plot.ts
+t/Users/john/.vifm/Trash/000_trial.spec.ts
+	/Users/john/dev/pocketlab/src/app/models/trial.spec.ts
+t/Users/john/.vifm/Trash/001_trial.ts
+	/Users/john/dev/pocketlab/src/app/models/trial.ts
+t/Users/john/.vifm/Trash/007_1
+	/Users/john/dev/pocketlab/1
+t/Users/john/.vifm/Trash/000_voice-control.component.spec.ts
+	/Users/john/dev/pocketlab/src/app/data-view/components/voice-control/voice-control.component.spec.ts
+t/Users/john/.vifm/Trash/002_@!
+	/Users/john/dev/pocketlab-services/@!
+t/Users/john/.vifm/Trash/000_deploy.sh
+	/Users/john/dev/pocketlab-services/deploy.sh
+t/Users/john/.vifm/Trash/000_lab-report-summary-cache.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/lab-report-summary-cache.store.ts
+t/Users/john/.vifm/Trash/000_dynamo-staging.properties
+	/Users/john/dev/pocketlab-services/dynamo-staging.properties
+t/Users/john/.vifm/Trash/000_packaged.yaml
+	/Users/john/dev/pocketlab-services/packaged.yaml
+t/Users/john/.vifm/Trash/000_env.json
+	/Users/john/dev/pocketlab-services/env.json
+t/Users/john/.vifm/Trash/001_yarn-error.log
+	/Users/john/dev/pocketlab-services/yarn-error.log
+t/Users/john/.vifm/Trash/000_cognito-template-packaged.yaml
+	/Users/john/dev/pocketlab-services/cognito-template-packaged.yaml
+t/Users/john/.vifm/Trash/000_api-gateway-packaged.yaml
+	/Users/john/dev/pocketlab-services/api-gateway-packaged.yaml
+t/Users/john/.vifm/Trash/000_lex-template-packaged.yaml
+	/Users/john/dev/pocketlab-services/lex-template-packaged.yaml
+t/Users/john/.vifm/Trash/000_.git
+	/Users/john/dev/pocketlab-test/.git
+t/Users/john/.vifm/Trash/000_index.d.ts
+	/Users/john/dev/pocketlab-test/index.d.ts
+t/Users/john/.vifm/Trash/010_1
+	/Users/john/dev/pocketlab-services/1
+t/Users/john/.vifm/Trash/000_dynamo-resources.yaml
+	/Users/john/dev/pocketlab-services/dynamo-resources.yaml
+t/Users/john/.vifm/Trash/000_dynamodb-streams-template.yaml
+	/Users/john/dev/pocketlab-services/dynamodb-streams-template.yaml
+t/Users/john/.vifm/Trash/000_user-mapper.ts.orig
+	/Users/john/dev/pocketlab-services/src/mappers/user-mapper.ts.orig
+t/Users/john/.vifm/Trash/000_mapper-types.ts
+	/Users/john/dev/pocketlab-services/src/mappers/mapper-types.ts
+t/Users/john/.vifm/Trash/000_voice-data-view.component.spec.ts
+	/Users/john/dev/pocketlab/src/app/data-view/voice-data-view.component.spec.ts
+t/Users/john/.vifm/Trash/000_lex-data.service.spec.ts
+	/Users/john/dev/pocketlab/src/app/data-view/services/lex-data.service.spec.ts
+t/Users/john/.vifm/Trash/001_@!
+	/Users/john/dev/pocketlab/src/@!
+t/Users/john/.vifm/Trash/000_service.config.ts.orig
+	/Users/john/dev/pocketlab/src/app/constants/service.config.ts.orig
+t/Users/john/.vifm/Trash/000_graph.config.ts.orig
+	/Users/john/dev/pocketlab/src/app/constants/graph.config.ts.orig
+t/Users/john/.vifm/Trash/000_memory-status.component.html.orig
+	/Users/john/dev/pocketlab/src/app/data-view/components/memory-status/memory-status.component.html.orig
+t/Users/john/.vifm/Trash/000_data-view-without-routing.module.ts.orig
+	/Users/john/dev/pocketlab/src/app/data-view/data-view-without-routing.module.ts.orig
+t/Users/john/.vifm/Trash/000_optional-data-view.component.ts.orig
+	/Users/john/dev/pocketlab/src/app/data-view/optional-data-view.component.ts.orig
+t/Users/john/.vifm/Trash/000_settings-menu.component.html.orig
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/settings-menu.component.html.orig
+t/Users/john/.vifm/Trash/000_memory-mode-dialog.component.html
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/memory-mode-dialog.component.html
+t/Users/john/.vifm/Trash/000_memory-mode-dialog.component.ts
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/memory-mode-dialog.component.ts
+t/Users/john/.vifm/Trash/000_source-selection-dialog.component.html.orig
+	/Users/john/dev/pocketlab/src/app/data-view/source-selection-dialog.component.html.orig
+t/Users/john/.vifm/Trash/000_update-dialog.component.html
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/update-dialog.component.html
+t/Users/john/.vifm/Trash/000_update-dialog.component.scss
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/update-dialog.component.scss
+t/Users/john/.vifm/Trash/000_update-dialog.component.ts
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/update-dialog.component.ts
+t/Users/john/.vifm/Trash/000_update-firmware.component.ts
+	/Users/john/dev/pocketlab/src/app/data-view/components/settings-menu/update-firmware.component.ts
+t/Users/john/.vifm/Trash/000_rest.service.ts
+	/Users/john/dev/pocketlab/src/app/services/rest.service.ts
+t/Users/john/.vifm/Trash/000_lab-report-section.component.html
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report-section.component.html
+t/Users/john/.vifm/Trash/000_lab-report-section.component.scss
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report-section.component.scss
+t/Users/john/.vifm/Trash/000_lab-report-section.component.spec.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report-section.component.spec.ts
+t/Users/john/.vifm/Trash/000_lab-report-section.component.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/lab-report-section.component.ts
+t/Users/john/.vifm/Trash/005_@
+	/Users/john/dev/pocketlab-utils/src/validators/@
+t/Users/john/.vifm/Trash/000_text-section
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/text-section/text-section
+t/Users/john/.vifm/Trash/000_video-section
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/video-section
+t/Users/john/.vifm/Trash/000_lab-report-section.component.html
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/lab-report-section.component.html
+t/Users/john/.vifm/Trash/000_lab-report-section.component.scss
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/lab-report-section.component.scss
+t/Users/john/.vifm/Trash/000_lab-report-section.component.spec.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/lab-report-section.component.spec.ts
+t/Users/john/.vifm/Trash/000_lab-report-section.component.ts
+	/Users/john/dev/pocketlab-chrome/src/app/cloudlab/components/results-table/lab-report-section.component.ts
+t/Users/john/.vifm/Trash/000_trial-notes.dialog.html
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/trial-section/trial-notes.dialog.html
+t/Users/john/.vifm/Trash/000_class-investigation-adapter.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/models/class-investigation-adapter.ts
+t/Users/john/.vifm/Trash/000_tree-node.ts
+	/Users/john/dev/pocketlab/src/app/models/tree-node.ts
+t/Users/john/.vifm/Trash/000_classes.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/classes.store.ts
+t/Users/john/.vifm/Trash/000_lab-report.store.spec.ts
+	/Users/john/dev/pocketlab/src/app/stores/lab-report.store.spec.ts
+t/Users/john/.vifm/Trash/000_lab-report.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/lab-report.store.ts
+t/Users/john/.vifm/Trash/000_trial-cache.store.spec.ts
+	/Users/john/dev/pocketlab/src/app/stores/trial-cache.store.spec.ts
+t/Users/john/.vifm/Trash/000_trial-cache.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/trial-cache.store.ts
+t/Users/john/.vifm/Trash/000_user-trials.store.spec.ts
+	/Users/john/dev/pocketlab/src/app/stores/user-trials.store.spec.ts
+t/Users/john/.vifm/Trash/000_user-trials.store.ts
+	/Users/john/dev/pocketlab/src/app/stores/user-trials.store.ts
+t/Users/john/.vifm/Trash/000_cloudlab-upload-dialog
+	/Users/john/dev/pocketlab/src/app/data-view/components/cloudlab-upload-dialog
+t/Users/john/.vifm/Trash/000_control-bar.component.ts.orig
+	/Users/john/dev/pocketlab/src/app/data-view/components/control-bar/control-bar.component.ts.orig
+t/Users/john/.vifm/Trash/000_run
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/run
+t/Users/john/.vifm/Trash/000_run-analysis-options.service.spec.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/services/run-analysis-options.service.spec.ts
+t/Users/john/.vifm/Trash/000_run-analysis-options.service.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/services/run-analysis-options.service.ts
+t/Users/john/.vifm/Trash/000_toolkit-section.module.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/toolkit-section/toolkit-section.module.ts
+t/Users/john/.vifm/Trash/000_cloudlab.stubs.ts
+	/Users/john/dev/pocketlab/src/app/cloudlab/cloudlab.stubs.ts
+t/Users/john/.vifm/Trash/000_index.d.ts.orig
+	/Users/john/dev/pocketlab-models/index.d.ts.orig
+t/Users/john/.vifm/Trash/023_1
+	/Users/john/dev/pocketlab-utils/src/validators/1
+t/Users/john/.vifm/Trash/000_entry-mapper.ts.orig
+	/Users/john/dev/pocketlab-services/src/mappers/entry-mapper.ts.orig
+t/Users/john/.vifm/Trash/000_k
+	/Users/john/dev/pocketlab/k
+t/Users/john/.vifm/Trash/000_cloudlab
+	/Users/john/dev/pocketlab/src/app/cloudlab
+t/Users/john/.vifm/Trash/000_rename-dialog.component.scss
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/rename-dialog.component.scss
+t/Users/john/.vifm/Trash/026_1
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/lab-report/1
+t/Users/john/.vifm/Trash/000_inline-edit
+	/Users/john/dev/pocketlab/src/app/cloudlab/components/inline-edit
+t/Users/john/.vifm/Trash/000_london.jpeg
+	/Users/john/dev/hinaismildlyretarded/app/assets/images/btrain/london.jpeg
+t/Users/john/.vifm/Trash/000_filtered-list
+	/Users/john/dev/pocketlab/src/app/components/filtered-list
+t/Users/john/.vifm/Trash/000_buttons
+	/Users/john/dev/pocketlab/src/app/components/buttons
+t/Users/john/.vifm/Trash/000_filtered-list-adapter.interface.ts
+	/Users/john/dev/pocketlab/src/app/models/filtered-list-adapter.interface.ts
+t/Users/john/.vifm/Trash/000_lab-report-template-adapter.ts
+	/Users/john/dev/pocketlab/src/app/models/lab-report-template-adapter.ts
+t/Users/john/.vifm/Trash/000_preview-dialog.component.ts
+	/Users/john/dev/pocketlab/src/app/components/dialogs/preview-dialog.component.ts
+t/Users/john/.vifm/Trash/000_preview.component.html
+	/Users/john/dev/pocketlab/src/app/components/dialogs/preview.component.html
+t/Users/john/.vifm/Trash/000_preview.component.scss
+	/Users/john/dev/pocketlab/src/app/components/dialogs/preview.component.scss
+t/Users/john/.vifm/Trash/000_preview.component.ts
+	/Users/john/dev/pocketlab/src/app/components/dialogs/preview.component.ts
+t/Users/john/.vifm/Trash/000_image-section.component.spec.ts
+	/Users/john/dev/pocketlab/src/app/components/image-section/image-section.component.spec.ts
+t/Users/john/.vifm/Trash/000_text-section.component.spec.ts
+	/Users/john/dev/pocketlab/src/app/components/text-section/text-section.component.spec.ts
+t/Users/john/.vifm/Trash/032_1
+	/Users/john/dev/pocketlab-utils/1
+t/Users/john/.vifm/Trash/000_pocketlab-models
+	/Users/john/dev/pocketlab/node_modules/@types/pocketlab-models
+t/Users/john/.vifm/Trash/000_geolocation.service.ts.orig
+	/Users/john/dev/pocketlab/src/app/services/geolocation.service.ts.orig
+t/Users/john/.vifm/Trash/000_template-array-adapter.ts
+	/Users/john/dev/pocketlab/src/app/models/template-array-adapter.ts
+t/Users/john/.vifm/Trash/038_1
+	/Users/john/dev/pocketlab/node_modules/pocketlab-utils/src/@types/1
+t/Users/john/.vifm/Trash/000_toolkit-section.component.spec.ts
+	/Users/john/dev/pocketlab/src/app/components/toolkit-section/toolkit-section.component.spec.ts
+t/Users/john/.vifm/Trash/001_index.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/index.d.ts
+t/Users/john/.vifm/Trash/000_authorization-authority.d.ts
+	/Users/john/dev/pocketlab-utils/src/auth/authorization-authority.d.ts
+t/Users/john/.vifm/Trash/000_authorization-authority.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/auth/authorization-authority.spec.d.ts
+t/Users/john/.vifm/Trash/000_utils.d.ts
+	/Users/john/dev/pocketlab-utils/src/test/utils.d.ts
+t/Users/john/.vifm/Trash/000_class-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/class-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_class-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/class-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_concat-reason-builder.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/concat-reason-builder.d.ts
+t/Users/john/.vifm/Trash/000_entry-id-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/entry-id-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_entry-id-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/entry-id-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_fail-all-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/fail-all-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_fail-all-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/fail-all-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_image-section-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/image-section-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_image-section-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/image-section-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_investigation-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/investigation-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_investigation-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/investigation-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_is-non-empty-validator.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-non-empty-validator.d.ts
+t/Users/john/.vifm/Trash/000_is-non-empty-validator.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-non-empty-validator.spec.d.ts
+t/Users/john/.vifm/Trash/000_is-present-validator.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-present-validator.d.ts
+t/Users/john/.vifm/Trash/000_is-present-validator.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-present-validator.spec.d.ts
+t/Users/john/.vifm/Trash/000_is-valid-attribute-validator.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-valid-attribute-validator.d.ts
+t/Users/john/.vifm/Trash/000_is-valid-attribute-validator.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-valid-attribute-validator.spec.d.ts
+t/Users/john/.vifm/Trash/000_is-valid-object-validator.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-valid-object-validator.d.ts
+t/Users/john/.vifm/Trash/000_is-valid-object-validator.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/is-valid-object-validator.spec.d.ts
+t/Users/john/.vifm/Trash/000_lab-report-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/lab-report-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_lab-report-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/lab-report-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_lab-report-status-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/lab-report-status-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_lab-report-status-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/lab-report-status-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_plot-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/plot-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_plot-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/plot-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_section-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/section-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_section-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/section-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_text-section-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/text-section-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_text-section-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/text-section-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_toolkit-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/toolkit-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_toolkit-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/toolkit-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_trial-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/trial-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_trial-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/trial-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_user-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/user-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_user-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/user-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/000_validator-core.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/validator-core.d.ts
+t/Users/john/.vifm/Trash/000_validator-utils.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/validator-utils.d.ts
+t/Users/john/.vifm/Trash/000_video-section-entry-validator-factory.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/video-section-entry-validator-factory.d.ts
+t/Users/john/.vifm/Trash/000_video-section-entry-validator-factory.spec.d.ts
+	/Users/john/dev/pocketlab-utils/src/validators/video-section-entry-validator-factory.spec.d.ts
+t/Users/john/.vifm/Trash/002_index.d.ts
+	/Users/john/dev/pocketlab-utils/src/index.d.ts
+t/Users/john/.vifm/Trash/000_home
+	/Users/john/dev/pocketlab/src/app/components/home
+t/Users/john/.vifm/Trash/000_data-display.component.html.orig
+	/Users/john/dev/pocketlab/src/app/components/data-view/components/data-display/data-display.component.html.orig
+t/Users/john/.vifm/Trash/000_data-display.component.spec.ts.orig
+	/Users/john/dev/pocketlab/src/app/components/data-view/components/data-display/data-display.component.spec.ts.orig
+t/Users/john/.vifm/Trash/000_select.service.ts
+	/Users/john/dev/pocketlab/src/app/constants/select.service.ts
+t/Users/john/.vifm/Trash/001_select.service.ts
+	/Users/john/dev/pocketlab/src/app/services/select.service.ts
+t/Users/john/.vifm/Trash/000_entry.operators.ts
+	/Users/john/dev/pocketlab/src/app/constants/entry.operators.ts
+t/Users/john/.vifm/Trash/003_index.d.ts
+	/Users/john/dev/pocketlab-utils/src/test/index.d.ts
+t/Users/john/.vifm/Trash/004_index.d.ts
+	/Users/john/dev/pocketlab-utils/src/auth/index.d.ts
+t/Users/john/.vifm/Trash/000_dist
+	/Users/john/dev/pocketlab-utils/dist
+t/Users/john/.vifm/Trash/000_yarn.lock.orig
+	/Users/john/dev/pocketlab-services/yarn.lock.orig
+t/Users/john/.vifm/Trash/000_~
+	/Users/john/dev/pocketlab-services/~
+t/Users/john/.vifm/Trash/000_serializer.service.spec.ts.orig
+	/Users/john/dev/pocketlab/src/app/components/data-view/services/serializer.service.spec.ts.orig
+t/Users/john/.vifm/Trash/000_serializer.service.ts.orig
+	/Users/john/dev/pocketlab/src/app/components/data-view/services/serializer.service.ts.orig
+t/Users/john/.vifm/Trash/000_environment.dev.ts
+	/Users/john/dev/pocketlab/src/environments/environment.dev.ts
+t/Users/john/.vifm/Trash/000_test.csv
+	/Users/john/Downloads/test.csv
+t/Users/john/.vifm/Trash/000_image-attachment
+	/Users/john/dev/pocketlab/src/app/components/image-attachment
 
 # State:
 f

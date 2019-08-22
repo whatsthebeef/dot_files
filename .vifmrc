@@ -186,7 +186,7 @@ filetype *.wav,*.mp3,*.flac,*.ogg,*.m4a
 fileviewer *.mp3 mp3info
 
 " Video
-filextype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.vob,*.flv
+filextype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.vob,*.flv,*.mov
         \ {View using ffplay}
         \ ffplay -fs %c,
         \ {View using Dragon}
@@ -210,8 +210,8 @@ filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm,*.ico
         \ sxiv,
         \ {View in gpicview}
         \ gpicview %c,
-        \ {View in firefox}
-        \ open -a Firefox,
+        \ {View in Chrome}
+        \ open -a 'Google Chrome',
 fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm, *.ico convert -identify %f -verbose /dev/null
 
 " MD5
