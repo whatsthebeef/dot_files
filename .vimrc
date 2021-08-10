@@ -25,6 +25,7 @@ Plugin 'cakebaker/scss-syntax.vim'
 " Plugin 'toyamarinyon/vim-swift'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'othree/html5.vim'
+Plugin 'eslint/eslint'
 
 " Optional
 Plugin 'honza/vim-snippets'
@@ -131,7 +132,7 @@ hi x208_DarkOrange ctermfg=208
 
 " 142 Gold
 " 148 Green
-colorscheme grb256
+" colorscheme grb256
 hi StatusLineNC ctermbg=242
 hi Cursor ctermfg=124
 " hi rubyConstant ctermfg=17
@@ -181,7 +182,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_javascript_checkers = ['jshint']
-let g:syntastic_typescript_checkers = ['tslint', 'tsc']
+let g:syntastic_typescript_checkers = ['eslint', 'tsc']
+let g:syntastic_typescript_eslint_exec = 'eslint_d'
+
 "" let g:syntastic_typescript_tslint_args = "--project ./tsconfig.api.json"
 
 let g:syntastic_jshint_ignore_errors=[" was used before it was defined"]
@@ -210,8 +213,7 @@ let g:syntastic_loc_list_height=2
 
 """ Ultisnip
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
-" let g:UltiSnipsExpandTrigger="<C-j>"
-let g:UltiSnipsExpandTrigger="j"
+let g:UltiSnipsExpandTrigger="<C-j>"
 let g:UltiSnipsJumpForwardTrigger="<C-l>"
 let g:UltiSnipsJumpBackwardTrigger="<C-h>"
 
@@ -328,7 +330,7 @@ endfunction
 
 """ Htmtabedit $MYVIMRCl
 imap ,/ </<C-X><C-O>
-imap jj <ESC>
+" imap jj <ESC>
 
 """ Buffers
 map <Leader>n :silent b#<CR>
@@ -355,6 +357,7 @@ nnoremap <Leader>at :call AngularSwitch('.spec.ts')<CR>
 nnoremap <Leader>ac :call AngularSwitch('.ts')<CR>
 nnoremap <Leader>ah :call AngularSwitch('.html')<CR>
 nnoremap <Leader>as :call AngularSwitch('.scss')<CR>
+nnoremap <Leader>af :<C-f>isilent find src/app/**/*
 
 func! AngularSwitch(ext)
   let path = expand('%')

@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!//bin/bash
 
 # Change terminal theme
 osascript ~/bin/change-scheme.scpt $1

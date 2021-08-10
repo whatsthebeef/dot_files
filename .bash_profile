@@ -12,23 +12,13 @@ export ANDROID_HOME=${HOME}/dev/apps/android-adk/sdk
 export MONGO_HOME=${HOME}/dev/apps/mongodb-osx-x86_64-3.4.4
 export NEO4J=${DEV}/apps/neo4j
 # export CL_PARSE_APP_ID=kQoQ6C13go1v6OHlHr25NhVO7qxd7QWAf2SQq2jJ
-export CL_PARSE_APP_ID=myAppId
-export CL_PARSE_API_KEY=
-export CL_PARSE_MASTER_KEY=myMasterKey
-export CL_PARSE_SERVER_URL=http://localhost:1337/parse
-export REDIS_HOME=~/dev/apps/redis-4.0.2
-export POCKETLAB_WEB_PORT=8081
-export POCKETLAB_WEB_SERVER=https://0.0.0.0:4200
-export POCKETLAB_WEB_CLOUDLAB_ENABLED=1
-export POCKETLAB_WEB_PARSE_APP_ID=myAppId
-export POCKETLAB_WEB_PARSE_SERVER_URL=http://localhost:1337/parse
-export POCKETLAB_CLOUDLAB_SERVER_URL=http://localhost:3000
 export APP_ID=d7d8909ee4f8ac570212b6daeaef7e33
 export MONGODB_URI=mongodb://localhost:27017/dev
 export SERVER_URL=http://localhost:1337/parse
 export MASTER_KEY=myMasterKey
 export REDISCLOUD_URL=redis://localhost:6379
 # export PIP_TARGET=/usr/local/lib/python3.6/site-packages/pip
+export AWS_DEFAULT_REGION=us-east-1
 
 # export GEM_PATH=${HOME}/.gem
 
@@ -68,7 +58,7 @@ export MUTTHOME=${HOME}/.mutt
 
 # Sets SCHEME environment variable and terminal color scheme
 # using whats in the current_scheme.txt
-eval `change-scheme $(head -n 1 ~/bin/current_scheme.txt)` 
+# eval `change-scheme $(head -n 1 ~/bin/current_scheme.txt)` 
 
 export MYVIFMRC=${HOME}/.vifmrc
 
@@ -85,10 +75,6 @@ if [[ "$unamestr" == 'Linux' ]]; then
 elif [[ "$unamestr" == 'Darwin' ]]; then
   platform='mac'
 fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-nvm use 10.14.1
 
 #--------------------------------------- Config -------------------------------------------#
 
@@ -144,10 +130,10 @@ alias python='python3'
 
 ### Vim
 
-if [[ "$platform" == 'mac' ]]; then
-  alias vim='reattach-to-user-namespace -l ~/dev/apps/vim/src/vim'
-  defaults write com.apple.finder AppleShowAllFiles YES
-fi
+# if [[ "$platform" == 'mac' ]]; then
+#   alias vim='reattach-to-user-namespace -l ~/dev/apps/vim/src/vim'
+#   defaults write com.apple.finder AppleShowAllFiles YES
+# fi
 
 ### Vifm
 ## hack to make vifm close into current vifm location
@@ -228,8 +214,8 @@ alias cvfr="source ${HOME}/.vifmrc"
 alias mysqld="${MYSQL_HOME}/bin/mysqld --basedir=${MYSQL_HOME} &"
 
 ### Scheme
-alias schhb='eval `change-scheme grb256`'
-alias schgh='eval `change-scheme github`'
+# alias schhb='eval `change-scheme grb256`'
+# alias schgh='eval `change-scheme github`'
 
 if [[ "$platform" == 'mac' ]]; then
   alias sftpd="sudo launchctl start com.apple.ftpd"  
@@ -313,11 +299,6 @@ killMySql() {
 # kill diff process
 killDiff() {
   kill -9 `ps ax | awk '$6~/.*difftool.*/ { print $1 }'`
-}
-
-# kill ServiceMix process
-killSMX() {
-  kill -9 `ps ax | awk '$12~/.*servicemix*/ { print $1 }'`
 }
 
 # kill gradle process
@@ -458,6 +439,11 @@ ngServeHttps() {
   ng serve --env=local --host 0.0.0.0 --ssl 1 --ssl-cert '/usr/local/etc/httpd/server.crt' --ssl-key '/usr/local/etc/httpd/server.key'
 }
 
+# find, replace with, files with extensions
+findAndReplace() {
+  find . -type f -regex '.*.$3' -exec sed -i -e 's/$1/$2/g' {} \;
+}
+
 #------------------------------------- Project specific -----------------------------------#
 
 # PocketLab android
@@ -492,4 +478,34 @@ visiens() {
 export NUVOLETS=${DEV}/nuvolets
 nuvolets() {
   initSplitWindowProject $NUVOLETS "rails s" 
+}
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+invalidateNotebook() {
+  # aws cloudfront create-invalidation --distribution-id $1 --paths # "/index.html" "/assets/i18n/en.json" "/assets/i18n/ja.json" "/assets/i18n/es.json" "/assets/i18n/vi.json" "/assets/i18n/ms.json" "/lab-report/xk00IeGK0001bppz" "/lab-report/pCnKv_U10001qsCB" "/sw.js" "/home" "/" "/trials"
+  aws cloudfront create-invalidation --distribution-id $1 --paths "/*"
+
+}
+
+invalidateStaging() {
+  invalidateNotebook E714R1X2HU58V
+}
+
+invalidateProd() {
+  invalidateNotebook E2CX9KASQ2ZMXZ
+}
+
+invalidateDev() {
+  invalidateNotebook EWZ39J47GE9R1
+}
+
+invalidateTaylor() {
+  invalidateNotebook E2J79ESMM6RCKH
+}
+
+invalidateSeo() {
+  invalidateNotebook EQXIDEBNZ7VBA
 }
