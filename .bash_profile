@@ -43,7 +43,7 @@ PATH="$HOME/Library/Python/3.7/bin:$PATH"
 export PATH
 
 ## Others
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 # JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_65-b14-462.jdk/Contents/Home
 # JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home
 
@@ -53,6 +53,8 @@ export SMX=${HOME}/dev/apps/apache-servicemix-5.0.0
 export DL=${HOME}/Downloads
 export VIMHOME=${HOME}/.vim
 export MUTTHOME=${HOME}/.mutt
+
+SHELL_SESSION_HISTORY=0
 
 # There is a CWD environment set in initSplitWindowProject to avoid being reset
 
@@ -108,9 +110,6 @@ else
   set -o vi
 fi
 
-### RVM
-[[ -s "${HOME}/.rvm/scripts/rvm" ]] && source "${HOME}/.rvm/scripts/rvm" 
-
 ### Source control
 ## Git
 git config --global diff.tool vimdiff
@@ -127,6 +126,8 @@ git config --global alias.accept-theirs '!f() { git checkout --theirs -- "${@:-.
 
 ### Use python 3 (for YCM vim plugin)
 alias python='python3'
+
+alias vim='/usr/local/bin/vim'
 
 ### Vim
 
@@ -481,8 +482,8 @@ nuvolets() {
 }
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+    [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 invalidateNotebook() {
   # aws cloudfront create-invalidation --distribution-id $1 --paths # "/index.html" "/assets/i18n/en.json" "/assets/i18n/ja.json" "/assets/i18n/es.json" "/assets/i18n/vi.json" "/assets/i18n/ms.json" "/lab-report/xk00IeGK0001bppz" "/lab-report/pCnKv_U10001qsCB" "/sw.js" "/home" "/" "/trials"
